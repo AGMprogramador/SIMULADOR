@@ -910,3 +910,133 @@
     "concha_mango": "Conflicto de Interés: La objetividad real o percibida se compromete. Se debe revelar inmediatamente al DEA para reasignar el trabajo.",
     "dominio": "Dominio II: Independencia y Objetividad"
   }
+{
+    "id": 71,
+    "pregunta": "7️⃣1️⃣ ¿Cuál es el objetivo principal del análisis de datos en un trabajo de auditoría interna?",
+    "opciones": {
+      "A": "Reemplazar completamente el juicio profesional del auditor.",
+      "B": "Identificar patrones, anomalías y tendencias en volúmenes masivos de datos para enfocar las pruebas.",
+      "C": "Garantizar que el 100% de los errores contables sean corregidos automáticamente.",
+      "D": "Eliminar la necesidad de redactar informes de auditoría."
+    },
+    "correcta": "B",
+    "concha_mango": "El análisis de datos potencia las pruebas al cubrir poblaciones enteras y detectar anomalías, pero NO sustituye el juicio profesional.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 72,
+    "pregunta": "7️⃣2️⃣ De acuerdo con el IIA, ¿qué se entiende por 'Objetividad' en la auditoría interna?",
+    "opciones": {
+      "A": "Una actitud mental imparcial que permite a los auditores desempeñar su trabajo sin comprometer la calidad.",
+      "B": "La libertad frente a condiciones que amenazan la capacidad de la actividad de auditoría.",
+      "C": "La obligación de no revelar información confidencial a terceros.",
+      "D": "El mantenimiento de las competencias técnicas mediante educación continua."
+    },
+    "correcta": "A",
+    "concha_mango": "La OBJETIVIDAD es una actitud mental del auditor individual; la INDEPENDENCIA es la condición organizacional de la unidad de auditoría.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 73,
+    "pregunta": "7️⃣3️⃣ ¿Cuál es el primer paso en la planificación de un trabajo de auditoría individual?",
+    "opciones": {
+      "A": "Redactar el borrador del informe final.",
+      "B": "Establecer los objetivos y el alcance del trabajo.",
+      "C": "Realizar pruebas sustantivas de detalle.",
+      "D": "Entrevistar únicamente al Director General."
+    },
+    "correcta": "B",
+    "concha_mango": "Antes de ejecutar cualquier prueba, es indispensable definir claramente qué se va a evaluar (objetivos) y los límites del trabajo (alcance).",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 74,
+    "pregunta": "7️⃣4️⃣ En el modelo de las Tres Líneas del IIA, ¿a qué línea corresponden los controles operativos y la gestión de riesgos en el día a día?",
+    "opciones": {
+      "A": "Primera línea.",
+      "B": "Segunda línea.",
+      "C": "Tercera línea.",
+      "D": "Órgano de gobierno."
+    },
+    "correcta": "A",
+    "concha_mango": "1ª línea: Gerencia operativa (dueña del riesgo). 2ª línea: Cumplimiento y riesgos (supervisión). 3ª línea: Auditoría interna (aseguramiento).",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
+  },
+  {
+    "id": 75,
+    "pregunta": "7️⃣5️⃣ Si un auditor interno identifica un control que es eficiente pero muy costoso en comparación con el riesgo que mitiga, ¿qué debería recomendar?",
+    "opciones": {
+      "A": "Eliminar el control inmediatamente sin consultar.",
+      "B": "Evaluar la relación costo-beneficio y proponer un control alternativo más eficiente.",
+      "C": "Aumentar el presupuesto del área auditada para cubrir el costo.",
+      "D": "Ignorar la observación si el control funciona."
+    },
+    "correcta": "B",
+    "concha_mango": "El control interno debe ser razonable; el costo de implementar o mantener un control jamás debe superar el beneficio del riesgo mitigado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 76,
+    "pregunta": "7️⃣6️⃣ Un ejemplo claro de amenaza a la independencia de la actividad de auditoría interna es:",
+    "opciones": {
+      "A": "Que el DEA reporte funcionalmente al Consejo de Administración.",
+      "B": "Que el presupuesto de auditoría sea aprobado directamente por el Comité de Auditoría.",
+      "C": "Que el DEA reporte administrativamente al Director Financiero (CFO) y este determine el presupuesto de auditoría.",
+      "D": "Que los auditores asistan a capacitaciones del IIA."
+    },
+    "correcta": "C",
+    "concha_mango": "Si la gerencia financiera controla el presupuesto o las decisiones operativas de auditoría, se limita la independencia para auditar esa misma gerencia.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 77,
+    "pregunta": "7️⃣7️⃣ ¿Qué norma exige que los auditores internos continúen su desarrollo profesional continuo (CPE)?",
+    "opciones": {
+      "A": "Norma 1230 - Desarrollo Profesional Continuo.",
+      "B": "Norma 1100 - Independencia y Objetividad.",
+      "C": "Norma 1300 - Aseguramiento de Calidad.",
+      "D": "Norma 1000 - Propósito y Autoridad."
+    },
+    "correcta": "A",
+    "concha_mango": "Los auditores deben perfeccionar sus conocimientos, habilidades y otras competencias mediante la educación profesional continua.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 78,
+    "pregunta": "7️⃣8️⃣ En una auditoría de TI, el uso de contraseñas compartidas entre usuarios es un hallazgo classified principalmente como un fallo en:",
+    "opciones": {
+      "A": "Controles de acceso lógico.",
+      "B": "Controles físicos y ambientales.",
+      "C": "Continuidad del negocio.",
+      "D": "Gobernanza de datos masivos."
+    },
+    "correcta": "A",
+    "concha_mango": "El uso compartido vulnera el principio de no repudio y autenticación individual, perteneciendo al control de acceso lógico.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 79,
+    "pregunta": "7️⃣9️⃣ ¿Cuál es la herramienta principal para monitorear que las recomendaciones de auditoría formuladas en informes anteriores han sido implementadas?",
+    "opciones": {
+      "A": "Proceso de seguimiento (Follow-up).",
+      "B": "Carta de gerencia externa.",
+      "C": "Autoevaluación de control.",
+      "D": "Revisión por pares de calidad."
+    },
+    "correcta": "A",
+    "concha_mango": "El DEA debe establecer un proceso de seguimiento para supervisar que las acciones correctivas hayan sido implementadas eficazmente.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 80,
+    "pregunta": "8️⃣0️⃣ Un auditor interno que realiza un encargo de aseguramiento debe mantener una actitud que incluya una mente inquisitiva y una evaluación crítica de la evidencia. Esto se conoce como:",
+    "opciones": {
+      "A": "Escepticismo profesional.",
+      "B": "Aversión al riesgo.",
+      "C": "Sesgo de confirmación.",
+      "D": "Duda razonable legal."
+    },
+    "correcta": "A",
+    "concha_mango": "El escepticismo profesional implica cuestionar la validez de la evidencia recibida y no asumir ciegamente que la gerencia es honesta o deshonesta.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  }
