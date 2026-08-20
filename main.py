@@ -209,3 +209,11 @@ def lanzar_siguiente_pregunta(chat_id):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+if __name__ == "__main__":
+    # 1. Arranca Flask en segundo plano
+    t = Thread(target=run_flask)
+    t.daemon = True
+    t.start()
+
+    # 2. Arranca el bot de Telegram en el proceso principal
+    start_telegram_bot()
