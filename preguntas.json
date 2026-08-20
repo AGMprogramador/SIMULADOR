@@ -1430,3 +1430,133 @@
     "concha_mango": "El QAIP evalúa el cumplimiento de las Normas y el Código de Ética en la totalidad de las operaciones de auditoría.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
   }
+{
+    "id": 111,
+    "pregunta": "1️⃣1️⃣1️⃣ ¿Qué representa la 'Cultura de Control' dentro del componente Entorno de Control de COSO?",
+    "opciones": {
+      "A": "El conjunto de normas operativas escritas exclusivamente por Recursos Humanos.",
+      "B": "La actitud colectiva, valores éticos y compromiso de la alta dirección y personal hacia el control interno.",
+      "C": "El presupuesto asignado a herramientas tecnológicas de ciberseguridad.",
+      "D": "Las sanciones aplicadas por entes reguladores gubernamentales."
+    },
+    "correcta": "B",
+    "concha_mango": "El Entorno de Control marca el 'tono desde la cima' y define la importancia que la organización otorga al control.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 112,
+    "pregunta": "1️⃣1️⃣2️⃣ Un auditor interno evalúa el proceso de compras y descubre que no existe un límite de monto para la aprobación de órdenes por parte de los supervisores. Esto es una deficiencia de:",
+    "opciones": {
+      "A": "Diseño del control.",
+      "B": "Muestreo estadístico.",
+      "C": "Aseguramiento de calidad externa.",
+      "D": "Independencia del auditor."
+    },
+    "correcta": "A",
+    "concha_mango": "La falla está en cómo fue concebido o estructurado el control desde el inicio (Diseño), no en su ejecución habitual.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 113,
+    "pregunta": "1️⃣1️⃣3️⃣ De acuerdo con el Marco de Referencia Internacional (IPPF), ¿qué documento formaliza la posición de la actividad de auditoría interna en la organización?",
+    "opciones": {
+      "A": "El Código de Comercio.",
+      "B": "El Estatuto de Auditoría Interna.",
+      "C": "El Manual de Procedimientos Contables.",
+      "D": "El Contrato Colectivo de Trabajo."
+    },
+    "correcta": "B",
+    "concha_mango": "El Estatuto establece el propósito, la autoridad, las responsabilidades y la posición jerárquica de Auditoría Interna.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 114,
+    "pregunta": "1️⃣1️⃣4️⃣ En el contexto del Marco de Tres Líneas del IIA, ¿a qué línea pertenecen las funciones de gestión de riesgos y cumplimiento operativo (Compliance)?",
+    "opciones": {
+      "A": "Primera línea.",
+      "B": "Segunda línea.",
+      "C": "Tercera línea.",
+      "D": "Órgano de Gobierno."
+    },
+    "correcta": "B",
+    "concha_mango": "La 2ª línea proporciona experiencia, apoyo, monitoreo y desafío a la 1ª línea en aspectos de riesgo y cumplimiento.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
+  },
+  {
+    "id": 115,
+    "pregunta": "1️⃣1️⃣5️⃣ ¿Cuál es la diferencia principal entre un control preventivo y un control detectivo?",
+    "opciones": {
+      "A": "El preventivo evita que ocurra el error o fraude; el detectivo identifica el problema una vez ocurrido.",
+      "B": "El detectivo es siempre más barato que el preventivo.",
+      "C": "El preventivo solo aplica para sistemas informáticos.",
+      "D": "No existe diferencia práctica entre ambos."
+    },
+    "correcta": "A",
+    "concha_mango": "Preventivo = 'Antes del evento' (ej. contraseñas). Detectivo = 'Después del evento' (ej. conciliaciones bancarias).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 116,
+    "pregunta": "1️⃣1️⃣6️⃣ Un auditor interno descubre indicios de fraude en el departamento de ventas. ¿Cuál debe ser su acción inmediata?",
+    "opciones": {
+      "A": "Confrontar directamente a los empleados sospechosos.",
+      "B": "Informar inmediatamente al Director Ejecutivo de Auditoría (DEA) o seguir el protocolo de investigación de fraudes de la empresa.",
+      "C": "Notificar a los clientes afectados para pedir disculpas.",
+      "D": "Publicar el hallazgo en el informe anual público de la empresa."
+    },
+    "correcta": "B",
+    "concha_mango": "El auditor no debe actuar por su cuenta ni alertar a los sospechosos; debe escalar el tema según los protocolos formales.",
+    "dominio": "Dominio VI: Fraude"
+  },
+  {
+    "id": 117,
+    "pregunta": "1️⃣1️⃣7️⃣ ¿Qué se entiende por 'Apetito de Riesgo' en una organización?",
+    "opciones": {
+      "A": "La cantidad total de pérdidas financieras registradas en el último año.",
+      "B": "El nivel y tipo de riesgo que una organización está dispuesta a aceptar para alcanzar sus objetivos de negocio.",
+      "C": "El presupuesto asignado a la contratación de pólizas de seguro.",
+      "D": "La probabilidad matemática de sufrir un ciberataque."
+    },
+    "correcta": "B",
+    "concha_mango": "El apetito de riesgo define los límites broad dentro de los cuales la gerencia se siente cómoda operando.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 118,
+    "pregunta": "1️⃣1️⃣8️⃣ La evaluación externa de calidad de la actividad de auditoría interna debe realizarse al menos una vez cada:",
+    "opciones": {
+      "A": "1 año.",
+      "B": "3 años.",
+      "C": "5 años.",
+      "D": "10 años."
+    },
+    "correcta": "C",
+    "concha_mango": "Norma 1312: Un revisor o equipo de revisión calificado e independiente externo a la organización debe evaluar la unidad cada 5 años.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 119,
+    "pregunta": "1️⃣1️⃣9️⃣ Durante la fase de planificación de un trabajo de auditoría, la herramienta utilizada para documentar la comprensión del proceso paso a paso se denomina:",
+    "opciones": {
+      "A": "Prueba de recorrido (Walkthrough test).",
+      "B": "Circularización de saldos.",
+      "C": "Revisión analítica de variaciones.",
+      "D": "Inventario rotativo."
+    },
+    "correcta": "A",
+    "concha_mango": "El Walkthrough o prueba de recorrido rastrea una transacción única desde el inicio hasta el final para verificar la comprensión del flujo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 120,
+    "pregunta": "1️⃣2️⃣0️⃣ Un informe de auditoría interna debe ser remitido principalmente a:",
+    "opciones": {
+      "A": "Los responsables de implementar las acciones correctivas y los miembros clave del Comité/Consejo.",
+      "B": "Todos los empleados de la organización vía correo masivo.",
+      "C": "El público general a través de la página web corporativa.",
+      "D": "Los competidores directos del sector."
+    },
+    "correcta": "A",
+    "concha_mango": "La distribución del informe debe limitarse a quienes tienen la autoridad de actuar o la responsabilidad de supervisar.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  }
