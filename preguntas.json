@@ -2470,3 +2470,133 @@
     "concha_mango": "Las evaluaciones externas (al menos cada 5 años) aportan credibilidad objetiva sobre la calidad global y apego normativo de la función.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
   }
+{
+    "id": 191,
+    "pregunta": "1️⃣9️⃣1️⃣ ¿Cuál es la diferencia principal entre las actividades de 'Aseguramiento' y las de 'Consultoría' prestadas por Auditoría Interna?",
+    "opciones": {
+      "A": "En aseguramiento el auditor emite una evaluación objetiva e independiente; en consultoría asesora y sugiere mejoras a solicitud del cliente sin asumir responsabilidades de gestión.",
+      "B": "Aseguramiento solo lo realizan firmas externas; consultoría es exclusiva del personal interno.",
+      "C": "Consultoría obliga a implementar los cambios; aseguramiento solo genera recomendaciones opcionales.",
+      "D": "Aseguramiento se enfoca únicamente en el fraude; consultoría en temas contables."
+    },
+    "correcta": "A",
+    "concha_mango": "La naturaleza del servicio define el alcance: el aseguramiento evalúa evidencias objetivas, mientras que la consultoría orienta y colabora en la resolución de problemas.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 192,
+    "pregunta": "1️⃣9️⃣2️⃣ Un auditor interno detecta que el sistema informático permite realizar cambios directos en la base de datos sin dejar registro en la bitácora (Log). ¿A qué tipo de riesgo corresponde esta debilidad?",
+    "opciones": {
+      "A": "Riesgo de Integridad de Datos e Información.",
+      "B": "Riesgo de Liquidación de Mercado.",
+      "C": "Riesgo Reputacional Externo.",
+      "D": "Riesgo Crediticio."
+    },
+    "correcta": "A",
+    "concha_mango": "La falta de trazabilidad y logs de auditoría expone la información al riesgo de alteración o manipulación no autorizada.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 193,
+    "pregunta": "1️⃣9️⃣3️⃣ Al evaluar la efectividad de un control interno, ¿qué significa que la 'Muestra' seleccionada sea estadísticamente representativa?",
+    "opciones": {
+      "A": "Que cada elemento de la población tiene una probabilidad conocida e igual de ser seleccionado para la prueba.",
+      "B": "Que incluye el 100% de las operaciones registradas en el período.",
+      "C": "Que solo se seleccionaron los montos más altos del año.",
+      "D": "Que fue elegida según el criterio personal del auditor sin método aleatorio."
+    },
+    "correcta": "A",
+    "concha_mango": "El muestreo estadístico garantiza la objetividad de las conclusiones extrapolables a toda la población auditada.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 194,
+    "pregunta": "1️⃣9️⃣4️⃣ Según el marco Marco Internacional para la Práctica Profesional (MIPP/IPPF), ¿cuándo debe un auditor interno declarar una falta de independencia u objetividad?",
+    "opciones": {
+      "A": "Antes de aceptar o iniciar el encargo de auditoría, detallando los hechos específicos a la jefatura o Comité.",
+      "B": "Únicamente después de haber entregado el informe final de auditoría.",
+      "C": "Solo si la gerencia auditada lo descubre y realiza un reclamo formal.",
+      "D": "No es necesario declararlo si el auditor se considera imparcial internamente."
+    },
+    "correcta": "A",
+    "concha_mango": "Los conflictos de interés reales o aparentes deben revelarse con oportunidad antes de ejecutar el trabajo.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 195,
+    "pregunta": "1️⃣9️⃣5️⃣ ¿Cuál de las siguientes situaciones representa la mejor aplicación de la 'Segregación de Funciones'?",
+    "opciones": {
+      "A": "La persona que aprueba la orden de compra es distinta a la que recibe la mercancía y a la que procesa el pago.",
+      "B": "Un mismo usuario crea el proveedor, aprueba la factura y emite el cheque.",
+      "C": "El tesorero realiza la conciliación bancaria mensual de forma independiente.",
+      "D": "El contador general custodia la caja chica y aprueba sus propios vales de reembolso."
+    },
+    "correcta": "A",
+    "concha_mango": "Separar autorización, custodia y registro evita la ocurrencia y ocultamiento de errores o fraudes en el ciclo de transacciones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 196,
+    "pregunta": "1️⃣9️⃣6️⃣ ¿Qué es un 'Riesgo Residual'?",
+    "opciones": {
+      "A": "El riesgo que permanece después de que la gerencia ha implementado las respuestas o controles correspondientes.",
+      "B": "El riesgo total de la empresa antes de aplicar cualquier mecanismo de control.",
+      "C": "El riesgo de que la empresa se quede sin liquidez en el corto plazo.",
+      "D": "El margen de error permitido en una prueba de detalle."
+    },
+    "correcta": "A",
+    "concha_mango": "Es el nivel de riesgo que la organización asume mantener tras aplicar las actividades de control mitigantes.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 197,
+    "pregunta": "1️⃣9️⃣7️⃣ Durante la reunión de cierre de auditoría, la gerencia auditada no está de acuerdo con un hallazgo planteado. ¿Qué acción debe tomar el auditor?",
+    "opciones": {
+      "A": "Revisar nuevamente la evidencia con el auditado y, si se mantiene la discrepancia, incluir la posición de la gerencia en el informe.",
+      "B": "Eliminar el hallazgo inmediatamente para evitar conflictos en la reunión.",
+      "C": "Modificar los papeles de trabajo para hacer coincidir las conclusiones con lo que pide la gerencia.",
+      "D": "Cancelar el trabajo de auditoría sin emitir reporte."
+    },
+    "correcta": "A",
+    "concha_mango": "El informe debe reflejar con objetividad los hechos comprobados e incorporar el punto de vista o descargos de la administración.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 198,
+    "pregunta": "1️⃣9️⃣8️⃣ En la evaluación del gobierno corporativo, ¿cuál es el rol principal de la función de Auditoría Interna?",
+    "opciones": {
+      "A": "Evaluar y proporcionar una seguridad razonable sobre la efectividad de los procesos de gobierno, riesgo y control.",
+      "B": "Establecer los objetivos estratégicos y comerciales de la compañía.",
+      "C": "Diseñar la estructura organizacional y asignar los salarios ejecutivos.",
+      "D": "Aprobar los estados financieros anuales ante la junta de accionistas."
+    },
+    "correcta": "A",
+    "concha_mango": "Auditoría Interna evalúa cómo la gobernanza supervisa la consecución de metas y la protección de valores institucionales.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 199,
+    "pregunta": "1️⃣9️⃣9️⃣ ¿Cuál de las siguientes técnicas de auditoría asistidas por computadora (TAACs/CAATs) permite analizar el 100% de las transacciones de una población amplia?",
+    "opciones": {
+      "A": "Uso de software de análisis de datos e interrogación de bases de datos (ej. Python, SQL, ACL).",
+      "B": "Entrevistas estructuradas al personal operativo.",
+      "C": "Inspección física ocular de los libros contables en papel.",
+      "D": "Observación del proceso de facturación durante un turno de trabajo."
+    },
+    "correcta": "A",
+    "concha_mango": "El análisis de datos automatizado permite examinar masivamente poblaciones completas sin limitarse a muestras reducidas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 200,
+    "pregunta": "2️⃣0️⃣0️⃣ ¿Qué debe contener como mínimo un plan de acción correctivo acordado tras la emisión del informe final de auditoría?",
+    "opciones": {
+      "A": "La descripción de la medida correctiva, el responsable de su ejecución y la fecha límite de implementación.",
+      "B": "Únicamente el monto de la sanción económica al empleado responsable del error.",
+      "C": "La lista de auditorías que se realizarán el próximo año.",
+      "D": "La firma de aprobación de los auditores externos."
+    },
+    "correcta": "A",
+    "concha_mango": "Un plan de acción efectivo asigna responsabilidades claras y compromisos temporales para subsanar los hallazgos.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  }
