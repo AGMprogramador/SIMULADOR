@@ -1,9 +1,9 @@
 import os
 import json
-import random
+import logging
+from threading import Thread  # <-- Agrega esta línea al inicio
+from flask import Flask
 import requests
-from flask import Flask, request
-from telegram import ReplyKeyboardMarkup, KeyboardButton
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
