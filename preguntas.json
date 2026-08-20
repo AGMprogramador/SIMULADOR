@@ -518,8 +518,7 @@
     "correcta": "A",
     "concha_mango": "Principio de Integridad: Es el fundamento de la confianza; exige honestidad, diligencia y respeto a la ley y valores morales.",
     "dominio": "Dominio V: Gobierno Corporativo y Ética"
-  }
-]
+  },
 {
     "id": 41,
     "pregunta": "4️⃣1️⃣ De acuerdo con el marco COSO, ¿cuál es el componente que se encarga de identificar y analizar los riesgos relevantes para el logro de los objetivos de la organización?",
@@ -649,7 +648,7 @@
     "correcta": "A",
     "concha_mango": "Doble Línea de Reporte: Reporte Funcional al Consejo (OBLIGATORIO para independencia) + Reporte Administrativo al CEO (para logística diaria).",
     "dominio": "Dominio II: Independencia y Objetividad"
-  }
+  },
 {
     "id": 51,
     "pregunta": "5️⃣1️⃣ Según las Normas del IIA, si un auditor interno es transferido desde el departamento de nómina a auditoría interna, ¿cuánto tiempo debe esperar antes de auditar el área de nómina?",
@@ -779,7 +778,7 @@
     "correcta": "B",
     "concha_mango": "Riesgo Inherente = Riesgo 'crudo' sin controles. Riesgo Residual = Lo que queda después de aplicar los controles.",
     "dominio": "Dominio IV: Gestión del Riesgo y Control"
-  }
+  },
 {
     "id": 61,
     "pregunta": "6️⃣1️⃣ ¿Cuál es el propósito principal de los papeles de trabajo en una auditoría interna?",
@@ -909,7 +908,7 @@
     "correcta": "B",
     "concha_mango": "Conflicto de Interés: La objetividad real o percibida se compromete. Se debe revelar inmediatamente al DEA para reasignar el trabajo.",
     "dominio": "Dominio II: Independencia y Objetividad"
-  }
+  },
 {
     "id": 71,
     "pregunta": "7️⃣1️⃣ ¿Cuál es el objetivo principal del análisis de datos en un trabajo de auditoría interna?",
@@ -1039,7 +1038,7 @@
     "correcta": "A",
     "concha_mango": "El escepticismo profesional implica cuestionar la validez de la evidencia recibida y no asumir ciegamente que la gerencia es honesta o deshonesta.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
-  }
+  },
 {
     "id": 81,
     "pregunta": "8️⃣1️⃣ Un informe de auditoría interna debe ser preciso, objetivo, claro, conciso, constructivo, completo y oportuno. ¿Qué principio se vulnera si el informe se emite 6 meses después de finalizar el trabajo de campo?",
@@ -1169,7 +1168,7 @@
     "correcta": "A",
     "concha_mango": "El monitoreo verifica si el sistema de control interno sigue siendo relevante y efectivo con el paso del tiempo.",
     "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
-  }
+  },
 {
     "id": 91,
     "pregunta": "9️⃣1️⃣ ¿Cuál es la diferencia principal entre un error y un fraude en la preparación de estados financieros?",
@@ -1299,7 +1298,7 @@
     "correcta": "A",
     "concha_mango": "Norma 2500: Corresponde al DEA establecer el sistema para supervisar si las acciones correctivas fueron implementadas.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
-  }
+  },
 {
     "id": 101,
     "pregunta": "1️⃣0️⃣1️⃣ El marco de control interno COSO define cinco componentes integrados. ¿Cuál de los siguientes NO es uno de esos cinco componentes?",
@@ -1429,7 +1428,7 @@
     "correcta": "A",
     "concha_mango": "El QAIP evalúa el cumplimiento de las Normas y el Código de Ética en la totalidad de las operaciones de auditoría.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
-  }
+  },
 {
     "id": 111,
     "pregunta": "1️⃣1️⃣1️⃣ ¿Qué representa la 'Cultura de Control' dentro del componente Entorno de Control de COSO?",
@@ -1559,7 +1558,7 @@
     "correcta": "A",
     "concha_mango": "La distribución del informe debe limitarse a quienes tienen la autoridad de actuar o la responsabilidad de supervisar.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
-  }
+  },
 {
     "id": 121,
     "pregunta": "1️⃣2️⃣1️⃣ En la metodología COSO, ¿cuál es la relación jerárquica entre Objetivos, Componentes y Principios?",
@@ -1819,7 +1818,7 @@
     "correcta": "A",
     "concha_mango": "El QAIP combina la autoevaluación interna continua con la revisión externa independiente cada 5 años.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
-  }
+  },
 {
     "id": 141,
     "pregunta": "1️⃣4️⃣1️⃣ ¿Cuál es la diferencia principal entre las actividades de 'Aseguramiento' y 'Consultoría' prestadas por Auditoría Interna?",
@@ -1949,7 +1948,7 @@
     "correcta": "B",
     "concha_mango": "La intencionalidad de alterar las cifras para engañar a los usuarios de la información financiera es la característica determinante del fraude.",
     "dominio": "Dominio VI: Fraude"
-  }
+  },
 {
     "id": 151,
     "pregunta": "1️⃣5️⃣1️⃣ Según el Marco de Referencia Internacional para la Práctica Profesional (IPPF), ¿cuál de los siguientes es un principio fundamental que rige el ejercicio de la auditoría interna?",
@@ -2079,7 +2078,7 @@
     "correcta": "A",
     "concha_mango": "La Norma 2420 establece las 7 cualidades esenciales que deben tener las comunicaciones de auditoría.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
-  }
+  },
 {
     "id": 161,
     "pregunta": "1️⃣6️⃣1️⃣ ¿Cuál es el rol principal de la función de Auditoría Interna frente a la gestión de fraudes en la organización?",
@@ -2209,7 +2208,7 @@
     "correcta": "A",
     "concha_mango": "El seguimiento verifica que los compromisos asumidos por la gerencia se hayan materializado eficazmente para mitigar las debilidades señaladas.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
-  }
+  },
 {
     "id": 171,
     "pregunta": "1️⃣7️⃣1️⃣ ¿Cuál es la responsabilidad principal del Consejo de Administración (o Comité de Auditoría) en relación con la función de Auditoría Interna?",
@@ -2339,7 +2338,7 @@
     "correcta": "A",
     "concha_mango": "Los cuestionarios estructuran la indagación inicial sobre el diseño de los controles, sirviendo de guía para las pruebas posteriores.",
     "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
-  }
+  },
 {
     "id": 181,
     "pregunta": "1️⃣8️⃣1️⃣ En una auditoría de inventarios, ¿cuál de los siguientes procedimientos proporciona la evidencia más directa sobre la 'existencia' de los activos?",
@@ -2469,7 +2468,7 @@
     "correcta": "A",
     "concha_mango": "Las evaluaciones externas (al menos cada 5 años) aportan credibilidad objetiva sobre la calidad global y apego normativo de la función.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
-  }
+  },
 {
     "id": 191,
     "pregunta": "1️⃣9️⃣1️⃣ ¿Cuál es la diferencia principal entre las actividades de 'Aseguramiento' y las de 'Consultoría' prestadas por Auditoría Interna?",
