@@ -207,8 +207,7 @@ def lanzar_siguiente_pregunta(chat_id):
         enviar_mensaje(chat_id, "🏁 <b>¡Has completado la tanda de preguntas!</b> Revisa tu resultado en el botón <b>📊 Mi Resumen</b>.", get_keyboard())
         state["modo"] = None
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+
 if __name__ == "__main__":
     # 1. Arranca Flask en segundo plano
     t = Thread(target=run_flask)
