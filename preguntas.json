@@ -1950,3 +1950,133 @@
     "concha_mango": "La intencionalidad de alterar las cifras para engañar a los usuarios de la información financiera es la característica determinante del fraude.",
     "dominio": "Dominio VI: Fraude"
   }
+{
+    "id": 151,
+    "pregunta": "1️⃣5️⃣1️⃣ Según el Marco de Referencia Internacional para la Práctica Profesional (IPPF), ¿cuál de los siguientes es un principio fundamental que rige el ejercicio de la auditoría interna?",
+    "opciones": {
+      "A": "Demuestra integridad y compromiso con la ética profesional.",
+      "B": "Garantiza la rentabilidad financiera del cliente auditado.",
+      "C": "Sustituye a los auditores externos en la firma de balances.",
+      "D": "Asume la responsabilidad del diseño de los sistemas informáticos."
+    },
+    "correcta": "A",
+    "concha_mango": "Los Principios Fundamentales articulan la eficacia de la auditoría interna mediante la integridad, competencia y objetividad.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 152,
+    "pregunta": "1️⃣5️⃣2️⃣ ¿En qué consiste el principio de 'Debido Cuidado Profesional' que debe aplicar un auditor interno?",
+    "opciones": {
+      "A": "Aplicar el cuidado y las habilidades esperadas de un auditor prudente y competente en circunstancias similares.",
+      "B": "Garantizar la infalibilidad absoluta de la auditoría sin cometer ningún error u omisión.",
+      "C": "Aceptar todas las opiniones de la gerencia sin solicitar evidencia de respaldo.",
+      "D": "Realizar pruebas sobre el 100% de las transacciones de la empresa."
+    },
+    "correcta": "A",
+    "concha_mango": "El debido cuidado no implica la infalibilidad ni revisiones al 100%, sino actuar con la diligencia y prudencia razonable del profesional.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 153,
+    "pregunta": "1️⃣5️⃣3️⃣ Un auditor interno que está realizando una revisión en el departamento de tesorería observa un billete falso en la caja chica. ¿Qué tipo de prueba le permitió detectar esta anomalía?",
+    "opciones": {
+      "A": "Prueba sustantiva de inspección física.",
+      "B": "Prueba analítica global.",
+      "C": "Confirmación externa bancaria.",
+      "D": "Encuesta de satisfacción."
+    },
+    "correcta": "A",
+    "concha_mango": "La inspección física consiste en el examen directo de activos tangibles o documentos para validar su existencia y condición.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 154,
+    "pregunta": "1️⃣5️⃣4️⃣ ¿Cuál es la principal ventaja de utilizar un enfoque de auditoría basado en riesgos frente a un enfoque tradicional basado en ciclos?",
+    "opciones": {
+      "A": "Prioriza y asigna recursos de auditoría a las áreas de mayor exposición e impacto potencial para la organización.",
+      "B": "Elimina la necesidad de elaborar informes escritos al finalizar el trabajo.",
+      "C": "Garantiza que todas las cuentas contables sean auditadas con la misma frecuencia.",
+      "D": "Permite auditar sin interactuar con los gerentes operativos."
+    },
+    "correcta": "A",
+    "concha_mango": "El enfoque basado en riesgos maximiza el valor agregado de auditoría enfocando esfuerzos donde existen mayores amenazas objetivas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 155,
+    "pregunta": "1️⃣5️⃣5️⃣ Dentro del marco COSO, ¿qué componente aborda la identificación de eventos internos y externos que pueden afectar la consecución de objetivos?",
+    "opciones": {
+      "A": "Evaluación de Riesgos.",
+      "B": "Entorno de Control.",
+      "C": "Monitoreo.",
+      "D": "Información y Comunicación."
+    },
+    "correcta": "A",
+    "concha_mango": "La Evaluación de Riesgos implica identificar y analizar los riesgos relevantes para el logro de los objetivos de la organización.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 156,
+    "pregunta": "1️⃣5️⃣6️⃣ Un auditor interno nota que se autorizan sobregiros presupuestarios de forma recurrente mediante llamadas telefónicas no documentadas. ¿Qué recomendación es la más adecuada?",
+    "opciones": {
+      "A": "Establecer un procedimiento formal por escrito con firmas de autorización registradas o aprobación digital trazable.",
+      "B": "Prohibir totalmente la realización de sobregiros presupuestarios bajo cualquier circunstancia.",
+      "C": "Aumentar el presupuesto de todas las áreas para evitar el problema.",
+      "D": "Transferir la responsabilidad de aprobación al auditor interno."
+    },
+    "correcta": "A",
+    "concha_mango": "Las recomendaciones deben fortalecer los controles creando trazabilidad y formalidad en la aprobación de desviaciones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 157,
+    "pregunta": "1️⃣5️⃣7️⃣ En el proceso de auditoría, ¿qué representa la 'Causa' dentro de un hallazgo?",
+    "opciones": {
+      "A": "La razón o motivo subyacente por el cual ocurrió la desviación o falla de control.",
+      "B": "La norma o política que se incumplió.",
+      "C": "El impacto financiero directo estimado.",
+      "D": "La descripción del hecho observado en la práctica."
+    },
+    "correcta": "A",
+    "concha_mango": "La Causa explica el 'por qué' ocurrió el problema (falta de capacitación, ausencia de supervisión, etc.), clave para corregirlo.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 158,
+    "pregunta": "1️⃣5️⃣8️⃣ Si el Director Ejecutivo de Auditoría (DEA) concluye que la gerencia ha aceptado un nivel de riesgo residual que es inaceptable para la organización, el primer paso debe ser:",
+    "opciones": {
+      "A": "Discutir el asunto directamente con la alta gerencia.",
+      "B": "Informar inmediatamente a las autoridades judiciales públicas.",
+      "C": "Publicar la situación en la prensa financiera.",
+      "D": "Ignorar la decisión ya que la gerencia asume los riesgos."
+    },
+    "correcta": "A",
+    "concha_mango": "Norma 2600: El DEA debe primero discutir la preocupación con la alta gerencia. Si no se resuelve, debe llevarlo ante el Consejo.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 159,
+    "pregunta": "1️⃣5️⃣9️⃣ ¿Cuál de las siguientes es una técnica analítica de auditoría que compara saldos contables del periodo actual contra periodos anteriores?",
+    "opciones": {
+      "A": "Análisis de tendencias y variaciones.",
+      "B": "Muestreo por unidades monetarias (MUS).",
+      "C": "Confirmación bancaria directa.",
+      "D": "Prueba de recorrido operativa."
+    },
+    "correcta": "A",
+    "concha_mango": "El análisis de variaciones/tendencias compara datos financieros o métricas en el tiempo para identificar fluctuaciones atípicas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 160,
+    "pregunta": "1️⃣6️⃣0️⃣ ¿Qué se requiere para que un trabajo de auditoría interna cumpla con la norma de comunicación de resultados?",
+    "opciones": {
+      "A": "Las comunicaciones deben ser precisas, objetivas, claras, concisas, constructivas, completas y oportunas.",
+      "B": "Deben contener al menos 100 páginas de anexos técnicos.",
+      "C": "Tienen que ser publicadas exclusivamente en idioma inglés.",
+      "D": "Deben contar con la firma y sello del auditor externo gubernamental."
+    },
+    "correcta": "A",
+    "concha_mango": "La Norma 2420 establece las 7 cualidades esenciales que deben tener las comunicaciones de auditoría.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  }
