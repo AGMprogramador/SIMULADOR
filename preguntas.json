@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "pregunta": "1️⃣ El Director Ejecutivo de Auditoría (DEA) reporta administrativamente al CEO y funcionalmente al Comité de Auditoría. El CEO le solicita al DEA que omita un hallazgo significativo sobre un fraude en compras para no alarmar a los accionistas. ¿Cuál es la acción MÁS apropiada que debe tomar el DEA?",
+    "opciones": {
+      "A": "Acatar la solicitud del CEO para mantener la línea de reporte administrativo.",
+      "B": "Modificar el informe eliminando el hallazgo pero documentando la instrucción.",
+      "C": "Informar de inmediato la situación al Comité de Auditoría, manteniendo el hallazgo.",
+      "D": "Consultar con el auditor externo antes de tomar una decisión."
+    },
+    "correcta": "C",
+    "concha_mango": "Conflicto entre reporte administrativo (CEO) y funcional (Comité). El DEA jamás omite hallazgos por orden de la gerencia."
+  },
+  {
+    "id": 2,
+    "pregunta": "2️⃣ Un auditor interno contratado hace 6 meses procedente de Finanzas debe auditar las conciliaciones bancarias del área donde él era responsable directo. ¿Qué acción debe tomar PRIMERO?",
+    "opciones": {
+      "A": "Aceptar la asignación con mayor nivel de escepticismo profesional.",
+      "B": "Notificar de inmediato al DEA sobre el conflicto de interés para reasignar la tarea.",
+      "C": "Auditar solo las conciliaciones posteriores a su transferencia a auditoría.",
+      "D": "Pedir a un compañero que revise y firme sus papeles de trabajo."
+    },
+    "correcta": "B",
+    "concha_mango": "Regla de los 12 meses: Responsabilidad operativa previa en el último año genera impedimenta insuperable a la objetividad."
+  },
+  {
+    "id": 3,
+    "pregunta": "3️⃣ La empresa implementa un NUEVO marco ERM. ¿Qué actividad PERJUDICARÍA la independencia de auditoría si la asume durante el proceso?",
+    "opciones": {
+      "A": "Evaluar la efectividad del proceso de identificación de riesgos propuesto.",
+      "B": "Diseñar y establecer la tolerancia al riesgo de la organización.",
+      "C": "Brindar capacitación sobre los conceptos del marco de control interno.",
+      "D": "Revisar el mapeo de riesgos operativos para identificar vacíos."
+    },
+    "correcta": "B",
+    "concha_mango": "Verbo de gestión 'Diseñar/Establecer'. Fijar la tolerancia al riesgo es rol exclusivo de la gerencia."
+  },
+  {
+    "id": 4,
+    "pregunta": "4️⃣ Durante una auditoría a un proveedor clave, el auditor recibe una invitación a almorzar del gerente del proveedor para explicar la operativa. ¿Qué acción apoya MEJOR la objetividad?",
+    "opciones": {
+      "A": "Aceptar siempre que el auditor pague su propia cuenta.",
+      "B": "Aceptar para construir una relación colaborativa y notificar luego.",
+      "C": "Rechazar la invitación para evitar cualquier percepción de conflicto de interés.",
+      "D": "Aceptar solo si el gerente de compras también está presente."
+    },
+    "correcta": "C",
+    "concha_mango": "Durante una auditoría activa, rechazar atenciones evita cualquier apariencia de falta de objetividad."
+  },
+  {
+    "id": 5,
+    "pregunta": "5️⃣ ¿Cuál es el propósito PRINCIPAL de incluir la definición, el Código de Ética y los Estándares en el Estatuto de Auditoría Interna?",
+    "opciones": {
+      "A": "Garantizar la aprobación del presupuesto anual sin modificaciones.",
+      "B": "Establecer la posición formal, autoridad, alcance y responsabilidad.",
+      "C": "Proporcionar procedimientos operativos detallados para cada encargo.",
+      "D": "Permitir evaluar el rendimiento individual de los auditores."
+    },
+    "correcta": "B",
+    "concha_mango": "El Estatuto es el marco formal de gobernanza firmado con el Consejo."
+  }
+]
