@@ -2340,3 +2340,133 @@
     "concha_mango": "Los cuestionarios estructuran la indagación inicial sobre el diseño de los controles, sirviendo de guía para las pruebas posteriores.",
     "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   }
+{
+    "id": 181,
+    "pregunta": "1️⃣8️⃣1️⃣ En una auditoría de inventarios, ¿cuál de los siguientes procedimientos proporciona la evidencia más directa sobre la 'existencia' de los activos?",
+    "opciones": {
+      "A": "La observación directa del conteo físico de las mercancías.",
+      "B": "La revisión de las facturas de compra archivadas.",
+      "C": "La entrevista con el gerente del área de compras.",
+      "D": "El recálculo de la depreciación de los equipos de almacén."
+    },
+    "correcta": "A",
+    "concha_mango": "La observación e inspección física es la prueba principal y más fiable para corroborar la existencia real de un activo tangible.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 182,
+    "pregunta": "1️⃣8️⃣2️⃣ ¿Cuál es el propósito fundamental de una 'Prueba de Recorrido' (Walkthrough) en la fase de planificación de una auditoría?",
+    "opciones": {
+      "A": "Confirmar el entendimiento del flujo del proceso y el diseño de los controles clave trazando una transacción desde el inicio hasta el final.",
+      "B": "Probar la efectividad operativa de los controles mediante una muestra estadística representativa.",
+      "C": "Calcular los errores monetarios absolutos en los estados financieros.",
+      "D": "Evaluar el desempeño individual de cada empleado del área."
+    },
+    "correcta": "A",
+    "concha_mango": "La prueba de recorrido sirve para validar que el mapeo y flujo de controles teóricos corresponden a la realidad operativa.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 183,
+    "pregunta": "1️⃣8️⃣3️⃣ Según las Normas del IIA, si el auditor interno carece de los conocimientos técnicos necesarios para realizar una parte específica del encargo (ej. auditoría ciberseguridad avanzada), debe:",
+    "opciones": {
+      "A": "Obtener asesoramiento o competencia competente de especialistas externos o dentro de la organización.",
+      "B": "Continuar con el trabajo adivinando los procedimientos técnicos.",
+      "C": "Eliminar la sección técnica del informe sin avisar al Comité.",
+      "D": "Emitir una opinión favorable sin revisar la infraestructura tecnológica."
+    },
+    "correcta": "A",
+    "concha_mango": "El Director Ejecutivo de Auditoría debe declinar el trabajo o conseguir la asistencia técnica calificada si el equipo carece de las destrezas necesarias.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 184,
+    "pregunta": "1️⃣8️⃣4️⃣ ¿Qué principio de COSO exige que la organización identifique y evalúe los cambios que podrían impactar significativamente el sistema de control interno?",
+    "opciones": {
+      "A": "Evaluación de Riesgos (Principio 9).",
+      "B": "Entorno de Control (Principio 1).",
+      "C": "Información y Comunicación (Principio 13).",
+      "D": "Monitoreo (Principio 16)."
+    },
+    "correcta": "A",
+    "concha_mango": "Los cambios en el entorno operativo, liderazgo o modelo de negocio alteran los riesgos y requieren reevaluar la efectividad del control interno.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 185,
+    "pregunta": "1️⃣8️⃣5️⃣ Un control compensatorio es aquel que:",
+    "opciones": {
+      "A": "Mitiga un riesgo cuando un control clave principal no está presente o no es suficiente.",
+      "B": "Sustituye la necesidad de contar con un plan estratégico de negocios.",
+      "C": "Aumenta el sueldo de los empleados que detectan errores.",
+      "D": "Se aplica únicamente después de sufrir una pérdida financiera comprobada."
+    },
+    "correcta": "A",
+    "concha_mango": "Los controles compensatorios ayudan a limitar el riesgo cuando existen limitaciones operativas (ej. imposibilidad de segregar funciones en áreas pequeñas).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 186,
+    "pregunta": "1️⃣8️⃣6️⃣ Si en una auditoría de cuentas por cobrar se envían solicitudes de confirmación de saldo pero el cliente no responde, el auditor debe:",
+    "opciones": {
+      "A": "Aplicar procedimientos alternativos como revisar cobros posteriores o facturas de venta de soporte.",
+      "B": "Dar por sentado que la cuenta por cobrar es falsa y registrarla como pérdida.",
+      "C": "Ignorar la falta de respuesta y continuar con el siguiente cliente.",
+      "D": "Llamar a la policía para exigir la verificación del cliente."
+    },
+    "correcta": "A",
+    "concha_mango": "Ante la ausencia de respuesta en confirmaciones directas, el auditor debe validar la veracidad del saldo con evidencia documental alternativa.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 187,
+    "pregunta": "1️⃣8️⃣7️⃣ ¿Cuál de los siguientes es el mejor ejemplo de un 'Control Detectivo'?",
+    "opciones": {
+      "A": "Revisión y conciliación mensual de cuentas bancarias.",
+      "B": "Solicitud de contraseña para ingresar a un sistema.",
+      "C": "Cierre con llave del almacén de repuestos.",
+      "D": "Capacitación obligatoria sobre el código de ética."
+    },
+    "correcta": "A",
+    "concha_mango": "La conciliación no evita que ocurra la discrepancia, pero la descubre una vez que ha sucedido para su posterior corrección.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 188,
+    "pregunta": "1️⃣8️⃣8️⃣ ¿Qué diferencia al 'Fraude' de una 'Irregularidad o Error' no intencional?",
+    "opciones": {
+      "A": "La intención deliberada de engañar o causar perjuicio.",
+      "B": "El monto de la pérdida financiera registrada.",
+      "C": "El departamento de la empresa donde ocurre el hecho.",
+      "D": "El número de empleados involucrados."
+    },
+    "correcta": "A",
+    "concha_mango": "La intencionalidad y el engaño consciente son los factores jurídicos y técnicos que definen el fraude frente al error involuntario.",
+    "dominio": "Dominio VI: Fraude"
+  },
+  {
+    "id": 189,
+    "pregunta": "1️⃣8️⃣9️⃣ ¿Por qué es fundamental que la función de Auditoría Interna rinda informes directamente al Comité de Auditoría o Junta Directiva?",
+    "opciones": {
+      "A": "Para asegurar la independencia organizacional necesaria para evaluar imparcialmente a la gerencia ejecutiva.",
+      "B": "Para evitar tener que pagar impuestos sobre el presupuesto del departamento.",
+      "C": "Para supervisar la nómina semanal de los ejecutivos.",
+      "D": "Para acelerar los trámites de vacaciones del personal de auditoría."
+    },
+    "correcta": "A",
+    "concha_mango": "La dependencia jerárquica y funcional del máximo órgano de gobierno protege al equipo de auditoría contra presiones o sesgos de la gerencia operativa.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 190,
+    "pregunta": "1️⃣9️⃣0️⃣ ¿Qué se persigue al realizar una 'Evaluación Externa de Calidad' (QAIP) en la actividad de auditoría interna?",
+    "opciones": {
+      "A": "Validar el cumplimiento de las Normas Internacionales y el Código de Ética por parte de un evaluador calificado e independiente.",
+      "B": "Auditar la declaración de impuestos personales del Director de Auditoría.",
+      "C": "Reducir los sueldos de los auditores con bajo rendimiento.",
+      "D": "Aprobación obligatoria por parte del sindicato de trabajadores."
+    },
+    "correcta": "A",
+    "concha_mango": "Las evaluaciones externas (al menos cada 5 años) aportan credibilidad objetiva sobre la calidad global y apego normativo de la función.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  }
