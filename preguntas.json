@@ -780,3 +780,133 @@
     "concha_mango": "Riesgo Inherente = Riesgo 'crudo' sin controles. Riesgo Residual = Lo que queda después de aplicar los controles.",
     "dominio": "Dominio IV: Gestión del Riesgo y Control"
   }
+{
+    "id": 61,
+    "pregunta": "6️⃣1️⃣ ¿Cuál es el propósito principal de los papeles de trabajo en una auditoría interna?",
+    "opciones": {
+      "A": "Proporcionar evidencia documentada que respalde las conclusiones y hallazgos del informe de auditoría.",
+      "B": "Demostrar a la gerencia que el equipo de auditoría trabajó a tiempo completo.",
+      "C": "Servir como prueba legal exclusiva en juicios penales contra empleados.",
+      "D": "Sustituir la necesidad de emitir un informe final de auditoría."
+    },
+    "correcta": "A",
+    "concha_mango": "Los papeles de trabajo respaldan el informe final y demuestran que el trabajo se realizó de acuerdo con las Normas del IIA.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 62,
+    "pregunta": "6️⃣2️⃣ Un auditor interno identifica que una política clave de compras no se ha actualizado en más de 8 años. ¿Cómo debe clasificar esta observación?",
+    "opciones": {
+      "A": "Falta de control de diseño / Obsoletud normativa.",
+      "B": "Fraude financiero inminente.",
+      "C": "Incumplimiento legal grave con sanción penal.",
+      "D": "Falla operativa de ejecución."
+    },
+    "correcta": "A",
+    "concha_mango": "El control está mal diseñado o desactualizado frente a la realidad del negocio, no es necesariamente un delito o un fraude.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 63,
+    "pregunta": "6️⃣3️⃣ De acuerdo con el Código de Ética del IIA, el principio de CONFIDENCIALIDAD exige que los auditores internos:",
+    "opciones": {
+      "A": "No compartan información con nadie, incluyendo al Director Ejecutivo de Auditoría.",
+      "B": "No utilicen la información obtenida para lucro personal o de manera contraria a la ley.",
+      "C": "Oculten hallazgos críticos a la Junta Directiva si el auditado lo solicita.",
+      "D": "Guarden los papeles de trabajo en sus casas para mayor seguridad."
+    },
+    "correcta": "B",
+    "concha_mango": "Confidencialidad no significa guardar secretos a los órganos de gobierno, sino no usar la información privilegiada para beneficio propio ni divulgarla sin autorización legal/profesional.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 64,
+    "pregunta": "6️⃣4️⃣ ¿Quién es el responsable FINAL de establecer, mantener y supervisar el sistema de control interno en una entidad?",
+    "opciones": {
+      "A": "El Director Ejecutivo de Auditoría (DEA).",
+      "B": "La Gerencia Ejecutiva y la Alta Dirección.",
+      "C": "El Comité de Auditoría.",
+      "D": "El equipo de auditores externos."
+    },
+    "correcta": "B",
+    "concha_mango": "La Gerencia diseña e implementa el control interno. Auditoría Interna solo lo EVALÚA e INFORMA.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 65,
+    "pregunta": "6️⃣5️⃣ Si un auditor interno recibe presiones para omitir una prueba crucial debido a restricciones de tiempo y presupuesto, ¿qué principio de las Normas se está poniendo en riesgo?",
+    "opciones": {
+      "A": "Debido cuidado profesional.",
+      "B": "Independencia de la entidad externa.",
+      "C": "Gobierno corporativo.",
+      "D": "Segregación de funciones."
+    },
+    "correcta": "A",
+    "concha_mango": "El Debido Cuidado Profesional exige aplicar el alcance adecuado y las pruebas necesarias, sin ceder a presiones operativas que reduzcan la calidad del trabajo.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 66,
+    "pregunta": "6️⃣6️⃣ ¿Cuál de las siguientes actividades corresponde a un servicio de CONSULTORÍA por parte de auditoría interna?",
+    "opciones": {
+      "A": "Evaluar la efectividad del control interno de cuentas por pagar.",
+      "B": "Facilitar un taller de autoevaluación de riesgos (CSA) para el personal de operaciones.",
+      "C": "Auditarlos estados financieros intermedios.",
+      "D": "Verificar el cumplimiento de normativas medioambientales."
+    },
+    "correcta": "B",
+    "concha_mango": "Facilitar, capacitar o asesorar son actividades de Consultoría. Evaluar o verificar objetivamente son servicios de Aseguramiento.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 67,
+    "pregunta": "6️⃣7️⃣ En el marco COSO, ¿cuál de los siguientes es un ejemplo de un control enfocado en el componente 'Entorno de Control'?",
+    "opciones": {
+      "A": "Un código de conducta y ética formalmente comunicado a todos los empleados.",
+      "B": "Una conciliación mensual de inventario.",
+      "C": "Un software de detección de intrusos en la red.",
+      "D": "Un plan de contingencia ante desastres naturales."
+    },
+    "correcta": "A",
+    "concha_mango": "El Entorno de Control fija el 'tono en la cumbre' (valores éticos, estructura organizacional, compromiso con la integridad).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 68,
+    "pregunta": "6️⃣8️⃣ ¿Qué debe hacer un auditor interno si descubre un indicio claro de fraude durante un trabajo de aseguramiento de rutina?",
+    "opciones": {
+      "A": "Enfrentar inmediatamente al sospechoso y exigir una confesión.",
+      "B": "Notificar a las autoridades competentes dentro de la organización según el protocolo establecido.",
+      "C": "Ignorarlo si el monto estimado es menor al límite de materialidad.",
+      "D": "Detener la auditoría y llamar a la policía local."
+    },
+    "correcta": "B",
+    "concha_mango": "El auditor notifica internamente a la gerencia responsable o al área de investigaciones/delito económico según el protocolo de la empresa.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones"
+  },
+  {
+    "id": 69,
+    "pregunta": "6️⃣9️⃣ Un Plan de Auditoría Basado en Riesgos se diferencia de un plan tradicional porque:",
+    "opciones": {
+      "A": "Audita todas las áreas de la empresa con la misma frecuencia.",
+      "B": "Prioriza las auditorías en función de la exposición al riesgo y el impacto en los objetivos de la organización.",
+      "C": "Es elaborado únicamente por el Presidente del Consejo.",
+      "D": "No requiere aprobación por parte del Comité de Auditoría."
+    },
+    "correcta": "B",
+    "concha_mango": "El enfoque moderno asigna recursos de auditoría donde los riesgos residuales son mayores, no por calendario rotativo simple.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 70,
+    "pregunta": "7️⃣0️⃣ Si un auditor interno tiene una relación de parentesco cercana con el gerente del área auditada, ¿qué acción debe tomar para salvaguardar la OBJETIVIDAD?",
+    "opciones": {
+      "A": "Continuar con el trabajo sin decir nada si se considera imparcial.",
+      "B": "Informar el conflicto de interés al DEA para que lo reasigne a otro auditor.",
+      "C": "Pedirle al familiar que renuncie temporalmente mientras dura la auditoría.",
+      "D": "Auditar solo los documentos del año pasado."
+    },
+    "correcta": "B",
+    "concha_mango": "Conflicto de Interés: La objetividad real o percibida se compromete. Se debe revelar inmediatamente al DEA para reasignar el trabajo.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  }
