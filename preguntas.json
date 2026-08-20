@@ -1820,3 +1820,133 @@
     "concha_mango": "El QAIP combina la autoevaluación interna continua con la revisión externa independiente cada 5 años.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
   }
+{
+    "id": 141,
+    "pregunta": "1️⃣4️⃣1️⃣ ¿Cuál es la diferencia principal entre las actividades de 'Aseguramiento' y 'Consultoría' prestadas por Auditoría Interna?",
+    "opciones": {
+      "A": "El aseguramiento involucra una evaluación objetiva de evidencias de tres partes; la consultoría son servicios de asesoría a solicitud del cliente.",
+      "B": "El aseguramiento es obligatorio para empresas privadas; la consultoría solo para entidades gubernamentales.",
+      "C": "La consultoría requiere la aprobación del auditor externo; el aseguramiento no.",
+      "D": "No existe diferencia; ambas implican emitir una opinión formal dictaminada."
+    },
+    "correcta": "A",
+    "concha_mango": "Aseguramiento = 3 partes (auditor, auditado, usuario de la evaluación). Consultoría = 2 partes (auditor y cliente del servicio).",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 142,
+    "pregunta": "1️⃣4️⃣2️⃣ En el marco COSO, ¿qué principio pertenece al componente de 'Información y Comunicación'?",
+    "opciones": {
+      "A": "Demostrar compromiso con la integridad y los valores éticos.",
+      "B": "Comunicar internamente la información necesaria para respaldar el funcionamiento del control interno.",
+      "C": "Seleccionar y desarrollar actividades de control general sobre la tecnología.",
+      "D": "Identificar y evaluar los cambios significativos en la organización."
+    },
+    "correcta": "B",
+    "concha_mango": "El Principio 14 establece la comunicación interna continua de información relevante para el sistema de control.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 143,
+    "pregunta": "1️⃣4️⃣3️⃣ Un auditor interno nota que no hay segregación de funciones entre quien registra los asientos de inventario y quien realiza el conteo físico. ¿Qué tipo de riesgo aumenta significativamente?",
+    "opciones": {
+      "A": "Riesgo de tasa de interés.",
+      "B": "Riesgo de ocultamiento de faltantes de inventario por fraude o error.",
+      "C": "Riesgo de liquidez de la entidad.",
+      "D": "Riesgo cambiario."
+    },
+    "correcta": "B",
+    "concha_mango": "Al no haber separación entre registro y custodia/verificación, una persona puede manipular los libros para encubrir faltantes reales.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 144,
+    "pregunta": "1️⃣4️⃣4️⃣ Según el Código de Ética del IIA, la regla de 'Confidencialidad' exige que los auditores internos:",
+    "opciones": {
+      "A": "No revelen información obtenida sin la debida autorización, a menos que exista una obligación legal o profesional para hacerlo.",
+      "B": "Mantengan en secreto los hallazgos ante el Comité de Auditoría.",
+      "C": "No compartan sus papeles de trabajo con los miembros de su propio equipo.",
+      "D": "Eliminen toda la documentación de trabajo al finalizar el año fiscal."
+    },
+    "correcta": "A",
+    "concha_mango": "Los auditores deben respetar el valor y propiedad de la información recibida, divulgándola solo si la ley o el deber profesional lo requieren.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 145,
+    "pregunta": "1️⃣4️⃣5️⃣ ¿Cuál es el propósito primordial de realizar una prueba de 'Cumplimiento' o 'Prueba de Controles' durante una auditoría?",
+    "opciones": {
+      "A": "Verificar la exactitud matemática del balance general.",
+      "B": "Evaluar si los controles están funcionando de manera efectiva y consistente en la práctica.",
+      "C": "Calcular la depreciación acumulada de los activos fijos.",
+      "D": "Determinar el saldo final de la cuenta de caja chicas."
+    },
+    "correcta": "B",
+    "concha_mango": "Las pruebas de controles confirman la operatividad y efectividad del control, mientras que las pruebas sustantivas validan los saldos y datos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 146,
+    "pregunta": "1️⃣4️⃣6️⃣ En el contexto de la gestión de riesgos, ¿cuál de las siguientes es una estrategia de 'Transferencia de Riesgo'?",
+    "opciones": {
+      "A": "Adquirir una póliza de seguro contra incendios o robos.",
+      "B": "Instalar rociadores automáticos de agua en la fábrica.",
+      "C": "Descontinuar la línea de productos con altos índices de fallas.",
+      "D": "Aceptar las pérdidas potenciales dentro del presupuesto operativo."
+    },
+    "correcta": "A",
+    "concha_mango": "Transferir implica compartir o trasladar la carga financiera del riesgo a un tercero (ejemplo: aseguradora o contrato de indemnización).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 147,
+    "pregunta": "1️⃣4️⃣7️⃣ ¿Qué se entiende por 'Riesgo Residual'?",
+    "opciones": {
+      "A": "El riesgo remanente que persiste después de que la gerencia ha implementado las respuestas o controles de mitigación.",
+      "B": "El riesgo inicial antes de aplicar cualquier medida correctiva.",
+      "C": "El riesgo que solo afecta a los proveedores externos.",
+      "D": "El valor del activo al final de su vida útil."
+    },
+    "correcta": "A",
+    "concha_mango": "Riesgo Residual = Riesgo Inherente − Efecto de las Actividades de Control.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 148,
+    "pregunta": "1️⃣4️⃣8️⃣ Si el Comité de Auditoría solicita realizar una revisión no planificada a un área crítica, ¿qué debe hacer el Director Ejecutivo de Auditoría (DEA)?",
+    "opciones": {
+      "A": "Rechazar la solicitud indicando que el plan anual es inamovible.",
+      "B": "Ajustar el plan de auditoría basado en riesgos, reasignar recursos e informar el impacto de la modificación al Comité.",
+      "C": "Ejecutar la revisión en secreto sin modificar el plan original.",
+      "D": "Renunciar de inmediato por interferencia operativa."
+    },
+    "correcta": "B",
+    "concha_mango": "El plan anual de auditoría debe ser flexible y dinámico para adaptarse a prioridades y nuevos riesgos de la organización.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 149,
+    "pregunta": "1️⃣4️⃣9️⃣ En una auditoría de adquisiciones, se observa que no se solicitan tres cotizaciones para compras mayores a $10,000 según la política interna. ¿Qué elemento del hallazgo representa la política incumplida?",
+    "opciones": {
+      "A": "Condición.",
+      "B": "Criterio.",
+      "C": "Causa.",
+      "D": "Efecto."
+    },
+    "correcta": "B",
+    "concha_mango": "Los 5 elementos del hallazgo son: Criterio (lo que debe ser/norma), Condición (lo que es/hecho), Causa (por qué ocurrió), Efecto (impacto) y Recomendación.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 150,
+    "pregunta": "1️⃣5️⃣0️⃣ ¿Cuál de las siguientes situaciones representa un ejemplo de 'Fraude Interno' en los estados financieros?",
+    "opciones": {
+      "A": "Un incendio accidental en el almacén de mercancías.",
+      "B": "El registro intencional de ventas ficticias al cierre de mes para inflar las ganancias.",
+      "C": "La depreciación de un equipo siguiendo las leyes fiscales vigentes.",
+      "D": "Un error involuntario de digitación en la suma de una factura."
+    },
+    "correcta": "B",
+    "concha_mango": "La intencionalidad de alterar las cifras para engañar a los usuarios de la información financiera es la característica determinante del fraude.",
+    "dominio": "Dominio VI: Fraude"
+  }
