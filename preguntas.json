@@ -1688,7 +1688,7 @@
     "correcta": "A",
     "concha_mango": "La independencia es organizacional (reportar funcionalmente al Consejo), mientras que la objetividad es una actitud individual del auditor.",
     "dominio": "Dominio II: Independencia y Objetividad"
-  }
+  },
 {
     "id": 131,
     "pregunta": "1️⃣3️⃣1️⃣ En un encargo de aseguramiento, si la gerencia se niega a proveer una carta de representación o acceso a registros clave, el auditor interno debe:",
@@ -2599,3 +2599,4 @@
     "concha_mango": "Un plan de acción efectivo asigna responsabilidades claras y compromisos temporales para subsanar los hallazgos.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
   }
+]
