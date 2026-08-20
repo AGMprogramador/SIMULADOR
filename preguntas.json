@@ -44,6 +44,8 @@
       "C": "Rechazar la invitación para evitar cualquier percepción de conflicto de interés.",
       "D": "Aceptar solo si el gerente de compras también está presente."
     },
+
+    
     "correcta": "C",
     "concha_mango": "Durante una auditoría activa, rechazar atenciones evita cualquier apariencia de falta de objetividad."
   },
@@ -179,4 +181,124 @@
     },
     "correcta": "B",
     "concha_mango": "Principio de Competencia Colectiva: Si el equipo interno carece de la pericia, se debe contratar o solicitar asesoría experta."
+  }
+{
+    "id": 21,
+    "pregunta": "2️⃣1️⃣ ¿Cuál es la responsabilidad de auditoría interna en relación con el marco de gobierno corporativo de la organización?",
+    "opciones": {
+      "A": "Diseñar e implementar las estructuras de gobernanza de la junta.",
+      "B": "Evaluar la efectividad del proceso de gobierno corporativo y hacer recomendaciones.",
+      "C": "Aprobar la estructura organizacional y las líneas de reporte ejecutivo.",
+      "D": "Asumir la presidencia del Comité de Riesgos para asegurar el cumplimiento."
+    },
+    "correcta": "B",
+    "concha_mango": "Gobernanza: El auditor evalúa y recomienda mejoras, pero nunca diseña ni aprueba la gobernanza."
+  },
+  {
+    "id": 22,
+    "pregunta": "2️⃣2️⃣ De acuerdo con el marco COSO de Control Interno, ¿cuál de los siguientes es un componente fundamental del entorno de control?",
+    "opciones": {
+      "A": "La conciliación mensual de cuentas bancarias.",
+      "B": "El compromiso con la integridad y los valores éticos por parte de la alta dirección.",
+      "C": "La instalación de cámaras de seguridad en las áreas operativas.",
+      "D": "La realización de un inventario físico anual de activos fijos."
+    },
+    "correcta": "B",
+    "concha_mango": "Entorno de control: Es la base (el 'tono en la cúspide'). La integridad y ética del liderazgo fundamentan todo el sistema."
+  },
+  {
+    "id": 23,
+    "pregunta": "2️⃣3️⃣ ¿Qué tipo de control se considera un 'control preventivo' en un ciclo de compras?",
+    "opciones": {
+      "A": "Una revisión mensual de las variaciones presupuestarias.",
+      "B": "La exigencia de doble firma de autorización para órdenes de compra superiores a $10,000 antes de emitirse.",
+      "C": "La auditoría posterior a los comprobantes de pago procesados.",
+      "D": "El análisis trimestral de antigüedad de cuentas por pagar."
+    },
+    "correcta": "B",
+    "concha_mango": "Preventivo vs Detectivo: La autorización antes de que ocurra la transacción evita el evento; las revisiones posteriores solo detectan."
+  },
+  {
+    "id": 24,
+    "pregunta": "2️⃣4️⃣ En el contexto de Gestión de Riesgos Empresariales (ERM), ¿qué significa 'riesgo inherente'?",
+    "opciones": {
+      "A": "El riesgo que permanece después de implementar los controles de la gerencia.",
+      "B": "El riesgo existente en ausencia de cualquier acción o control de la gerencia para mitigar su impacto o probabilidad.",
+      "C": "El riesgo de que los auditores internos no detecten un error material.",
+      "D": "El nivel de riesgo que la junta directiva está dispuesta a aceptar formalmente."
+    },
+    "correcta": "B",
+    "concha_mango": "Riesgo Inherente = Sin controles. Riesgo Residual = Después de aplicar controles."
+  },
+  {
+    "id": 25,
+    "pregunta": "2️⃣5️⃣ ¿Cuál es la función PRINCIPAL de la 'tercera línea' en el Modelo de las Tres Líneas del IIA?",
+    "opciones": {
+      "A": "Gestionar los riesgos operativos directos en el día a día.",
+      "B": "Proporcionar aseguramiento independiente y objetivo sobre la efectividad de la gobernanza, gestión de riesgos y controles.",
+      "C": "Supervisar el cumplimiento normativo y legal de las operaciones.",
+      "D": "Diseñar las políticas financieras de la organización."
+    },
+    "correcta": "B",
+    "concha_mango": "Tres Líneas: 1ª Línea = Operatividad/Gestión; 2ª Línea = Especialistas/Cumplimiento/Riesgos; 3ª Línea = Auditoría Interna (Aseguramiento Independiente)."
+  },
+  {
+    "id": 26,
+    "pregunta": "2️⃣6️⃣ Un auditor interno identifica que una división no está cumpliendo con las regulaciones ambientales locales. ¿Cuál es la primera acción del auditor?",
+    "opciones": {
+      "A": "Notificar inmediatamente a las autoridades ambientales del gobierno.",
+      "B": "Discutir el hallazgo con la dirección de la división auditada para validar los hechos.",
+      "C": "Publicar un aviso de advertencia a los medios de comunicación.",
+      "D": "Ignorar la falla si la multa estimada es menor a la materialidad financiera."
+    },
+    "correcta": "B",
+    "concha_mango": "Debido proceso de auditoría: Los hallazgos siempre se validan primero con la gerencia del área antes de escalar comunicaciones."
+  },
+  {
+    "id": 27,
+    "pregunta": "2️⃣7️⃣ De acuerdo con el Código de Ética del IIA, si un auditor interno recibe una tarifa fija de un cliente por un trabajo de auditoría independiente, pero el cliente ofrece una bonificación contingente si no se reportan hallazgos severos, ¿qué principio viola el auditor si acepta?",
+    "opciones": {
+      "A": "Confidencialidad.",
+      "B": "Objetividad.",
+      "C": "Competencia.",
+      "D": "Oportunidad."
+    },
+    "correcta": "B",
+    "concha_mango": "Honorarios contingentes o condicionamientos económicos destruyen la objetividad e imparcialidad del juicio del auditor."
+  },
+  {
+    "id": 28,
+    "pregunta": "2️⃣8️⃣ ¿Qué debe hacer el DEA si la Alta Dirección decide asumir un nivel de riesgo residual que el DEA considera inaceptable para la organización?",
+    "opciones": {
+      "A": "Aceptar la decisión de la gerencia sin objetar, ya que ellos gestionan el negocio.",
+      "B": "Discutir el asunto con la Alta Dirección; si no se resuelve, comunicar la situación al Consejo.",
+      "C": "Modificar el mapa de riesgos para que el nivel parezca aceptable.",
+      "D": "Renunciar inmediatamente al cargo de DEA."
+    },
+    "correcta": "B",
+    "concha_mango": "Manejo de Riesgo Inaceptable: Si la gerencia asume un riesgo que excede la tolerancia sin corregirlo, el DEA DEBE escalar al Consejo."
+  },
+  {
+    "id": 29,
+    "pregunta": "2️⃣9️⃣ ¿Cuál de las siguientes es una responsabilidad del Director Ejecutivo de Auditoría (DEA) respecto a la gestión del plan de auditoría?",
+    "opciones": {
+      "A": "Aprobar las decisiones operativas de las áreas auditadas.",
+      "B": "Asegurar que los recursos de auditoría sean adecuados, suficientes y efectivamente asignados.",
+      "C": "Designar al Presidente del Comité de Auditoría.",
+      "D": "Evaluar la rentabilidad comercial de la compañía."
+    },
+    "correcta": "B",
+    "concha_mango": "Gestión de Recursos: El DEA debe asegurar la idoneidad y suficiencia de los recursos del departamento de auditoría."
+  },
+  {
+    "id": 30,
+    "pregunta": "30. ¿Cuál es la herramienta principal para evaluar periódicamente la percepción del desempeño y agregar valor del departamento de auditoría interna?",
+    "opciones": {
+      "A": "El presupuesto de caja chica.",
+      "B": "Las encuestas de satisfacción de los clientes de auditoría y evaluaciones del QAIP.",
+      "C": "El informe de los auditores de estados financieros.",
+      "D": "El registro diario de asistencias del personal."
+    },
+    "correcta": "B",
+    "concha_mango": "QAIP e indicadores de desempeño: Retroalimentación de los auditados + revisiones de calidad miden el valor agregado real."
   }
