@@ -1,188 +1,265 @@
 [
   {
     "id": 1,
-    "pregunta": "1️⃣ El Director Ejecutivo de Auditoría (DEA) reporta administrativamente al CEO y funcionalmente al Comité de Auditoría. El CEO le solicita al DEA que omita un hallazgo significativo sobre un fraude en compras para no alarmar a los accionistas. ¿Cuál es la acción MÁS apropiada que debe tomar el DEA?",
+    "pregunta": "1️⃣ El Director Ejecutivo de Auditoría (DEA) está reevaluando el Estatuto de Auditoría Interna de la empresa. ¿Cuál de las siguientes afirmaciones respecto al Estatuto es CORRECTA según las Normas Globales de Auditoría Interna?",
     "opciones": {
-      "A": "Acatar la solicitud del CEO para mantener la línea de reporte administrativo.",
-      "B": "Modificar el informe eliminando el hallazgo pero documentando la instrucción.",
-      "C": "Informar de inmediato la situación al Comité de Auditoría, manteniendo el hallazgo.",
-      "D": "Consultar con el auditor externo antes de tomar una decisión."
+      "A": "El Estatuto debe ser redactado y aprobado de forma exclusiva por el Director Ejecutivo de Auditoría sin requerir validaciones externas.",
+      "B": "El Estatuto establece la posición de la actividad de auditoría interna dentro de la organización, incluyendo la naturaleza de la responsabilidad funcional del DEA ante el Consejo.",
+      "C": "El Estatuto es un documento operativo de carácter confidencial que no requiere la aprobación del Consejo de Administración.",
+      "D": "El Estatuto debe ser modificado y publicado únicamente cuando se realice una evaluación externa de calidad cada cinco años."
     },
-    "correcta": "C",
-    "concha_mango": "Conflicto entre reporte administrativo (CEO) y funcional (Comité). El DEA jamás omite hallazgos por orden de la gerencia."
+    "correcta": "B",
+    "concha_mango": "Ojo: El Estatuto NO es un documento privado del DEA. Define la posición formal y DEBE ser aprobado por el Consejo.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
   },
   {
     "id": 2,
-    "pregunta": "2️⃣ Un auditor interno contratado hace 6 meses procedente de Finanzas debe auditar las conciliaciones bancarias del área donde él era responsable directo. ¿Qué acción debe tomar PRIMERO?",
+    "pregunta": "2️⃣ Durante una auditoría de compras, un auditor interno descubre que su hermano es el principal accionista de uno de los proveedores seleccionados. ¿Cuál es la acción INMEDIATA que debe tomar el auditor?",
     "opciones": {
-      "A": "Aceptar la asignación con mayor nivel de escepticismo profesional.",
-      "B": "Notificar de inmediato al DEA sobre el conflicto de interés para reasignar la tarea.",
-      "C": "Auditar solo las conciliaciones posteriores a su transferencia a auditoría.",
-      "D": "Pedir a un compañero que revise y firme sus papeles de trabajo."
+      "A": "Continuar con la auditoría pero abstenerse de emitir opiniones sobre las compras realizadas a ese proveedor específico.",
+      "B": "Informar inmediatamente la situación al Director Ejecutivo de Auditoría (DEA) para que este determine si existe un conflicto de interés y reasigne el trabajo.",
+      "C": "Solicitar al proveedor que modifique temporalmente la composición accionaria durante la auditoría.",
+      "D": "Finalizar la revisión del área de compras y abstenerse de documentar el hallazgo para evitar perjurar a su familiar."
     },
     "correcta": "B",
-    "concha_mango": "Regla de los 12 meses: Responsabilidad operativa previa en el último año genera impedimenta insuperable a la objetividad."
+    "concha_mango": "Conflicto de interés: El auditor NUNCA decide por su cuenta seguir con el trabajo 'con cuidado'. Debe revelar la situación al DEA de inmediato.",
+    "dominio": "Dominio II: Independencia y Objetividad"
   },
   {
     "id": 3,
-    "pregunta": "3️⃣ La empresa implementa un NUEVO marco ERM. ¿Qué actividad PERJUDICARÍA la independencia de auditoría si la asume durante el proceso?",
+    "pregunta": "3️⃣ Un departamento de auditoría interna desea declarar en sus informes que sus trabajos 'se realizan de conformidad con las Normas Globales de Auditoría Interna'. Para poder realizar esta afirmación legítimamente, ¿qué condición es OBLIGATORIA?",
     "opciones": {
-      "A": "Evaluar la efectividad del proceso de identificación de riesgos propuesto.",
-      "B": "Diseñar y establecer la tolerancia al riesgo de la organización.",
-      "C": "Brindar capacitación sobre los conceptos del marco de control interno.",
-      "D": "Revisar el mapeo de riesgos operativos para identificar vacíos."
+      "A": "Que todos los auditores del equipo posean la certificación CIA.",
+      "B": "Que el departamento mantenga un Programa de Aseguramiento y Mejora de la Calidad (QAIP) que incluya evaluaciones internas y externas.",
+      "C": "Que la empresa auditada cotice en la bolsa de valores.",
+      "D": "Que el plan de auditoría haya sido revisado y firmado por auditores financieros externos."
     },
     "correcta": "B",
-    "concha_mango": "Verbo de gestión 'Diseñar/Establecer'. Fijar la tolerancia al riesgo es rol exclusivo de la gerencia."
+    "concha_mango": "Declaración de conformidad: No basta con querer cumplir. Solo se puede declarar si los resultados del QAIP lo respaldan.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
   },
   {
     "id": 4,
-    "pregunta": "4️⃣ Durante una auditoría a un proveedor clave, el auditor recibe una invitación a almorzar del gerente del proveedor para explicar la operativa. ¿Qué acción apoya MEJOR la objetividad?",
+    "pregunta": "4️⃣ ¿Cuál de las siguientes opciones describe MEJOR el concepto de 'Riesgo Residual' según el Marco COSO de Gestión de Riesgos Empresariales (ERM)?",
     "opciones": {
-      "A": "Aceptar siempre que el auditor pague su propia cuenta.",
-      "B": "Aceptar para construir una relación colaborativa y notificar luego.",
-      "C": "Rechazar la invitación para evitar cualquier percepción de conflicto de interés.",
-      "D": "Aceptar solo si el gerente de compras también está presente."
+      "A": "El riesgo que existe en ausencia de cualquier medida tomadas por la dirección para mitigar su impacto o probabilidad.",
+      "B": "El nivel máximo de riesgo que una organización está dispuesta a aceptar para alcanzar sus objetivos estratégicos.",
+      "C": "El riesgo que subsiste después de que la dirección ha implementado las respuestas o controles correspondientes.",
+      "D": "El riesgo que se deriva del incumplimiento involuntario de las normativas legales vigentes."
     },
-
-    
     "correcta": "C",
-    "concha_mango": "Durante una auditoría activa, rechazar atenciones evita cualquier apariencia de falta de objetividad."
+    "concha_mango": "Conceptos COSO: Riesgo Inherente = Sin controles. Riesgo Residual = Lo que queda DESPUÉS de poner controles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   },
   {
     "id": 5,
-    "pregunta": "5️⃣ ¿Cuál es el propósito PRINCIPAL de incluir la definición, el Código de Ética y los Estándares en el Estatuto de Auditoría Interna?",
+    "pregunta": "5️⃣ El Director Ejecutivo de Auditoría (DEA) es invitado a participar en el diseño e implementación de un nuevo sistema informático de facturación. De aceptar esta responsabilidad operativa, ¿qué impacto directo sufre el departamento de auditoría interna?",
     "opciones": {
-      "A": "Garantizar la aprobación del presupuesto anual sin modificaciones.",
-      "B": "Establecer la posición formal, autoridad, alcance y responsabilidad.",
-      "C": "Proporcionar procedimientos operativos detallados para cada encargo.",
-      "D": "Permitir evaluar el rendimiento individual de los auditores."
+      "A": "Incurre en una falta grave de confidencialidad al revisar datos del sistema antes de su liberación.",
+      "B": "Compromete su objetividad futura si posteriormente le corresponde auditar ese mismo sistema.",
+      "C": "Pierde automáticamente su independencia organizativa ante la Junta Directiva.",
+      "D": "Mejora sustancialmente su competencia técnica sin generar ningún tipo de conflicto ético."
     },
     "correcta": "B",
-    "concha_mango": "El Estatuto es el marco formal de gobernanza firmado con el Consejo."
-  }
-]
-{
-    "id": 11,
-    "pregunta": "1️⃣1️⃣ ¿Cuál de las siguientes responsabilidades corresponde EXCLUSIVAMENTE al Consejo / Comité de Auditoría y NO al Director Ejecutivo de Auditoría (DEA)?",
+    "concha_mango": "Diseño vs. Auditoría: Si el auditor diseña el sistema, luego no puede evaluarlo con objetividad (asume rol de gestión).",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 6,
+    "pregunta": "6️⃣ ¿Cuál es la responsabilidad PRINCIPAL de la actividad de auditoría interna con respecto al riesgo de fraude dentro de la organización?",
     "opciones": {
-      "A": "Aprobar el plan de auditoría basado en riesgos.",
-      "B": "Aprobar el presupuesto operativo del departamento de auditoría.",
-      "C": "Aprobar las decisiones relativas al nombramiento y remoción del DEA.",
-      "D": "Establecer las políticas internas para la gestión de los papeles de trabajo."
+      "A": "Garantizar que no ocurran fraudes mediante la revisión del 100% de las transacciones operativas.",
+      "B": "Diseñar e implementar los controles preventivos diarios para evitar cualquier tipo de malversación.",
+      "C": "Evaluar la efectividad de los controles que la gerencia ha diseñado para mitigar los riesgos de fraude.",
+      "D": "Asumir la defensa legal de la compañía en caso de demandas por fraude corporativo."
     },
     "correcta": "C",
-    "concha_mango": "El nombramiento, evaluación y remoción del DEA es potestad exclusiva del Consejo para salvaguardar la independencia."
+    "concha_mango": "Fraude: La gerencia es responsable de Prevenir y Diseñar. Auditoría Interna evalúa la EFECTIVIDAD de esos controles.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
+  },
+  {
+    "id": 7,
+    "pregunta": "7️⃣ El Principio de 'Integridad' del Código de Ética del IIA impone a los auditores internos la obligación de:",
+    "opciones": {
+      "A": "Divulgar toda la información obtenida a cualquier empleado que la solicite por escrito.",
+      "B": "Desempeñar su trabajo con honestidad, diligencia y responsabilidad, respetando la ley.",
+      "C": "Participar activamente en la toma de decisiones financieras de la junta directiva.",
+      "D": "Emitir opiniones de auditoría basadas en corazonadas o suposiciones cuando falte evidencia."
+    },
+    "correcta": "B",
+    "concha_mango": "Código de Ética: La integridad es la base de la confianza y exige honestidad, respeto a la ley y diligencia profesional.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
+  },
+  {
+    "id": 8,
+    "pregunta": "8️⃣ De acuerdo con el Modelo de las Tres Líneas del IIA, ¿cuál es el rol fundamental de la 'Segunda Línea'?",
+    "opciones": {
+      "A": "Prestar servicios de aseguramiento independiente y objetivo a la alta dirección y al Consejo.",
+      "B": "Asumir la responsabilidad directa de la entrega de productos y servicios a los clientes.",
+      "C": "Brindar pericia, apoyo, monitoreo y desafío en temas como gestión de riesgos y cumplimiento normativo.",
+      "D": "Aprobar el presupuesto anual del departamento de auditoría interna."
+    },
+    "correcta": "C",
+    "concha_mango": "Modelo de Tres Líneas: 1ª Línea = Operaciones; 2ª Línea = Gestión de Riesgos/Cumplimiento (Apoyo y Control); 3ª Línea = Auditoría Interna.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 9,
+    "pregunta": "9️⃣ Durante una revisión, un auditor descubre un indicador claro de que un gerente regional está falsificando reportes de ventas. ¿Qué acción debe tomar el auditor?",
+    "opciones": {
+      "A": "Confrontar en privado al gerente regional para exigirle que confiese de inmediato.",
+      "B": "Documentar los hallazgos y comunicarlos al nivel apropiado según el protocolo de investigación de fraudes de la entidad.",
+      "C": "Publicar un informe de advertencia dirigido a los accionistas minoritarios.",
+      "D": "Ignorar la anomalía si el monto de las ventas falsificadas no altera el margen neto general."
+    },
+    "correcta": "B",
+    "concha_mango": "Investigación de Fraude: El auditor no acusa directamente al sospechoso; informa según los canales autorizados para no contaminar pruebas.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
+  },
+  {
+    "id": 10,
+    "pregunta": "🔟 ¿Cuál de los siguientes es un ejemplo de un 'Control Preventivo'?",
+    "opciones": {
+      "A": "Conciliación bancaria realizada al final de cada mes.",
+      "B": "Exigencia de clave y doble factor de autenticación antes de acceder al sistema contable.",
+      "C": "Revisión posterior de los registros de auditoría (*audit logs*) por el oficial de seguridad.",
+      "D": "Inventario físico de mercancías al cierre del ejercicio contable."
+    },
+    "correcta": "B",
+    "concha_mango": "Tipos de control: Preventivo = Evita que el evento ocurra (ej. contraseña). Detectivo = Identifica el problema tras ocurrir (ej. conciliación).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 11,
+    "pregunta": "1️⃣1️⃣ ¿Con qué frecuencia DEBE realizarse una evaluación externa del Programa de Aseguramiento y Mejora de la Calidad (QAIP) según las Normas?",
+    "opciones": {
+      "A": "Al menos una vez cada tres años por un revisor cualificado e independiente.",
+      "B": "Al menos una vez cada cinco años por un revisor o equipo de revisión cualificado e independiente externo a la organización.",
+      "C": "Anualmente, coincidiendo con la auditoría de los estados financieros.",
+      "D": "Únicamente cuando exista un cambio en el Director Ejecutivo de Auditoría."
+    },
+    "correcta": "B",
+    "concha_mango": "Regla de Oro QAIP: Evaluaciones externas = Mínimo cada 5 AÑOS. Evaluaciones internas = Continuas y periódicas.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
   },
   {
     "id": 12,
-    "pregunta": "1️⃣2️⃣ Un auditor interno identificó un fraude menor en la caja chica de una sucursal remota. El monto es insignificante para los estados financieros. ¿Qué acción es la MÁS adecuada?",
+    "pregunta": "1️⃣2️⃣ Un auditor interno que trabajó hace 6 meses en el departamento de contabilidad es asignado para auditar el módulo de Cuentas por Cobrar de ese mismo departamento. ¿Cómo debe proceder el auditor?",
     "opciones": {
-      "A": "No reportar el hallazgo por no ser de importancia relativa (materialidad).",
-      "B": "Reportar el hallazgo a la gerencia local correspondiente.",
-      "C": "Informar inmediatamente al Presidente del Comité de Auditoría.",
-      "D": "Notificar a los auditores externos en la siguiente reunión anual."
+      "A": "Realizar el trabajo normalmente siempre que mantenga una actitud imparcial.",
+      "B": "Declinar la asignación o notificar la limitación de objetividad por haber pertenecido al área dentro del período de 12 meses.",
+      "C": "Auditar únicamente el trabajo de sus exparejas de equipo.",
+      "D": "Aceptar el trabajo pero omitir la firma en el informe final."
     },
     "correcta": "B",
-    "concha_mango": "Aunque el monto no sea material financieramente, los fraudes siempre se reportan, al menos al nivel gerencial adecuado."
+    "concha_mango": "Regla de los 12 Meses: Si un auditor proviene de una función operativa, no debe auditar esa área hasta transcurrido al menos 1 año.",
+    "dominio": "Dominio II: Independencia y Objetividad"
   },
   {
     "id": 13,
-    "pregunta": "1️⃣3️⃣ El DEA descubre que un auditor senior tiene una relación personal cercana con el gerente del área que está auditando. ¿Qué medida debe tomar el DEA para proteger la objetividad?",
+    "pregunta": "1️⃣3️⃣ De acuerdo con el Marco COSO de Control Interno, ¿cuál de los siguientes elementos corresponde al componente 'Entorno de Control'?",
     "opciones": {
-      "A": "Exigir que el auditor trabaje bajo la supervisión directa de un colega.",
-      "B": "Reasignar al auditor a un trabajo de auditoría en un área diferente.",
-      "C": "Permitir que continúe si el auditor promete ser imparcial.",
-      "D": "Cancelar la auditoría en esa área hasta el siguiente ciclo."
+      "A": "La definición de los canales de comunicación de denuncias anónimas.",
+      "B": "El compromiso del Consejo y la Alta Dirección con la integridad y los valores éticos.",
+      "C": "La automatización de las conciliaciones bancarias.",
+      "D": "Las pruebas de recorrido efectuadas por los auditores externos."
     },
     "correcta": "B",
-    "concha_mango": "Ante un conflicto de interés personal claro o aparente, la reasignación inmediata es la única medida preventiva válida."
+    "concha_mango": "Entorno de Control: Es la base de COSO ('Tono en la cúspide'). Se fundamenta en la ética, integridad y estructura de gobierno.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   },
   {
     "id": 14,
-    "pregunta": "1️⃣4️⃣ ¿Qué componente de la estructura de las Normas Globales de Auditoría Interna enfatiza los valores fundamentales que deben guiar la conducta de los auditores?",
+    "pregunta": "1️⃣4️⃣ ¿Quién es el responsable FINAL de la supervisión global y aprobación del Plan Anual de Auditoría Interna basado en riesgos?",
     "opciones": {
-      "A": "Las Guías de Implementación.",
-      "B": "El Código de Ética.",
-      "C": "Las Guías Complementarias.",
-      "D": "Los Requisitos Operativos del Manual."
+      "A": "El Director Financiero (CFO).",
+      "B": "El Director General de Operaciones (COO).",
+      "C": "El Consejo de Administración / Comité de Auditoría.",
+      "D": "El Gerente de Gestión de Riesgos Corporativos."
     },
-    "correcta": "B",
-    "concha_mango": "El Código de Ética establece los principios y expectativas que rigen la conducta individual del profesional."
+    "correcta": "C",
+    "concha_mango": "Independencia Funcional: El DEA propone el Plan de Auditoría, pero quien lo aprueba formalmente es el Consejo/Comité de Auditoría.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
   },
   {
     "id": 15,
-    "pregunta": "1️⃣5️⃣ Durante una consultoría sobre el diseño de un nuevo proceso de compras, la gerencia le pide al auditor interno que elija al proveedor del software de control. ¿Cómo debe responder el auditor?",
+    "pregunta": "1️⃣5️⃣ El principio ético de 'Confidencialidad' exige que los auditores internos:",
     "opciones": {
-      "A": "Aceptar la tarea si cuenta con la experiencia técnica en software.",
-      "B": "Rechazar la selección final, ofreciendo solo asesoría sobre los criterios de control.",
-      "C": "Seleccionar el software pero pedir aprobación posterior a la gerencia.",
-      "D": "Transferir la responsabilidad al auditor externo."
+      "A": "No revelen información sin la debida autorización, a menos que exista una obligación legal o profesional para hacerlo.",
+      "B": "Mantengan en secreto los hallazgos de auditoría ante el Comité de Auditoría.",
+      "C": "Oculten los errores cometidos por su propio equipo de trabajo.",
+      "D": "No utilicen herramientas tecnológicas que almacenen datos en la nube."
     },
-    "correcta": "B",
-    "concha_mango": "En servicios de consultoría, auditoría asesoría sobre controles pero NUNCA toma decisiones de gestión o selección."
+    "correcta": "A",
+    "concha_mango": "Confidencialidad: Se respeta el valor de la información recibida; solo se revela si hay autorización o requerimiento legal explícito.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
   },
   {
     "id": 16,
-    "pregunta": "1️⃣6️⃣ ¿Cuál es el objetivo PRINCIPAL del Programa de Aseguramiento y Mejora de la Calidad (QAIP) en una actividad de auditoría interna?",
+    "pregunta": "1️⃣6️⃣ ¿Cuál es la diferencia sustancial entre un servicio de 'Aseguramiento' y uno de 'Consultoría' prestado por Auditoría Interna?",
     "opciones": {
-      "A": "Evaluar la eficiencia individual de las horas facturables por auditor.",
-      "B": "Evaluar el cumplimiento de las Normas y el Código de Ética, e identificar oportunidades de mejora.",
-      "C": "Garantizar la eliminación total de errores en los informes emitidos.",
-      "D": "Demostrar a la gerencia que no se requieren revisiones externas."
+      "A": "El servicio de aseguramiento es obligatorio por ley; la consultoría es ilegal.",
+      "B": "El aseguramiento involucra una relación de tres partes (auditor, auditado y usuario del informe); la consultoría involucra a dos partes (auditor y cliente).",
+      "C": "La consultoría la aprueba el auditor externo; el aseguramiento lo aprueba el CFO.",
+      "D": "El aseguramiento no requiere evidencia documental; la consultoría exige papeles de trabajo detallados."
     },
     "correcta": "B",
-    "concha_mango": "El QAIP abarca evaluaciones internas y externas para medir conformidad con las Normas y agregar valor."
+    "concha_mango": "Relación de partes: Aseguramiento = 3 partes (Objetividad e Informe a terceros). Consultoría = 2 partes (Asesoría directa al cliente).",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
   },
   {
     "id": 17,
-    "pregunta": "1️⃣7️⃣ ¿Con qué frecuencia MÍNIMA debe realizarse una evaluación externa de la actividad de auditoría interna según los Estándares del IIA?",
+    "pregunta": "1️⃣7️⃣ ¿Qué debe hacer el DEA si la Alta Dirección decide aceptar un nivel de riesgo residual que el DEA considera inaceptable para la organización?",
     "opciones": {
-      "A": "Cada año.",
-      "B": "Cada 3 años.",
-      "C": "Cada 5 años.",
-      "D": "Cada 10 años."
+      "A": "Aceptar la decisión de la Alta Dirección sin escalar el asunto, ya que ellos gestionan la empresa.",
+      "B": "Discutir el asunto con la Alta Dirección; si no se resuelve, elevar la situación al Consejo.",
+      "C": "Emitir una denuncia penal pública contra la gerencia.",
+      "D": "Modificar el mapa de riesgos para adaptar el nivel de riesgo a la tolerancia expresada por la gerencia."
     },
-    "correcta": "C",
-    "concha_mango": "Regla de los 5 años: La revisión externa de calidad por un evaluador calificado e independiente debe hacerse al menos una vez cada 5 años."
+    "correcta": "B",
+    "concha_mango": "Riesgo Inaceptable: Ante un riesgo desatendido que comprometa a la entidad, el DEA DEBE escalar el tema directamente al Consejo.",
+    "dominio": "Dominio II: Independencia y Objetividad"
   },
   {
     "id": 18,
-    "pregunta": "1️⃣8️⃣ El Director Ejecutivo de Auditoría (DEA) debe reportar los resultados del QAIP a:",
+    "pregunta": "1️⃣8️⃣ El concepto de 'Cuidado Profesional Debido' implica que el auditor interno debe:",
     "opciones": {
-      "A": "Únicamente al Gerente General (CEO).",
-      "B": "Al Consejo y a la Alta Dirección.",
-      "C": "A los auditores externos exclusivamente.",
-      "D": "A los gerentes de las áreas auditadas durante el año."
+      "A": "Garantizar la infalibilidad y el descubrimiento absoluto de todas las irregularidades.",
+      "B": "Aplicar la diligencia y la habilidad que se espera de un auditor razonablemente prudente y competente.",
+      "C": "Auditar sin utilizar técnicas de muestreo para evitar errores.",
+      "D": "Delegar las pruebas más complejas en los empleados de la entidad auditada."
     },
     "correcta": "B",
-    "concha_mango": "Tanto los resultados internos periódicos como las evaluaciones externas del QAIP se comunican a la Alta Dirección y al Consejo."
+    "concha_mango": "Cuidado Profesional: No exige infalibilidad (cero errores), sino prudencia, competencia y diligencia en el trabajo.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
   },
   {
     "id": 19,
-    "pregunta": "1️⃣9️⃣ Un auditor interno nota que se aceptaron regalos de alto valor por parte de un proveedor clave por parte del jefe de compras. ¿Qué principio del Código de Ética está involucrado PRIMERO?",
+    "pregunta": "1️⃣9️⃣ ¿Cuál de las siguientes acciones representa una amenaza directa a la INDEPENDENCIA del departamento de auditoría interna?",
     "opciones": {
-      "A": "Competencia.",
-      "B": "Objetividad.",
-      "C": "Confidencialidad.",
-      "D": "Oportunidad."
+      "A": "El DEA reporta funcionalmente al Consejo de Administración y administrativamente al Director Ejecutivo (CEO).",
+      "B": "El Consejo aprueba las decisiones de contratación y remoción del DEA.",
+      "C": "El presupuesto operativo de auditoría interna es determinado y recortado de forma unilateral por el Gerente Financiero sin revisar con el Consejo.",
+      "D": "Los auditores internos tienen acceso irrestricto a los registros y al personal de la organización."
     },
-    "correcta": "B",
-    "concha_mango": "Aceptar obsequios o incentivos menoscaba el juicio profesional imparcial, afectando la Objetividad."
+    "correcta": "C",
+    "concha_mango": "Independencia Presupuestaria: Si el área auditada (CFO) controla o recorta el presupuesto del auditor sin supervisión del Consejo, destruye la independencia.",
+    "dominio": "Dominio II: Independencia y Objetividad"
   },
   {
     "id": 20,
-    "pregunta": "2️⃣0️⃣ Si un auditor interno no posee los conocimientos ni la experiencia técnica para auditar un sistema de tecnología complejo, ¿qué debe hacer el DEA?",
+    "pregunta": "2️⃣0️⃣ ¿Cuál es el objetivo principal del seguimiento (*follow-up*) de las recomendaciones emitidas en un informe de auditoría?",
     "opciones": {
-      "A": "Obligar al auditor a realizar la auditoría para fomentar su desarrollo profesional.",
-      "B": "Obtener la asistencia de expertos o especialistas calificados.",
-      "C": "Omitir la revisión de ese sistema en el plan de auditoría.",
-      "D": "Delegar la auditoría completa al departamento de TI de la empresa."
+      "A": "Asegurar que la gerencia haya implementado las acciones o asumido el riesgo explícitamente.",
+      "B": "Aumentar el número de horas facturadas al plan de auditoría anual.",
+      "C": "Sancionar económicamente al responsable de la unidad auditada.",
+      "D": "Reemplazar las funciones de la segunda línea de defensa."
     },
-    "correcta": "B",
-    "concha_mango": "Principio de Competencia Colectiva: Si el equipo interno carece de la pericia, se debe contratar o solicitar asesoría experta."
-  }
-{
+    "correcta": "A",
+    "concha_mango": "Seguimiento: El proceso busca confirmar que la gerencia solucionó el problema o que la Junta asumió formalmente el riesgo.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
+  },
+  {
     "id": 21,
     "pregunta": "2️⃣1️⃣ ¿Cuál es la responsabilidad de auditoría interna en relación con el marco de gobierno corporativo de la organización?",
     "opciones": {
@@ -192,7 +269,8 @@
       "D": "Asumir la presidencia del Comité de Riesgos para asegurar el cumplimiento."
     },
     "correcta": "B",
-    "concha_mango": "Gobernanza: El auditor evalúa y recomienda mejoras, pero nunca diseña ni aprueba la gobernanza."
+    "concha_mango": "Gobernanza: El auditor evalúa y recomienda mejoras, pero nunca diseña ni aprueba la gobernanza.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
   },
   {
     "id": 22,
@@ -204,7 +282,8 @@
       "D": "La realización de un inventario físico anual de activos fijos."
     },
     "correcta": "B",
-    "concha_mango": "Entorno de control: Es la base (el 'tono en la cúspide'). La integridad y ética del liderazgo fundamentan todo el sistema."
+    "concha_mango": "Entorno de control: Es la base (el 'tono en la cúspide'). La integridad y ética del liderazgo fundamentan todo el sistema.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   },
   {
     "id": 23,
@@ -216,7 +295,8 @@
       "D": "El análisis trimestral de antigüedad de cuentas por pagar."
     },
     "correcta": "B",
-    "concha_mango": "Preventivo vs Detectivo: La autorización antes de que ocurra la transacción evita el evento; las revisiones posteriores solo detectan."
+    "concha_mango": "Preventivo vs Detectivo: La autorización antes de que ocurra la transacción evita el evento; las revisiones posteriores solo detectan.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   },
   {
     "id": 24,
@@ -228,7 +308,8 @@
       "D": "El nivel de riesgo que la junta directiva está dispuesta a aceptar formalmente."
     },
     "correcta": "B",
-    "concha_mango": "Riesgo Inherente = Sin controles. Riesgo Residual = Después de aplicar controles."
+    "concha_mango": "Riesgo Inherente = Sin controles. Riesgo Residual = Después de aplicar controles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   },
   {
     "id": 25,
@@ -237,10 +318,11 @@
       "A": "Gestionar los riesgos operativos directos en el día a día.",
       "B": "Proporcionar aseguramiento independiente y objetivo sobre la efectividad de la gobernanza, gestión de riesgos y controles.",
       "C": "Supervisar el cumplimiento normativo y legal de las operaciones.",
-      "D": "Diseñar las políticas financieras de la organización."
+      "D": "Diseñar las políticas financieras de la compañía."
     },
     "correcta": "B",
-    "concha_mango": "Tres Líneas: 1ª Línea = Operatividad/Gestión; 2ª Línea = Especialistas/Cumplimiento/Riesgos; 3ª Línea = Auditoría Interna (Aseguramiento Independiente)."
+    "concha_mango": "Tres Líneas: 1ª Línea = Operatividad/Gestión; 2ª Línea = Especialistas/Cumplimiento/Riesgos; 3ª Línea = Auditoría Interna (Aseguramiento Independiente).",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
   },
   {
     "id": 26,
@@ -252,7 +334,8 @@
       "D": "Ignorar la falla si la multa estimada es menor a la materialidad financiera."
     },
     "correcta": "B",
-    "concha_mango": "Debido proceso de auditoría: Los hallazgos siempre se validan primero con la gerencia del área antes de escalar comunicaciones."
+    "concha_mango": "Debido proceso de auditoría: Los hallazgos siempre se validan primero con la gerencia del área antes de escalar comunicaciones.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
   },
   {
     "id": 27,
@@ -264,7 +347,8 @@
       "D": "Oportunidad."
     },
     "correcta": "B",
-    "concha_mango": "Honorarios contingentes o condicionamientos económicos destruyen la objetividad e imparcialidad del juicio del auditor."
+    "concha_mango": "Honorarios contingentes o condicionamientos económicos destruyen la objetividad e imparcialidad del juicio del auditor.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
   },
   {
     "id": 28,
@@ -276,7 +360,8 @@
       "D": "Renunciar inmediatamente al cargo de DEA."
     },
     "correcta": "B",
-    "concha_mango": "Manejo de Riesgo Inaceptable: Si la gerencia asume un riesgo que excede la tolerancia sin corregirlo, el DEA DEBE escalar al Consejo."
+    "concha_mango": "Manejo de Riesgo Inaceptable: Si la gerencia asume un riesgo que excede la tolerancia sin corregirlo, el DEA DEBE escalar al Consejo.",
+    "dominio": "Dominio II: Independencia y Objetividad"
   },
   {
     "id": 29,
@@ -288,11 +373,12 @@
       "D": "Evaluar la rentabilidad comercial de la compañía."
     },
     "correcta": "B",
-    "concha_mango": "Gestión de Recursos: El DEA debe asegurar la idoneidad y suficiencia de los recursos del departamento de auditoría."
+    "concha_mango": "Gestión de Recursos: El DEA debe asegurar la idoneidad y suficiencia de los recursos del departamento de auditoría.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
   },
   {
     "id": 30,
-    "pregunta": "30. ¿Cuál es la herramienta principal para evaluar periódicamente la percepción del desempeño y agregar valor del departamento de auditoría interna?",
+    "pregunta": "3️⃣0️⃣ ¿Cuál es la herramienta principal para evaluar periódicamente la percepción del desempeño y agregar valor del departamento de auditoría interna?",
     "opciones": {
       "A": "El presupuesto de caja chica.",
       "B": "Las encuestas de satisfacción de los clientes de auditoría y evaluaciones del QAIP.",
@@ -300,5 +386,137 @@
       "D": "El registro diario de asistencias del personal."
     },
     "correcta": "B",
-    "concha_mango": "QAIP e indicadores de desempeño: Retroalimentación de los auditados + revisiones de calidad miden el valor agregado real."
+    "concha_mango": "QAIP e indicadores de desempeño: Retroalimentación de los auditados + revisiones de calidad miden el valor agregado real.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 31,
+    "pregunta": "3️⃣1️⃣ ¿Cuál es la principal diferencia entre un servicio de aseguramiento y un servicio de consultoría realizado por auditoría interna?",
+    "opciones": {
+      "A": "El servicio de aseguramiento es obligatorio por ley, la consultoría es optativa.",
+      "B": "En aseguramiento participan 3 partes (auditor, auditado, usuario); en consultoría participan 2 partes (auditor y cliente).",
+      "C": "El aseguramiento solo lo realizan auditores externos, la consultoría auditoría interna.",
+      "D": "La consultoría requiere emitir una opinión formal de auditoría obligatoriamente."
+    },
+    "correcta": "B",
+    "concha_mango": "Estructura de Encargos: Aseguramiento = 3 partes (Evaluación objetiva). Consultoría = 2 partes (Asesoría solicitada por el cliente).",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 32,
+    "pregunta": "3️⃣2️⃣ Un auditor interno que revisa las nóminas descubre que un familiar directo (su hermano) trabaja en ese departamento pero en un rol operativo sin relación con los pagos. ¿Qué debe hacer el auditor?",
+    "opciones": {
+      "A": "Continuar con la auditoría sin notificar nada porque su hermano no maneja los pagos.",
+      "B": "Notificar inmediatamente el posible conflicto de interés al DEA para evaluar su sustitución.",
+      "C": "Solicitar la renuncia de su hermano antes de concluir el trabajo.",
+      "D": "Omitir las pruebas de nómina de toda la categoría donde trabaja su hermano."
+    },
+    "correcta": "B",
+    "concha_mango": "Apariencia de Conflicto de Interés: Debe declararse al DEA siempre, aunque el familiar no maneje los fondos directamente.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 33,
+    "pregunta": "3️⃣3️⃣ ¿Qué elemento NO debe formar parte del informe final escrito de un encargo de auditoría?",
+    "opciones": {
+      "A": "Los objetivos y el alcance de la auditoría.",
+      "B": "Las conclusiones y recomendaciones del auditor.",
+      "C": "La opinión o respuesta de la gerencia sobre los hallazgos.",
+      "D": "Los papeles de trabajo detallados con las marcas de comprobación de campo."
+    },
+    "correcta": "D",
+    "concha_mango": "Los papeles de trabajo son evidencia confidencial de respaldo interno de auditoría; NUNCA se adjuntan al informe final distribuido.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
+  },
+  {
+    "id": 34,
+    "pregunta": "3️⃣4️⃣ De acuerdo con el Marco COSO ERM, la 'Apetito de Riesgo' es definida como:",
+    "opciones": {
+      "A": "La cantidad máxima de riesgo que una entidad está legalmente autorizada a asumir.",
+      "B": "La cantidad de riesgo, en un nivel general, que una organización está dispuesta a aceptar en busca de valor.",
+      "C": "El riesgo residual que queda después de aplicar todos los controles.",
+      "D": "La probabilidad de que ocurra un fraude financiero en el periodo."
+    },
+    "correcta": "B",
+    "concha_mango": "Apetito al Riesgo: Nivel general de riesgo aceptable fijado por la Junta para alcanzar objetivos estratégicos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 35,
+    "pregunta": "3️⃣5️⃣ Si un auditor interno recibe presiones por parte de la gerencia auditada para no revisar un lote de facturas sospechosas, esto constituye una:",
+    "opciones": {
+      "A": "Limitación al alcance de la auditoría que debe informarse al Consejo.",
+      "B": "Falta de competencia del equipo auditor.",
+      "C": "Violación al principio de Confidencialidad.",
+      "D": "Desviación aceptable en el desarrollo del trabajo."
+    },
+    "correcta": "A",
+    "concha_mango": "Limitación al Alcance: Impedir el acceso a registros o áreas por parte de la gerencia debe comunicarse inmediatamente al Consejo.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 36,
+    "pregunta": "3️⃣6️⃣ ¿Cuál de los siguientes es un ejemplo de control de detección (detectivo)?",
+    "opciones": {
+      "A": "Restricción de acceso físico con tarjeta electrónica a la sala de servidores.",
+      "B": "Revisión y conciliación mensual de saldos de inventario físico vs. libros contables.",
+      "C": "Segregación de funciones entre el comprador y el aprobador de facturas.",
+      "D": "Políticas de contratación de personal con verificación de antecedentes."
+    },
+    "correcta": "B",
+    "concha_mango": "Control Detectivo: Identifica el error o la discrepancia DESPUÉS de que ha ocurrido (ej. conciliaciones).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 37,
+    "pregunta": "3️⃣7️⃣ ¿Qué se requiere para que un departamento de auditoría interna declare que sus trabajos se realizan 'en conformidad con las Normas Globales de Auditoría Interna'?",
+    "opciones": {
+      "A": "Que el DEA tenga la certificación CIA.",
+      "B": "Haber desarrollado e implementado un QAIP que incluya evaluaciones internas y externas.",
+      "C": "Haber completado más de 50 auditorías al año.",
+      "D": "Contar con la aprobación explícita de los auditores externos."
+    },
+    "correcta": "B",
+    "concha_mango": "Declaración de Conformidad: Solo se puede usar en los informes si los resultados del QAIP respaldan dicha afirmación.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 38,
+    "pregunta": "3️⃣8️⃣ Un auditor interno sospecha de la existencia de un esquema de colusión de fraude entre un comprador y un proveedor. ¿Qué acción debe tomar PRIMERO?",
+    "opciones": {
+      "A": "Confrontar directamente al comprador para exigir una confesión.",
+      "B": "Evaluar los indicadores (banderas rojas) y coordinar con los especialistas en investigación de fraudes.",
+      "C": "Llamar a la policía para que realice un allanamiento.",
+      "D": "Cerrar la auditoría inmediatamente para no interferir."
+    },
+    "correcta": "B",
+    "concha_mango": "Respuesta ante Fraude: El auditor no acusa sin pruebas ni interroga agresivamente; evalúa alertas rojas y consulta con expertos en investigaciones.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
+  },
+  {
+    "id": 39,
+    "pregunta": "3️⃣9️⃣ ¿Cuál es la responsabilidad de auditoría interna respecto al monitoreo de las acciones correctivas acordadas en los informes?",
+    "opciones": {
+      "A": "Ejecutar las acciones correctivas directamente si la gerencia no lo hace.",
+      "B": "Establecer un proceso de seguimiento para verificar que la gerencia haya implementado las soluciones o asumido el riesgo.",
+      "C": "Sancionar económicamente a los gerentes que no cumplan con las fechas.",
+      "D": "Cerrar los hallazgos automáticamente tras 30 días de emitido el informe."
+    },
+    "correcta": "B",
+    "concha_mango": "Seguimiento (Follow-up): El DEA establece un proceso para asegurar que las acciones se implementaron o que la gerencia asumió el riesgo.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones de Encargo"
+  },
+  {
+    "id": 40,
+    "pregunta": "4️⃣0️⃣ De acuerdo con el Código de Ética, un auditor interno debe realizar sus servicios con honestidad, diligencia y responsabilidad. ¿A qué principio ético corresponde esta afirmación?",
+    "opciones": {
+      "A": "Integridad.",
+      "B": "Objetividad.",
+      "C": "Confidencialidad.",
+      "D": "Competencia."
+    },
+    "correcta": "A",
+    "concha_mango": "Principio de Integridad: Es el fundamento de la confianza; exige honestidad, diligencia y respeto a la ley y valores morales.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
   }
+]
