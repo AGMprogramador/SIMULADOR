@@ -2210,3 +2210,133 @@
     "concha_mango": "El seguimiento verifica que los compromisos asumidos por la gerencia se hayan materializado eficazmente para mitigar las debilidades señaladas.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
   }
+{
+    "id": 171,
+    "pregunta": "1️⃣7️⃣1️⃣ ¿Cuál es la responsabilidad principal del Consejo de Administración (o Comité de Auditoría) en relación con la función de Auditoría Interna?",
+    "opciones": {
+      "A": "Aprobar el Estatuto de Auditoría Interna y el plan anual de auditoría basado en riesgos.",
+      "B": "Ejecutar las pruebas de auditoría en las áreas operativas.",
+      "C": "Revisar y aprobar cada comprobante de pago emitido por contabilidad.",
+      "D": "Supervisar la asistencia diaria del personal operativo."
+    },
+    "correcta": "A",
+    "concha_mango": "El Consejo garantiza la independencia funcional aprobando el Estatuto, el presupuesto y el plan general de auditoría.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 172,
+    "pregunta": "1️⃣7️⃣2️⃣ Un auditor interno nota que el departamento de compras adjudica contratos a un proveedor recurrente sin solicitar cotizaciones competitivas. ¿Qué elemento del hallazgo representa la falta de política escrita?",
+    "opciones": {
+      "A": "Criterio.",
+      "B": "Condición.",
+      "C": "Causa.",
+      "D": "Efecto."
+    },
+    "correcta": "A",
+    "concha_mango": "El Criterio representa el estándar, norma o política contra la cual se compara la situación real observed (Condición).",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 173,
+    "pregunta": "1️⃣7️⃣3️⃣ ¿Qué se entiende por 'Riesgo Inherente'?",
+    "opciones": {
+      "A": "El riesgo existente en ausencia de cualquier acción o control de la gerencia para alterar su probabilidad o impacto.",
+      "B": "El riesgo que persiste después de haber implementado eficazmente las actividades de control.",
+      "C": "El riesgo de que el auditor interno emita una conclusión errónea en su informe.",
+      "D": "El riesgo de pérdida financiera exclusiva por variaciones en el tipo de cambio."
+    },
+    "correcta": "A",
+    "concha_mango": "El riesgo inherente es la vulnerabilidad intrínseca de una actividad antes de aplicar controles mitigantes.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 174,
+    "pregunta": "1️⃣7️⃣4️⃣ ¿Cuál de las siguientes acciones representa una violación del Código de Ética referente a la 'Confidencialidad'?",
+    "opciones": {
+      "A": "Utilizar datos financieros de la empresa obtenidos durante una auditoría para realizar inversiones personales en la bolsa.",
+      "B": "Compartir los papeles de trabajo con los miembros asignados al equipo de auditoría.",
+      "C": "Revelar información confidencial cuando la ley o un tribunal judicial lo exija formalmente.",
+      "D": "Entregar informes finales al Comité de Auditoría."
+    },
+    "correcta": "A",
+    "concha_mango": "Los auditores no deben utilizar información confidencial para beneficio personal o de manera contraria a la ley o ética.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 175,
+    "pregunta": "1️⃣7️⃣5️⃣ En el diseño de un programa de trabajo de auditoría, ¿cuál debe ser el punto de partida principal?",
+    "opciones": {
+      "A": "Los objetivos de la actividad que se va a auditar y los riesgos asociados a dichos objetivos.",
+      "B": "La lista de auditorías realizadas en empresas competidoras.",
+      "C": "El número de auditores disponibles en la plantilla.",
+      "D": "El presupuesto de viáticos asignado al equipo."
+    },
+    "correcta": "A",
+    "concha_mango": "El programa de trabajo se alinea evaluando los objetivos y riesgos específicos del proceso auditado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 176,
+    "pregunta": "1️⃣7️⃣6️⃣ Un control que requiere una segunda firma de autorización antes de procesar una transferencia bancaria de alto monto es un ejemplo de:",
+    "opciones": {
+      "A": "Control Preventivo.",
+      "B": "Control Detectivo.",
+      "C": "Control Correctivo.",
+      "D": "Control Compensatorio posterior."
+    },
+    "correcta": "A",
+    "concha_mango": "Los controles preventivos actúan antes de que ocurra el evento o la transacción para evitar errores o irregularidades.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 177,
+    "pregunta": "1️⃣7️⃣7️⃣ ¿Qué se requiere para garantizar que los 'Papeles de Trabajo' sean técnicamente adecuados?",
+    "opciones": {
+      "A": "Que sean claros, completos, concisos y permitan a un auditor experimentado rearmar el trabajo sin explicaciones verbales.",
+      "B": "Que contengan únicamente gráficos de barras en color.",
+      "C": "Que sean impresos y empastados físicamente sin guardar respaldos digitales.",
+      "D": "Que estén redactados en terminología legal exclusiva."
+    },
+    "correcta": "A",
+    "concha_mango": "Los papeles de trabajo deben documentar de forma autosuficiente la evidencia, análisis y fundamentación de las conclusiones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 178,
+    "pregunta": "1️⃣7️⃣8️⃣ De acuerdo con las normas, ¿quién es el responsable final de la calidad general y supervisión de los trabajos de auditoría interna?",
+    "opciones": {
+      "A": "El Director Ejecutivo de Auditoría (DEA).",
+      "B": "El Gerente General de la empresa.",
+      "C": "El auditor junior encargado del trabajo de campo.",
+      "D": "El Asesor Legal externo."
+    },
+    "correcta": "A",
+    "concha_mango": "El DEA mantiene la responsabilidad general de la supervisión, calidad y cumplimiento normativo de todos los encargos.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 179,
+    "pregunta": "1️⃣7️⃣9️⃣ Si un auditor interno identifica un riesgo crítico durante un examen pero no está dentro del alcance original del encargo, ¿qué debe hacer?",
+    "opciones": {
+      "A": "Comunicar inmediatamente el riesgo a la gerencia del área y al DEA para evaluar ajustar el alcance.",
+      "B": "Ignorar la situación por no formar parte del alcance planificado.",
+      "C": "Cerrar la auditoría sin emitir informe.",
+      "D": "Modificar el manual de organización de la empresa unilateralmente."
+    },
+    "correcta": "A",
+    "concha_mango": "Los hallazgos o riesgos significativos fuera del alcance inicial deben ser comunicados para tomar acciones oportunas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 180,
+    "pregunta": "1️⃣8️⃣0️⃣ ¿Cuál es la principal ventaja de utilizar cuestionarios de control interno (CCIs) durante la fase de planificación?",
+    "opciones": {
+      "A": "Facilitan una recopilación rápida y estructurada de información sobre la existencia de controles clave.",
+      "B": "Sustituyen la necesidad de realizar pruebas de cumplimiento o detalle.",
+      "C": "Garantizan que no existan fraudes en la organización.",
+      "D": "Emiten automáticamente la opinión de auditoría."
+    },
+    "correcta": "A",
+    "concha_mango": "Los cuestionarios estructuran la indagación inicial sobre el diseño de los controles, sirviendo de guía para las pruebas posteriores.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  }
