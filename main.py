@@ -106,7 +106,7 @@ async def resumen(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(reporte, parse_mode="Markdown")
 
 def main():
-    app = Application.builder().token(TOKEN).build()
+    app = Application.builder().token(TOKEN_SECRETO).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("practica", practica))
     app.add_handler(CommandHandler("resumen", resumen))
