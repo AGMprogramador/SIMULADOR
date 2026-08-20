@@ -60,3 +60,123 @@
     "concha_mango": "El Estatuto es el marco formal de gobernanza firmado con el Consejo."
   }
 ]
+{
+    "id": 11,
+    "pregunta": "1️⃣1️⃣ ¿Cuál de las siguientes responsabilidades corresponde EXCLUSIVAMENTE al Consejo / Comité de Auditoría y NO al Director Ejecutivo de Auditoría (DEA)?",
+    "opciones": {
+      "A": "Aprobar el plan de auditoría basado en riesgos.",
+      "B": "Aprobar el presupuesto operativo del departamento de auditoría.",
+      "C": "Aprobar las decisiones relativas al nombramiento y remoción del DEA.",
+      "D": "Establecer las políticas internas para la gestión de los papeles de trabajo."
+    },
+    "correcta": "C",
+    "concha_mango": "El nombramiento, evaluación y remoción del DEA es potestad exclusiva del Consejo para salvaguardar la independencia."
+  },
+  {
+    "id": 12,
+    "pregunta": "1️⃣2️⃣ Un auditor interno identificó un fraude menor en la caja chica de una sucursal remota. El monto es insignificante para los estados financieros. ¿Qué acción es la MÁS adecuada?",
+    "opciones": {
+      "A": "No reportar el hallazgo por no ser de importancia relativa (materialidad).",
+      "B": "Reportar el hallazgo a la gerencia local correspondiente.",
+      "C": "Informar inmediatamente al Presidente del Comité de Auditoría.",
+      "D": "Notificar a los auditores externos en la siguiente reunión anual."
+    },
+    "correcta": "B",
+    "concha_mango": "Aunque el monto no sea material financieramente, los fraudes siempre se reportan, al menos al nivel gerencial adecuado."
+  },
+  {
+    "id": 13,
+    "pregunta": "1️⃣3️⃣ El DEA descubre que un auditor senior tiene una relación personal cercana con el gerente del área que está auditando. ¿Qué medida debe tomar el DEA para proteger la objetividad?",
+    "opciones": {
+      "A": "Exigir que el auditor trabaje bajo la supervisión directa de un colega.",
+      "B": "Reasignar al auditor a un trabajo de auditoría en un área diferente.",
+      "C": "Permitir que continúe si el auditor promete ser imparcial.",
+      "D": "Cancelar la auditoría en esa área hasta el siguiente ciclo."
+    },
+    "correcta": "B",
+    "concha_mango": "Ante un conflicto de interés personal claro o aparente, la reasignación inmediata es la única medida preventiva válida."
+  },
+  {
+    "id": 14,
+    "pregunta": "1️⃣4️⃣ ¿Qué componente de la estructura de las Normas Globales de Auditoría Interna enfatiza los valores fundamentales que deben guiar la conducta de los auditores?",
+    "opciones": {
+      "A": "Las Guías de Implementación.",
+      "B": "El Código de Ética.",
+      "C": "Las Guías Complementarias.",
+      "D": "Los Requisitos Operativos del Manual."
+    },
+    "correcta": "B",
+    "concha_mango": "El Código de Ética establece los principios y expectativas que rigen la conducta individual del profesional."
+  },
+  {
+    "id": 15,
+    "pregunta": "1️⃣5️⃣ Durante una consultoría sobre el diseño de un nuevo proceso de compras, la gerencia le pide al auditor interno que elija al proveedor del software de control. ¿Cómo debe responder el auditor?",
+    "opciones": {
+      "A": "Aceptar la tarea si cuenta con la experiencia técnica en software.",
+      "B": "Rechazar la selección final, ofreciendo solo asesoría sobre los criterios de control.",
+      "C": "Seleccionar el software pero pedir aprobación posterior a la gerencia.",
+      "D": "Transferir la responsabilidad al auditor externo."
+    },
+    "correcta": "B",
+    "concha_mango": "En servicios de consultoría, auditoría asesoría sobre controles pero NUNCA toma decisiones de gestión o selección."
+  },
+  {
+    "id": 16,
+    "pregunta": "1️⃣6️⃣ ¿Cuál es el objetivo PRINCIPAL del Programa de Aseguramiento y Mejora de la Calidad (QAIP) en una actividad de auditoría interna?",
+    "opciones": {
+      "A": "Evaluar la eficiencia individual de las horas facturables por auditor.",
+      "B": "Evaluar el cumplimiento de las Normas y el Código de Ética, e identificar oportunidades de mejora.",
+      "C": "Garantizar la eliminación total de errores en los informes emitidos.",
+      "D": "Demostrar a la gerencia que no se requieren revisiones externas."
+    },
+    "correcta": "B",
+    "concha_mango": "El QAIP abarca evaluaciones internas y externas para medir conformidad con las Normas y agregar valor."
+  },
+  {
+    "id": 17,
+    "pregunta": "1️⃣7️⃣ ¿Con qué frecuencia MÍNIMA debe realizarse una evaluación externa de la actividad de auditoría interna según los Estándares del IIA?",
+    "opciones": {
+      "A": "Cada año.",
+      "B": "Cada 3 años.",
+      "C": "Cada 5 años.",
+      "D": "Cada 10 años."
+    },
+    "correcta": "C",
+    "concha_mango": "Regla de los 5 años: La revisión externa de calidad por un evaluador calificado e independiente debe hacerse al menos una vez cada 5 años."
+  },
+  {
+    "id": 18,
+    "pregunta": "1️⃣8️⃣ El Director Ejecutivo de Auditoría (DEA) debe reportar los resultados del QAIP a:",
+    "opciones": {
+      "A": "Únicamente al Gerente General (CEO).",
+      "B": "Al Consejo y a la Alta Dirección.",
+      "C": "A los auditores externos exclusivamente.",
+      "D": "A los gerentes de las áreas auditadas durante el año."
+    },
+    "correcta": "B",
+    "concha_mango": "Tanto los resultados internos periódicos como las evaluaciones externas del QAIP se comunican a la Alta Dirección y al Consejo."
+  },
+  {
+    "id": 19,
+    "pregunta": "1️⃣9️⃣ Un auditor interno nota que se aceptaron regalos de alto valor por parte de un proveedor clave por parte del jefe de compras. ¿Qué principio del Código de Ética está involucrado PRIMERO?",
+    "opciones": {
+      "A": "Competencia.",
+      "B": "Objetividad.",
+      "C": "Confidencialidad.",
+      "D": "Oportunidad."
+    },
+    "correcta": "B",
+    "concha_mango": "Aceptar obsequios o incentivos menoscaba el juicio profesional imparcial, afectando la Objetividad."
+  },
+  {
+    "id": 20,
+    "pregunta": "2️⃣0️⃣ Si un auditor interno no posee los conocimientos ni la experiencia técnica para auditar un sistema de tecnología complejo, ¿qué debe hacer el DEA?",
+    "opciones": {
+      "A": "Obligar al auditor a realizar la auditoría para fomentar su desarrollo profesional.",
+      "B": "Obtener la asistencia de expertos o especialistas calificados.",
+      "C": "Omitir la revisión de ese sistema en el plan de auditoría.",
+      "D": "Delegar la auditoría completa al departamento de TI de la empresa."
+    },
+    "correcta": "B",
+    "concha_mango": "Principio de Competencia Colectiva: Si el equipo interno carece de la pericia, se debe contratar o solicitar asesoría experta."
+  }
