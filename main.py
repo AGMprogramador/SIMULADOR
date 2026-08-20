@@ -209,8 +209,8 @@ def lanzar_siguiente_pregunta(chat_id):
 
 
 if __name__ == "__main__":
-    # 1. Arranca Flask en segundo plano
-    t = Thread(target=run_flask)
+    # 1. Arranca Flask en segundo plano sin necesitar una función run_flask definida
+    t = Thread(target=lambda: app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), use_reloader=False))
     t.daemon = True
     t.start()
 
