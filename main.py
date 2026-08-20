@@ -1,20 +1,18 @@
-import os
 import json
 import logging
 import random
+import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-# --- CONFIGURACIÓN ---
-TOKEN_SECRETO = os.environ.get("TELEGRAM_TOKEN")
-bot = telebot.TeleBot(TOKEN_SECRETO)
+# TOKEN obtenido de BotFather
+TOKEN = "8978158063:AAH7qeAYPfHT-wBE7rUojqGmjTjDHgksZuk"
 
-
-# Carga del Banco Completo desde el archivo JSON
+# Carga de la Base de Datos
 try:
     with open("preguntas.json", "r", encoding="utf-8") as f:
         BANCO_COMPLETO = json.load(f)
-    print(f"✅ Banco cargado exitosamente: {len(BANCO_COMPLETO)} preguntas en total.")
+    print(f"✅ Base de datos cargada: {len(BANCO_COMPLETO)} preguntas en total.")
 except Exception as e:
     print(f"❌ Error al cargar preguntas.json: {e}")
     BANCO_COMPLETO = []
@@ -24,18 +22,18 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user.first_name
     await update.message.reply_text(
-        f"¡Hola {user}! 🎯 Tu Entrenador CIA Parte 1 está listo con {len(BANCO_COMPLETO)} preguntas.\n\n"
+        f"¡Hola {user}! 🎯 Tu Entrenador CIA Parte 1 está listo.\n\n"
+        f"📚 Preguntas cargadas: {len(BANCO_COMPLETO)}\n\n"
         "Comandos disponibles:\n"
-        "/practica - Iniciar un bloque aleatorio de 10 preguntas\n"
-        "/resumen - Generar reporte para enviar a tu Coach"
+        "/practica - Iniciar un bloque aleatorio de preguntas\n"
+        "/resumen - Generar informe para tu Coach"
     )
 
 async def practica(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not BANCO_COMPLETO:
-        await update.message.reply_text("❌ No hay preguntas cargadas en la base de datos.")
+        await update.message.reply_text("❌ La base de datos de preguntas está vacía o no se encontró el archivo preguntas.json.")
         return
 
-    # Selecciona 10 preguntas ALEATORIAS sin repetir
     cant = min(10, len(BANCO_COMPLETO))
     context.user_data['sesion_preguntas'] = random.sample(BANCO_COMPLETO, cant)
     context.user_data['indice'] = 0
@@ -66,7 +64,7 @@ async def enviar_pregunta(update: Update, context: ContextTypes.DEFAULT_TYPE):
         aciertos = context.user_data.get('aciertos', 0)
         total = len(preguntas_sesion)
         pct = (aciertos / total) * 100 if total > 0 else 0
-        msg_final = f"🏁 **¡Bloque Completado!**\n\n🎯 Puntaje: {aciertos}/{total} ({pct:.1f}%)\n\nEscribe /resumen para generar el informe o /practica para lanzar 10 preguntas nuevas."
+        msg_final = f"🏁 **¡Bloque Completado!**\n\n🎯 Puntaje: {aciertos}/{total} ({pct:.1f}%)\n\nEscribe /resumen para generar el informe o /practica para lanzar otro bloque."
         if update.callback_query:
             await update.callback_query.message.reply_text(msg_final, parse_mode="Markdown")
 
@@ -101,9 +99,9 @@ async def resumen(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"📊 **REPORTE DE COACHING CIA**\n"
         f"-----------------------------\n"
         f"Puntaje: {aciertos}/{total}\n"
-        f"IDs Fallados: {fallos if fallos else '¡Ninguno! Perfecta la racha.'}\n"
+        f"IDs Fallados: {fallos if fallos else '¡Ninguno!'}\n"
         f"-----------------------------\n"
-        f"Copia y pega este texto en nuestro chat de entrenamiento."
+        f"Copia y pega este texto en nuestro chat."
     )
     await update.message.reply_text(reporte, parse_mode="Markdown")
 
@@ -114,7 +112,7 @@ def main():
     app.add_handler(CommandHandler("resumen", resumen))
     app.add_handler(CallbackQueryHandler(responder))
     
-    print("🤖 CIA Coach Bot iniciado con base de datos completa...")
+    print("🤖 CIA Coach Bot iniciado correctamente en Railway...")
     app.run_polling()
 
 if __name__ == "__main__":
