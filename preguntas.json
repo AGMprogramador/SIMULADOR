@@ -2080,3 +2080,133 @@
     "concha_mango": "La Norma 2420 establece las 7 cualidades esenciales que deben tener las comunicaciones de auditoría.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
   }
+{
+    "id": 161,
+    "pregunta": "1️⃣6️⃣1️⃣ ¿Cuál es el rol principal de la función de Auditoría Interna frente a la gestión de fraudes en la organización?",
+    "opciones": {
+      "A": "Evaluar la efectividad de los controles diseñados para prevenir y detectar fraudes, e investigar cuando se le solicite.",
+      "B": "Diseñar e implementar los sistemas de vigilancia física y cámaras en todas las sedes.",
+      "C": "Asumir la responsabilidad directa de evitar que cualquier empleado cometa un acto ilícito.",
+      "D": "Reemplazar a la policía y a los tribunales de justicia en la sanción de los culpables."
+    },
+    "correcta": "A",
+    "concha_mango": "La gerencia es responsable del diseño e implementación de controles antifraude; Auditoría Interna evalúa su suficiencia y efectividad.",
+    "dominio": "Dominio VI: Fraude"
+  },
+  {
+    "id": 162,
+    "pregunta": "1️⃣6️⃣2️⃣ Un auditor interno identifica que una conciliación bancaria mensual contiene una partida en tránsito sin justificación desde hace 8 meses. Esto constituye:",
+    "opciones": {
+      "A": "Una condición (hallazgo) de control interno que requiere investigación por posible error o irregularidad.",
+      "B": "Una práctica contable estándar totalmente aceptable.",
+      "C": "Una recomendación para modificar las NIIF.",
+      "D": "Un ajuste automático de pérdidas y ganancias."
+    },
+    "correcta": "A",
+    "concha_mango": "Las partidas conciliatorias antiguas sin depurar son señales de alerta (red flags) de ineficiencia operativa o posible fraude.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 163,
+    "pregunta": "1️⃣6️⃣3️⃣ De acuerdo con COSO, ¿qué componente enfatiza la importancia de establecer líneas de responsabilidad y delegación de autoridad?",
+    "opciones": {
+      "A": "Entorno de Control.",
+      "B": "Actividades de Control.",
+      "C": "Monitoreo.",
+      "D": "Evaluación de Riesgos."
+    },
+    "correcta": "A",
+    "concha_mango": "El Entorno de Control abarca la estructura organizacional, la asignación de autoridad y la responsabilidad de la dirección.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 164,
+    "pregunta": "1️⃣6️⃣4️⃣ ¿Qué significa que una técnica de muestreo sea 'Representativa' de la población?",
+    "opciones": {
+      "A": "Que las características de la muestra seleccionada reflejan con precisión las características de toda la población.",
+      "B": "Que la muestra incluye obligatoriamente todas las partidas de alto valor monetario.",
+      "C": "Que los datos fueron elegidos a criterio personal del auditor sin usar fórmulas.",
+      "D": "Que abarca al menos el 90% del volumen físico de los archivos."
+    },
+    "correcta": "A",
+    "concha_mango": "La representatividad permite inferir o proyectar razonablemente las conclusiones obtenidas en la muestra hacia el total de la población.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 165,
+    "pregunta": "1️⃣6️⃣5️⃣ Si durante un encargo de aseguramiento se detecta una discrepancia no material, ¿cuál es el enfoque más adecuado para comunicarla?",
+    "opciones": {
+      "A": "Discutirla informalmente con el nivel operativo responsable antes de cerrar el trabajo.",
+      "B": "Elevar una denuncia ante la Junta Directiva de inmediato.",
+      "C": "Ocultar la información en los papeles de trabajo sin registrarla.",
+      "D": "Exigir una auditoría externa especial."
+    },
+    "correcta": "A",
+    "concha_mango": "Asuntos de menor importancia pueden ser tratados verbalmente u mediante notas de memorando con la gerencia local para mantener el enfoque en lo relevante.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 166,
+    "pregunta": "1️⃣6️⃣6️⃣ ¿Cuál de las siguientes acciones fortalece de mejor manera la objetividad individual de un auditor interno?",
+    "opciones": {
+      "A": "Evitar participar en revisiones de áreas donde tenga conflictos de interés personales o financieros.",
+      "B": "Aceptar obsequios de valor significativo de parte de los auditados para mantener buenas relaciones.",
+      "C": "Rotar de trabajo hacia la gerencia financiera cada 6 meses.",
+      "D": "Evitar realizar preguntas críticas durante las entrevistas."
+    },
+    "correcta": "A",
+    "concha_mango": "Reconocer y divulgar los conflictos de interés (o abstenerse de auditar esas áreas) preserva la objetividad mental e imparcialidad del auditor.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 167,
+    "pregunta": "1️⃣6️⃣7️⃣ En el marco COSO, ¿cuál es el propósito de las 'Actividades de Control'?",
+    "opciones": {
+      "A": "Establecer las políticas y procedimientos que ayudan a asegurar que se lleven a cabo las directrices de la gerencia para mitigar riesgos.",
+      "B": "Revisar los informes contables una vez al año.",
+      "C": "Definir los sueldos del equipo directivo.",
+      "D": "Capacitar al personal en atención al cliente."
+    },
+    "correcta": "A",
+    "concha_mango": "Las actividades de control son las acciones establecidas mediante políticas y procedimientos para mitigar los riesgos hasta un nivel aceptable.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 168,
+    "pregunta": "1️⃣6️⃣8️⃣ ¿Qué debe contener el 'Estatuto de Auditoría Interna' para garantizar la independencia funcional del departamento?",
+    "opciones": {
+      "A": "El acceso irrestricto a los registros, personal y propiedades relevantes para la ejecución de los trabajos.",
+      "B": "La lista detallada de los nombres de todos los proveedores de la empresa.",
+      "C": "La clave de acceso a las cuentas bancarias operativas.",
+      "D": "El procedimiento de contratación de personal operativo de ventas."
+    },
+    "correcta": "A",
+    "concha_mango": "El Estatuto debe otorgar explícitamente acceso libre e ilimitado a la información y personal necesario para cumplir el mandato de auditoría.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 169,
+    "pregunta": "1️⃣6️⃣9️⃣ Un auditor interno realiza un análisis de datos sobre las notas de crédito emitidas y descubre patrones inusuales asociados a un usuario específico. ¿Cuál es el paso siguiente más adecuado?",
+    "opciones": {
+      "A": "Profundizar la investigación revisando la documentación de soporte de esas notas de crédito antes de llegar a una conclusión.",
+      "B": "Acusar inmediatamente al usuario de fraude ante la prensa.",
+      "C": "Borrar el registro del usuario del sistema informático.",
+      "D": "Ignorar la anomalía por ser un análisis computarizado."
+    },
+    "correcta": "A",
+    "concha_mango": "Los hallazgos de analítica de datos señalan anomalías que deben ser corroboradas con pruebas de detalle y documentación física/digital.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 170,
+    "pregunta": "1️⃣7️⃣0️⃣ ¿Cuál es el beneficio primordial del 'Seguimiento de Hallazgos' (Follow-up) realizado por Auditoría Interna?",
+    "opciones": {
+      "A": "Asegurar que la gerencia haya implementado las acciones correctivas o haya aceptado formalmente el riesgo.",
+      "B": "Cobrar tarifas adicionales por las horas de re-inspección.",
+      "C": "Modificar los estados financieros del periodo anterior.",
+      "D": "Sancionar económicamente a los supervisores que no corrigieron las fallas."
+    },
+    "correcta": "A",
+    "concha_mango": "El seguimiento verifica que los compromisos asumidos por la gerencia se hayan materializado eficazmente para mitigar las debilidades señaladas.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  }
