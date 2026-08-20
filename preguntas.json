@@ -1040,3 +1040,133 @@
     "concha_mango": "El escepticismo profesional implica cuestionar la validez de la evidencia recibida y no asumir ciegamente que la gerencia es honesta o deshonesta.",
     "dominio": "Dominio III: Competencia y Cuidado Profesional"
   }
+{
+    "id": 81,
+    "pregunta": "8️⃣1️⃣ Un informe de auditoría interna debe ser preciso, objetivo, claro, conciso, constructivo, completo y oportuno. ¿Qué principio se vulnera si el informe se emite 6 meses después de finalizar el trabajo de campo?",
+    "opciones": {
+      "A": "Oportunidad.",
+      "B": "Concisión.",
+      "C": "Objetividad.",
+      "D": "Precisión."
+    },
+    "correcta": "A",
+    "concha_mango": "Un informe tardío pierde su valor práctico porque las condiciones pueden haber cambiado o los riesgos haberse materializado.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 82,
+    "pregunta": "8️⃣2️⃣ ¿Cuál es la principal ventaja de utilizar cuestionarios de control interno (CCIs) durante la fase de planificación de auditoría?",
+    "opciones": {
+      "A": "Reemplazan completamente la necesidad de realizar pruebas físicas o sustantivas.",
+      "B": "Permiten recolectar información estructural rápida sobre el diseño de los controles.",
+      "C": "Garantizan legalmente que no existen fraudes en el área evaluada.",
+      "D": "Son obligatorios según el Código de Comercio."
+    },
+    "correcta": "B",
+    "concha_mango": "Los cuestionarios estructuran la toma de información inicial sobre cómo 'debería' funcionar el control, pero requieren verificación posterior.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 83,
+    "pregunta": "8️⃣3️⃣ Según las Normas Globales de Auditoría Interna, el Programa de Aseguramiento y Mejora de la Calidad (QAIP) debe incluir:",
+    "opciones": {
+      "A": "Únicamente evaluaciones externas cada 5 años.",
+      "B": "Tanto evaluaciones internas continuas y periódicas como evaluaciones externas.",
+      "C": "Exclusivamente auditorías financieras anuales por firmas internacionales.",
+      "D": "Revista de desempeño individual realizada por Recursos Humanos."
+    },
+    "correcta": "B",
+    "concha_mango": "El QAIP combina la supervisión interna continua/periódica con la validación externa quinquenal.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 84,
+    "pregunta": "8️⃣4️⃣ ¿Cuál es el papel del auditor interno en la gestión de riesgos según el Marco de Tres Líneas del IIA?",
+    "opciones": {
+      "A": "Tomar las decisiones operativas sobre qué riesgos asumir o transferir.",
+      "B": "Proporcionar aseguramiento independiente sobre la eficacia de la gestión de riesgos.",
+      "C": "Diseñar los controles preventivos en los departamentos de operaciones.",
+      "D": "Asumir la responsabilidad directa si un riesgo crítico se materializa."
+    },
+    "correcta": "B",
+    "concha_mango": "Auditoría Interna evalúa de forma independiente si la 1ª y 2ª línea gestionan adecuadamente los riesgos.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
+  },
+  {
+    "id": 85,
+    "pregunta": "8️⃣5️⃣ Un control que requiere una doble firma digital para aprobar transferencias bancarias mayores a $10,000 es un ejemplo de:",
+    "opciones": {
+      "A": "Segregación de funciones y control preventivo.",
+      "B": "Control detectivo y posterior.",
+      "C": "Control correctivo y de compensación.",
+      "D": "Control directivo de cumplimiento legal."
+    },
+    "correcta": "A",
+    "concha_mango": "Exigir doble autorización previene desembolsos no autorizados antes de que salga el dinero (Preventivo) y reparte la autoridad (Segregación).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 86,
+    "pregunta": "8️⃣6️⃣ Si durante un servicio de consultoría el cliente solicita al auditor interno que tome una decisión operativa de gestión, ¿qué debe hacer el auditor?",
+    "opciones": {
+      "A": "Aceptar la decisión si es competente en esa área técnica.",
+      "B": "Rechazar asumir la responsabilidad de la decisión operativa para proteger su objetividad futura.",
+      "C": "Consultar con el auditor externo antes de aceptar.",
+      "D": "Cobrar un honorario adicional por la gestión operativa."
+    },
+    "correcta": "B",
+    "concha_mango": "Los auditores orientan y aconsejan (consultoría), pero NUNCA asumen responsabilidades de gestión para no comprometer la objetividad de futuras auditorías.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 87,
+    "pregunta": "8️⃣7️⃣ ¿Cuál es la diferencia entre una 'Auditoría de Cumplimiento' y una 'Auditoría Operativa'?",
+    "opciones": {
+      "A": "La operativa verifica estados financieros; la de cumplimiento evalúa impuestos.",
+      "B": "La de cumplimiento verifica la adhiere a leyes, políticas y contratos; la operativa evalúa la eficiencia, eficacia y economía.",
+      "C": "La operativa es obligatoria por ley; la de cumplimiento es voluntaria.",
+      "D": "No existe diferencia entre ambas según el IIA."
+    },
+    "correcta": "B",
+    "concha_mango": "Cumplimiento = 'Reglas y leyes'. Operativa = 'Eficiencia, eficacia y economía de procesos'.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 88,
+    "pregunta": "8️⃣8️⃣ Un riesgo que no puede eliminarse por completo sin importar cuántos controles se implementen se considera un riesgo:",
+    "opciones": {
+      "A": "Residual inevitable.",
+      "B": "Inexistente.",
+      "C": "Puro y financiero.",
+      "D": "De auditoría."
+    },
+    "correcta": "A",
+    "concha_mango": "El riesgo cero no existe. Siempre queda un 'riesgo residual' incluso con controles óptimos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 89,
+    "pregunta": "8️⃣9️⃣ ¿Qué acción debe realizar el Director Ejecutivo de Auditoría (DEA) si la gerencia decide aceptar un nivel de riesgo residual que el DEA considera inaceptable para la organización?",
+    "opciones": {
+      "A": "Aceptar la decisión de la gerencia sin objetar.",
+      "B": "Discutir el asunto con la Alta Gerencia y, si no se resuelve, informarlo a la Junta o Comité de Auditoría.",
+      "C": "Modificar el informe eliminando la observación del riesgo.",
+      "D": "Renunciar inmediatamente a su cargo."
+    },
+    "correcta": "B",
+    "concha_mango": "Norma 2600: Si el DEA cree que la gerencia ha aceptado un riesgo inaceptable, debe escalarlo al Consejo/Comité de Auditoría.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 90,
+    "pregunta": "9️⃣0️⃣ ¿Cuál es el propósito del monitoreo continuo en el componente de Supervisión de COSO?",
+    "opciones": {
+      "A": "Asegurar que los componentes del control interno sigan funcionando eficazmente a lo largo del tiempo.",
+      "B": "Sustituir las funciones de la Junta Directiva.",
+      "C": "Supervisar el precio de las acciones en el mercado de valores.",
+      "D": "Reducir los sueldos del personal operativo."
+    },
+    "correcta": "A",
+    "concha_mango": "El monitoreo verifica si el sistema de control interno sigue siendo relevante y efectivo con el paso del tiempo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  }
