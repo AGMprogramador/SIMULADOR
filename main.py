@@ -1,19 +1,31 @@
 import os
 import json
+import random
 import logging
-from threading import Thread  # <-- Agrega esta línea al inicio
-from flask import Flask
+from flask import Flask, request
 import requests
+from telegram import KeyboardButton, ReplyKeyboardMarkup
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-GITHUB_REPO = os.environ.get("GITHUB_REPO") # Formato: "usuario/repositorio"
+GITHUB_REPO = os.environ.get("GITHUB_REPO")  # Formato: "usuario/repositorio"
 GITHUB_FILE_PATH = "preguntas.json"
+
+if not TOKEN:
+    raise RuntimeError("Falta la variable de entorno TELEGRAM_TOKEN. El bot no puede iniciar sin ella.")
 
 app = Flask(__name__)
 
+# Ruta del webhook: usamos el TOKEN como path secreto (evita que cualquiera dispare tu bot).
+# OJO: esta ruta y la que registramos con setWebhook() deben ser EXACTAMENTE la misma.
+WEBHOOK_PATH = f"/{TOKEN}"
+
 # Diccionario en memoria para gestionar el estado del usuario
 user_states = {}
+
 
 def get_keyboard():
     """Genera el teclado interactivo con botones fijos."""
@@ -22,6 +34,7 @@ def get_keyboard():
         [KeyboardButton("📊 Mi Resumen / Reporte"), KeyboardButton("❓ Ayuda")]
     ]
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
 
 def get_domain_keyboard():
     """Genera los botones para elegir un Dominio específico."""
@@ -36,14 +49,22 @@ def get_domain_keyboard():
     ]
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
+
 def cargar_preguntas():
     """Descarga el preguntas.json actualizado desde GitHub."""
     url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{GITHUB_FILE_PATH}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
         return response.json()
-    return []
+    except requests.RequestException as e:
+        logger.error(f"Error al descargar preguntas.json: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        logger.error(f"preguntas.json no es un JSON válido: {e}")
+        return []
+
 
 def enviar_mensaje(chat_id, texto, reply_markup=None):
     """Envía un mensaje a Telegram con soporte para formato HTML."""
@@ -55,11 +76,16 @@ def enviar_mensaje(chat_id, texto, reply_markup=None):
     }
     if reply_markup:
         payload["reply_markup"] = reply_markup.to_dict()
-    requests.post(url, json=payload)
+    try:
+        r = requests.post(url, json=payload, timeout=10)
+        r.raise_for_status()
+    except requests.RequestException as e:
+        logger.error(f"Error al enviar mensaje a Telegram: {e}")
 
-@app.route('/' + TOKEN, methods=['POST'])
+
+@app.route(WEBHOOK_PATH, methods=['POST'])
 def webhook():
-    update = request.get_json()
+    update = request.get_json(silent=True) or {}
     if "message" in update:
         chat_id = update["message"]["chat"]["id"]
         text = update["message"].get("text", "").strip()
@@ -87,12 +113,12 @@ def webhook():
             if not preguntas:
                 enviar_mensaje(chat_id, "⚠️ No se pudieron cargar las preguntas desde GitHub. Revisa el archivo preguntas.json.", get_keyboard())
                 return "ok", 200
-            
+
             random.shuffle(preguntas)
             state["preguntas_lista"] = preguntas[:10]
             state["indice_lista"] = 0
             state["modo"] = "aleatorio"
-            
+
             enviar_mensaje(chat_id, "🚀 <b>Iniciando ronda de 10 preguntas aleatorias.</b> ¡Mucho éxito!", get_keyboard())
             lanzar_siguiente_pregunta(chat_id)
 
@@ -131,7 +157,7 @@ def webhook():
             total = state["total_respondidas"]
             correctas = state["score_correctas"]
             porcentaje = (correctas / total * 100) if total > 0 else 0
-            
+
             reporte = (
                 f"📊 <b>REPORTE DE RENDIMIENTO CIA - ALDEMAR</b>\n\n"
                 f"📝 <b>Preguntas respondidas en esta sesión:</b> {total}\n"
@@ -145,7 +171,7 @@ def webhook():
                 reporte += "📈 Buen avance. Refuerza las 'conchas de mango' en los dominios más débiles."
             else:
                 reporte += "💡 Revisa los conceptos COSO y el Estatuto de Auditoría. Vamos a seguir practicando."
-                
+
             enviar_mensaje(chat_id, reporte, get_keyboard())
 
         elif text in ["❓ Ayuda", "/ayuda"]:
@@ -163,9 +189,9 @@ def webhook():
             pregunta = state["pregunta_actual"]
             respuesta_usr = text.upper()
             correcta = pregunta["correcta"].upper()
-            
+
             state["total_respondidas"] += 1
-            
+
             if respuesta_usr == correcta:
                 state["score_correctas"] += 1
                 msg = f"✅ <b>¡CORRECTO!</b>\n\n<b>Explicación / Concha de mango:</b>\n{pregunta.get('concha_mango', '¡Bien razonado!')}"
@@ -174,10 +200,10 @@ def webhook():
                     f"❌ <b>INCORRECTO.</b> Tu respuesta: {respuesta_usr} | Respuesta correcta: <b>{correcta}</b>\n\n"
                     f"💡 <b>Análisis Auditor:</b>\n{pregunta.get('concha_mango', 'Repasa el concepto clave de esta pregunta.')}"
                 )
-            
+
             state["pregunta_actual"] = None
             enviar_mensaje(chat_id, msg)
-            
+
             state["indice_lista"] += 1
             lanzar_siguiente_pregunta(chat_id)
 
@@ -185,6 +211,7 @@ def webhook():
             enviar_mensaje(chat_id, "💡 Utiliza el menú de botones interactivos para navegar o responde con <b>A, B, C o D</b>.", get_keyboard())
 
     return "ok", 200
+
 
 def lanzar_siguiente_pregunta(chat_id):
     state = user_states[chat_id]
@@ -194,31 +221,52 @@ def lanzar_siguiente_pregunta(chat_id):
     if idx < len(lista):
         pregunta = lista[idx]
         state["pregunta_actual"] = pregunta
-        
+
         texto_preg = f"<b>{pregunta['pregunta']}</b>\n\n"
         for opc, txt in pregunta["opciones"].items():
             texto_preg += f"<b>{opc})</b> {txt}\n"
-        
+
         texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')}</i>\n"
         texto_preg += "👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
-        
+
         enviar_mensaje(chat_id, texto_preg, get_keyboard())
     else:
         enviar_mensaje(chat_id, "🏁 <b>¡Has completado la tanda de preguntas!</b> Revisa tu resultado en el botón <b>📊 Mi Resumen</b>.", get_keyboard())
         state["modo"] = None
 
 
-if __name__ == "__main__":
+def registrar_webhook():
+    """
+    Registra el webhook en Telegram. Se ejecuta al importar el módulo
+    (no solo dentro de __main__), para que funcione también cuando el
+    servidor se levanta con gunicorn/uwsgi en Railway.
+    """
     railway_url = os.environ.get("RAILWAY_PUBLIC_DOMAIN") or os.environ.get("URL_APP")
-    
-    if railway_url and TOKEN:
-        if not railway_url.startswith("http"):
-            railway_url = f"https://{railway_url}"
-        try:
-            res = requests.get(f"https://api.telegram.org/bot{TOKEN}/setWebhook?url={railway_url}/webhook")
-            print(f"Resultado registro Webhook: {res.text}")
-        except Exception as e:
-            print(f"Error al registrar Webhook: {e}")
+    if not railway_url:
+        logger.warning("No se encontró RAILWAY_PUBLIC_DOMAIN ni URL_APP. No se registró el webhook automáticamente.")
+        return
 
+    if not railway_url.startswith("http"):
+        railway_url = f"https://{railway_url}"
+
+    # IMPORTANTE: esta URL debe coincidir exactamente con WEBHOOK_PATH definido arriba.
+    full_webhook_url = f"{railway_url}{WEBHOOK_PATH}"
+
+    try:
+        res = requests.get(
+            f"https://api.telegram.org/bot{TOKEN}/setWebhook",
+            params={"url": full_webhook_url},
+            timeout=10
+        )
+        logger.info(f"Resultado registro Webhook ({full_webhook_url}): {res.text}")
+    except requests.RequestException as e:
+        logger.error(f"Error al registrar Webhook: {e}")
+
+
+# Se ejecuta siempre que el módulo se importa (python app.py O gunicorn app:app)
+registrar_webhook()
+
+
+if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
