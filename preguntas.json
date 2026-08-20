@@ -1560,3 +1560,133 @@
     "concha_mango": "La distribución del informe debe limitarse a quienes tienen la autoridad de actuar o la responsabilidad de supervisar.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
   }
+{
+    "id": 121,
+    "pregunta": "1️⃣2️⃣1️⃣ En la metodología COSO, ¿cuál es la relación jerárquica entre Objetivos, Componentes y Principios?",
+    "opciones": {
+      "A": "Los 5 Componentes respaldan los Objetivos, y los 17 Principios representan los conceptos fundamentales asociados a cada Componente.",
+      "B": "Los Principios definen los Objetivos y sustituyen a los Componentes.",
+      "C": "Los Componentes solo aplican a la auditoría financiera, no a la operativa.",
+      "D": "No existe relación directa entre ellos."
+    },
+    "correcta": "A",
+    "concha_mango": "COSO articula 3 categorías de objetivos, soportadas por 5 componentes integrados y 17 principios de cumplimiento.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 122,
+    "pregunta": "1️⃣2️⃣2️⃣ ¿Cuál de las siguientes actividades representa una amenaza directa a la objetividad de un auditor interno?",
+    "opciones": {
+      "A": "Evaluar un proceso operativo en el que el auditor trabajó como responsable directo hace solo 6 meses.",
+      "B": "Facilitar un taller de auto-evaluación de riesgos para el personal de compras.",
+      "C": "Revisar los controles implementados en un nuevo sistema de software antes de su puesta en marcha.",
+      "D": "Recomendar mejoras en los procedimientos contables existentes."
+    },
+    "correcta": "A",
+    "concha_mango": "Norma 1130: Auditar actividades de las cuales el auditor fue responsable dentro del año anterior presume un conflicto de interés y menoscaba la objetividad.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 123,
+    "pregunta": "1️⃣2️⃣3️⃣ ¿Qué se entiende por 'Riesgo Inherente' en la evaluación de procesos?",
+    "opciones": {
+      "A": "El riesgo que persiste después de haber implementado y probado los controles clave.",
+      "B": "El riesgo derivado de la falta de presupuesto de auditoría.",
+      "C": "El riesgo natural o intrínseco de un proceso antes de considerar el efecto de cualquier control mitigante.",
+      "D": "El riesgo de que el auditor emita una opinión equivocada."
+    },
+    "correcta": "C",
+    "concha_mango": "Incipiente/Bruto: Es la susceptibilidad natural del proceso al error o fraude sin considerar controles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 124,
+    "pregunta": "1️⃣2️⃣4️⃣ Un auditor interno utiliza datos masivos para identificar discrepancias entre las fechas de facturación y las fechas de envío de inventario. ¿Qué técnica está empleando?",
+    "opciones": {
+      "A": "Análisis de datos continuos (Data Analytics / CAATs).",
+      "B": "Circularización directa en formato papel.",
+      "C": "Entrevista cualitativa no estructurada.",
+      "D": "Inspección física ocular de archivos."
+    },
+    "correcta": "A",
+    "concha_mango": "Las Técnicas de Auditoría Asistidas por Computador (CAATs) permiten analizar el 100% de las poblaciones mediante cruces de información digital.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 125,
+    "pregunta": "1️⃣2️⃣5️⃣ ¿Cuál es el objetivo primordial del Código de Ética del Marco Internacional para la Práctica Profesional (IPPF)?",
+    "opciones": {
+      "A": "Promover una cultura ética dentro de la profesión de auditoría interna basada en la confianza y el rigor.",
+      "B": "Establecer la tabla de sueldos mínimos para auditores a nivel mundial.",
+      "C": "Definir las sanciones penales para ejecutivos de empresas multinacionales.",
+      "D": "Reemplazar las leyes contables de cada país."
+    },
+    "correcta": "A",
+    "concha_mango": "El Código de Ética busca garantizar el comportamiento ético de los profesionales para sustentar la confianza en la función.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 126,
+    "pregunta": "1️⃣2️⃣6️⃣ Durante la fase de planificación de un trabajo de auditoría, ¿cuál es el propósito de establecer el 'Alcance' del trabajo?",
+    "opciones": {
+      "A": "Definir los límites, periodos de tiempo, ubicaciones y procesos específicos que serán evaluados.",
+      "B": "Fijar el precio total que se cobrará por los servicios prestados.",
+      "C": "Nombrar a los directores que serán despedidos al concluir las pruebas.",
+      "D": "Limitar el acceso del auditor a la documentación confidencial."
+    },
+    "correcta": "A",
+    "concha_mango": "El alcance delimita las fronteras del proyecto de auditoría para enfocar los recursos en las áreas acordadas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 127,
+    "pregunta": "1️⃣2️⃣7️⃣ Un control que requiere que las facturas de proveedores sean revisadas contra la orden de compra y el informe de recepción ANTES de emitir un pago es un ejemplo de:",
+    "opciones": {
+      "A": "Control detective.",
+      "B": "Control preventivo.",
+      "C": "Control correctivo.",
+      "D": "Control directivo."
+    },
+    "correcta": "B",
+    "concha_mango": "Se ejecuta 'antes' del desembolso de fondos para evitar pagos indebidos o erróneos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 128,
+    "pregunta": "1️⃣2️⃣8️⃣ ¿Qué autoridad debe supervisar y aprobar el plan anual de auditoría interna basado en riesgos?",
+    "opciones": {
+      "A": "El Gerente Financiero.",
+      "B": "El Consejo de Administración / Comité de Auditoría.",
+      "C": "El auditor externo legalmente registrado.",
+      "D": "El departamento de operaciones."
+    },
+    "correcta": "B",
+    "concha_mango": "El Comité de Auditoría valida y aprueba el plan anual para asegurar que responda a los riesgos clave de la organización.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 129,
+    "pregunta": "1️⃣2️⃣9️⃣ Si un auditor interno detecta una deficiencia significativa durante una auditoría pero la gerencia operativa se compromete verbalmente a arreglarla de inmediato, el auditor debe:",
+    "opciones": {
+      "A": "Omitir la observación en el informe final por cortesía.",
+      "B": "Incluir la observación en el informe formal, registrando la respuesta y el compromiso de remediación de la gerencia.",
+      "C": "Cerrar la auditoría sin redactar informe escrito.",
+      "D": "Informar únicamente a la prensa local."
+    },
+    "correcta": "B",
+    "concha_mango": "Todos los hallazgos significativos deben documentarse formalmente en el informe final junto a los planes de acción correctiva de la gerencia.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 130,
+    "pregunta": "1️⃣3️⃣0️⃣ De acuerdo con el marco del IIA, la independencia de la actividad de auditoría interna se logra principalmente a través de:",
+    "opciones": {
+      "A": "El nivel de reporte organizacional y funcional del Director Ejecutivo de Auditoría (DEA) ante el Consejo.",
+      "B": "La rotación diaria de personal administrativo.",
+      "C": "El uso exclusivo de software de código abierto.",
+      "D": "La subcontratación de todos los servicios a firmas consultoras."
+    },
+    "correcta": "A",
+    "concha_mango": "La independencia es organizacional (reportar funcionalmente al Consejo), mientras que la objetividad es una actitud individual del auditor.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  }
