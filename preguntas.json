@@ -1690,3 +1690,133 @@
     "concha_mango": "La independencia es organizacional (reportar funcionalmente al Consejo), mientras que la objetividad es una actitud individual del auditor.",
     "dominio": "Dominio II: Independencia y Objetividad"
   }
+{
+    "id": 131,
+    "pregunta": "1️⃣3️⃣1️⃣ En un encargo de aseguramiento, si la gerencia se niega a proveer una carta de representación o acceso a registros clave, el auditor interno debe:",
+    "opciones": {
+      "A": "Emitir el informe sin mencionar la restricción.",
+      "B": "Evaluar el impacto de la limitación al alcance y comunicarlo formalmente al Consejo / Comité de Auditoría.",
+      "C": "Completar los papeles de trabajo inventando los datos faltantes.",
+      "D": "Suspender la auditoría en silencio sin avisar a nadie."
+    },
+    "correcta": "B",
+    "concha_mango": "Cualquier limitación al alcance que impida al auditor cumplir los objetivos del trabajo debe informarse formalmente al Comité de Auditoría.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 132,
+    "pregunta": "1️⃣3️⃣2️⃣ ¿Cuál es la principal ventaja de utilizar un muestreo estadístico en lugar de un muestreo no estadístico (por juicio)?",
+    "opciones": {
+      "A": "Garantiza que no habrá ningún margen de error en la conclusión.",
+      "B": "Permite cuantificar matemáticamente el riesgo de muestreo y proyectar los resultados a toda la población.",
+      "C": "Requiere revisar un número significativamente menor de documentos.",
+      "D": "Elimina la necesidad de utilizar computadoras."
+    },
+    "correcta": "B",
+    "concha_mango": "El muestreo estadístico aporta rigor matemático para medir la precisión y el nivel de confianza de la extrapolación.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 133,
+    "pregunta": "1️⃣3️⃣3️⃣ ¿Qué componente del marco COSO abarca los controles generales de tecnología de la información (ITGC)?",
+    "opciones": {
+      "A": "Entorno de Control.",
+      "B": "Actividades de Control.",
+      "C": "Monitoreo.",
+      "D": "Información y Comunicación."
+    },
+    "correcta": "B",
+    "concha_mango": "El Principio 11 de COSO (dentro de Actividades de Control) especifica la selección y desarrollo de controles generales sobre la tecnología.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 134,
+    "pregunta": "1️⃣3️⃣4️⃣ Según las Normas Internacionales para el Ejercicio Profesional de la Auditoría Interna, ¿quién es el responsable final de la supervisión continua del desempeño del trabajo de auditoría?",
+    "opciones": {
+      "A": "El auditor externo.",
+      "B": "El Director Ejecutivo de Auditoría (DEA).",
+      "C": "El Gerente de Recursos Humanos.",
+      "D": "El responsable del área auditada."
+    },
+    "correcta": "B",
+    "concha_mango": "El DEA es responsable de asegurar que el trabajo sea supervisado adecuadamente en todas sus fases para garantizar la calidad.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 135,
+    "pregunta": "1️⃣3️⃣5️⃣ La 'Segregación de Funciones' busca prevenir errores o fraudes separando principalmente qué cuatro responsabilidades?",
+    "opciones": {
+      "A": "Autorización, Custodia, Registro y Conciliación/Revisión.",
+      "B": "Ventas, Compras, Marketing y Publicidad.",
+      "C": "Planificación, Ejecución, Archivo y Destrucción.",
+      "D": "Contratación, Despido, Capacitación y Evaluación."
+    },
+    "correcta": "A",
+    "concha_mango": "Separar Autorización, Custodia de activos, Registro contable y Conciliación reduce drásticamente el riesgo de un fraude no detectado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 136,
+    "pregunta": "1️⃣3️⃣6️⃣ Un auditor interno que ofrece servicios de consultoría para diseñar la estructura de control interno de un nuevo sistema ERP debe tener cuidado de:",
+    "opciones": {
+      "A": "No asumir responsabilidades de gestión o toma de decisiones operativas en el diseño.",
+      "B": "No cobrar por las horas dedicadas al proyecto.",
+      "C": "Garantizar por escrito que el sistema nunca sufrirá fallas.",
+      "D": "Evitar hablar con el equipo de TI."
+    },
+    "correcta": "A",
+    "concha_mango": "Si el auditor toma decisiones directas de gestión (diseño/implementación), pierde objetividad para auditar ese sistema en el futuro.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 137,
+    "pregunta": "1️⃣3️⃣7️⃣ ¿Qué término describe la probabilidad combinada de que ocurra un evento y la magnitud del impacto adverso que causaría?",
+    "opciones": {
+      "A": "Apetito de riesgo.",
+      "B": "Evaluación o Nivel de Riesgo.",
+      "C": "Tolerancia al error.",
+      "D": "Matriz de hallazgos."
+    },
+    "correcta": "B",
+    "concha_mango": "El riesgo se mide cuantitativamente o cualitativamente mediante la combinación de Impacto × Probabilidad.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 138,
+    "pregunta": "1️⃣3️⃣8️⃣ ¿Cuál es el objetivo principal de las actividades de Monitoreo (Monitoring) dentro del marco COSO?",
+    "opciones": {
+      "A": "Evaluar si los cinco componentes del control interno están presentes y funcionando adecuadamente a lo largo del tiempo.",
+      "B": "Supervisar las redes sociales de los empleados.",
+      "C": "Autorizar cada transferencia bancaria antes de ser enviada.",
+      "D": "Elaborar la declaración anual de impuestos."
+    },
+    "correcta": "A",
+    "concha_mango": "El Monitoreo valora la efectividad continua del sistema de control interno mediante evaluaciones continuas e independientes.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 139,
+    "pregunta": "1️⃣3️⃣9️⃣ Si durante una auditoría se detecta un hallazgo de menor relevancia que no afecta significativamente el control interno, el auditor debe:",
+    "opciones": {
+      "A": "Ignorarlo por completo sin registrarlo.",
+      "B": "Comunicarlo de forma verbal o informal a la gerencia operativa local sin saturar el informe ejecutivo final.",
+      "C": "Exigir la renuncia inmediata del gerente del área.",
+      "D": "Enviar una alerta urgente al Consejo de Administración."
+    },
+    "correcta": "B",
+    "concha_mango": "El principio de materialidad y oportunidad sugiere comunicar desviaciones menores directamente a la supervisión operativa sin sobrecargar los informes formales.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 140,
+    "pregunta": "1️⃣4️⃣0️⃣ Un programa de aseguramiento y mejora de la calidad (QAIP) de auditoría interna debe incluir:",
+    "opciones": {
+      "A": "Evaluaciones internas continuas y periódicas, además de evaluaciones externas quinquenales.",
+      "B": "Exclusivamente auditorías financieras de fin de año.",
+      "C": "Revisión semanal por parte de la entidad reguladora del gobierno.",
+      "D": "Encuestas de satisfacción dirigidas a los accionistas minoritarios."
+    },
+    "correcta": "A",
+    "concha_mango": "El QAIP combina la autoevaluación interna continua con la revisión externa independiente cada 5 años.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  }
