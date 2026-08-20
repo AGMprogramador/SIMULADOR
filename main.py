@@ -5,7 +5,9 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # --- CONFIGURACIÓN ---
-TOKEN = "TU_TOKEN_AQUI"  # Pega aquí el token de @BotFather
+TOKEN_SECRETO = os.environ.get("TELEGRAM_TOKEN")
+bot = telebot.TeleBot(TOKEN_SECRETO)
+
 
 # Carga del Banco Completo desde el archivo JSON
 try:
