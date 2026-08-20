@@ -5,8 +5,9 @@ import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-# TOKEN obtenido de BotFather
-TOKEN = "8978158063:AAH7qeAYPfHT-wBE7rUojqGmjTjDHgksZuk"
+TOKEN_SECRETO = os.environ.get("TELEGRAM_TOKEN")
+bot = telebot.TeleBot(TOKEN_SECRETO)
+
 
 # Carga de la Base de Datos
 try:
