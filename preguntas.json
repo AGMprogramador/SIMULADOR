@@ -520,3 +520,133 @@
     "dominio": "Dominio V: Gobierno Corporativo y Ética"
   }
 ]
+{
+    "id": 41,
+    "pregunta": "4️⃣1️⃣ De acuerdo con el marco COSO, ¿cuál es el componente que se encarga de identificar y analizar los riesgos relevantes para el logro de los objetivos de la organización?",
+    "opciones": {
+      "A": "Entorno de Control.",
+      "B": "Evaluación de Riesgos.",
+      "C": "Actividades de Control.",
+      "D": "Supervisión o Monitoreo."
+    },
+    "correcta": "B",
+    "concha_mango": "La identificación y análisis de riesgos es el núcleo del componente Evaluación de Riesgos (Risk Assessment).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 42,
+    "pregunta": "4️⃣2️⃣ Un auditor interno nota que no hay segregación de funciones en la aprobación de transferencias bancarias en una filial pequeña. ¿Qué tipo de recomendación debería priorizar?",
+    "opciones": {
+      "A": "Contratar inmediatamente tres empleados adicionales.",
+      "B": "Implementar un control compensatorio, como la revisión e informe independiente por parte de la casa matriz.",
+      "C": "Eliminar la filial para evitar riesgos financieros.",
+      "D": "Transferir el riesgo mediante la compra de una póliza de seguro de fianza."
+    },
+    "correcta": "B",
+    "concha_mango": "En operaciones pequeñas donde la segregación perfecta es costosa, la solución recomendada es un Control Compensatorio.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 43,
+    "pregunta": "4️⃣3️⃣ ¿Qué autoridad aprueba formalmente los cambios al Estatuto de Auditoría Interna?",
+    "opciones": {
+      "A": "El Director Ejecutivo de Auditoría (DEA).",
+      "B": "El Director de Finanzas (CFO).",
+      "C": "El Comité de Auditoría / Consejo de Administración.",
+      "D": "El Auditor Externo de la compañía."
+    },
+    "correcta": "C",
+    "concha_mango": "El DEA redacta y propone; el Consejo/Comité de Auditoría es el ÚNICO que aprueba el Estatuto.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 44,
+    "pregunta": "4️⃣4️⃣ ¿Cuál de las siguientes situaciones representa una violación directa al principio de Competencia según el Código de Ética?",
+    "opciones": {
+      "A": "Aceptar un trabajo de auditoría en una materia para la cual no se posee el conocimiento o la experiencia técnica necesaria sin el debido apoyo.",
+      "B": "Revelar información confidencial a las autoridades reguladoras requerida por ley.",
+      "C": "Negarse a aceptar un regalo promocional de muy bajo valor de un proveedor.",
+      "D": "Informar un hallazgo relevante de control interno a la Alta Dirección."
+    },
+    "correcta": "A",
+    "concha_mango": "Competencia: Los auditores solo deben prestar aquellos servicios para los cuales tienen los conocimientos y destrezas requeridos.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 45,
+    "pregunta": "4️⃣5️⃣ De acuerdo con las Normas Globales, las evaluaciones internas del Programa de Aseguramiento y Mejora de la Calidad (QAIP) deben incluir:",
+    "opciones": {
+      "A": "Solo revisiones de un auditor independiente cada 5 años.",
+      "B": "Seguimiento continuo del desempeño e inspecciones periódicas mediante autoevaluaciones.",
+      "C": "Exclusivamente encuestas de satisfacción anuales.",
+      "D": "Revisiones por parte de la firma de auditoría financiera externa."
+    },
+    "correcta": "B",
+    "concha_mango": "QAIP Interno: Se compone de 2 pilares: Monitoreo continuo (diario) + Autoevaluaciones periódicas.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 46,
+    "pregunta": "4️⃣6️⃣ En un encargo de consultoría, ¿quién establece el alcance y los objetivos del trabajo?",
+    "opciones": {
+      "A": "El Comité de Auditoría de forma exclusiva.",
+      "B": "Acuerdo mutuo entre el auditor interno y el cliente del servicio de consultoría.",
+      "C": "El regulador gubernamental del sector.",
+      "D": "Los auditores externos de estados financieros."
+    },
+    "correcta": "B",
+    "concha_mango": "Consultoría vs Aseguramiento: En consultoría, el cliente define los objetivos junto con el auditor.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 47,
+    "pregunta": "4️⃣7️⃣ ¿Cuál es el principal objetivo de un mapa de riesgos corporativo?",
+    "opciones": {
+      "A": "Calcular la pérdida monetaria exacta de cada departamento en el año.",
+      "B": "Visualizar y priorizar los riesgos en función de su probabilidad e impacto.",
+      "C": "Determinar el salario de los gerentes de operaciones.",
+      "D": "Sustituir la necesidad de realizar auditorías internas."
+    },
+    "correcta": "B",
+    "concha_mango": "Mapa de Riesgos: Prioriza eventos combinando Probabilidad x Impacto para dirigir recursos donde más se necesitan.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 48,
+    "pregunta": "4️⃣8️⃣ Si un auditor interno tiene dudas sobre la interpretación legal de un contrato complejo durante una auditoría, ¿cuál es la mejor línea de acción?",
+    "opciones": {
+      "A": "Emitir una opinión legal basada en su propia deducción.",
+      "B": "Solicitar la asesoría o asistencia de un experto legal o del departamento jurídico.",
+      "C": "Eliminar la revisión del contrato del alcance de la auditoría.",
+      "D": "Exigir al auditado que rescinda el contrato inmediatamente."
+    },
+    "correcta": "B",
+    "concha_mango": "Cuidado profesional: Reconocer las limitaciones técnicas propias y recurrir a especialistas cuando sea necesario forma parte del debido cuidado.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 49,
+    "pregunta": "4️⃣9️⃣ De acuerdo con el Modelo de las Tres Líneas del IIA, las funciones de cumplimiento y gestión de riesgos pertenecen a la:",
+    "opciones": {
+      "A": "Primera línea.",
+      "B": "Segunda línea.",
+      "C": "Tercera línea.",
+      "D": "Junta Directiva / Consejo."
+    },
+    "correcta": "B",
+    "concha_mango": "Tres Líneas: 1ª Línea = Operatividad; 2ª Línea = Especialistas en Riesgo/Cumplimiento/Calidad; 3ª Línea = Aseguramiento Independiente (Auditoría Interna).",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 50,
+    "pregunta": "5️⃣0️⃣ ¿Cuál de las siguientes acciones del DEA ayuda a salvaguardar la INDEPENDENCIA ORGANIZACIONAL de la actividad de auditoría interna?",
+    "opciones": {
+      "A": "Reportar administrativamente al CEO y funcionalmente al Consejo/Comité de Auditoría.",
+      "B": "Aceptar que el Director Financiero apruebe el plan de auditoría.",
+      "C": "Asumir la gestión temporal del departamento de contabilidad.",
+      "D": "Evitar comunicar hallazgos críticos a la Junta para no causar alarma."
+    },
+    "correcta": "A",
+    "concha_mango": "Doble Línea de Reporte: Reporte Funcional al Consejo (OBLIGATORIO para independencia) + Reporte Administrativo al CEO (para logística diaria).",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  }
