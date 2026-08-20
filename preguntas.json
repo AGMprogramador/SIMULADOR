@@ -1300,3 +1300,133 @@
     "concha_mango": "Norma 2500: Corresponde al DEA establecer el sistema para supervisar si las acciones correctivas fueron implementadas.",
     "dominio": "Dominio VI: Comunicación y Seguimiento"
   }
+{
+    "id": 101,
+    "pregunta": "1️⃣0️⃣1️⃣ El marco de control interno COSO define cinco componentes integrados. ¿Cuál de los siguientes NO es uno de esos cinco componentes?",
+    "opciones": {
+      "A": "Entorno de Control.",
+      "B": "Evaluación de Riesgos.",
+      "C": "Segregación de Funciones.",
+      "D": "Actividades de Monitoreo."
+    },
+    "correcta": "C",
+    "concha_mango": "La Segregación de Funciones es una 'Actividad de Control', no uno de los 5 componentes principales de COSO.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 102,
+    "pregunta": "1️⃣0️⃣2️⃣ ¿Cuál es la principal ventaja de utilizar diagramas de flujo (flowcharts) durante la fase de relevamiento de un proceso?",
+    "opciones": {
+      "A": "Permiten visualizar de forma gráfica y secuencial los pasos, responsables y puntos de control del proceso.",
+      "B": "Sustituyen la necesidad de evaluar los riesgos del proceso.",
+      "C": "Garantizan que no existan errores humanos en la operación.",
+      "D": "Son requeridos legalmente para el pago de impuestos."
+    },
+    "correcta": "A",
+    "concha_mango": "Los diagramas muestran claramente el flujo del proceso y dónde fallan o faltan los controles clave.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 103,
+    "pregunta": "1️⃣0️⃣3️⃣ De acuerdo con el Código de Ética del IIA, si un auditor interno descubre un acto ilegal cometido por un alto directivo, el auditor debe:",
+    "opciones": {
+      "A": "Divulgarlo inmediatamente a los medios de comunicación.",
+      "B": "Informarlo a los niveles jerárquicos adecuados dentro de la organización (ej. Comité de Auditoría).",
+      "C": "Aceptar un pago para no reportarlo si el monto es bajo.",
+      "D": "Borrar las pruebas para evitar conflictos institucionales."
+    },
+    "correcta": "B",
+    "concha_mango": "El canal de reporte ético adecuado es interno hacia el Consejo/Comité de Auditoría, respetando la confidencialidad externa.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 104,
+    "pregunta": "1️⃣0️⃣4️⃣ La responsabilidad de definir los objetivos estratégicos y el apetito de riesgo de la organización recae en:",
+    "opciones": {
+      "A": "El Director Ejecutivo de Auditoría (DEA).",
+      "B": "El Consejo de Administración y la Alta Gerencia.",
+      "C": "El departamento de auditoría externa.",
+      "D": "El equipo de gestión humana."
+    },
+    "correcta": "B",
+    "concha_mango": "Establecer objetivos y definir la tolerancia/apetito al riesgo es función exclusiva del gobierno y la gerencia executiva.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
+  },
+  {
+    "id": 105,
+    "pregunta": "1️⃣0️⃣5️⃣ ¿Qué técnica de auditoría consiste en solicitar directamente a un tercero (como un banco o cliente) confirmación escrita sobre un saldo o transacción?",
+    "opciones": {
+      "A": "Confirmación externa.",
+      "B": "Reejecución.",
+      "C": "Inspección física.",
+      "D": "Cuestionario de autocontrol."
+    },
+    "correcta": "A",
+    "concha_mango": "La confirmación externa proporciona evidencia altamente confiable emitida por un tercero independiente a la empresa.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 106,
+    "pregunta": "1️⃣0️⃣6️⃣ Un auditor interno nota que el gerente de compras aprueba órdenes de compra y al mismo tiempo recibe la mercancía en el almacén. Esta situación constituye una falla en:",
+    "opciones": {
+      "A": "Segregación de funciones.",
+      "B": "Planificación estratégica.",
+      "C": "Evaluación externa de calidad.",
+      "D": "Desarrollo profesional continuo."
+    },
+    "correcta": "A",
+    "concha_mango": "Quien autoriza una transacción no debe tener la custodia o recepción de los bienes para prevenir fraudes.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 107,
+    "pregunta": "1️⃣0️⃣7️⃣ ¿Cuál es el propósito principal de una 'Reunión de Enlace' (o de cierre) con el auditado al finalizar el trabajo de campo?",
+    "opciones": {
+      "A": "Discutir las observaciones y hallazgos para garantizar que los hechos sean precisos y acordar planes de acción.",
+      "B": "Entregar la carta de despido a los empleados responsables de errores.",
+      "C": "Negociar la eliminación de todos los hallazgos críticos.",
+      "D": "Aprobar el presupuesto del próximo año para el área auditada."
+    },
+    "correcta": "A",
+    "concha_mango": "La reunión de cierre valida los hechos, evita malentendidos y busca consenso en las acciones correctivas.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  },
+  {
+    "id": 108,
+    "pregunta": "1️⃣0️⃣8️⃣ De acuerdo con las Normas del IIA, el Director Ejecutivo de Auditoría (DEA) debe reportar periódicamente sobre el estado del plan de auditoría a:",
+    "opciones": {
+      "A": "La Alta Gerencia y el Consejo de Administración.",
+      "B": "Únicamente al departamento de contabilidad.",
+      "C": "A los proveedores principales de la organización.",
+      "D": "Al Ministerio de Trabajo."
+    },
+    "correcta": "A",
+    "concha_mango": "El DEA mantiene informado al Consejo y la Alta Gerencia sobre el desempeño del plan, recursos y riesgos clave.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 109,
+    "pregunta": "1️⃣0️⃣9️⃣ ¿Qué tipo de prueba realiza un auditor cuando vuelve a calcular manualmente los impuestos de una factura de venta para verificar su exactitud?",
+    "opciones": {
+      "A": "Recalculo (Recalculation).",
+      "B": "Indagación.",
+      "C": "Observación directiva.",
+      "D": "Análisis de tendencias."
+    },
+    "correcta": "A",
+    "concha_mango": "El recalculación consiste en verificar la exactitud matemática de documentos o registros de forma independiente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 110,
+    "pregunta": "1️⃣1️⃣0️⃣ Un Programa de Aseguramiento y Mejora de la Calidad (QAIP) bien estructurado debe cubrir:",
+    "opciones": {
+      "A": "Todos los aspectos de la actividad de auditoría interna.",
+      "B": "Únicamente el presupuesto financiero del departamento.",
+      "C": "Exclusivamente el desempeño de los auditores junior.",
+      "D": "Solo las relaciones con los auditores externos."
+    },
+    "correcta": "A",
+    "concha_mango": "El QAIP evalúa el cumplimiento de las Normas y el Código de Ética en la totalidad de las operaciones de auditoría.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  }
