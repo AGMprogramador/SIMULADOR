@@ -209,13 +209,14 @@ def lanzar_siguiente_pregunta(chat_id):
 
 
 if __name__ == "__main__":
-    # Registra el webhook en Telegram si existe la URL pública de Railway
     railway_url = os.environ.get("RAILWAY_PUBLIC_DOMAIN") or os.environ.get("URL_APP")
+    
     if railway_url and TOKEN:
         if not railway_url.startswith("http"):
             railway_url = f"https://{railway_url}"
         try:
-            requests.get(f"https://api.telegram.org/bot{TOKEN}/setWebhook?url={railway_url}/webhook")
+            res = requests.get(f"https://api.telegram.org/bot{TOKEN}/setWebhook?url={railway_url}/webhook")
+            print(f"Resultado registro Webhook: {res.text}")
         except Exception as e:
             print(f"Error al registrar Webhook: {e}")
 
