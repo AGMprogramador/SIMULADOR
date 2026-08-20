@@ -6,7 +6,6 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 TOKEN_SECRETO = os.environ.get("TELEGRAM_TOKEN")
-bot = telebot.TeleBot(TOKEN_SECRETO)
 
 
 # Carga de la Base de Datos
