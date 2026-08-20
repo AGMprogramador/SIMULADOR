@@ -1170,3 +1170,133 @@
     "concha_mango": "El monitoreo verifica si el sistema de control interno sigue siendo relevante y efectivo con el paso del tiempo.",
     "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
   }
+{
+    "id": 91,
+    "pregunta": "9️⃣1️⃣ ¿Cuál es la diferencia principal entre un error y un fraude en la preparación de estados financieros?",
+    "opciones": {
+      "A": "El impacto económico del evento.",
+      "B": "La intencionalidad de la acción u omisión.",
+      "C": "El departamento donde ocurrió la falla.",
+      "D": "Si el evento fue descubierto por auditores internos o externos."
+    },
+    "correcta": "B",
+    "concha_mango": "El error es NO intencional (equivocación); el fraude implica engaño e intencionalidad consciente.",
+    "dominio": "Dominio VI: Fraude"
+  },
+  {
+    "id": 92,
+    "pregunta": "9️⃣2️⃣ Un auditor interno que realiza una auditoría en la planta de producción nota que los empleados no usan equipo de protección personal. Esto representa un fallo en:",
+    "opciones": {
+      "A": "Controles directivos de cumplimiento de seguridad laboral.",
+      "B": "Segregación de funciones financieras.",
+      "C": "Gobierno de datos masivos.",
+      "D": "Controles de acceso a la red local."
+    },
+    "correcta": "A",
+    "concha_mango": "La seguridad e higiene industrial se gestionan mediante controles directivos y de cumplimiento operativo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 93,
+    "pregunta": "9️⃣3️⃣ De acuerdo con el Marco de Referencia Internacional para la Práctica Profesional (IPPF), las Guías Obligatorias incluyen:",
+    "opciones": {
+      "A": "El Código de Ética y las Normas Internacionales.",
+      "B": "Las Guías de Aplicación y las Guías de Práctica.",
+      "C": "Únicamente los libros de texto de preparación CIA.",
+      "D": "Las recomendaciones de la administración de la empresa."
+    },
+    "correcta": "A",
+    "concha_mango": "Los Principios Fundamentales, el Código de Ética, la Definición de Auditoría Interna y las Normas son de cumplimiento OBLIGATORIO.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 94,
+    "pregunta": "9️⃣4️⃣ ¿Qué se entiende por 'Matriz de Riesgos y Controles' (RCM) en la fase de planificación?",
+    "opciones": {
+      "A": "Un documento que relaciona los objetivos del proceso, sus riesgos asociados y los controles que los mitigan.",
+      "B": "El presupuesto de horas asignadas a cada auditor.",
+      "C": "Un inventario físico de equipos informáticos.",
+      "D": "La lista de empleados sancionados por fraude."
+    },
+    "correcta": "A",
+    "concha_mango": "La RCM conecta formalmente el riesgo identificado con el control diseñado para neutralizarlo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 95,
+    "pregunta": "9️⃣5️⃣ Si un auditor interno acepta un bono económico de la gerencia auditada tras finalizar una auditoría 'satisfactoria', viola el principio ético de:",
+    "opciones": {
+      "A": "Objetividad.",
+      "B": "Confidencialidad.",
+      "C": "Competencia.",
+      "D": "Oportunidad."
+    },
+    "correcta": "A",
+    "concha_mango": "Recibir incentivos económicos de las áreas auditadas menoscaba la imparcialidad y la objetividad del auditor.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 96,
+    "pregunta": "9️⃣6️⃣ ¿Cuál es el beneficio clave del muestreo estadístico sobre el muestreo no estadístico?",
+    "opciones": {
+      "A": "Garantiza que no habrá ningún error en la muestra.",
+      "B": "Permite medir cuantitativamente el riesgo de muestreo y extrapolar los resultados a la población con validez matemática.",
+      "C": "Es más rápido y no requiere análisis de datos.",
+      "D": "No requiere definir la población objetivo."
+    },
+    "correcta": "B",
+    "concha_mango": "El muestreo estadístico permite proyectar objetivamente las desviaciones estimadas en la población total.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 97,
+    "pregunta": "9️⃣7️⃣ Un control de compensación se utiliza cuando:",
+    "opciones": {
+      "A": "Se desea sustituir a la Junta Directiva.",
+      "B": "Un control clave ideal no está disponible o es demasiado costoso, pero otro control reduce el riesgo a un nivel aceptable.",
+      "C": "Se comete un fraude y se paga a la víctima.",
+      "D": "El auditor interno comete un error en su informe."
+    },
+    "correcta": "B",
+    "concha_mango": "El control compensatorio 'suple' la debilidad de un control principal para mantener la protección del proceso.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 98,
+    "pregunta": "9️⃣8️⃣ ¿Qué autoridad debe aprobar finalmente el Estatuto de Auditoría Interna?",
+    "opciones": {
+      "A": "El Director Financiero (CFO).",
+      "B": "El Consejo de Administración / Comité de Auditoría.",
+      "C": "El auditor externo.",
+      "D": "El gerente de recursos humanos."
+    },
+    "correcta": "B",
+    "concha_mango": "El Estatuto requiere aprobación del máximo órgano de gobierno (Consejo/Comité) para otorgar legitimidad e independencia a la función.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 99,
+    "pregunta": "9️⃣9️⃣ Durante la ejecución de una prueba, el auditor verifica que las facturas coinciden con las órdenes de compra y los recibos de almacén. Esto se conoce como:",
+    "opciones": {
+      "A": "Cruce de documentación o 'Three-way matching'.",
+      "B": "Confirmación externa de saldos.",
+      "C": "Toma de inventario físico.",
+      "D": "Análisis de sensibilidad económica."
+    },
+    "correcta": "A",
+    "concha_mango": "El 'Three-way match' valida que lo facturado coincida con lo pedido y lo efectivamente recibido antes de autorizar el pago.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control Interno"
+  },
+  {
+    "id": 100,
+    "pregunta": "1️⃣0️⃣0️⃣ La responsabilidad del seguimiento de las recomendaciones de auditoría recae formalmente en:",
+    "opciones": {
+      "A": "El Director Ejecutivo de Auditoría (DEA) mediante un proceso de monitoreo continuo.",
+      "B": "Los auditores externos durante su visita anual.",
+      "C": "El departamento legal de la empresa.",
+      "D": "El sindicato de trabajadores."
+    },
+    "correcta": "A",
+    "concha_mango": "Norma 2500: Corresponde al DEA establecer el sistema para supervisar si las acciones correctivas fueron implementadas.",
+    "dominio": "Dominio VI: Comunicación y Seguimiento"
+  }
