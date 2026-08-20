@@ -650,3 +650,133 @@
     "concha_mango": "Doble Línea de Reporte: Reporte Funcional al Consejo (OBLIGATORIO para independencia) + Reporte Administrativo al CEO (para logística diaria).",
     "dominio": "Dominio II: Independencia y Objetividad"
   }
+{
+    "id": 51,
+    "pregunta": "5️⃣1️⃣ Según las Normas del IIA, si un auditor interno es transferido desde el departamento de nómina a auditoría interna, ¿cuánto tiempo debe esperar antes de auditar el área de nómina?",
+    "opciones": {
+      "A": "No hay tiempo de espera si el DEA lo aprueba.",
+      "B": "Al menos 6 meses.",
+      "C": "Al menos 1 año.",
+      "D": "Al menos 3 años."
+    },
+    "correcta": "C",
+    "concha_mango": "Norma 1130: Se presume que hay impedimento de objetividad si un auditor evalúa operaciones de las cuales fue responsable en el año inmediatamente anterior.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 52,
+    "pregunta": "5️⃣2️⃣ El nivel de riesgo que una organización está dispuesta a aceptar para lograr sus objetivos antes de emprender cualquier acción para modificarlo se conoce como:",
+    "opciones": {
+      "A": "Riesgo inherente.",
+      "B": "Riesgo residual.",
+      "C": "Apetito de riesgo.",
+      "D": "Tolerancia al riesgo."
+    },
+    "correcta": "C",
+    "concha_mango": "Apetito de riesgo es la cantidad general de riesgo aceptable; el riesgo inherente es el nivel de riesgo SIN aplicar controles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control"
+  },
+  {
+    "id": 53,
+    "pregunta": "5️⃣3️⃣ ¿Cuál es la responsabilidad principal del auditor interno con respecto al fraude, según las Normas del IIA?",
+    "opciones": {
+      "A": "Garantizar que no ocurran fraudes en la organización.",
+      "B": "Tener conocimientos suficientes para evaluar el riesgo de fraude, pero no se espera que sea un experto investigador.",
+      "C": "Investigar personalmente cualquier sospecha de fraude hasta sus últimas consecuencias.",
+      "D": "Diseñar e implementar los controles antifraude de la gerencia."
+    },
+    "correcta": "B",
+    "concha_mango": "El auditor no es un investigador forense (no se espera que tenga la pericia de uno), pero DEBE saber identificar las señales de alerta de fraude.",
+    "dominio": "Dominio VI: Fraude"
+  },
+  {
+    "id": 54,
+    "pregunta": "5️⃣4️⃣ Las evaluaciones externas del Programa de Aseguramiento y Mejora de la Calidad (QAIP) deben realizarse:",
+    "opciones": {
+      "A": "Anualmente por el Comité de Auditoría.",
+      "B": "Al menos una vez cada cinco años por un evaluador independiente.",
+      "C": "Cada tres años por los auditores externos de la empresa.",
+      "D": "De forma continua mediante métricas de desempeño."
+    },
+    "correcta": "B",
+    "concha_mango": "Norma 1312: Evaluación externa obligatoria al menos 1 vez cada 5 años por un revisor calificado e independiente fuera de la organización.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 55,
+    "pregunta": "5️⃣5️⃣ Un control diseñado para descubrir eventos no deseados que ya han ocurrido, como una conciliación bancaria mensual, se clasifica como:",
+    "opciones": {
+      "A": "Control preventivo.",
+      "B": "Control directivo.",
+      "C": "Control detectivo.",
+      "D": "Control correctivo."
+    },
+    "correcta": "C",
+    "concha_mango": "Los controles detectivos actúan 'después del hecho' para identificar errores o irregularidades (ej. conciliaciones, inventarios físicos).",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control"
+  },
+  {
+    "id": 56,
+    "pregunta": "5️⃣6️⃣ En el contexto del Gobierno Corporativo, ¿cuál es el rol principal de la actividad de auditoría interna?",
+    "opciones": {
+      "A": "Establecer la dirección estratégica de la organización.",
+      "B": "Asegurar que la junta directiva cumpla con las leyes locales.",
+      "C": "Evaluar y hacer recomendaciones para mejorar los procesos de gobierno.",
+      "D": "Ejecutar las decisiones operativas diarias para mitigar riesgos éticos."
+    },
+    "correcta": "C",
+    "concha_mango": "La auditoría evalúa y recomienda (aseguramiento); la gerencia y el consejo son quienes establecen y ejecutan el gobierno.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética"
+  },
+  {
+    "id": 57,
+    "pregunta": "5️⃣7️⃣ Si el Director Ejecutivo de Auditoría (DEA) determina que la actividad de auditoría interna no cuenta con los conocimientos técnicos para una revisión de ciberseguridad, ¿qué debe hacer?",
+    "opciones": {
+      "A": "Cancelar la auditoría inmediatamente.",
+      "B": "Capacitar a un auditor financiero en ciberseguridad durante una semana e iniciar el trabajo.",
+      "C": "Obtener asesoramiento y asistencia competente externa (co-sourcing/outsourcing).",
+      "D": "Realizar la auditoría basándose solo en cuestionarios de control interno."
+    },
+    "correcta": "C",
+    "concha_mango": "El DEA debe declinar el trabajo O conseguir apoyo externo competente. La capacitación rápida no garantiza la 'competencia' requerida.",
+    "dominio": "Dominio III: Competencia y Cuidado Profesional"
+  },
+  {
+    "id": 58,
+    "pregunta": "5️⃣8️⃣ El documento que define el propósito, la autoridad y la responsabilidad de la actividad de auditoría interna se conoce como:",
+    "opciones": {
+      "A": "Plan anual de auditoría.",
+      "B": "Estatuto de auditoría interna.",
+      "C": "Manual de políticas y procedimientos de auditoría.",
+      "D": "Código de Ética del IIA."
+    },
+    "correcta": "B",
+    "concha_mango": "El Estatuto es el marco constitucional de la auditoría interna dentro de la empresa; define el propósito, la autoridad y la responsabilidad.",
+    "dominio": "Dominio I: Fundamentos de la Auditoría Interna"
+  },
+  {
+    "id": 59,
+    "pregunta": "5️⃣9️⃣ Durante una auditoría a un proveedor, el gerente del proveedor le ofrece al auditor interno unas vacaciones pagadas por su 'excelente colaboración'. Aceptar este regalo violaría principalmente el principio ético de:",
+    "opciones": {
+      "A": "Integridad.",
+      "B": "Confidencialidad.",
+      "C": "Objetividad.",
+      "D": "Competencia."
+    },
+    "correcta": "C",
+    "concha_mango": "La objetividad se ve directamente comprometida al aceptar favores o regalos que puedan perjudicar el juicio profesional del auditor.",
+    "dominio": "Dominio II: Independencia y Objetividad"
+  },
+  {
+    "id": 60,
+    "pregunta": "6️⃣0️⃣ ¿Cuál es la diferencia principal entre el riesgo inherente y el riesgo residual?",
+    "opciones": {
+      "A": "El riesgo inherente es cuantificable, el residual es cualitativo.",
+      "B": "El riesgo residual es el nivel de riesgo después de considerar las acciones y controles de la gerencia.",
+      "C": "El riesgo inherente solo aplica a los activos financieros.",
+      "D": "El riesgo residual siempre es cero si los controles son efectivos."
+    },
+    "correcta": "B",
+    "concha_mango": "Riesgo Inherente = Riesgo 'crudo' sin controles. Riesgo Residual = Lo que queda después de aplicar los controles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control"
+  }
