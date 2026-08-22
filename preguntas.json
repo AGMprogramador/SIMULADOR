@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "e3ccd219fd62",
     "pregunta": "¿Cuál de las siguientes opciones describe la línea de dependencia óptima del Director de Auditoría Interna para mejorar la independencia de la Función de Auditoría Interna?",
     "opciones": {
       "A": "Dependencia funcional y administrativa del presidente de la organización.",
@@ -15,7 +15,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 2,
+    "id": "f0845fcc6014",
     "pregunta": "¿Cuál de las siguientes es la mejor descripción del Modelo de las Tres Líneas del IIA?",
     "opciones": {
       "A": "Un modelo que describe la jerarquía de gestión en grandes organizaciones, incluyendo la primera línea de gobierno, la segunda línea de gestión, y la tercera línea de auditoría interna.",
@@ -30,7 +30,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 3,
+    "id": "5f9e3e5fde86",
     "pregunta": "¿Cuál de las siguientes opciones es adecuada para incluir en el Estatuto de Auditoría Interna?",
     "opciones": {
       "A": "La naturaleza de la relación funcional de dependencia del Director de Auditoría Interna con el Consejo.",
@@ -45,7 +45,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 4,
+    "id": "909db6c75603",
     "pregunta": "Para determinar la ubicación organizacional de la auditoría interna, el Director de Auditoría Interna trabaja con",
     "opciones": {
       "A": "El asesor legal para determinar la ubicación organizacional requerida por ley de la Función de Auditoría Interna.",
@@ -60,7 +60,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 5,
+    "id": "53cce42bedc2",
     "pregunta": "El propósito, la autoridad y la responsabilidad de la Función de Auditoría Interna se definen formalmente en",
     "opciones": {
       "A": "Las actas de las reuniones del Consejo.",
@@ -75,7 +75,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 6,
+    "id": "845559f0514f",
     "pregunta": "¿Cuál de los siguientes elementos debe incluirse en el Estatuto de Auditoría Interna?",
     "opciones": {
       "A": "La objetividad de la auditoría interna.",
@@ -90,7 +90,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 7,
+    "id": "851fd9a66917",
     "pregunta": "¿Cuál de las siguientes definiciones describe mejor la Auditoría Interna?",
     "opciones": {
       "A": "Las políticas, procedimientos y actividades diseñados y ejecutados para asegurar que los riesgos se mantengan dentro del nivel que una organización está dispuesta a aceptar.",
@@ -105,7 +105,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 8,
+    "id": "2fb6d6630562",
     "pregunta": "Una estrategia y un plan de auditoría interna efectivos requieren que el Director de Auditoría Interna",
     "opciones": {
       "A": "Comprenda la gestión de riesgos.",
@@ -120,7 +120,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 9,
+    "id": "fdc181f3d527",
     "pregunta": "Según el Modelo de las Tres Líneas, ¿cuál rol es principalmente responsable de gestionar directamente los riesgos?",
     "opciones": {
       "A": "El Consejo Administrativo.",
@@ -135,7 +135,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 10,
+    "id": "270a71e41ba1",
     "pregunta": "El Consejo de una organización ha encargado al Director de Auditoría Interna la mejora de la Función de Auditoría Interna. La primera función del Director de Auditoría Interna es desarrollar un Estatuto. ¿Qué elemento debe incluirse en la declaración de objetivos?",
     "opciones": {
       "A": "Informar al Consejo cada trimestre sobre los resultados de todos los trabajos.",
@@ -150,7 +150,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 11,
+    "id": "51406c18f3bc",
     "pregunta": "La dependencia administrativa óptima del Director de Auditoría Interna es ante:",
     "opciones": {
       "A": "El comité de auditoría.",
@@ -165,7 +165,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 12,
+    "id": "26cd5356b44f",
     "pregunta": "¿Qué se debe hacer después de que el Director de Auditoría Interna recibe la aprobación del Consejo para ofrecer servicios de asesoramiento?",
     "opciones": {
       "A": "El Director de Auditoría Interna debe comenzar a prestar los servicios de asesoramiento.",
@@ -180,7 +180,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 13,
+    "id": "41a68b5e28cd",
     "pregunta": "¿Cuál de los siguientes factores podía contribuir a la falta de independencia de la Función de Auditoría Interna?",
     "opciones": {
       "A": "El Director de Auditoría Interna depende administrativamente del Director Ejecutivo.",
@@ -195,7 +195,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 14,
+    "id": "6bc6640ab8dc",
     "pregunta": "Ciertos cambios en las circunstancias pueden justificar una modificación del Mandato de Auditoría Interna. ¿Con qué frecuencia debe el Director de Auditoría Interna considerar la posibilidad de introducir cambios en el Mandato de Auditoría Interna?",
     "opciones": {
       "A": "Cada 5 años.",
@@ -210,7 +210,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 15,
+    "id": "b38e1ad9e695",
     "pregunta": "La independencia organizacional de la auditoría interna se promueve más eficazmente cuando el Consejo",
     "opciones": {
       "A": "Gestiona la comunicación interna y el flujo de información.",
@@ -225,7 +225,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 16,
+    "id": "2ed856f94e8b",
     "pregunta": "¿Cuál de las siguientes afirmaciones es cierta en relación con la propuesta de valor de la definición de auditoría interna del IIA?",
     "opciones": {
       "A": "La Función de Auditoría Interna no añade valor a una organización.",
@@ -240,7 +240,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 17,
+    "id": "ba7d9bacc17f",
     "pregunta": "¿Qué estrategia utiliza el Director de Auditoría Interna para integrar el rol de la auditoría interna con la gestión de riesgos?",
     "opciones": {
       "A": "Desarrollar un marco de gestión de riesgos independiente de la auditoría interna.",
@@ -255,7 +255,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 18,
+    "id": "3b2c2ed3c14d",
     "pregunta": "Una organización ha contratado a un nuevo Director de Auditoría Interna. El Director de Auditoría Interna está desarrollando una comprensión del proceso de gestión de riesgos de la organización. ¿Cuál de las siguientes opciones describe mejor un aspecto de la gestión de riesgos que el Director de Auditoría Interna debe comprender?",
     "opciones": {
       "A": "Los detalles de cómo el departamento de tesorería utiliza los derivados para gestionar la cartera de inversiones de la organización.",
@@ -270,7 +270,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 19,
+    "id": "8354f4b35bce",
     "pregunta": "El Estatuto de Auditoría Interna",
     "opciones": {
       "A": "Define las autoridades y responsabilidades de la Función de Auditoría Interna.",
@@ -285,7 +285,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 20,
+    "id": "5b53a73efb55",
     "pregunta": "¿Qué acción es consistente con la dependencia funcional?",
     "opciones": {
       "A": "La independencia organizacional se logra de manera efectiva cuando el Director de Auditoría Interna depende funcionalmente del Director Ejecutivo.",
@@ -300,7 +300,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 21,
+    "id": "c467943ae996",
     "pregunta": "¿Cuál de las siguientes opciones indica con mayor probabilidad si la Función de Auditoría Interna es independiente desde el punto de vista organizacional?",
     "opciones": {
       "A": "El Director de Auditoría Interna se reúne en privado con el Director Ejecutivo al menos una vez al año.",
@@ -315,7 +315,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 22,
+    "id": "d090a37bd435",
     "pregunta": "¿En cual de las siguientes condiciones la Función de Auditoría Interna es más efectiva para alcanzar su propósito?",
     "opciones": {
       "A": "Los auditores externos realizan los trabajos de aseguramiento.",
@@ -330,7 +330,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 23,
+    "id": "e997111a0136",
     "pregunta": "El Modelo de las Tres Líneas mejora la gestión de riesgos dentro de las organizaciones al",
     "opciones": {
       "A": "Priorizar los riesgos financieros sobre los riesgos operativos.",
@@ -345,7 +345,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 24,
+    "id": "5760581836d6",
     "pregunta": "Una nueva regulación exige a las organizaciones desarrollar políticas y actividades de gestión de riesgos para asegurar el cumplimiento. Dado que la organización cuenta con recursos limitados, el Consejo autoriza al Director de Auditoría Interna a llevar a cabo estas actividades. ¿Cuál de las siguientes medidas es más probable que sirva de salvaguarda contra un posible impedimento de la independencia u objetividad en esta situación?",
     "opciones": {
       "A": "El Director de Auditoría Interna analiza los posibles impedimentos con la Alta Dirección y solicita su aprobación para externalizar la actividad.",
@@ -360,7 +360,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 25,
+    "id": "a4efc0790ca1",
     "pregunta": "La Función de Auditoría Interna contribuye al proceso de gestión de riesgos de una organización al",
     "opciones": {
       "A": "Establecer el apetito de riesgo de la organización.",
@@ -375,7 +375,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 26,
+    "id": "ac32776857e3",
     "pregunta": "El nuevo Director Ejecutivo de una empresa está reestructurando la empresa, lo que incluye la eliminación de algunas funciones y personal. Al consultar con el Director Financiero, le pregunta si el Departamento de Aseguramiento de Calidad podía llevar a cabo muchas de las mismas funciones de aseguramiento que realiza la Función de Auditoría Interna. El Director Financiero apoya la Función de Auditoría Interna y, por lo tanto, lo más probable es que le explique al Director Ejecutivo que",
     "opciones": {
       "A": "A diferencia de la Función de Aseguramiento de Calidad, la Función de Auditoría Interna es independiente con responsabilidad directa ante el Consejo, lo que asegura un aseguramiento y asesoramiento objetivos y libres de influencias indebidas.",
@@ -390,7 +390,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 27,
+    "id": "898d9fb9e68d",
     "pregunta": "Un Director de Auditoría Interna debe tener una relación de dependencia que permita a la Función de Auditoría Interna cumplir con sus responsabilidades. La evidencia de dicha relación de dependencia es",
     "opciones": {
       "A": "El Estatuto de Auditoría Interna, que documenta las relaciones de dependencia de la Función de Auditoría Interna.",
@@ -405,7 +405,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 28,
+    "id": "299de51f7151",
     "pregunta": "La Función de Auditoría Interna contribuye al proceso de gestión de riesgos de una organización al",
     "opciones": {
       "A": "Dictando los niveles de tolerancia al riesgo de la Dirección.",
@@ -420,7 +420,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 29,
+    "id": "d577b5ac7014",
     "pregunta": "¿De cuál de las siguientes actividades es responsable el Consejo con respecto al gobierno de la Función de Auditoría Interna?",
     "opciones": {
       "A": "Preparación del presupuesto de la Función de Auditoría Interna.",
@@ -435,7 +435,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 30,
+    "id": "aff15926b7e2",
     "pregunta": "¿Cuál de las siguientes afirmaciones describe correctamente el Mandato de Auditoría Interna?",
     "opciones": {
       "A": "Un documento formal que incluye la autoridad de la Función de Auditoría Interna, su posición organizacional, las relaciones de dependencia, el alcance del trabajo, los tipos de servicios y otras especificaciones.",
@@ -450,7 +450,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 31,
+    "id": "6421cff8758b",
     "pregunta": "Al evaluar la independencia de una Función de Auditoría Interna, un equipo de revisión de aseguramiento de la calidad que realiza una evaluación externa considera varios factores. ¿Cuál de los siguientes factores es más probable que influya en la evaluación de la independencia de una Función de Auditoría Interna?",
     "opciones": {
       "A": "El sector en el que opera la organización.",
@@ -465,7 +465,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 32,
+    "id": "d16fa644701e",
     "pregunta": "¿Cuál de las siguientes situaciones supone un conflicto entre el rol del auditor interno como responsable de ética y el atributo de independencia de la Función de Auditoría Interna?",
     "opciones": {
       "A": "El Director de Ética solicita a los auditores internos que evalúen si la organización en su conjunto está incumpliendo el código de conducta de la organización.",
@@ -480,7 +480,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 33,
+    "id": "a21bd396191e",
     "pregunta": "La independencia organizacional de la Función de Auditoría Interna se logra de manera más eficaz cuando",
     "opciones": {
       "A": "El Director de Auditoría Interna depende administrativamente del comité de auditoría.",
@@ -495,7 +495,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 34,
+    "id": "eedfb7a652b6",
     "pregunta": "¿Cuál es un factor clave en la planificación estratégica de la Función de Auditoría Interna?",
     "opciones": {
       "A": "Establecer procedimientos de auditoría fijos para todas las divisiones.",
@@ -510,7 +510,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 35,
+    "id": "7296e13eb61e",
     "pregunta": "¿Cuál de las siguientes opciones se incluye en el Estatuto de Auditoría Interna?",
     "opciones": {
       "A": "La autoridad de la Función de Auditoría Interna.",
@@ -525,7 +525,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 36,
+    "id": "8e12bdd8e507",
     "pregunta": "¿Cuál es el rol de la auditoría interna en el contexto del proceso de gestión de riesgos de una organización?",
     "opciones": {
       "A": "Gestionar los riesgos potenciales para la organización.",
@@ -540,7 +540,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 37,
+    "id": "19db60f55346",
     "pregunta": "¿A quién debe depender funcionalmente el Director de Auditoría Interna, según lo indicado por el IIA, para lograr la independencia necesaria?",
     "opciones": {
       "A": "El Consejo.",
@@ -555,7 +555,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 38,
+    "id": "a563646af6bf",
     "pregunta": "El rol del auditor interno con respecto a los objetivos y metas operativos incluye",
     "opciones": {
       "A": "Alcanzar los resultados deseados del programa operativo.",
@@ -570,7 +570,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 39,
+    "id": "7e65d0005ab8",
     "pregunta": "La ausencia de las condiciones que amenacen la capacidad de los auditores internos para realizar un trabajo imparcial es",
     "opciones": {
       "A": "El control.",
@@ -585,7 +585,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 40,
+    "id": "bf0cbe4af7bf",
     "pregunta": "Según el Modelo de las Tres Líneas, ¿cuál es el rol principal de la primera línea?",
     "opciones": {
       "A": "Gestión diaria de los riesgos y logro de los objetivos organizacionales.",
@@ -600,7 +600,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 41,
+    "id": "be3f0d8d9ed1",
     "pregunta": "Cuando los cambios en las circunstancias lo justifiquen, ¿con quién debe discutir el director ejecutivo de auditoría CAE el mandato (estatuto) de auditoría interna para evaluar si la autoridad, el rol y las responsabilidades de la función de auditoría interna continúan permitiéndole ejecutar su estrategia y cumplir sus objetivos?",
     "opciones": {
       "A": "Con el director financiero CFO y el consejo.",
@@ -615,7 +615,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 42,
+    "id": "03de1e080db4",
     "pregunta": "Un auditor interno se incorporó recientemente a una función de auditoría interna que no sigue un marco profesional establecido. El director ejecutivo de auditoría CAE considera que dicho marco no es necesario porque el trabajo de auditoría ya es de alta calidad. ¿Por qué debería el CAE considerar la implementación del Marco Internacional para la Práctica Profesional IPPF del IIA?",
     "opciones": {
       "A": "Para demostrar las competencias y habilidades del personal.",
@@ -630,7 +630,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 43,
+    "id": "ab300a1039f0",
     "pregunta": "La función de auditoría interna de una corporación multinacional ha concluido recientemente varios trabajos de auditoría. ¿Cuál de las siguientes combinaciones de resultados demuestra mejor que la función de auditoría interna está cumpliendo su propósito principal?",
     "opciones": {
       "A": "Proporcionó observaciones y recomendaciones que mejoraron la eficiencia operativa y fortalecieron los procesos de gestión de riesgos.",
@@ -645,7 +645,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 44,
+    "id": "84a0419f5122",
     "pregunta": "El director ejecutivo de auditoría CAE de una organización reporta funcionalmente al consejo y administrativamente al director financiero CFO. ¿Cuál de las siguientes opciones describe mejor el posible problema de esta estructura de reporte?",
     "opciones": {
       "A": "Es posible que el CAE no tenga las competencias necesarias para dirigir la función de auditoría interna.",
@@ -660,7 +660,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 45,
+    "id": "60d2401f2222",
     "pregunta": "¿Cuál de las siguientes líneas de reporte para el director ejecutivo de auditoría CAE tiene mayor probabilidad de afectar la independencia de la función de auditoría interna?",
     "opciones": {
       "A": "Reportar funcionalmente al consejo y administrativamente al director ejecutivo CEO, presidente o máximo responsable de la toma de decisiones.",
@@ -675,7 +675,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 46,
+    "id": "6d560c1ea194",
     "pregunta": "¿Cuál de los siguientes escenarios demuestra mejor cómo la línea de reporte funcional del director ejecutivo de auditoría CAE hacia el director ejecutivo CEO, quien además participa activamente en las operaciones, podía menoscabar la independencia de la auditoría interna?",
     "opciones": {
       "A": "El CEO establece límites claramente definidos entre la supervisión estratégica y las operaciones del día a día.",
@@ -690,7 +690,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 47,
+    "id": "a3897c88df16",
     "pregunta": "Cuando un director ejecutivo de auditoría CAE también tiene responsabilidades sobre la gestión de riesgos, además de sus funciones de auditoría interna, ¿cuál de los siguientes escenarios permitiría que la función de auditoría interna preste servicios relacionados con la gestión de riesgos?",
     "opciones": {
       "A": "Concentrar en la función de auditoría interna tanto la responsabilidad de desarrollar la función de gestión de riesgos como la de evaluar su eficacia.",
@@ -705,7 +705,7 @@
     "fuente": "Simulacro 18 de Julio (2026-07-18)"
   },
   {
-    "id": 48,
+    "id": "7c9504a77033",
     "pregunta": "Un miembro del Consejo está comparando los servicios que ofrece la auditoría interna. ¿Cómo deben evaluarse las diferencias entre los servicios de aseguramiento y los servicios de asesoramiento?",
     "opciones": {
       "A": "Los servicios de aseguramiento proporcionan revisiones independientes sin conclusiones formales, mientras que los servicios de asesoramiento se centran en recomendaciones consultivas para mejorar el desempeño.",
@@ -720,7 +720,7 @@
     "fuente": "CIA 1 2026 - Práctica 5 (2026-07-20)"
   },
   {
-    "id": 49,
+    "id": "0183bc097863",
     "pregunta": "En un taller de capacitación brindado por el equipo de Auditoría Interna al resto de áreas, ¿cómo se definen los servicios de aseguramiento dentro de la función?",
     "opciones": {
       "A": "Son evaluaciones independientes que producen opiniones o conclusiones formales sobre los controles y los riesgos.",
@@ -735,7 +735,7 @@
     "fuente": "CIA 1 2026 - Práctica 5 (2026-07-20)"
   },
   {
-    "id": 50,
+    "id": "debc1b1d2fbb",
     "pregunta": "¿Qué tipo de servicio es el más adecuado si la entidad requiere una opinión formal e independiente sobre sus controles financieros?",
     "opciones": {
       "A": "Servicios de aseguramiento, porque proporcionan tanto opiniones formales como recomendaciones para mejorar procesos dentro de un mismo trabajo.",
@@ -750,7 +750,7 @@
     "fuente": "CIA 1 2026 - Práctica 5 (2026-07-20)"
   },
   {
-    "id": 51,
+    "id": "c3601c205ad8",
     "pregunta": "Una empresa utiliza el mapeo de procesos (process mapping) para mejorar su sistema de control interno. ¿Cuál es el papel del auditor interno en este contexto?",
     "opciones": {
       "A": "El auditor ayuda a representar los flujos de trabajo y proporciona una supervisión general de la documentación de los procesos.",
@@ -765,7 +765,7 @@
     "fuente": "CIA 1 2026 - Práctica 5 (2026-07-20)"
   },
   {
-    "id": 52,
+    "id": "ff8bd619bdef",
     "pregunta": "Una empresa desea analizar su operación completa de abastecimiento, identificar actividades redundantes, simplificar procedimientos y apoyar un proyecto de mejora continua. ¿Qué formato de taller CSA sería el MÁS apropiado?",
     "opciones": {
       "A": "Basado en riesgos.",
@@ -780,7 +780,7 @@
     "fuente": "CIA 1 - Práctica 6 (2026-07-21)"
   },
   {
-    "id": 53,
+    "id": "97e5867612ec",
     "pregunta": "Respecto a la autoevaluación de riesgos y controles CSA, ¿cuáles de las siguientes afirmaciones son correctas? 1. Puede aumentar la cobertura de evaluación de controles. 2. Reduce la necesidad de recopilar información por parte de auditoría interna. 3. Sustituye completamente las pruebas independientes del auditor. 4. Permite que auditoría enfoque recursos en procesos de mayor riesgo.",
     "opciones": {
       "A": "Solo 1 y 2",
@@ -795,7 +795,7 @@
     "fuente": "CIA 1 - Práctica 6 (2026-07-21)"
   },
   {
-    "id": 54,
+    "id": "15a714e04132",
     "pregunta": "Un auditor revisa un contrato bajo la modalidad \"Cost Plus\". ¿Cuál debería ser una de sus principales preocupaciones?",
     "opciones": {
       "A": "El contratista podía sacrificar la calidad.",
@@ -810,7 +810,7 @@
     "fuente": "CIA 1 2026 - Práctica 7 (2026-07-21)"
   },
   {
-    "id": 55,
+    "id": "68425be68d03",
     "pregunta": "Durante una auditoría de un proveedor que administra el procesamiento de nómina de la organización, el auditor interno revisa las conclusiones del informe SOC del proveedor y determina que es confiable y que el auditor que lo emitió es competente e independiente. ¿Cuál debería ser el siguiente paso MÁS apropiado?",
     "opciones": {
       "A": "Confiar en el informe y eliminar todas las pruebas relacionadas.",
@@ -825,7 +825,7 @@
     "fuente": "CIA 1 2026 - Práctica 7 (2026-07-21)"
   },
   {
-    "id": 56,
+    "id": "8a6b1bb6176a",
     "pregunta": "Durante una auditoría de un proveedor que administra la infraestructura en la nube de la organización, el auditor obtiene un informe SOC 2 emitido por un auditor independiente. ¿qué debería hacer primero el auditor interno?",
     "opciones": {
       "A": "Aceptar el informe porque fue emitido por un tercero.",
@@ -840,7 +840,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 57,
+    "id": "8ee0658659e7",
     "pregunta": "¿Cuál de los siguientes contratos presenta el mayor riesgo de que el contratista tenga pocos incentivos para controlar sus costos?",
     "opciones": {
       "A": "Precio fijo",
@@ -855,7 +855,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 58,
+    "id": "cc536fbda028",
     "pregunta": "Una organización desea realizar una autoevaluación de controles involucrando a más de 2,000 empleados distribuidos en varios países. Además, la cultura organizacional dificulta que las personas expresen opiniones críticas en reuniones grupales. ¿Cuál sería el enfoque de CSA más apropiado?",
     "opciones": {
       "A": "Taller basado en procesos.",
@@ -870,7 +870,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 59,
+    "id": "a2029e13e9ae",
     "pregunta": "Una auditoría concluye que una organización logró aumentar significativamente sus utilidades durante el último año reduciendo drásticamente la inversión en investigación y desarrollo. ¿Qué herramienta de medición ayudaría mejor al auditor a determinar si este resultado afecta negativamente los objetivos de largo plazo?",
     "opciones": {
       "A": "Análisis FODA.",
@@ -885,7 +885,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 60,
+    "id": "7c388c9c61d9",
     "pregunta": "Un Director de Auditoría Interna observa que la función de auditoría participa cada vez más activamente en talleres de CSA. ¿Cuál debería ser su principal preocupación?",
     "opciones": {
       "A": "Reducir el número de participantes o talleres.",
@@ -900,7 +900,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 61,
+    "id": "dc6a60701b84",
     "pregunta": "¿Cuál de los siguientes constituye un riesgo típico asociado con las relaciones comerciales externas? 1.Pérdida de información confidencial. 2.Insolvencia del proveedor. 3.Conflictos de interés. 4.Eliminación de riesgos operacionales.",
     "opciones": {
       "A": "Solo 1 y 2.",
@@ -915,7 +915,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 62,
+    "id": "b0474ed04eb4",
     "pregunta": "Durante la planificación de una auditoría, el auditor interno propone evaluar la eficacia de los controles implementados para proteger los activos de la organización contra pérdidas, así como la confiabilidad de los informes financieros. El gerente del área argumenta que esas actividades son responsabilidad exclusiva del auditor externo. ¿Cuál es la respuesta MÁS apropiada del auditor interno?",
     "opciones": {
       "A": "Está de acuerdo, porque la auditoría interna no tiene como foco los controles relacionados con los estados financieros.",
@@ -930,7 +930,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 63,
+    "id": "a2db78d30bcc",
     "pregunta": "¿Cuál de las siguientes actividades representa mejor un trabajo de aseguramiento operacional?",
     "opciones": {
       "A": "Verificar que los empleados hayan firmado el Código de Ética.",
@@ -945,7 +945,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 64,
+    "id": "ffc9a4adad1b",
     "pregunta": "Respecto al CSA, ¿cuáles de las siguientes afirmaciones son correctas? 1. Incrementa la responsabilidad de los propietarios del proceso. 2. Elimina la necesidad de pruebas por parte de auditoría interna. 3. Permite que auditoría concentre recursos en áreas de mayor riesgo. 4. La responsabilidad final sobre los controles permanece en la dirección.",
     "opciones": {
       "A": "Solo 1 y 2",
@@ -960,7 +960,7 @@
     "fuente": "CIA 2026 - Práctica 8 (2026-07-22)"
   },
   {
-    "id": 65,
+    "id": "c29f8730d3d5",
     "pregunta": "El auditor interno observa que el director financiero registra numerosos asientos manuales al final de cada trimestre. ¿Por qué esta situación representa un mayor riesgo?",
     "opciones": {
       "A": "Porque los asientos manuales siempre requieren aprobación externa.",
@@ -975,7 +975,7 @@
     "fuente": "CIA 1 2026 - Práctica 9 (2026-07-22)"
   },
   {
-    "id": 66,
+    "id": "723b9b291b22",
     "pregunta": "¿Cuáles de las siguientes afirmaciones respecto a un programa de cumplimiento efectivo son correctas? 1. Debe incluir un código de conducta claro. 2. Debe incentivar financieramente únicamente el cumplimiento de metas de ventas. 3. Debe identificar claramente al personal responsable. 4. Debe adaptarse a las leyes locales cuando la organización opera internacionalmente.",
     "opciones": {
       "A": "Sólo 1 y 3.",
@@ -990,7 +990,7 @@
     "fuente": "CIA 1 2026 - Práctica 9 (2026-07-22)"
   },
   {
-    "id": 67,
+    "id": "d72c0c47fa68",
     "pregunta": "¿Cuál de las siguientes situaciones constituye información fraudulenta?",
     "opciones": {
       "A": "Robo de inventarios.",
@@ -1005,7 +1005,7 @@
     "fuente": "CIA 1 2026 - Práctica 9 (2026-07-22)"
   },
   {
-    "id": 68,
+    "id": "6468656eac9c",
     "pregunta": "Una empresa está implementando un nuevo sistema ERP para integrar las áreas de compras, inventarios y contabilidad. El auditor interno es asignado para evaluar si el proyecto está utilizando adecuadamente los recursos y si los objetivos previstos del proyecto están siendo alcanzados. ¿Qué tipo de trabajo de aseguramiento describe mejor esta situación?",
     "opciones": {
       "A": "Auditoría financiera.",
@@ -1020,7 +1020,7 @@
     "fuente": "CIA 1 2026 - Práctica 9 (2026-07-22)"
   },
   {
-    "id": 69,
+    "id": "726209845e36",
     "pregunta": "¿Cuál de las siguientes opciones es representativa de un informe de gestión?",
     "opciones": {
       "A": "Estados financieros presentados a la Comisión de Bolsa y Valores.",
@@ -1035,7 +1035,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 70,
+    "id": "ad338c0849ef",
     "pregunta": "El director de cumplimiento de una organización debe reportar al",
     "opciones": {
       "A": "Director Ejecutivo.",
@@ -1050,7 +1050,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 71,
+    "id": "5247242cdb52",
     "pregunta": "El director general quiere saber si la función de compras está cumpliendo adecuadamente con su responsabilidad de \"adquirir los materiales correctos, en el momento adecuado y en las cantidades correctas\". ¿Cuál de los siguientes tipos de trabajos aborda esta solicitud?",
     "opciones": {
       "A": "Un trabajo financiero relacionado con el departamento de compras.",
@@ -1065,7 +1065,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 72,
+    "id": "2b2e150787a5",
     "pregunta": "Con el fin de determinar la eficacia de los informes internos, el director ejecutivo de una organización ha solicitado al Director de Auditoría Interna que realice una auditoría de los informes de gestión de la organización. Este tipo de trabajo de aseguramiento incluiría",
     "opciones": {
       "A": "Evaluar la exactitud y puntualidad de los resultados comunicados de conformidad con los organismos reguladores.",
@@ -1080,7 +1080,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 73,
+    "id": "2a5b747462cd",
     "pregunta": "¿Qué característica refleja mejor una cultura organizacional sólida?",
     "opciones": {
       "A": "Rigidez en la adhesión a los procedimientos sin flexibilidad.",
@@ -1095,7 +1095,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 74,
+    "id": "f926a7e1d142",
     "pregunta": "¿Cuál de las siguientes describe mejor la contabilidad financiera que la contabilidad de gestión?",
     "opciones": {
       "A": "Medición y valuación de inventarios.",
@@ -1110,7 +1110,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 75,
+    "id": "cd9abe01961b",
     "pregunta": "Se está llevando a cabo un trabajo para evaluar un departamento de transporte. Los procedimientos de revisión incluyen un análisis de las solicitudes de \"envíos urgentes.\" El objetivo del trabajo en este caso es",
     "opciones": {
       "A": "La liquidación financiera del envío urgente.",
@@ -1125,7 +1125,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 76,
+    "id": "077d693d9fc8",
     "pregunta": "Las altas tasas de rotación y absentismo pueden ser indicadores en una auditoría de la cultura organizacional porque",
     "opciones": {
       "A": "Implican un fuerte compromiso de los empleados.",
@@ -1140,7 +1140,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 77,
+    "id": "441276aa5576",
     "pregunta": "Escenario: Un auditor interno certificado es el Director de Auditoría Interna de una gran ciudad y está planificando el programa de trabajo para el próximo año. La ciudad tiene una serie de fondos diferentes, algunos que son de uso restringido por subvenciones del gobierno y algunos que requieren informes de cumplimiento al gobierno. Uno de los programas para los cuales la ciudad ha recibido una subvención es el reentrenamiento y colocación laboral. La subvención específica ciertas condiciones que un participante en el programa debe cumplir para ser elegible al financiamiento. Los auditores internos deben determinar las leyes y regulaciones aplicables. ¿Cuál de los siguientes procedimientos es el más efectivo para conocer las leyes y regulaciones aplicables?",
     "opciones": {
       "A": "Determinar SI la agencia que concede la subvención ha cumplido las leyes y regulaciones pertinentes.",
@@ -1155,7 +1155,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 78,
+    "id": "b9e10f4e1d60",
     "pregunta": "La diferencia principal entre los trabajos operativos y los trabajos financieros es que, en el primero, los auditores internos",
     "opciones": {
       "A": "No están preocupados si la entidad del cliente está generando información en cumplimiento con las nomas de contabilidad financiera.",
@@ -1170,7 +1170,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 79,
+    "id": "18508cab81f5",
     "pregunta": "¿Cuál de las siguientes opciones describe mejor la responsabilidad inicial de un auditor interno con respecto a los errores detectados durante una auditoría de estados financieros?",
     "opciones": {
       "A": "Informar de los errores materiales.",
@@ -1185,7 +1185,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 80,
+    "id": "41b5f3ce7f09",
     "pregunta": "Una cultura organizacional positiva beneficia a una organización al",
     "opciones": {
       "A": "Asegurar el cumplimiento regulatoio.",
@@ -1200,7 +1200,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 81,
+    "id": "f6adfa1b6364",
     "pregunta": "La responsabilidad inicial del auditor interno que detecta un error durante una auditoría de estados financieros es",
     "opciones": {
       "A": "Evaluar el riesgo de tergiversación, porque solo los errores que tienen un efecto material en los estados financieros deben comunicarse.",
@@ -1215,7 +1215,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 82,
+    "id": "56a62ae480e1",
     "pregunta": "Para un mejor monitoreo del desempeño de la gerencia operativa, la gerencia ejecutiva ha solicitado que los auditores internos examinen los estados financieros provisionales que se preparan únicamente para uso interno. Aunque los estados financieros provisionales han sido preparados durante varios años, esta será la primera vez que los auditores internos estarán involucrados. La razón principal de esta solicitud fue que la gerencia ejecutiva estaba sorprendida de las utilidades netas más bajas de las anticipadas reflejadas en los estados financieros auditados del año pasado. Los ingresos habían sido manipulados artificialmente en los estados financieros trimestrales. En su trabajo sobre los estados financieros provisionales de este año, ¿En cuál de los siguientes es más probable que los auditores internos se enfoquen?",
     "opciones": {
       "A": "Si las cuentas por pagar han sido devengadas correctamente al final del período provisional.",
@@ -1230,7 +1230,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 83,
+    "id": "7e4584b2892c",
     "pregunta": "¿Qué tipo de trabajo se enfoca en las operaciones y en la eficacia y eficiencia con que cooperarán las unidades organizacionales afectadas?",
     "opciones": {
       "A": "Auditoría sobre los resultados de los programas.",
@@ -1245,7 +1245,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 84,
+    "id": "407b5cc9d2b6",
     "pregunta": "¿Cuál de las siguientes afirmaciones respecto al efecto que la cultura puede tener en una organización es correcta?",
     "opciones": {
       "A": "Las organizaciones con una cultura basada en valores sólidos tienen más probabilidades de alcanzar sus objetivos.",
@@ -1260,7 +1260,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 85,
+    "id": "875c9cdbfa78",
     "pregunta": "Durante más de 2 años, el Director Ejecutivo CEO de una organización ha declarado que la innovación es el objetivo principal de la organización y ha animado a todos los empleados a compartir ideas sobre cómo la organización puede crear nuevo valor. Sin embargo, muy pocas ideas innovadoras se han compartido con la dirección. Una de las formas en que la Función de Auditoría Interna podía ayudar a determinar si existen barreras a la innovación en la organización es realizar una:",
     "opciones": {
       "A": "Auditoría operativa.",
@@ -1275,7 +1275,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 86,
+    "id": "9a37b18ab3b2",
     "pregunta": "El proceso de presentación de información financiera abarca los pasos para",
     "opciones": {
       "A": "Detectar todos los fraudes que se producen en la organización.",
@@ -1290,7 +1290,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 87,
+    "id": "48574f2e40d3",
     "pregunta": "Un trabajo operativo relacionado a la función de producción incluye un procedimiento que compara los costos actuales con los costos estándar. El propósito de este procedimiento del trabajo es",
     "opciones": {
       "A": "Determinar la precisión del sistema utilizado para registrar los costos actuales.",
@@ -1305,7 +1305,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 88,
+    "id": "75ebb3d63148",
     "pregunta": "Durante un trabajo operativo, los auditores internos comparan la plantilla del personal actual de un departamento con los estándares establecidos de la industria para",
     "opciones": {
       "A": "Identificar a los empleados ficticios en la nómina del departamento.",
@@ -1320,7 +1320,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 89,
+    "id": "f1df1ebeaf41",
     "pregunta": "Para reducir el riesgo de delegar una autoridad discrecional sustancial a personas con propensión a trabajar en actividades ilegales, ¿Qué medidas puede tomar una organización para asegurar que se detecte a dichas personas?",
     "opciones": {
       "A": "Monitorear los mensajes de texto de los empleados en sus teléfonos personales.",
@@ -1335,7 +1335,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 90,
+    "id": "a6470c114f7d",
     "pregunta": "Al final del año fiscal de una organización, un contador preparó un análisis de variaciones de los resultados financieros reales en comparación con el presupuesto al comienzo del año. El informe incluía un análisis de ventas y gastos. Este tipo de informe es un ejemplo de un",
     "opciones": {
       "A": "Programa de apoyo para los estados financieros externos según los U.S. GAAP.",
@@ -1350,7 +1350,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 91,
+    "id": "5cc52bbc9316",
     "pregunta": "¿Qué tipo de trabajo intenta medir los logros y el éxito relativo de un proyecto?",
     "opciones": {
       "A": "Trabajo sobre los resultados de los programas.",
@@ -1365,7 +1365,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 92,
+    "id": "ad69f426d948",
     "pregunta": "¿Qué objetivo fundamental es crucial para que los auditores internos aseguren durante la fase de planificación del trabajo al evaluar los estados financieros?",
     "opciones": {
       "A": "Asegurar la reducción de costos operativos.",
@@ -1380,7 +1380,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 93,
+    "id": "f4b12a1133d8",
     "pregunta": "¿Cuál de los siguientes es un ejemplo de un trabajo de resultados de programa en auditoría operativa?",
     "opciones": {
       "A": "Evaluar el cumplimiento de las regulaciones ambientales.",
@@ -1395,7 +1395,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 94,
+    "id": "63833982cbae",
     "pregunta": "Un trabajo de auditoría de desempeño generalmente involucra",
     "opciones": {
       "A": "Revisión de la información de los estados financieros, incluida la idoneidad de los distintos tratamientos contables",
@@ -1410,7 +1410,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 95,
+    "id": "d48d79a0ea9e",
     "pregunta": "¿Cuál de las siguientes es una de las cuatro perspectivas de un cuadro de mando integral?",
     "opciones": {
       "A": "Justo a tiempo.",
@@ -1425,7 +1425,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 96,
+    "id": "f2c5a29629b6",
     "pregunta": "La responsabilidad final de los auditores internos en relación con la seguridad de la información incluye",
     "opciones": {
       "A": "Identificar los aspectos técnicos, riesgos, procesos, y transacciones a ser examinadas.",
@@ -1440,7 +1440,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 97,
+    "id": "078420959647",
     "pregunta": "Un auditor interno está evaluando el cumplimiento de una organización con las regulaciones de privacidad de datos. El auditor encuentra que los datos de los clientes se están almacenando sin métodos de cifrado suficientes. ¿Qué área de gestión de riesgos es más probable que se vea afectada por esta debilidad?",
     "opciones": {
       "A": "Riesgo de reputación.",
@@ -1455,7 +1455,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 98,
+    "id": "7748d4e09a51",
     "pregunta": "Se ha programado una auditoría de los controles de nóminas de una organización que recientemente ha externalizado el procesamiento de la información a un proveedor de servicios externos. Teniendo en cuenta la decisión de externalización, ¿Qué medidas debe tomar el auditor?",
     "opciones": {
       "A": "Revisar los controles de nómina tanto en la organización como con el proveedor de servicios externos.",
@@ -1470,7 +1470,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 99,
+    "id": "75f8c5612c1c",
     "pregunta": "¿Quién determina si la Función de Auditoría Interna tiene acceso a recursos suficientes para evaluar la fiabilidad e integridad de la información?",
     "opciones": {
       "A": "El director ejecutivo.",
@@ -1485,7 +1485,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 100,
+    "id": "a45ed44e8901",
     "pregunta": "El objetivo principal de los servicios de aseguramiento proporcionados por la auditoría interna es",
     "opciones": {
       "A": "Gestionar directamente las operaciones organizacionales y aumentar la rentabilidad.",
@@ -1500,7 +1500,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 101,
+    "id": "aaba369c5051",
     "pregunta": "La naturaleza y el alcance de un trabajo de aseguramiento son determinados por el",
     "opciones": {
       "A": "La Alta Dirección junto con el Auditor Interno",
@@ -1515,7 +1515,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 102,
+    "id": "f223036d15d4",
     "pregunta": "¿Cuál de los siguientes es un principio clave de la gestión de la calidad total?",
     "opciones": {
       "A": "Centrarse en el control de defectos de los proveedores.",
@@ -1530,7 +1530,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 103,
+    "id": "dd1108b3babe",
     "pregunta": "¿Cuál de los siguientes elementos no tiene que revisar tan minuciosamente el auditor interno de una organización contratista en un contrato a precio fijo?",
     "opciones": {
       "A": "Los pagos a cuenta.",
@@ -1545,7 +1545,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 104,
+    "id": "89aef12d55a6",
     "pregunta": "Dos ejemplos de las medidas de aprendizaje e innovación de un cuadro de mando integral son:",
     "opciones": {
       "A": "La tasa de promoción de los empleados y el número de incidentes medioambientales.",
@@ -1560,7 +1560,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 105,
+    "id": "2c401bd5455b",
     "pregunta": "En un cuadro de mando integral, ¿Cuál es más una medida de procesos internos que una medida basada en factores externos?",
     "opciones": {
       "A": "Tiempo de ciclo.",
@@ -1575,7 +1575,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 106,
+    "id": "92e8c6d3b9a1",
     "pregunta": "¿En qué tipo de trabajo de aseguramiento debería centrarse un auditor en los objetivos organizacionales?",
     "opciones": {
       "A": "Trabajo de auditoría financiera.",
@@ -1590,7 +1590,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 107,
+    "id": "5d26ddc7f358",
     "pregunta": "¿Cuántas partes intervienen cuando la Función de Auditoría Interna realiza un trabajo de aseguramiento?",
     "opciones": {
       "A": "Una.",
@@ -1605,7 +1605,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 108,
+    "id": "1df5b5679f38",
     "pregunta": "¿Qué tipo de formato del enfoque de facilitación de la autoevaluación de control CSA hace énfasis en la mejor manera de lograr los objetivos de la organización?",
     "opciones": {
       "A": "Formato basado en procesos.",
@@ -1620,7 +1620,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 109,
+    "id": "b35d49942468",
     "pregunta": "¿Qué grupo está encargado de supervisar el establecimiento, la administración y la evaluación de los procesos de gestión de riesgos y control?",
     "opciones": {
       "A": "Los gerentes operativos.",
@@ -1635,7 +1635,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 110,
+    "id": "a1669484bb57",
     "pregunta": "¿Cómo debe un auditor interno utilizar el conocimiento sobre los controles adquirido durante los servicios de asesoría (advisoy engagements) al realizar trabajos de aseguramiento (assurance engagements)?",
     "opciones": {
       "A": "El auditor interno debe ignorar ese conocimiento durante los trabajos de aseguramiento para mantener la independencia y la objetividad.",
@@ -1650,7 +1650,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 111,
+    "id": "abebbc6a3241",
     "pregunta": "¿Cómo puede la función de auditoría interna satisfacer mejor una solicitud del comité de auditoría para realizar una evaluación independiente del cumplimiento de la organización con las regulaciones ambientales?",
     "opciones": {
       "A": "Mediante servicios de aseguramiento.",
@@ -1665,7 +1665,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 112,
+    "id": "45d2e86a30b3",
     "pregunta": "¿Cuál de los siguientes tipos de trabajos de auditoría es más probable que sea el más objetivo?",
     "opciones": {
       "A": "Trabajo de auditoría de desempeño del departamento de marketing, que necesita algunos criterios de desempeño.",
@@ -1680,7 +1680,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 113,
+    "id": "6626baaa413b",
     "pregunta": "¿Cuál de las siguientes opciones define mejor los servicios de aseguramiento proporcionados por la función de auditoría interna?",
     "opciones": {
       "A": "Servicios que se enfocan en proporcionar capacitación a los empleados sobre gestión de riesgos y procesos de control.",
@@ -1695,7 +1695,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 114,
+    "id": "e95058281b0a",
     "pregunta": "¿Cuál de las siguientes afirmaciones sobre los servicios de aseguramiento es verdadera?",
     "opciones": {
       "A": "Los servicios de aseguramiento requieren que el auditor interno proporcione recomendaciones para mejorar la eficiencia operacional.",
@@ -1710,7 +1710,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 115,
+    "id": "84a48d0e2207",
     "pregunta": "Un auditor interno tiene la tarea de evaluar los controles internos de la organización sobre la información financiera y luego proporcionar una opinión sobre dichos controles. ¿Cuál de las siguientes acciones sería la más apropiada que debería realizar el auditor interno?",
     "opciones": {
       "A": "Comparar el proceso de reporte de la organización con referencias o estándares de la industria.",
@@ -1725,7 +1725,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 116,
+    "id": "0c81fdacda5d",
     "pregunta": "Como parte de los procedimientos de gestión de efectivo, el tesorero de una organización sin fines de lucro ha decidido invertir en una variedad de nuevos instrumentos financieros. El comité de auditoría ha solicitado a la función de auditoría interna realizar un trabajo de auditoría sobre la adecuación de los controles relacionados con las nuevas técnicas de inversión. ¿Cuál de los siguientes aspectos es una parte importante de dicho trabajo de auditoría?",
     "opciones": {
       "A": "Determinar si el tesorero está obteniendo tasas de rendimiento de las inversiones más altas o más bajas que las obtenidas por tesoreros de organizaciones comparables.",
@@ -1740,7 +1740,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 117,
+    "id": "b839c17b16a8",
     "pregunta": "Una función de auditoría interna realiza un trabajo para determinar si la organización cumple con un conjunto específico de leyes y regulaciones. Los resultados del trabajo no revelan problemas de incumplimiento, pero sí revelan que la organización no cuenta con un sistema establecido para garantizar dicho cumplimiento. ¿Cuál es la responsabilidad del auditor interno en esta situación?",
     "opciones": {
       "A": "Obtener la aprobación de la gerencia para establecer un sistema que garantice el cumplimiento de las leyes y regulaciones aplicables.",
@@ -1755,7 +1755,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 118,
+    "id": "bdf043293e42",
     "pregunta": "¿Cuál es un componente clave de una evaluación de riesgos y controles?",
     "opciones": {
       "A": "Realizar auditorías financieras externas.",
@@ -1770,7 +1770,7 @@
     "fuente": "Simulacro 25 de Julio (2026-07-25)"
   },
   {
-    "id": 119,
+    "id": "a1362e4ba4b8",
     "pregunta": "La Alta Dirección de una entidad ha solicitado que la Función de Auditoría Interna ayude al departamento de compras a pasar de un sistema de inventario de entrada manual a un sistema de inventario totalmente automatizado. Este servicio se desempeña mejor en un(a)",
     "opciones": {
       "A": "Acuerdo de asesoramiento de emergencia.",
@@ -1785,7 +1785,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 120,
+    "id": "1a8ee7129340",
     "pregunta": "Una de las formas en que un auditor interno ejerce el debido cuidado profesional al realizar un trabajo de asesoramiento es",
     "opciones": {
       "A": "Proporcionar exactamente lo que la dirección quiere y necesita.",
@@ -1800,7 +1800,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 121,
+    "id": "a3240ec702c7",
     "pregunta": "¿Cuál de los siguientes es un ejemplo de reingenieía de procesos empresariales?",
     "opciones": {
       "A": "Agregar una nueva máquina a la línea de producción existente para acelerar la producción.",
@@ -1815,7 +1815,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 122,
+    "id": "e8c0ab788f11",
     "pregunta": "Los auditores internos pueden prestar servicios de asesoramiento. El desempeño de estos servicios",
     "opciones": {
       "A": "Perjudica la independencia de los auditores internos con respecto a un servicio de aseguramiento que implique al mismo cliente del trabajo.",
@@ -1830,7 +1830,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 123,
+    "id": "27b935461f9a",
     "pregunta": "Una organización está llevando a cabo una iniciativa de reingenieía de procesos de negocio, que puede llevar a la eliminación de funciones laborales y reducción de personal. ¿Cuál de los siguientes sería un rol apropiado para la Función de Auditoría Interna en esta iniciativa?",
     "opciones": {
       "A": "Analizar los procesos y, a continuación, implementar los cambios en los mismos.",
@@ -1845,7 +1845,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 124,
+    "id": "359955f8be57",
     "pregunta": "Los servicios de asesoramiento añaden valor a una organización al",
     "opciones": {
       "A": "Asumir las responsabilidades de toma de decisiones de la dirección.",
@@ -1860,7 +1860,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 125,
+    "id": "36a028c74b21",
     "pregunta": "¿Cuál de los siguientes tipos de trabajos, si existe alguno, involucran a un auditor interno que realiza auditorías de desempeño para medir y opinar en que medida una organización está alcanzando los objetivos para sus indicadores clave de desempeño?",
     "opciones": {
       "A": "Trabajo de aseguramiento del desempeño.",
@@ -1875,7 +1875,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 126,
+    "id": "8c420cb1e82c",
     "pregunta": "Antes de que los auditores internos comiencen a ofrecer servicios de asesoramiento a una organización, deben producirse ciertos acontecimientos. ¿Cuál es el orden en que deben realizarse las siguientes acciones? 1. Se modifica el Estatuto de Auditoría Interna para incluir la autoridad y las responsabilidades de las actividades de asesoramiento. 2. El Director de Auditoría Interna confirma que el Consejo comprende y aprueba el concepto de prestación de servicios de asesoramiento. 3. La Función de Auditoría Interna desarrolla políticas y procedimientos adecuados para llevar a cabo dichos trabajos.",
     "opciones": {
       "A": "123",
@@ -1890,7 +1890,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 127,
+    "id": "3f3ac0afc6fe",
     "pregunta": "Jorge es el nuevo auditor interno de la empresa XYZ. Hace solo 10 meses, Jorge era el responsable de las nóminas de XYZ. ¿Qué servicios relacionados con las nóminas se consideran un impedimento de la independencia u objetividad si los desempeña Jorge?",
     "opciones": {
       "A": "Servicios de asesoramiento.",
@@ -1905,7 +1905,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 128,
+    "id": "abd88b4b62c4",
     "pregunta": "¿Cómo debe un auditor interno utilizar el conocimiento sobre los controles adquirido durante los servicios de asesoría al realizar trabajos de aseguramiento?",
     "opciones": {
       "A": "El auditor interno debe ignorar ese conocimiento durante los trabajos de aseguramiento para mantener la independencia y la objetividad.",
@@ -1920,7 +1920,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 129,
+    "id": "46fea3640ebd",
     "pregunta": "¿En cuál de las siguientes situaciones es más probable que una evaluación formal y documentada de riesgos se considere innecesaria para un servicio de asesoría (advisoy sevice)?",
     "opciones": {
       "A": "Cuando el servicio de asesoría involucra información financiera.",
@@ -1935,7 +1935,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 130,
+    "id": "b43639ddde61",
     "pregunta": "Después de un trabajo de auditoría realizado en un almacén, el gerente del almacén solicitó al auditor interno realizar un trabajo de consultoría de seis meses. El alcance del trabajo incluiría ejecutar y analizar reportes de inventario, determinar los puntos óptimos de reposición de inventario y asegurar que el inventario sea exacto para la auditoría externa de fin de año. Según la guía del IIA, ¿cuál de las siguientes afirmaciones es verdadera respecto a este trabajo de consultoría?",
     "opciones": {
       "A": "El auditor interno debería rechazar la asignación, ya que incluye responsabilidades que están fuera del alcance aceptable de un trabajo de consultoría.",
@@ -1950,7 +1950,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 131,
+    "id": "6be7adf53c8c",
     "pregunta": "Después de analizar el proceso de ventas de electricidad, el director ejecutivo de auditoría CAE concluye que las actividades de control son débiles y se realizan de manera inconsistente. La unidad de ventas de electricidad fue creada recientemente y la mayoría del personal son nuevos empleados provenientes de fuera de la organización. Según la guía del IIA, ¿cuál de las siguientes acciones contribuiría más a mejorar las prácticas de gobierno?",
     "opciones": {
       "A": "Realizar un benchmarking para identificar y comparar con las mejores prácticas de la industria.",
@@ -1965,7 +1965,7 @@
     "fuente": "Simulacro CIA Parte 1 - 30 de Julio (2026-07-30)"
   },
   {
-    "id": 132,
+    "id": "33272e79209f",
     "pregunta": "El director de operaciones solicita a Auditoría Interna participar en el diseño de un nuevo proceso de compras internacionales. El Director de Auditoría Interna acepta con la condición de que Auditoría Interna no tome decisiones de gestión. Un año después se programa un trabajo de aseguramiento sobre ese proceso. ¿Cuál es la acción MÁS apropiada?",
     "opciones": {
       "A": "Realizar normalmente el trabajo porque el asesoramiento nunca afecta la independencia.",
@@ -1980,7 +1980,7 @@
     "fuente": "CIA 1 2026 - Práctica 10 (2026-07-30)"
   },
   {
-    "id": 133,
+    "id": "dd67b487881c",
     "pregunta": "Durante un trabajo de asesoramiento la gerencia solicita excluir del alcance un proceso que el auditor considera cítrico para lograr los objetivos del trabajo.¿Cuál debería ser la respuesta MÁS apropiada?",
     "opciones": {
       "A": "Aceptar inmediatamente la restricción, ya que el alcance lo determina la Gerencia.",
@@ -1995,7 +1995,7 @@
     "fuente": "CIA 1 2026 - Práctica 10 (2026-07-30)"
   },
   {
-    "id": 134,
+    "id": "ef909e152bee",
     "pregunta": "¿Cuál de las siguientes actividades representa un trabajo de asesoramiento de emergencia?",
     "opciones": {
       "A": "Auditoría inopinada de inventarios.",
@@ -2010,7 +2010,7 @@
     "fuente": "CIA 1 2026 - Práctica 10 (2026-07-30)"
   },
   {
-    "id": 135,
+    "id": "484ed9051cf6",
     "pregunta": "Respecto a los informes de trabajos formales de asesoramiento, ¿qué información normalmente NO es obligatorio comunicar al Consejo?",
     "opciones": {
       "A": "Naturaleza del trabajo.",
@@ -2025,7 +2025,7 @@
     "fuente": "CIA 1 2026 - Práctica 10 (2026-07-30)"
   },
   {
-    "id": 136,
+    "id": "6dd5c7fe250a",
     "pregunta": "¿Cuál de las siguientes afirmaciones sobre benchmarking es CORRECTA?",
     "opciones": {
       "A": "El benchmarking competitivo normalmente resulta más sencillo porque los competidores comparten su información.",
@@ -2040,7 +2040,7 @@
     "fuente": "CIA 1 2026 - Práctica 10 (2026-07-30)"
   },
   {
-    "id": 137,
+    "id": "4afb217f6d51",
     "pregunta": "Respecto a la revisión del desarrollo de sistemas, ¿cuál proporciona el MAYOR valor agregado por parte de Auditoría Interna?",
     "opciones": {
       "A": "Revisar el sistema cuando ya está en producción.",
@@ -2055,7 +2055,7 @@
     "fuente": "CIA 1 2026 - Práctica 10 (2026-07-30)"
   },
   {
-    "id": 138,
+    "id": "b8560e5ee343",
     "pregunta": "Un auditor identifica un riesgo material pero el gerente del área le solicita omitirlo del informe. ¿Qué noma se vulneraría si accede?",
     "opciones": {
       "A": "Competencia",
@@ -2070,7 +2070,7 @@
     "fuente": "Práctica B1 (2026-08-04)"
   },
   {
-    "id": 139,
+    "id": "c1de3c42f06e",
     "pregunta": "¿Cuál NO es una amenaza a la objetividad?",
     "opciones": {
       "A": "Auto-revisión",
@@ -2085,7 +2085,7 @@
     "fuente": "Práctica B1 (2026-08-04)"
   },
   {
-    "id": 140,
+    "id": "b476d749cad1",
     "pregunta": "¿Cuántos meses debe esperar un auditor antes de auditar una función de la que era responsable?",
     "opciones": {
       "A": "6 meses",
@@ -2100,7 +2100,7 @@
     "fuente": "Práctica B1 (2026-08-04)"
   },
   {
-    "id": 141,
+    "id": "1212d4179fff",
     "pregunta": "¿Cómo podían el sesgo de riesgo y familiaridad de autoevaluación perjudicar la objetividad de un auditor interno durante un trabajo de auditoría interna?",
     "opciones": {
       "A": "Cuando un auditor sigue protocolos estándar que incluyen supervisión externa, estos sesgos se controlan.",
@@ -2115,7 +2115,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 142,
+    "id": "cebf4e27ca76",
     "pregunta": "Cuando la dirección restringe a los auditores internos entrevistar a personal clave, ¿qué escenario ilustra mejor una posible amenaza a la independencia?",
     "opciones": {
       "A": "Los auditores sustituyen eficazmente las entrevistas restringidas por revisiones exhaustivas y exhaustivas de documentos para recopilar la información necesaria, manteniendo su independencia durante todo el proceso.",
@@ -2130,7 +2130,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 143,
+    "id": "ef2147053495",
     "pregunta": "Cuando un auditor interno tiene un interés financiero en un proveedor, ¿qué escenario refleja mejor un posible conflicto de intereses que podía perjudicar la objetividad?",
     "opciones": {
       "A": "Un auditor asignado a un encargo de auditoría de otro proveedor evita conflictos y mantiene un juicio independiente durante todo el proceso de auditoría.",
@@ -2145,7 +2145,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 144,
+    "id": "61cf130c322b",
     "pregunta": "Cuando un auditor interno ha sido contratado recientemente en un departamento que ahora revisa, ¿qué escenario indica mejor un riesgo para la objetividad?",
     "opciones": {
       "A": "Un auditor asignado a una unidad diferente a su antiguo departamento evita conflictos y mantiene un juicio independiente durante todo el proceso de auditoría.",
@@ -2160,7 +2160,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 145,
+    "id": "f9d8f4245555",
     "pregunta": "La política de auditoría de una firma incluye una rotación regular de asignaciones de auditoría. ¿Cuál es el beneficio principal de esta rotación en términos de mantener la objetividad?",
     "opciones": {
       "A": "Minimiza el sesgo de familiaridad asegurando que los auditores estén expuestos periódicamente a nuevas áreas y desafíos.",
@@ -2175,7 +2175,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 146,
+    "id": "db8ed92c9c5e",
     "pregunta": "Cuando repetidos trabajos de auditoría en la misma unidad de negocio generan preocupaciones sobre la imparcialidad de un auditor interno, ¿qué opción apoya mejor una estrategia de mitigación?",
     "opciones": {
       "A": "Implementar una política de rotación que reasigna periódicamente a auditores a diferentes unidades de negocio para evitar una familiaridad excesiva.",
@@ -2190,7 +2190,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 147,
+    "id": "d1dbed45ac27",
     "pregunta": "En situaciones en las que un auditor interno recibe un favor de la dirección operativa, ¿qué enfoque mantiene mejor la objetividad según las políticas internas?",
     "opciones": {
       "A": "Aceptar el favor solo tras obtener el consentimiento por escrito de un supervisor.",
@@ -2205,7 +2205,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 148,
+    "id": "194eff92ed51",
     "pregunta": "Cuando un auditor interno se enfrenta a una oferta de donación que podía afectar la independencia, ¿qué medida mitiga mejor el posible sesgo?",
     "opciones": {
       "A": "Aceptar el regalo tras confirmar su valor mínimo y luego registrarlo puede mitigar el sesgo.",
@@ -2220,7 +2220,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 149,
+    "id": "abb523476c7c",
     "pregunta": "En preparación para una reunión del comité de auditoría, un auditor interno tiene la tarea de presentar una presentación persuasiva. ¿Qué enfoque aplica mejor las habilidades de presentación efectivas?",
     "opciones": {
       "A": "Crear una presentación detallada que cubra todos los aspectos del trabajo de auditoría.",
@@ -2235,7 +2235,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 150,
+    "id": "03bbc833c92b",
     "pregunta": "¿Cómo debería un auditor interno aplicar habilidades de investigación para actualizar el conocimiento sobre los requisitos regulatoios en evolución?",
     "opciones": {
       "A": "Accediendo a las presentaciones regulatoias actuales, noticias del sector y análisis académicos para mantenerse informado sobre nuevas nomas y prácticas.",
@@ -2250,7 +2250,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 151,
+    "id": "d6e4ee5dc82d",
     "pregunta": "Al evaluar una nueva fuente de datos durante un trabajo de auditoría, ¿cómo puede un auditor interno aplicar mejor el escepticismo profesional?",
     "opciones": {
       "A": "Realizando un análisis de tendencias de los datos y validando transacciones seleccionadas.",
@@ -2265,7 +2265,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 152,
+    "id": "95ff8e06ca36",
     "pregunta": "¿Cómo puede un auditor interno mantener el escepticismo profesional cuando se enfrenta a posibles sesgos durante un proceso de autoevaluación?",
     "opciones": {
       "A": "Comparando trabajos previos con hallazgos de auditorías independientes para identificar signos de sesgo.",
@@ -2280,7 +2280,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 153,
+    "id": "ff90657c1ab7",
     "pregunta": "En un proyecto de auditoría interna que revisa datos financieros sensibles, ¿cómo puede un auditor aplicar metodologías de auditoría interna para mantener la confidencialidad y el uso adecuado de la información?",
     "opciones": {
       "A": "Confiando en procedimientos estándar e incluyendo una cláusula de confidencialidad.",
@@ -2295,7 +2295,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 154,
+    "id": "917f4cbe44a7",
     "pregunta": "Al incorporar datos de terceros para la evidencia de auditoría, ¿qué enfoque aplica mejor metodologías internas para mantener la confidencialidad?",
     "opciones": {
       "A": "Solicitando datos de terceros por coreo electrónico.",
@@ -2310,7 +2310,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 155,
+    "id": "6f1f20d02dd2",
     "pregunta": "Al recopilar datos financieros de diversas fuentes durante un trabajo de auditoría, ¿qué práctica refleja mejor el respeto a la privacidad y la propiedad de la información?",
     "opciones": {
       "A": "Combinar datos de múltiples fuentes en un único archivo central para promover la eficiencia de auditoría.",
@@ -2325,7 +2325,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 156,
+    "id": "3c61b3299ab2",
     "pregunta": "Durante las comunicaciones digitales en un trabajo de auditoría, ¿qué técnica protege mejor la información sensible?",
     "opciones": {
       "A": "Utilizando servicios de coreo electrónico estándar combinados con archivos adjuntos seguros y actualizaciones regulares de contraseñas.",
@@ -2340,7 +2340,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 157,
+    "id": "ae8db33e8127",
     "pregunta": "¿Cómo contribuyen colectivamente el consejo, la alta dirección y la función de auditoría interna a una gobernanza organizativa sólida?",
     "opciones": {
       "A": "El consejo aprueba las políticas estratégicas, la alta dirección ejecuta los planes operativos y la auditoría interna evalúa de forma independiente la gestión de riesgos y controla la eficacia.",
@@ -2355,7 +2355,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 158,
+    "id": "ca7ccfe12389",
     "pregunta": "¿Qué marco se utiliza más comúnmente para estructurar roles y responsabilidades en la gobernanza organizacional?",
     "opciones": {
       "A": "El marco de tres líneas, que delimita claramente las responsabilidades entre el consejo, la dirección y el seguro independiente.",
@@ -2370,7 +2370,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 159,
+    "id": "64ec488f30d2",
     "pregunta": "¿De qué manera una cultura organizacional robusta afecta al entono general de control y a los procesos de gestión de riesgos?",
     "opciones": {
       "A": "Una cultura robusta mejora principalmente las relaciones públicas y la satisfacción de los empleados sin influir significativamente en los controles internos.",
@@ -2385,7 +2385,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 160,
+    "id": "4a8cb160d5ff",
     "pregunta": "¿Qué declaración describe mejor el impacto positivo de los procesos de toma de decisiones en la gobernanza, gestión de riesgos y sistemas de control de una organización?",
     "opciones": {
       "A": "La toma de decisiones centralizada basada en la intervención de la alta dirección puede favorecer una toma de decisiones más rápida.",
@@ -2400,7 +2400,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 161,
+    "id": "358a2258d65e",
     "pregunta": "¿Cómo mejora el proceso de toma de decisiones los riesgos de compromiso individual y la solidez de las medidas de control dentro de una organización?",
     "opciones": {
       "A": "La toma de decisiones centralizada con una revisión limitada puede producir evaluaciones de riesgo inconsistentes y controles subóptimos.",
@@ -2415,7 +2415,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 162,
+    "id": "8aad939ee025",
     "pregunta": "¿Qué opción explica mejor el papel de los requisitos éticos, legales y de cumplimiento en la gobernanza organizacional?",
     "opciones": {
       "A": "Actúan como directrices opcionales que los gestores pueden elegir seguir según factores situacionales.",
@@ -2430,7 +2430,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 163,
+    "id": "8e9ec4bbe19d",
     "pregunta": "¿Cómo influyen los requisitos éticos, legales y de cumplimiento en el proceso de gestión de riesgos de una organización?",
     "opciones": {
       "A": "Sirven principalmente como directrices teóricas con un impacto práctico mínimo en la gestión diaria de riesgos.",
@@ -2445,7 +2445,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 164,
+    "id": "52e1fad1c20e",
     "pregunta": "¿Qué factor ilustra mejor la influencia de la toma de decisiones organizativa en su marco ético?",
     "opciones": {
       "A": "La toma de decisiones rápida centrada en ganancias a coto plazo puede llevar a estándares éticos comprometidos y a una disminución de la calidad del control.",
@@ -2460,7 +2460,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 165,
+    "id": "3d1aad77a9cc",
     "pregunta": "¿Qué principio de gobernanza es fundamental para promover la rendición de cuentas dentro de una organización?",
     "opciones": {
       "A": "Autonomía, que enfatiza la toma de decisiones independiente sin supervisión externa.",
@@ -2475,7 +2475,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 166,
+    "id": "705e1552579f",
     "pregunta": "¿Qué papel juega la cultura organizativa en la definición del entono de control global?",
     "opciones": {
       "A": "La cultura organizativa es importante para la gestión del talento, pero no tiene un papel directo en la configuración de los controles internos.",
@@ -2490,7 +2490,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 167,
+    "id": "6fb5264573d5",
     "pregunta": "¿Qué factor ejemplifica mejor la relación entre la cultura organizativa y el entono de control?",
     "opciones": {
       "A": "La alineación de valores influye en las relaciones con el cliente, con un impacto secundario en los controles internos.",
@@ -2505,7 +2505,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 168,
+    "id": "17943fe08a1a",
     "pregunta": "¿Cómo puede el enfoque de una organización a la hora de tomar decisiones impactar positivamente en su marco general de gobernanza?",
     "opciones": {
       "A": "Integrar la aportación integral de las partes interesadas y la revisión sistemática en la toma de decisiones da lugar a una gobernanza más fuerte y una mejor mitigación de riesgos.",
@@ -2520,7 +2520,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 169,
+    "id": "1574ba5c3688",
     "pregunta": "¿Cómo influyen positivamente los procesos efectivos de toma de decisiones en los riesgos de compromiso individual y en las medidas de control dentro de una organización?",
     "opciones": {
       "A": "La toma de decisiones eficaz, caracterizada por revisiones exhaustivas y una diversidad de aportaciones, minimiza los riesgos de compromiso y mejora la solidez de las medidas de control.",
@@ -2535,7 +2535,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 170,
+    "id": "eeb5b83e0b55",
     "pregunta": "¿Cómo afecta positivamente la adopción de prácticas participativas de toma de decisiones a los procesos de gobernanza, gestión de riesgos y control de una organización?",
     "opciones": {
       "A": "La participación amplia puede a veces retrasar las decisiones, lo que puede dificultar las actualizaciones oportunas de los procesos de gestión de riesgos.",
@@ -2550,7 +2550,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 171,
+    "id": "5158463ffb42",
     "pregunta": "¿Qué escenario demuestra mejor la identificación de los requisitos de cumplimiento dentro de una organización?",
     "opciones": {
       "A": "Confiar en prácticas de cumplimiento pasadas sin tener en cuenta los cambios regulatoios recientes ni las tendencias del sector.",
@@ -2565,7 +2565,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 172,
+    "id": "184c0122cc73",
     "pregunta": "¿Cómo contribuye el auditor interno a detectar problemas relacionados con el cumplimiento dentro del marco ético de una organización?",
     "opciones": {
       "A": "Delegando la evaluación de los problemas de cumplimiento a auditores externos y centrándose en revisiones operativas.",
@@ -2580,7 +2580,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 173,
+    "id": "ff80893bef17",
     "pregunta": "¿Cómo pueden los auditores internos reconocer cuestiones relacionadas con el cumplimiento mediante el análisis de los procesos de toma de decisiones?",
     "opciones": {
       "A": "Centrándose en la rapidez de la toma de decisiones en lugar de en su calidad o en la diversidad de aportaciones al evaluar el cumplimiento ético.",
@@ -2595,7 +2595,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 174,
+    "id": "77dfcf2635ab",
     "pregunta": "De acuerdo con los Estándares Globales de Auditoría Interna, ¿a qué componente ético deben adherirse los profesionales de auditoría interna?",
     "opciones": {
       "A": "El código de conducta ética de la organización que guía la conducta profesional y ética del personal.",
@@ -2610,7 +2610,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 175,
+    "id": "36bf7c5d0b41",
     "pregunta": "¿Qué escenario ilustra mejor el efecto del sesgo de familiaridad en la objetividad de un auditor interno durante un trabajo de auditoría interna?",
     "opciones": {
       "A": "Un auditor asignado a departamentos similares tiene más probabilidades de mantener una perspectiva objetiva.",
@@ -2625,7 +2625,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 176,
+    "id": "8687a94d83a4",
     "pregunta": "Cuando a los auditores internos se les niega el acceso a los sistemas clave de gestión para el análisis de datos, ¿qué escenario representa mejor un riesgo para la independencia de la auditoría?",
     "opciones": {
       "A": "Los auditores reciben actualizaciones periódicas de sistemas clave cítricos que mitigan en parte los efectos del acceso restringido, permitiendo al mismo tiempo un análisis independiente.",
@@ -2640,7 +2640,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 177,
+    "id": "75400da52159",
     "pregunta": "¿Qué opción política promueve mejor la objetividad cuando surgen posibles conflictos de interés por la asignación de un auditor interno a un departamento donde existen relaciones personales?",
     "opciones": {
       "A": "Reasignar al auditor a otro departamento para eliminar el impacto negativo en la objetividad.",
@@ -2655,7 +2655,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 178,
+    "id": "0c2536dde608",
     "pregunta": "Cuando a un auditor interno se le ofrece un regalo durante un encargo de auditoría, ¿qué proceso apoya mejor la objetividad?",
     "opciones": {
       "A": "Aceptar el regalo tras verificar su valor nominal y reportarlo.",
@@ -2670,7 +2670,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 179,
+    "id": "b7d89d366070",
     "pregunta": "Un auditor interno está preparando un resumen ejecutivo escrito de un encargo de auditoría. ¿Cómo debe aplicar el auditor sus habilidades de comunicación para garantizar que el resumen sea efectivo?",
     "opciones": {
       "A": "Proporcionando una narrativa que se centre en la metodología de auditoría y evite",
@@ -2685,7 +2685,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 180,
+    "id": "03bbc833c92b",
     "pregunta": "¿Cómo debería un auditor interno aplicar habilidades de investigación para actualizar el conocimiento sobre los requisitos regulatoios en evolución?",
     "opciones": {
       "A": "Accediendo a las presentaciones regulatoias actuales, noticias del sector y análisis académicos para mantenerse informado sobre nuevas nomas y prácticas.",
@@ -2700,7 +2700,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 181,
+    "id": "6848a68bd091",
     "pregunta": "Cuando la dirección restringe el acceso de los auditores internos a datos operativos cítricos para las evaluaciones, ¿qué escenario refleja mejor una amenaza a la independencia de la auditoría interna?",
     "opciones": {
       "A": "El acceso restringido a datos operativos esenciales obliga a los auditores a sacar conclusiones a partir de información incompleta, comprometiendo así la independencia.",
@@ -2715,7 +2715,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 182,
+    "id": "1551342a1f63",
     "pregunta": "¿Qué medida es eficaz para mitigar el impacto de la autoevaluación y el sesgo de familiaridad en la objetividad de un auditor interno?",
     "opciones": {
       "A": "Fomentar que los auditores utilicen datos históricos como base principal para la evaluación minimiza el riesgo de autoevaluación.",
@@ -2730,7 +2730,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 183,
+    "id": "6c365dda790c",
     "pregunta": "En un trabajo de auditoría interna que involucra a un departamento políticamente sensible, ¿qué opción mitiga mejor la influencia interna para asegurar una evaluación objetiva?",
     "opciones": {
       "A": "Mejorar la independencia del equipo de encargo de auditoría interna rotando las asignaciones con mayor frecuencia dentro del área sensible.",
@@ -2745,7 +2745,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 184,
+    "id": "148955b5d255",
     "pregunta": "Cuando a un auditor interno se le ofrece un regalo durante un encargo de auditoría, ¿qué proceso apoya mejor la objetividad?",
     "opciones": {
       "A": "Aceptar el regalo tras verificar su valor nominal y reportarlo.",
@@ -2760,7 +2760,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 185,
+    "id": "9e42fff12996",
     "pregunta": "¿Qué medida aborda de forma más eficaz las posibles discapacidades al recibir recompensas en un contexto de auditoría?",
     "opciones": {
       "A": "Implementar una política de umbral que permita pequeñas recompensas mientras exige la divulgación contribuye a la objetividad.",
@@ -2775,7 +2775,7 @@
     "fuente": "Simulacro 8 de Agosto (2026-08-07)"
   },
   {
-    "id": 186,
+    "id": "c66e4fd64a8b",
     "pregunta": "P1: ¿Cuál NO es responsabilidad indelegable del Consejo de Administración?",
     "opciones": {
       "A": "Supervisar la estrategia",
@@ -2790,7 +2790,7 @@
     "fuente": "Práctica C1 (2026-08-13)"
   },
   {
-    "id": 187,
+    "id": "fac3348f797b",
     "pregunta": "P2: ¿En qué componente COSO se ubican los 5 principios sobre Tone art the Top, estructura y competencia?",
     "opciones": {
       "A": "Entono de Control",
@@ -2805,7 +2805,7 @@
     "fuente": "Práctica C1 (2026-08-13)"
   },
   {
-    "id": 188,
+    "id": "825f4fbbccaa",
     "pregunta": "P3: En el Modelo de las Tres Líneas (IIA 2020), Auditoría Interna corresponde a:",
     "opciones": {
       "A": "Primera línea",
@@ -2820,7 +2820,7 @@
     "fuente": "Práctica C1 (2026-08-13)"
   },
   {
-    "id": 189,
+    "id": "f8c64eb96b86",
     "pregunta": "P4: ¿Cuál es la mejor evidencia del 'Tone art the Top'?",
     "opciones": {
       "A": "Código escrito",
@@ -2835,7 +2835,7 @@
     "fuente": "Práctica C1 (2026-08-13)"
   },
   {
-    "id": 190,
+    "id": "77dfcf2635ab",
     "pregunta": "De acuerdo con los Estándares Globales de Auditoría Interna, ¿a qué componente ético deben adherirse los profesionales de auditoría interna?",
     "opciones": {
       "A": "El código de conducta ética de la organización que guía la conducta profesional y ética del personal.",
@@ -2850,7 +2850,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 191,
+    "id": "2218a489dbda",
     "pregunta": "En un compromiso de auditoría interna, ¿qué factor relacionado con la autorevisión de documentos de trabajo puede perjudicar la objetividad de un auditor?",
     "opciones": {
       "A": "Cuando un auditor recopila información adicional de fuentes externas para verificar sus análisis previos.",
@@ -2865,7 +2865,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 192,
+    "id": "f928f6efe0d0",
     "pregunta": "¿Cómo podían el sesgo de riesgo y familiaridad de autoevaluación perjudicar la objetividad de un auditor interno durante un trabajo de auditoría interna?",
     "opciones": {
       "A": "Cuando un auditor revisa su propio trabajo y audita repetidamente la misma área, la objetividad puede verse comprometida.",
@@ -2880,7 +2880,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 193,
+    "id": "2773519f9c86",
     "pregunta": "Al evaluar la objetividad de un auditor interno, ¿qué circunstancia puede indicar la presencia de sesgo de autoevaluación?",
     "opciones": {
       "A": "Que un auditor revise trabajos originales, mostrando potencialmente reticencia a identificar errores, sugiere sesgo de autoevaluación.",
@@ -2895,7 +2895,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 194,
+    "id": "d4ca0f6c506f",
     "pregunta": "Cuando a los auditores internos se les niega el acceso a los sistemas clave de gestión para el análisis de datos, ¿qué escenario representa mejor un riesgo para la independencia de la auditoría?",
     "opciones": {
       "A": "Los auditores utilizan habitualmente verificaciones independientes externas para obtener datos del sistema que faltan, lo que les ayuda a lograr una evaluación en gran medida independiente de los controles.",
@@ -2910,7 +2910,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 195,
+    "id": "91087b38b84d",
     "pregunta": "Cuando la dirección restringe a los auditores internos entrevistar a personal clave, ¿qué escenario ilustra mejor una posible amenaza a la independencia?",
     "opciones": {
       "A": "Los auditores sustituyen eficazmente las entrevistas restringidas por revisiones exhaustivas y exhaustivas de documentos para recopilar la información necesaria, manteniendo su independencia durante todo el proceso.",
@@ -2925,7 +2925,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 196,
+    "id": "ef2147053495",
     "pregunta": "Cuando un auditor interno tiene un interés financiero en un proveedor, ¿qué escenario refleja mejor un posible conflicto de intereses que podía perjudicar la objetividad?",
     "opciones": {
       "A": "Un auditor asignado a un encargo de auditoría de otro proveedor evita conflictos y mantiene un juicio independiente durante todo el proceso de auditoría.",
@@ -2940,7 +2940,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 197,
+    "id": "164e325e020b",
     "pregunta": "¿Qué opción política promueve mejor la objetividad cuando surgen posibles conflictos de interés por la asignación de un auditor interno a un departamento donde existen relaciones personales?",
     "opciones": {
       "A": "Exigir al auditor que revele la relación personal mientras sigue en el mismo departamento.",
@@ -2955,7 +2955,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 198,
+    "id": "6b70b994455b",
     "pregunta": "En una situación en la que la objetividad de un auditor interno está en riesgo debido a una exposición prolongada a la misma área de negocio, ¿qué medida política es la más eficaz?",
     "opciones": {
       "A": "Programar revisiones periódicas independientes del trabajo del auditor sin cambiar la tarea.",
@@ -2970,7 +2970,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 199,
+    "id": "e10d7a02acb5",
     "pregunta": "Cuando repetidos trabajos de auditoría en la misma unidad de negocio generan preocupaciones sobre la imparcialidad de un auditor interno, ¿qué opción apoya mejor una estrategia de mitigación?",
     "opciones": {
       "A": "Aumentando la frecuencia de revisiones internas de calidad para el auditor en la misma unidad de negocio.",
@@ -2985,7 +2985,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 200,
+    "id": "4c059b442836",
     "pregunta": "¿Qué opción promueve mejor la objetividad cuando a un auditor interno se le ofrece una recompensa por parte de la gestión de la actividad en revisión?",
     "opciones": {
       "A": "Rechazar la recompensa y documentar la negativa según lo exige la política.",
@@ -3000,7 +3000,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 201,
+    "id": "13b1b13d31fd",
     "pregunta": "¿Cómo contribuyen colectivamente el consejo, la alta dirección y la función de auditoría interna a una gobernanza organizativa sólida?",
     "opciones": {
       "A": "El consejo supervisa la planificación financiera, la alta dirección gestiona las evaluaciones de riesgos y la función de auditoría interna realiza evaluaciones rutinarias.",
@@ -3015,7 +3015,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 202,
+    "id": "ca7ccfe12389",
     "pregunta": "¿Qué marco se utiliza más comúnmente para estructurar roles y responsabilidades en la gobernanza organizacional?",
     "opciones": {
       "A": "El marco de tres líneas, que delimita claramente las responsabilidades entre el consejo, la dirección y el seguro independiente.",
@@ -3030,7 +3030,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 203,
+    "id": "ab7b0ab35b3e",
     "pregunta": "¿Qué declaración describe mejor el impacto positivo de los procesos de toma de decisiones en la gobernanza, gestión de riesgos y sistemas de control de una organización?",
     "opciones": {
       "A": "La toma de decisiones inclusiva que utiliza aportaciones diversas y criterios claros fortalece la gobernanza, la gestión de riesgos y los controles.",
@@ -3045,7 +3045,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 204,
+    "id": "4c8bf518aac1",
     "pregunta": "¿Cómo mejora el proceso de toma de decisiones los riesgos de compromiso individual y la solidez de las medidas de control dentro de una organización?",
     "opciones": {
       "A": "Confiar en tendencias históricas sin la información actual puede llevar a controles de riesgo obsoletos y a un aumento de los riesgos de interacción.",
@@ -3060,7 +3060,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 205,
+    "id": "33be228e7f99",
     "pregunta": "¿Cómo influyen los requisitos éticos, legales y de cumplimiento en el proceso de gestión de riesgos de una organización?",
     "opciones": {
       "A": "Se centran principalmente en el cumplimiento normativo y tienen poca influencia en el proceso global de evaluación de riesgos.",
@@ -3075,7 +3075,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 206,
+    "id": "d1dbed45ac27",
     "pregunta": "En situaciones en las que un auditor interno recibe un favor de la dirección operativa, ¿qué enfoque mantiene mejor la objetividad según las políticas internas?",
     "opciones": {
       "A": "Aceptar el favor solo tras obtener el consentimiento por escrito de un supervisor.",
@@ -3090,7 +3090,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 207,
+    "id": "56c9235e7f54",
     "pregunta": "¿Cómo apoya mejor una política que aborda regalos, recompensas o favores a la objetividad de la función de auditoría interna?",
     "opciones": {
       "A": "Una política que exige a los auditores internos rechazar y reportar inmediatamente todos los regalos, recompensas o favores mantiene la objetividad.",
@@ -3105,7 +3105,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 208,
+    "id": "8ff5dcfa1c07",
     "pregunta": "Una empresa de tamaño medio busca mejorar sus informes de auditoría interna. ¿Cómo pueden aplicarse habilidades efectivas de comunicación escita para mejorar los informes de auditoría?",
     "opciones": {
       "A": "Utilizando un lenguaje claro y conciso con secciones bien organizadas que destaquen los hallazgos y recomendaciones clave.",
@@ -3120,7 +3120,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 209,
+    "id": "abb523476c7c",
     "pregunta": "En preparación para una reunión del comité de auditoría, un auditor interno tiene la tarea de presentar una presentación persuasiva. ¿Qué enfoque aplica mejor las habilidades de presentación efectivas?",
     "opciones": {
       "A": "Crear una presentación detallada que cubra todos los aspectos del trabajo de auditoría.",
@@ -3135,7 +3135,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 210,
+    "id": "95f339b7ab4e",
     "pregunta": "Al participar en una reunión de equipo, un auditor interno debe compartir actualizaciones sobre el progreso de la auditoría. ¿Qué enfoque demuestra mejor habilidades efectivas de comunicación verbal?",
     "opciones": {
       "A": "Articular claramente el progreso, resumir los puntos clave y invitar a recibir comentarios de forma atractiva e interactiva.",
@@ -3150,7 +3150,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 211,
+    "id": "f41bcabe7dcb",
     "pregunta": "Un auditor interno está preparando un resumen ejecutivo escrito de un encargo de auditoría. ¿Cómo debe aplicar el auditor sus habilidades de comunicación para garantizar que el resumen sea efectivo?",
     "opciones": {
       "A": "Proporcionando una narrativa que se centre en la metodología de auditoría y evite conclusiones y recomendaciones.",
@@ -3165,7 +3165,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 212,
+    "id": "6c7d85c34038",
     "pregunta": "¿Cómo debería un auditor interno aplicar habilidades de investigación para actualizar el conocimiento sobre los requisitos regulatoios en evolución?",
     "opciones": {
       "A": "Proporcionando sesiones internas periódicas sobre posibles tendencias regulatoias.",
@@ -3180,7 +3180,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 213,
+    "id": "e021fe33559e",
     "pregunta": "Cuando se enfrenta a pruebas contradictorias durante un trabajo de auditoría, ¿cómo debería un auditor interno aplicar mejor el escepticismo profesional?",
     "opciones": {
       "A": "Comparando la evidencia con tendencias históricas y periodos anteriores.",
@@ -3195,7 +3195,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 214,
+    "id": "95ff8e06ca36",
     "pregunta": "¿Cómo puede un auditor interno mantener el escepticismo profesional cuando se enfrenta a posibles sesgos durante un proceso de autoevaluación?",
     "opciones": {
       "A": "Comparando trabajos previos con hallazgos de auditorías independientes para identificar signos de sesgo.",
@@ -3210,7 +3210,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 215,
+    "id": "cf0b2d82358c",
     "pregunta": "Al evaluar la fiabilidad de las fuentes de datos externas, ¿cómo debería aplicar mejor un auditor interno el escepticismo profesional?",
     "opciones": {
       "A": "Aceptando los datos si coinciden con los registros internos y las tendencias de rendimiento pasadas.",
@@ -3225,7 +3225,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 216,
+    "id": "4d89998d07a5",
     "pregunta": "Al colaborar con partes interesadas externas, ¿cómo puede un auditor interno asegurarse de que la información confidencial se utilice adecuadamente?",
     "opciones": {
       "A": "Divulgando solo la información necesaria bajo estrictos acuerdos de confidencialidad y en cumplimiento de las políticas organizativas y las leyes pertinentes.",
@@ -3240,7 +3240,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 217,
+    "id": "c743e43a728a",
     "pregunta": "En un proyecto de auditoría interna que revisa datos financieros sensibles, ¿cómo puede un auditor aplicar metodologías de auditoría interna para mantener la confidencialidad y el uso adecuado de la información?",
     "opciones": {
       "A": "Confiando en procedimientos estándar e incluyendo una cláusula de confidencialidad.",
@@ -3255,7 +3255,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 218,
+    "id": "458acb4c80fe",
     "pregunta": "Durante una auditoría de procesos operativos que involucran información propietaria, ¿cómo puede un auditor interno garantizar el uso adecuado de información sensible?",
     "opciones": {
       "A": "Difundiendo todos los detalles de los datos propietarios solo en borradores de informes, pero no incluidos en el informe final.",
@@ -3270,7 +3270,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 219,
+    "id": "ecf9c47e3c9b",
     "pregunta": "Durante un trabajo de auditoría de una unidad de negocio sensible, ¿cómo puede un auditor aplicar metodologías internas de auditoría para garantizar que la información confidencial se gestiona adecuadamente?",
     "opciones": {
       "A": "Confiando en métodos únicos de almacenamiento de datos ad hoc en lugar de las medidas organizativas habituales.",
@@ -3285,7 +3285,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 220,
+    "id": "d118e18f5e48",
     "pregunta": "Durante una auditoría que involucra datos personales recogidos de entrevistas, ¿qué enfoque mantiene mejor el respeto a la privacidad y la propiedad de la información?",
     "opciones": {
       "A": "Grabar todas las entrevistas con clientes para agilizar el proceso de auditoría.",
@@ -3300,7 +3300,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 221,
+    "id": "5f00f9f9f55a",
     "pregunta": "En un trabajo de auditoría que implica la recopilación de datos de clientes, ¿qué método mantiene mejor la confidencialidad y el uso adecuado?",
     "opciones": {
       "A": "Recopilación de datos mediante canales seguros y cifrados y restringiendo el acceso solo a aquellos explícitamente autorizados para la auditoría.",
@@ -3315,7 +3315,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 222,
+    "id": "398b5a9a68af",
     "pregunta": "Al compartir los resultados de la auditoría con la dirección, ¿qué método garantiza mejor la confidencialidad y el uso adecuado de la información sensible?",
     "opciones": {
       "A": "Utilizando protocolos seguros de transferencia de archivos y documentos protegidos con contraseña para que solo la gestión autorizada reciba la información.",
@@ -3330,7 +3330,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 223,
+    "id": "e8a498f99794",
     "pregunta": "Durante las comunicaciones digitales en un trabajo de auditoría, ¿qué técnica protege mejor la información sensible?",
     "opciones": {
       "A": "Utilizando plataformas de comunicación propietarias con características de seguridad mejoradas y registros de acceso monitorizados durante las discusiones de auditoría.",
@@ -3345,7 +3345,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 224,
+    "id": "6cc11003557b",
     "pregunta": "Al actualizar la documentación de auditoría interna que contiene datos sensibles, ¿qué método mantiene mejor la confidencialidad?",
     "opciones": {
       "A": "Mantener la documentación en formato cifrado en un portal interno con controles de acceso basados en roles y rastreos de auditoría.",
@@ -3360,7 +3360,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 225,
+    "id": "ff2ef8b2b2ce",
     "pregunta": "¿Qué principio de gobernanza es fundamental para promover la rendición de cuentas dentro de una organización?",
     "opciones": {
       "A": "Jerarquía, que se centra en la toma de decisiones de aiba hacia abajo sin una participación más amplia.",
@@ -3375,7 +3375,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 226,
+    "id": "705e1552579f",
     "pregunta": "¿Qué papel juega la cultura organizativa en la definición del entono de control global?",
     "opciones": {
       "A": "La cultura organizativa es importante para la gestión del talento, pero no tiene un papel directo en la configuración de los controles internos.",
@@ -3390,7 +3390,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 227,
+    "id": "5259bf82eb4d",
     "pregunta": "¿Cómo puede el enfoque de una organización a la hora de tomar decisiones impactar positivamente en su marco general de gobernanza?",
     "opciones": {
       "A": "Un proceso reactivo que aborda los problemas solo a medida que surgen puede socavar la gobernanza estratégica y la gestión de riesgos.",
@@ -3405,7 +3405,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 228,
+    "id": "411306333b43",
     "pregunta": "¿Cómo afecta positivamente la adopción de prácticas participativas de toma de decisiones a los procesos de gobernanza, gestión de riesgos y control de una organización?",
     "opciones": {
       "A": "La toma de decisiones participativa que fomenta la colaboración, la transparencia y la rendición de cuentas mejora los sistemas de gobernanza, gestión de riesgos y control.",
@@ -3420,7 +3420,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 229,
+    "id": "26757fed47d3",
     "pregunta": "¿Cómo contribuye el auditor interno a detectar problemas relacionados con el cumplimiento dentro del marco ético de una organización?",
     "opciones": {
       "A": "Supervisando los controles financieros mientras se confiar en la dirección para abordar cualquier preocupación ética o de cumplimiento.",
@@ -3435,7 +3435,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 230,
+    "id": "4c86dfdcdebd",
     "pregunta": "En una situación en la que la dirección reduce el alcance de la auditoría excluyendo áreas de alto riesgo, ¿qué escenario refleja mejor una amenaza a la independencia de la auditoría?",
     "opciones": {
       "A": "Excluir áreas de alto riesgo resulta en evaluaciones de riesgo incompletas que pueden sesgar significativamente las conclusiones finales de los auditores, minando así la independencia general de la auditoría.",
@@ -3450,7 +3450,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 231,
+    "id": "61cf130c322b",
     "pregunta": "Cuando un auditor interno ha sido contratado recientemente en un departamento que ahora revisa, ¿qué escenario indica mejor un riesgo para la objetividad?",
     "opciones": {
       "A": "Un auditor asignado a una unidad diferente a su antiguo departamento evita conflictos y mantiene un juicio independiente durante todo el proceso de auditoría.",
@@ -3465,7 +3465,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 232,
+    "id": "6d11ee486237",
     "pregunta": "¿Qué factor ilustra mejor la influencia de la toma de decisiones organizativa en su marco ético?",
     "opciones": {
       "A": "La toma de decisiones centralizada que depende únicamente de la intervención de la alta dirección tiende a limitar la apertura y puede debilitar la supervisión ética.",
@@ -3480,7 +3480,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 233,
+    "id": "38f86743694a",
     "pregunta": "Un auditor interno debe redactar un informe resumen para la alta dirección. ¿Cómo puede aplicarse una comunicación escita eficaz para garantizar que el informe sea tanto informativo como accesible?",
     "opciones": {
       "A": "Proporcionando una visión general amplia con un enfoque mínimo en hallazgos y recomendaciones críticas.",
@@ -3495,7 +3495,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 234,
+    "id": "2a3d8585fdf2",
     "pregunta": "En un trabajo de auditoría que requiere la revisión de datos propietarios de terceros, ¿qué práctica demuestra mejor respeto a la privacidad y la propiedad de los datos?",
     "opciones": {
       "A": "Acceso y uso de datos de terceros estrictamente bajo los términos de acuerdos de confidencialidad y protocolos de transferencia segura.",
@@ -3510,7 +3510,7 @@
     "fuente": "Simulacro 15 de Agosto (2026-08-15)"
   },
   {
-    "id": 235,
+    "id": "94e78694f6c9",
     "pregunta": "Un auditor interno evalúa las prácticas de gestión de riesgos y observa que las respuestas a los riesgos a menudo se implementan sin evaluar ni documentar los niveles de riesgo residual resultantes. ¿Qué sugiere principalmente esta práctica?",
     "opciones": {
       "A": "La evaluación del riesgo residual es demasiado compleja e incierta para ser útil en las decisiones de gestión de riesgos.",
@@ -3525,7 +3525,7 @@
     "fuente": "Práctica 4 (2026-08-18)"
   },
   {
-    "id": 236,
+    "id": "421922b909ee",
     "pregunta": "Un auditor interno revisa la decisión de una empresa tecnológica de lanzar un producto innovador en un mercado emergente, a pesar de la considerable incertidumbre sobre la aceptación por parte de los clientes y la aprobación regulatoia. ¿Qué tipo de respuesta al riesgo representa esta estrategia?",
     "opciones": {
       "A": "Reducción de riesgos mediante investigación de mercado y análisis regulatoio para minimizar la incertidumbre antes del lanzamiento.",
@@ -3540,7 +3540,7 @@
     "fuente": "Práctica 4 (2026-08-18)"
   },
   {
-    "id": 237,
+    "id": "8c0a5d442bad",
     "pregunta": "¿Cuál es el principal beneficio de implementar un marco de gestión de riesgos bien diseñado?",
     "opciones": {
       "A": "Garantiza que la organización adopte una metodología de gestión de riesgos reconocida universalmente.",
@@ -3555,7 +3555,7 @@
     "fuente": "Práctica 5 (2026-08-18)"
   },
   {
-    "id": 238,
+    "id": "13c3f5281ffb",
     "pregunta": "Durante una auditoría, el auditor observa que la organización identifica riesgos una vez al año, pero no los revisa cuando ocurren cambios importantes en el negocio. ¿Qué debilidad del proceso de gestión de riesgos es más evidente?",
     "opciones": {
       "A": "Exceso de controles compensatorios.",
@@ -3570,7 +3570,7 @@
     "fuente": "Práctica 5 (2026-08-18)"
   },
   {
-    "id": 239,
+    "id": "43e2a20ea711",
     "pregunta": "Un auditor interno evalúa una corporación multinacional donde los enfoques de gestión de riesgos varían significativamente entre países debido a las regulaciones locales, los factores culturales y las condiciones del negocio. Sin embargo, los riesgos que afectan a toda la empresa y que trascienden las fronteras nacionales no se identifican ni se gestionan sistemáticamente. ¿Qué desafío complejo de gestión de riesgos plantea esta situación?",
     "opciones": {
       "A": "Equilibrar los requisitos de adaptación local con la integración de riesgos a nivel empresarial para una gestión de riesgos global integral.",
@@ -3585,7 +3585,7 @@
     "fuente": "Práctica 5 (2026-08-18)"
   },
   {
-    "id": 240,
+    "id": "ff5ecdceeba1",
     "pregunta": "Una organización cuenta con sólidos componentes individuales de gestión de riesgos, pero carece de coordinación entre ellos. ¿Qué elemento específico del marco de trabajo aborda esta fragmentación?",
     "opciones": {
       "A": "Los marcos de trabajo establecen roles, relaciones y puntos de integración claros entre los componentes de gestión de riesgos y las funciones organizativas.",
@@ -3600,7 +3600,7 @@
     "fuente": "Práctica 6 (2026-08-18)"
   },
   {
-    "id": 241,
+    "id": "b17a21804036",
     "pregunta": "¿Qué medida de control sería la más eficaz para evitar que una fábrica vierta aguas residuales que no cumplan con las nomas de descarga?",
     "opciones": {
       "A": "Realizar un análisis químico del agua justo aguas abajo del punto de descarga para detectar los componentes especificados en el permiso.",
@@ -3615,7 +3615,7 @@
     "fuente": "Práctica 8 (2026-08-20)"
   },
   {
-    "id": 242,
+    "id": "21780d19b3a1",
     "pregunta": "Un auditor interno está evaluando el proceso de nómina. Tras identificar los controles clave implementados, ¿cuál es el siguiente paso más apropiado para que el auditor determine si los controles funcionan según lo previsto?",
     "opciones": {
       "A": "Evaluar los riesgos inherentes al proceso de nómina.",
@@ -3630,7 +3630,7 @@
     "fuente": "Práctica 8 (2026-08-20)"
   },
   {
-    "id": 243,
+    "id": "61befeadbf09",
     "pregunta": "La auditoría interna constata que se realizan ajustes de inventario después de cada recuento físico para que los registros contables coincidan con las cantidades reales. ¿A qué tipo de control corresponden estos ajustes?",
     "opciones": {
       "A": "Control preventivo que garantiza la exactitud de los registros de inventario mediante la exigencia de ajustes periódicos.",
@@ -3645,7 +3645,7 @@
     "fuente": "Práctica 8 (2026-08-20)"
   },
   {
-    "id": 244,
+    "id": "0282f676f7d2",
     "pregunta": "El análisis de varianza en los informes financieros funciona como un control de detección. ¿Qué tipo de riesgo detecta con mayor eficacia el análisis de varianza?",
     "opciones": {
       "A": "Problemas de moral de los empleados que podían conducir a un aumento de la rotación de personal.",
@@ -3660,7 +3660,7 @@
     "fuente": "Práctica 8 (2026-08-20)"
   },
   {
-    "id": 245,
+    "id": "7b01e4122fde",
     "pregunta": "Una auditoría interna de una organización sanitaria reveló que el personal del servicio de urgencias compartía habitualmente las contraseñas de los ordenadores para acceder rápidamente a los historiales de los pacientes durante los cambios de tuno. Esto infringía las políticas de seguridad, pero el personal argumentaba que era necesario para garantizar la continuidad de la atención al paciente. ¿Qué solución de control abordaría tanto las necesidades de seguridad como las operativas?",
     "opciones": {
       "A": "Sancionar a todo el personal que comparta contraseñas para garantizar el estricto cumplimiento de la política.",
@@ -3675,7 +3675,7 @@
     "fuente": "Práctica 8 (2026-08-20)"
   },
   {
-    "id": 246,
+    "id": "356692d83d13",
     "pregunta": "Una aerolínea implementó controles que exigían a los pilotos completar listas de verificación previas al vuelo con la verificación del copiloto. El control estaba bien diseñado y contaba con procedimientos claros. Sin embargo, el análisis de incidentes reveló que las tripulaciones a menudo completaban las listas de verificación de memoria, sin una verificación real. ¿Qué mejora aumentaría la efectividad?",
     "opciones": {
       "A": "Automatice la cumplimentación de listas de verificación mediante sensores del sistema.",
@@ -3690,7 +3690,7 @@
     "fuente": "Práctica 9 (2026-08-20)"
   },
   {
-    "id": 247,
+    "id": "f300febb8f77",
     "pregunta": "Durante una revisión de control, un auditor descubre que los informes de horas extras requeridos se generan, pero la gerencia nunca los revisa. ¿Qué problema de control ilustra mejor esta situación?",
     "opciones": {
       "A": "El control está mal diseñado porque no se deberían generar informes por horas extras.",
@@ -3705,7 +3705,7 @@
     "fuente": "Práctica 9 (2026-08-20)"
   },
   {
-    "id": 248,
+    "id": "2faaf2f6b5b4",
     "pregunta": "El Director Ejecutivo de Auditoría (DEA) está reevaluando el Estatuto de Auditoría Interna de la empresa. ¿Cuál de las siguientes afirmaciones respecto al Estatuto es CORRECTA según las Normas Globales de Auditoría Interna?",
     "opciones": {
       "A": "El Estatuto debe ser redactado y aprobado de forma exclusiva por el Director Ejecutivo de Auditoría sin requerir validaciones externas.",
@@ -3720,7 +3720,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 249,
+    "id": "03f43e7857a2",
     "pregunta": "Durante una auditoría de compras, un auditor interno descubre que su hermano es el principal accionista de uno de los proveedores seleccionados. ¿Cuál es la acción INMEDIATA que debe tomar el auditor?",
     "opciones": {
       "A": "Continuar con la auditoría pero abstenerse de emitir opiniones sobre las compras realizadas a ese proveedor específico.",
@@ -3735,7 +3735,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 250,
+    "id": "8ef5900aa8be",
     "pregunta": "Un departamento de auditoría interna desea declarar en sus informes que sus trabajos 'se realizan de conformidad con las Normas Globales de Auditoría Interna'. Para poder realizar esta afirmación legítimamente, ¿qué condición es OBLIGATORIA?",
     "opciones": {
       "A": "Que todos los auditores del equipo posean la certificación CIA.",
@@ -3750,7 +3750,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 251,
+    "id": "51ebe0bdecfd",
     "pregunta": "¿Cuál de las siguientes opciones describe MEJOR el concepto de 'Riesgo Residual' según el Marco COSO de Gestión de Riesgos Empresariales (ERM)?",
     "opciones": {
       "A": "El riesgo que existe en ausencia de cualquier medida tomadas por la dirección para mitigar su impacto o probabilidad.",
@@ -3765,7 +3765,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 252,
+    "id": "d9b5a2ba9792",
     "pregunta": "El Director Ejecutivo de Auditoría (DEA) es invitado a participar en el diseño e implementación de un nuevo sistema informático de facturación. De aceptar esta responsabilidad operativa, ¿qué impacto directo sufre el departamento de auditoría interna?",
     "opciones": {
       "A": "Incurre en una falta grave de confidencialidad al revisar datos del sistema antes de su liberación.",
@@ -3780,7 +3780,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 253,
+    "id": "0d3dc951dbb1",
     "pregunta": "¿Cuál es la responsabilidad PRINCIPAL de la actividad de auditoría interna con respecto al riesgo de fraude dentro de la organización?",
     "opciones": {
       "A": "Garantizar que no ocurran fraudes mediante la revisión del 100% de las transacciones operativas.",
@@ -3795,7 +3795,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 254,
+    "id": "15243bba7f3f",
     "pregunta": "El Principio de 'Integridad' del Código de Ética del IIA impone a los auditores internos la obligación de:",
     "opciones": {
       "A": "Divulgar toda la información obtenida a cualquier empleado que la solicite por escrito.",
@@ -3810,7 +3810,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 255,
+    "id": "2f006a92c1b6",
     "pregunta": "De acuerdo con el Modelo de las Tres Líneas del IIA, ¿cuál es el rol fundamental de la 'Segunda Línea'?",
     "opciones": {
       "A": "Prestar servicios de aseguramiento independiente y objetivo a la alta dirección y al Consejo.",
@@ -3825,7 +3825,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 256,
+    "id": "dcbfd38c9c38",
     "pregunta": "Durante una revisión, un auditor descubre un indicador claro de que un gerente regional está falsificando reportes de ventas. ¿Qué acción debe tomar el auditor?",
     "opciones": {
       "A": "Confrontar en privado al gerente regional para exigirle que confiese de inmediato.",
@@ -3840,7 +3840,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 257,
+    "id": "aa3bf5cc0e0a",
     "pregunta": "🔟 ¿Cuál de los siguientes es un ejemplo de un 'Control Preventivo'?",
     "opciones": {
       "A": "Conciliación bancaria realizada al final de cada mes.",
@@ -3855,7 +3855,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 258,
+    "id": "5ad94c9e8608",
     "pregunta": "1️⃣ ¿Con qué frecuencia DEBE realizarse una evaluación externa del Programa de Aseguramiento y Mejora de la Calidad (QAIP) según las Normas?",
     "opciones": {
       "A": "Al menos una vez cada tres años por un revisor cualificado e independiente.",
@@ -3870,7 +3870,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 259,
+    "id": "d33cf7e5ea7f",
     "pregunta": "2️⃣ Un auditor interno que trabajó hace 6 meses en el departamento de contabilidad es asignado para auditar el módulo de Cuentas por Cobrar de ese mismo departamento. ¿Cómo debe proceder el auditor?",
     "opciones": {
       "A": "Realizar el trabajo normalmente siempre que mantenga una actitud imparcial.",
@@ -3885,7 +3885,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 260,
+    "id": "2443065e9a63",
     "pregunta": "3️⃣ De acuerdo con el Marco COSO de Control Interno, ¿cuál de los siguientes elementos corresponde al componente 'Entorno de Control'?",
     "opciones": {
       "A": "La definición de los canales de comunicación de denuncias anónimas.",
@@ -3900,7 +3900,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 261,
+    "id": "b0109306216d",
     "pregunta": "4️⃣ ¿Quién es el responsable FINAL de la supervisión global y aprobación del Plan Anual de Auditoría Interna basado en riesgos?",
     "opciones": {
       "A": "El Director Financiero (CFO).",
@@ -3915,7 +3915,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 262,
+    "id": "13e5c1c94a11",
     "pregunta": "5️⃣ El principio ético de 'Confidencialidad' exige que los auditores internos:",
     "opciones": {
       "A": "No revelen información sin la debida autorización, a menos que exista una obligación legal o profesional para hacerlo.",
@@ -3930,7 +3930,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 263,
+    "id": "f7b0e668a361",
     "pregunta": "6️⃣ ¿Cuál es la diferencia sustancial entre un servicio de 'Aseguramiento' y uno de 'Consultoría' prestado por Auditoría Interna?",
     "opciones": {
       "A": "El servicio de aseguramiento es obligatorio por ley; la consultoría es ilegal.",
@@ -3945,7 +3945,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 264,
+    "id": "fa4641fb532c",
     "pregunta": "7️⃣ ¿Qué debe hacer el DEA si la Alta Dirección decide aceptar un nivel de riesgo residual que el DEA considera inaceptable para la organización?",
     "opciones": {
       "A": "Aceptar la decisión de la Alta Dirección sin escalar el asunto, ya que ellos gestionan la empresa.",
@@ -3960,7 +3960,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 265,
+    "id": "e87eb5a18432",
     "pregunta": "8️⃣ El concepto de 'Cuidado Profesional Debido' implica que el auditor interno debe:",
     "opciones": {
       "A": "Garantizar la infalibilidad y el descubrimiento absoluto de todas las irregularidades.",
@@ -3975,7 +3975,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 266,
+    "id": "ed6a6279b101",
     "pregunta": "9️⃣ ¿Cuál de las siguientes acciones representa una amenaza directa a la INDEPENDENCIA del departamento de auditoría interna?",
     "opciones": {
       "A": "El DEA reporta funcionalmente al Consejo de Administración y administrativamente al Director Ejecutivo (CEO).",
@@ -3990,7 +3990,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 267,
+    "id": "396ac7df4d1d",
     "pregunta": "0️⃣ ¿Cuál es el objetivo principal del seguimiento (*follow-up*) de las recomendaciones emitidas en un informe de auditoría?",
     "opciones": {
       "A": "Asegurar que la gerencia haya implementado las acciones o asumido el riesgo explícitamente.",
@@ -4005,7 +4005,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 268,
+    "id": "6ca12149e097",
     "pregunta": "1️⃣ ¿Cuál es la responsabilidad de auditoría interna en relación con el marco de gobierno corporativo de la organización?",
     "opciones": {
       "A": "Diseñar e implementar las estructuras de gobernanza de la junta.",
@@ -4020,7 +4020,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 269,
+    "id": "dce27c3f1e4a",
     "pregunta": "2️⃣ De acuerdo con el marco COSO de Control Interno, ¿cuál de los siguientes es un componente fundamental del entorno de control?",
     "opciones": {
       "A": "La conciliación mensual de cuentas bancarias.",
@@ -4035,7 +4035,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 270,
+    "id": "2da3480a5d26",
     "pregunta": "3️⃣ ¿Qué tipo de control se considera un 'control preventivo' en un ciclo de compras?",
     "opciones": {
       "A": "Una revisión mensual de las variaciones presupuestarias.",
@@ -4050,7 +4050,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 271,
+    "id": "ff493161c4a9",
     "pregunta": "4️⃣ En el contexto de Gestión de Riesgos Empresariales (ERM), ¿qué significa 'riesgo inherente'?",
     "opciones": {
       "A": "El riesgo que permanece después de implementar los controles de la gerencia.",
@@ -4065,7 +4065,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 272,
+    "id": "a0305bae211f",
     "pregunta": "5️⃣ ¿Cuál es la función PRINCIPAL de la 'tercera línea' en el Modelo de las Tres Líneas del IIA?",
     "opciones": {
       "A": "Gestionar los riesgos operativos directos en el día a día.",
@@ -4080,7 +4080,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 273,
+    "id": "4141be23a166",
     "pregunta": "6️⃣ Un auditor interno identifica que una división no está cumpliendo con las regulaciones ambientales locales. ¿Cuál es la primera acción del auditor?",
     "opciones": {
       "A": "Notificar inmediatamente a las autoridades ambientales del gobierno.",
@@ -4095,7 +4095,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 274,
+    "id": "fd5e777c1e42",
     "pregunta": "7️⃣ De acuerdo con el Código de Ética del IIA, si un auditor interno recibe una tarifa fija de un cliente por un trabajo de auditoría independiente, pero el cliente ofrece una bonificación contingente si no se reportan hallazgos severos, ¿qué principio viola el auditor si acepta?",
     "opciones": {
       "A": "Confidencialidad.",
@@ -4110,7 +4110,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 275,
+    "id": "f5e854e41d24",
     "pregunta": "8️⃣ ¿Qué debe hacer el DEA si la Alta Dirección decide asumir un nivel de riesgo residual que el DEA considera inaceptable para la organización?",
     "opciones": {
       "A": "Aceptar la decisión de la gerencia sin objetar, ya que ellos gestionan el negocio.",
@@ -4125,7 +4125,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 276,
+    "id": "b730e5042358",
     "pregunta": "9️⃣ ¿Cuál de las siguientes es una responsabilidad del Director Ejecutivo de Auditoría (DEA) respecto a la gestión del plan de auditoría?",
     "opciones": {
       "A": "Aprobar las decisiones operativas de las áreas auditadas.",
@@ -4140,7 +4140,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 277,
+    "id": "3062c473693e",
     "pregunta": "0️⃣ ¿Cuál es la herramienta principal para evaluar periódicamente la percepción del desempeño y agregar valor del departamento de auditoría interna?",
     "opciones": {
       "A": "El presupuesto de caja chica.",
@@ -4155,7 +4155,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 278,
+    "id": "1c826491d12f",
     "pregunta": "1️⃣ ¿Cuál es la principal diferencia entre un servicio de aseguramiento y un servicio de consultoría realizado por auditoría interna?",
     "opciones": {
       "A": "El servicio de aseguramiento es obligatorio por ley, la consultoría es optativa.",
@@ -4170,7 +4170,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 279,
+    "id": "abb971e48734",
     "pregunta": "2️⃣ Un auditor interno que revisa las nóminas descubre que un familiar directo (su hermano) trabaja en ese departamento pero en un rol operativo sin relación con los pagos. ¿Qué debe hacer el auditor?",
     "opciones": {
       "A": "Continuar con la auditoría sin notificar nada porque su hermano no maneja los pagos.",
@@ -4185,7 +4185,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 280,
+    "id": "763dd9ff5c89",
     "pregunta": "3️⃣ ¿Qué elemento NO debe formar parte del informe final escrito de un encargo de auditoría?",
     "opciones": {
       "A": "Los objetivos y el alcance de la auditoría.",
@@ -4200,7 +4200,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 281,
+    "id": "3a4607c80f1c",
     "pregunta": "4️⃣ De acuerdo con el Marco COSO ERM, la 'Apetito de Riesgo' es definida como:",
     "opciones": {
       "A": "La cantidad máxima de riesgo que una entidad está legalmente autorizada a asumir.",
@@ -4215,7 +4215,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 282,
+    "id": "ca681620da4d",
     "pregunta": "5️⃣ Si un auditor interno recibe presiones por parte de la gerencia auditada para no revisar un lote de facturas sospechosas, esto constituye una:",
     "opciones": {
       "A": "Limitación al alcance de la auditoría que debe informarse al Consejo.",
@@ -4230,7 +4230,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 283,
+    "id": "ce72577a60c8",
     "pregunta": "6️⃣ ¿Cuál de los siguientes es un ejemplo de control de detección (detectivo)?",
     "opciones": {
       "A": "Restricción de acceso físico con tarjeta electrónica a la sala de servidores.",
@@ -4245,7 +4245,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 284,
+    "id": "7d79e07df21d",
     "pregunta": "7️⃣ ¿Qué se requiere para que un departamento de auditoría interna declare que sus trabajos se realizan 'en conformidad con las Normas Globales de Auditoría Interna'?",
     "opciones": {
       "A": "Que el DEA tenga la certificación CIA.",
@@ -4260,7 +4260,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 285,
+    "id": "d0c032a2d575",
     "pregunta": "8️⃣ Un auditor interno sospecha de la existencia de un esquema de colusión de fraude entre un comprador y un proveedor. ¿Qué acción debe tomar PRIMERO?",
     "opciones": {
       "A": "Confrontar directamente al comprador para exigir una confesión.",
@@ -4275,7 +4275,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 286,
+    "id": "cca490149410",
     "pregunta": "9️⃣ ¿Cuál es la responsabilidad de auditoría interna respecto al monitoreo de las acciones correctivas acordadas en los informes?",
     "opciones": {
       "A": "Ejecutar las acciones correctivas directamente si la gerencia no lo hace.",
@@ -4290,7 +4290,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 287,
+    "id": "aec2870c907e",
     "pregunta": "0️⃣ De acuerdo con el Código de Ética, un auditor interno debe realizar sus servicios con honestidad, diligencia y responsabilidad. ¿A qué principio ético corresponde esta afirmación?",
     "opciones": {
       "A": "Integridad.",
@@ -4305,7 +4305,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 288,
+    "id": "ded3c16fa1f8",
     "pregunta": "1️⃣ De acuerdo con el marco COSO, ¿cuál es el componente que se encarga de identificar y analizar los riesgos relevantes para el logro de los objetivos de la organización?",
     "opciones": {
       "A": "Entorno de Control.",
@@ -4320,7 +4320,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 289,
+    "id": "df3a95c28eb8",
     "pregunta": "2️⃣ Un auditor interno nota que no hay segregación de funciones en la aprobación de transferencias bancarias en una filial pequeña. ¿Qué tipo de recomendación debería priorizar?",
     "opciones": {
       "A": "Contratar inmediatamente tres empleados adicionales.",
@@ -4335,7 +4335,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 290,
+    "id": "d95dbce45d3d",
     "pregunta": "3️⃣ ¿Qué autoridad aprueba formalmente los cambios al Estatuto de Auditoría Interna?",
     "opciones": {
       "A": "El Director Ejecutivo de Auditoría (DEA).",
@@ -4350,7 +4350,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 291,
+    "id": "e096d0030b46",
     "pregunta": "4️⃣ ¿Cuál de las siguientes situaciones representa una violación directa al principio de Competencia según el Código de Ética?",
     "opciones": {
       "A": "Aceptar un trabajo de auditoría en una materia para la cual no se posee el conocimiento o la experiencia técnica necesaria sin el debido apoyo.",
@@ -4365,7 +4365,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 292,
+    "id": "eadc069ee6b5",
     "pregunta": "5️⃣ De acuerdo con las Normas Globales, las evaluaciones internas del Programa de Aseguramiento y Mejora de la Calidad (QAIP) deben incluir:",
     "opciones": {
       "A": "Solo revisiones de un auditor independiente cada 5 años.",
@@ -4380,7 +4380,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 293,
+    "id": "c57965e5e5e7",
     "pregunta": "6️⃣ En un encargo de consultoría, ¿quién establece el alcance y los objetivos del trabajo?",
     "opciones": {
       "A": "El Comité de Auditoría de forma exclusiva.",
@@ -4395,7 +4395,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 294,
+    "id": "3e49547e1645",
     "pregunta": "7️⃣ ¿Cuál es el principal objetivo de un mapa de riesgos corporativo?",
     "opciones": {
       "A": "Calcular la pérdida monetaria exacta de cada departamento en el año.",
@@ -4410,7 +4410,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 295,
+    "id": "a4146011814f",
     "pregunta": "8️⃣ Si un auditor interno tiene dudas sobre la interpretación legal de un contrato complejo durante una auditoría, ¿cuál es la mejor línea de acción?",
     "opciones": {
       "A": "Emitir una opinión legal basada en su propia deducción.",
@@ -4425,7 +4425,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 296,
+    "id": "4371edfb5384",
     "pregunta": "9️⃣ De acuerdo con el Modelo de las Tres Líneas del IIA, las funciones de cumplimiento y gestión de riesgos pertenecen a la:",
     "opciones": {
       "A": "Primera línea.",
@@ -4440,7 +4440,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 297,
+    "id": "a3d9bd3edb99",
     "pregunta": "0️⃣ ¿Cuál de las siguientes acciones del DEA ayuda a salvaguardar la INDEPENDENCIA ORGANIZACIONAL de la actividad de auditoría interna?",
     "opciones": {
       "A": "Reportar administrativamente al CEO y funcionalmente al Consejo/Comité de Auditoría.",
@@ -4455,7 +4455,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 298,
+    "id": "963d25a13f16",
     "pregunta": "1️⃣ Según las Normas del IIA, si un auditor interno es transferido desde el departamento de nómina a auditoría interna, ¿cuánto tiempo debe esperar antes de auditar el área de nómina?",
     "opciones": {
       "A": "No hay tiempo de espera si el DEA lo aprueba.",
@@ -4470,7 +4470,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 299,
+    "id": "c4f97bbcdbe1",
     "pregunta": "2️⃣ El nivel de riesgo que una organización está dispuesta a aceptar para lograr sus objetivos antes de emprender cualquier acción para modificarlo se conoce como:",
     "opciones": {
       "A": "Riesgo inherente.",
@@ -4485,7 +4485,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 300,
+    "id": "b0ef997136e9",
     "pregunta": "3️⃣ ¿Cuál es la responsabilidad principal del auditor interno con respecto al fraude, según las Normas del IIA?",
     "opciones": {
       "A": "Garantizar que no ocurran fraudes en la organización.",
@@ -4500,7 +4500,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 301,
+    "id": "d621037349e4",
     "pregunta": "4️⃣ Las evaluaciones externas del Programa de Aseguramiento y Mejora de la Calidad (QAIP) deben realizarse:",
     "opciones": {
       "A": "Anualmente por el Comité de Auditoría.",
@@ -4515,7 +4515,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 302,
+    "id": "2d9af04fff01",
     "pregunta": "5️⃣ Un control diseñado para descubrir eventos no deseados que ya han ocurrido, como una conciliación bancaria mensual, se clasifica como:",
     "opciones": {
       "A": "Control preventivo.",
@@ -4530,7 +4530,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 303,
+    "id": "781c71447c34",
     "pregunta": "6️⃣ En el contexto del Gobierno Corporativo, ¿cuál es el rol principal de la actividad de auditoría interna?",
     "opciones": {
       "A": "Establecer la dirección estratégica de la organización.",
@@ -4545,7 +4545,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 304,
+    "id": "11788d477f1b",
     "pregunta": "7️⃣ Si el Director Ejecutivo de Auditoría (DEA) determina que la actividad de auditoría interna no cuenta con los conocimientos técnicos para una revisión de ciberseguridad, ¿qué debe hacer?",
     "opciones": {
       "A": "Cancelar la auditoría inmediatamente.",
@@ -4560,7 +4560,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 305,
+    "id": "623bcbabbfe9",
     "pregunta": "8️⃣ El documento que define el propósito, la autoridad y la responsabilidad de la actividad de auditoría interna se conoce como:",
     "opciones": {
       "A": "Plan anual de auditoría.",
@@ -4575,7 +4575,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 306,
+    "id": "f352f0d90984",
     "pregunta": "9️⃣ Durante una auditoría a un proveedor, el gerente del proveedor le ofrece al auditor interno unas vacaciones pagadas por su 'excelente colaboración'. Aceptar este regalo violaría principalmente el principio ético de:",
     "opciones": {
       "A": "Integridad.",
@@ -4590,7 +4590,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 307,
+    "id": "13e017bc0f40",
     "pregunta": "0️⃣ ¿Cuál es la diferencia principal entre el riesgo inherente y el riesgo residual?",
     "opciones": {
       "A": "El riesgo inherente es cuantificable, el residual es cualitativo.",
@@ -4605,7 +4605,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 308,
+    "id": "601e4efa7372",
     "pregunta": "1️⃣ ¿Cuál es el propósito principal de los papeles de trabajo en una auditoría interna?",
     "opciones": {
       "A": "Proporcionar evidencia documentada que respalde las conclusiones y hallazgos del informe de auditoría.",
@@ -4620,7 +4620,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 309,
+    "id": "9979513e7951",
     "pregunta": "2️⃣ Un auditor interno identifica que una política clave de compras no se ha actualizado en más de 8 años. ¿Cómo debe clasificar esta observación?",
     "opciones": {
       "A": "Falta de control de diseño / Obsoletud normativa.",
@@ -4635,7 +4635,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 310,
+    "id": "bc0150af8376",
     "pregunta": "3️⃣ De acuerdo con el Código de Ética del IIA, el principio de CONFIDENCIALIDAD exige que los auditores internos:",
     "opciones": {
       "A": "No compartan información con nadie, incluyendo al Director Ejecutivo de Auditoría.",
@@ -4650,7 +4650,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 311,
+    "id": "3f7c5ad45761",
     "pregunta": "4️⃣ ¿Quién es el responsable FINAL de establecer, mantener y supervisar el sistema de control interno en una entidad?",
     "opciones": {
       "A": "El Director Ejecutivo de Auditoría (DEA).",
@@ -4665,7 +4665,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 312,
+    "id": "ffc5d2b38076",
     "pregunta": "5️⃣ Si un auditor interno recibe presiones para omitir una prueba crucial debido a restricciones de tiempo y presupuesto, ¿qué principio de las Normas se está poniendo en riesgo?",
     "opciones": {
       "A": "Debido cuidado profesional.",
@@ -4680,7 +4680,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 313,
+    "id": "7dae9a389de7",
     "pregunta": "6️⃣ ¿Cuál de las siguientes actividades corresponde a un servicio de CONSULTORÍA por parte de auditoría interna?",
     "opciones": {
       "A": "Evaluar la efectividad del control interno de cuentas por pagar.",
@@ -4695,7 +4695,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 314,
+    "id": "0f293822fa8c",
     "pregunta": "7️⃣ En el marco COSO, ¿cuál de los siguientes es un ejemplo de un control enfocado en el componente 'Entorno de Control'?",
     "opciones": {
       "A": "Un código de conducta y ética formalmente comunicado a todos los empleados.",
@@ -4710,7 +4710,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 315,
+    "id": "2e88a77db038",
     "pregunta": "8️⃣ ¿Qué debe hacer un auditor interno si descubre un indicio claro de fraude durante un trabajo de aseguramiento de rutina?",
     "opciones": {
       "A": "Enfrentar inmediatamente al sospechoso y exigir una confesión.",
@@ -4725,7 +4725,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 316,
+    "id": "49f77f5a7943",
     "pregunta": "9️⃣ Un Plan de Auditoría Basado en Riesgos se diferencia de un plan tradicional porque:",
     "opciones": {
       "A": "Audita todas las áreas de la empresa con la misma frecuencia.",
@@ -4740,7 +4740,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 317,
+    "id": "10ec91c7ecc2",
     "pregunta": "0️⃣ Si un auditor interno tiene una relación de parentesco cercana con el gerente del área auditada, ¿qué acción debe tomar para salvaguardar la OBJETIVIDAD?",
     "opciones": {
       "A": "Continuar con el trabajo sin decir nada si se considera imparcial.",
@@ -4755,7 +4755,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 318,
+    "id": "4b78d161160b",
     "pregunta": "1️⃣ ¿Cuál es el objetivo principal del análisis de datos en un trabajo de auditoría interna?",
     "opciones": {
       "A": "Reemplazar completamente el juicio profesional del auditor.",
@@ -4770,7 +4770,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 319,
+    "id": "182438f6754f",
     "pregunta": "2️⃣ De acuerdo con el IIA, ¿qué se entiende por 'Objetividad' en la auditoría interna?",
     "opciones": {
       "A": "Una actitud mental imparcial que permite a los auditores desempeñar su trabajo sin comprometer la calidad.",
@@ -4785,7 +4785,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 320,
+    "id": "e653fb763161",
     "pregunta": "3️⃣ ¿Cuál es el primer paso en la planificación de un trabajo de auditoría individual?",
     "opciones": {
       "A": "Redactar el borrador del informe final.",
@@ -4800,7 +4800,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 321,
+    "id": "41313beea55d",
     "pregunta": "4️⃣ En el modelo de las Tres Líneas del IIA, ¿a qué línea corresponden los controles operativos y la gestión de riesgos en el día a día?",
     "opciones": {
       "A": "Primera línea.",
@@ -4815,7 +4815,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 322,
+    "id": "45971a78437f",
     "pregunta": "5️⃣ Si un auditor interno identifica un control que es eficiente pero muy costoso en comparación con el riesgo que mitiga, ¿qué debería recomendar?",
     "opciones": {
       "A": "Eliminar el control inmediatamente sin consultar.",
@@ -4830,7 +4830,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 323,
+    "id": "5620bc8b2b30",
     "pregunta": "6️⃣ Un ejemplo claro de amenaza a la independencia de la actividad de auditoría interna es:",
     "opciones": {
       "A": "Que el DEA reporte funcionalmente al Consejo de Administración.",
@@ -4845,7 +4845,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 324,
+    "id": "5cdb94382373",
     "pregunta": "7️⃣ ¿Qué norma exige que los auditores internos continúen su desarrollo profesional continuo (CPE)?",
     "opciones": {
       "A": "Norma 1230 - Desarrollo Profesional Continuo.",
@@ -4860,7 +4860,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 325,
+    "id": "b814d4ed4245",
     "pregunta": "8️⃣ En una auditoría de TI, el uso de contraseñas compartidas entre usuarios es un hallazgo classified principalmente como un fallo en:",
     "opciones": {
       "A": "Controles de acceso lógico.",
@@ -4875,7 +4875,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 326,
+    "id": "4c5a392c65d7",
     "pregunta": "9️⃣ ¿Cuál es la herramienta principal para monitorear que las recomendaciones de auditoría formuladas en informes anteriores han sido implementadas?",
     "opciones": {
       "A": "Proceso de seguimiento (Follow-up).",
@@ -4890,7 +4890,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 327,
+    "id": "9adcbd32b508",
     "pregunta": "0️⃣ Un auditor interno que realiza un encargo de aseguramiento debe mantener una actitud que incluya una mente inquisitiva y una evaluación crítica de la evidencia. Esto se conoce como:",
     "opciones": {
       "A": "Escepticismo profesional.",
@@ -4905,7 +4905,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 328,
+    "id": "739e09a5ccb1",
     "pregunta": "1️⃣ Un informe de auditoría interna debe ser preciso, objetivo, claro, conciso, constructivo, completo y oportuno. ¿Qué principio se vulnera si el informe se emite 6 meses después de finalizar el trabajo de campo?",
     "opciones": {
       "A": "Oportunidad.",
@@ -4920,7 +4920,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 329,
+    "id": "6ff694615795",
     "pregunta": "2️⃣ ¿Cuál es la principal ventaja de utilizar cuestionarios de control interno (CCIs) durante la fase de planificación de auditoría?",
     "opciones": {
       "A": "Reemplazan completamente la necesidad de realizar pruebas físicas o sustantivas.",
@@ -4935,7 +4935,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 330,
+    "id": "71457827aa6f",
     "pregunta": "3️⃣ Según las Normas Globales de Auditoría Interna, el Programa de Aseguramiento y Mejora de la Calidad (QAIP) debe incluir:",
     "opciones": {
       "A": "Únicamente evaluaciones externas cada 5 años.",
@@ -4950,7 +4950,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 331,
+    "id": "6b204e952b89",
     "pregunta": "4️⃣ ¿Cuál es el papel del auditor interno en la gestión de riesgos según el Marco de Tres Líneas del IIA?",
     "opciones": {
       "A": "Tomar las decisiones operativas sobre qué riesgos asumir o transferir.",
@@ -4965,7 +4965,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 332,
+    "id": "a372fc418f6c",
     "pregunta": "5️⃣ Un control que requiere una doble firma digital para aprobar transferencias bancarias mayores a $10,000 es un ejemplo de:",
     "opciones": {
       "A": "Segregación de funciones y control preventivo.",
@@ -4980,7 +4980,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 333,
+    "id": "99ca1b2808d6",
     "pregunta": "6️⃣ Si durante un servicio de consultoría el cliente solicita al auditor interno que tome una decisión operativa de gestión, ¿qué debe hacer el auditor?",
     "opciones": {
       "A": "Aceptar la decisión si es competente en esa área técnica.",
@@ -4995,7 +4995,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 334,
+    "id": "eb3b64a3c4cd",
     "pregunta": "7️⃣ ¿Cuál es la diferencia entre una 'Auditoría de Cumplimiento' y una 'Auditoría Operativa'?",
     "opciones": {
       "A": "La operativa verifica estados financieros; la de cumplimiento evalúa impuestos.",
@@ -5010,7 +5010,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 335,
+    "id": "71fdbe44765e",
     "pregunta": "8️⃣ Un riesgo que no puede eliminarse por completo sin importar cuántos controles se implementen se considera un riesgo:",
     "opciones": {
       "A": "Residual inevitable.",
@@ -5025,7 +5025,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 336,
+    "id": "cd248abdf06c",
     "pregunta": "9️⃣ ¿Qué acción debe realizar el Director Ejecutivo de Auditoría (DEA) si la gerencia decide aceptar un nivel de riesgo residual que el DEA considera inaceptable para la organización?",
     "opciones": {
       "A": "Aceptar la decisión de la gerencia sin objetar.",
@@ -5040,7 +5040,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 337,
+    "id": "245c095714c2",
     "pregunta": "0️⃣ ¿Cuál es el propósito del monitoreo continuo en el componente de Supervisión de COSO?",
     "opciones": {
       "A": "Asegurar que los componentes del control interno sigan funcionando eficazmente a lo largo del tiempo.",
@@ -5055,7 +5055,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 338,
+    "id": "52cebebe7cc1",
     "pregunta": "1️⃣ ¿Cuál es la diferencia principal entre un error y un fraude en la preparación de estados financieros?",
     "opciones": {
       "A": "El impacto económico del evento.",
@@ -5070,7 +5070,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 339,
+    "id": "980f0a2c222a",
     "pregunta": "2️⃣ Un auditor interno que realiza una auditoría en la planta de producción nota que los empleados no usan equipo de protección personal. Esto representa un fallo en:",
     "opciones": {
       "A": "Controles directivos de cumplimiento de seguridad laboral.",
@@ -5085,7 +5085,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 340,
+    "id": "e168f6a70205",
     "pregunta": "3️⃣ De acuerdo con el Marco de Referencia Internacional para la Práctica Profesional (IPPF), las Guías Obligatorias incluyen:",
     "opciones": {
       "A": "El Código de Ética y las Normas Internacionales.",
@@ -5100,7 +5100,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 341,
+    "id": "a86aa9279fbb",
     "pregunta": "4️⃣ ¿Qué se entiende por 'Matriz de Riesgos y Controles' (RCM) en la fase de planificación?",
     "opciones": {
       "A": "Un documento que relaciona los objetivos del proceso, sus riesgos asociados y los controles que los mitigan.",
@@ -5115,7 +5115,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 342,
+    "id": "8ab8f80a7fa7",
     "pregunta": "5️⃣ Si un auditor interno acepta un bono económico de la gerencia auditada tras finalizar una auditoría 'satisfactoria', viola el principio ético de:",
     "opciones": {
       "A": "Objetividad.",
@@ -5130,7 +5130,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 343,
+    "id": "604ecf326e62",
     "pregunta": "6️⃣ ¿Cuál es el beneficio clave del muestreo estadístico sobre el muestreo no estadístico?",
     "opciones": {
       "A": "Garantiza que no habrá ningún error en la muestra.",
@@ -5145,7 +5145,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 344,
+    "id": "4d9d5750d6b9",
     "pregunta": "7️⃣ Un control de compensación se utiliza cuando:",
     "opciones": {
       "A": "Se desea sustituir a la Junta Directiva.",
@@ -5160,7 +5160,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 345,
+    "id": "887ce63ec03e",
     "pregunta": "8️⃣ ¿Qué autoridad debe aprobar finalmente el Estatuto de Auditoría Interna?",
     "opciones": {
       "A": "El Director Financiero (CFO).",
@@ -5175,7 +5175,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 346,
+    "id": "dc61615d551d",
     "pregunta": "9️⃣ Durante la ejecución de una prueba, el auditor verifica que las facturas coinciden con las órdenes de compra y los recibos de almacén. Esto se conoce como:",
     "opciones": {
       "A": "Cruce de documentación o 'Three-way matching'.",
@@ -5190,7 +5190,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 347,
+    "id": "8581756b200c",
     "pregunta": "0️⃣0️⃣ La responsabilidad del seguimiento de las recomendaciones de auditoría recae formalmente en:",
     "opciones": {
       "A": "El Director Ejecutivo de Auditoría (DEA) mediante un proceso de monitoreo continuo.",
@@ -5205,7 +5205,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 348,
+    "id": "a7d3a621d8f7",
     "pregunta": "0️⃣1️⃣ El marco de control interno COSO define cinco componentes integrados. ¿Cuál de los siguientes NO es uno de esos cinco componentes?",
     "opciones": {
       "A": "Entorno de Control.",
@@ -5220,7 +5220,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 349,
+    "id": "c76ae5933b5f",
     "pregunta": "0️⃣2️⃣ ¿Cuál es la principal ventaja de utilizar diagramas de flujo (flowcharts) durante la fase de relevamiento de un proceso?",
     "opciones": {
       "A": "Permiten visualizar de forma gráfica y secuencial los pasos, responsables y puntos de control del proceso.",
@@ -5235,7 +5235,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 350,
+    "id": "fe0c1be70f18",
     "pregunta": "0️⃣3️⃣ De acuerdo con el Código de Ética del IIA, si un auditor interno descubre un acto ilegal cometido por un alto directivo, el auditor debe:",
     "opciones": {
       "A": "Divulgarlo inmediatamente a los medios de comunicación.",
@@ -5250,7 +5250,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 351,
+    "id": "c1a251297645",
     "pregunta": "0️⃣4️⃣ La responsabilidad de definir los objetivos estratégicos y el apetito de riesgo de la organización recae en:",
     "opciones": {
       "A": "El Director Ejecutivo de Auditoría (DEA).",
@@ -5265,7 +5265,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 352,
+    "id": "dbd02b816c07",
     "pregunta": "0️⃣5️⃣ ¿Qué técnica de auditoría consiste en solicitar directamente a un tercero (como un banco o cliente) confirmación escrita sobre un saldo o transacción?",
     "opciones": {
       "A": "Confirmación externa.",
@@ -5280,7 +5280,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 353,
+    "id": "59ee99290fc6",
     "pregunta": "0️⃣6️⃣ Un auditor interno nota que el gerente de compras aprueba órdenes de compra y al mismo tiempo recibe la mercancía en el almacén. Esta situación constituye una falla en:",
     "opciones": {
       "A": "Segregación de funciones.",
@@ -5295,7 +5295,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 354,
+    "id": "1f331319177f",
     "pregunta": "0️⃣7️⃣ ¿Cuál es el propósito principal de una 'Reunión de Enlace' (o de cierre) con el auditado al finalizar el trabajo de campo?",
     "opciones": {
       "A": "Discutir las observaciones y hallazgos para garantizar que los hechos sean precisos y acordar planes de acción.",
@@ -5310,7 +5310,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 355,
+    "id": "ddbd0cc92712",
     "pregunta": "0️⃣8️⃣ De acuerdo con las Normas del IIA, el Director Ejecutivo de Auditoría (DEA) debe reportar periódicamente sobre el estado del plan de auditoría a:",
     "opciones": {
       "A": "La Alta Gerencia y el Consejo de Administración.",
@@ -5325,7 +5325,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 356,
+    "id": "6ea7bcd7911f",
     "pregunta": "0️⃣9️⃣ ¿Qué tipo de prueba realiza un auditor cuando vuelve a calcular manualmente los impuestos de una factura de venta para verificar su exactitud?",
     "opciones": {
       "A": "Recalculo (Recalculation).",
@@ -5340,7 +5340,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 357,
+    "id": "91712a2db32d",
     "pregunta": "1️⃣0️⃣ Un Programa de Aseguramiento y Mejora de la Calidad (QAIP) bien estructurado debe cubrir:",
     "opciones": {
       "A": "Todos los aspectos de la actividad de auditoría interna.",
@@ -5355,7 +5355,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 358,
+    "id": "4093bc320016",
     "pregunta": "1️⃣1️⃣ ¿Qué representa la 'Cultura de Control' dentro del componente Entorno de Control de COSO?",
     "opciones": {
       "A": "El conjunto de normas operativas escritas exclusivamente por Recursos Humanos.",
@@ -5370,7 +5370,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 359,
+    "id": "526d3874e7b1",
     "pregunta": "1️⃣2️⃣ Un auditor interno evalúa el proceso de compras y descubre que no existe un límite de monto para la aprobación de órdenes por parte de los supervisores. Esto es una deficiencia de:",
     "opciones": {
       "A": "Diseño del control.",
@@ -5385,7 +5385,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 360,
+    "id": "27dbc06bddbb",
     "pregunta": "1️⃣3️⃣ De acuerdo con el Marco de Referencia Internacional (IPPF), ¿qué documento formaliza la posición de la actividad de auditoría interna en la organización?",
     "opciones": {
       "A": "El Código de Comercio.",
@@ -5400,7 +5400,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 361,
+    "id": "8ce9401bd4ea",
     "pregunta": "1️⃣4️⃣ En el contexto del Marco de Tres Líneas del IIA, ¿a qué línea pertenecen las funciones de gestión de riesgos y cumplimiento operativo (Compliance)?",
     "opciones": {
       "A": "Primera línea.",
@@ -5415,7 +5415,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 362,
+    "id": "2b450f32f998",
     "pregunta": "1️⃣5️⃣ ¿Cuál es la diferencia principal entre un control preventivo y un control detectivo?",
     "opciones": {
       "A": "El preventivo evita que ocurra el error o fraude; el detectivo identifica el problema una vez ocurrido.",
@@ -5430,7 +5430,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 363,
+    "id": "be8622a731eb",
     "pregunta": "1️⃣6️⃣ Un auditor interno descubre indicios de fraude en el departamento de ventas. ¿Cuál debe ser su acción inmediata?",
     "opciones": {
       "A": "Confrontar directamente a los empleados sospechosos.",
@@ -5445,7 +5445,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 364,
+    "id": "4c7070506224",
     "pregunta": "1️⃣7️⃣ ¿Qué se entiende por 'Apetito de Riesgo' en una organización?",
     "opciones": {
       "A": "La cantidad total de pérdidas financieras registradas en el último año.",
@@ -5460,7 +5460,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 365,
+    "id": "908c439857c7",
     "pregunta": "1️⃣8️⃣ La evaluación externa de calidad de la actividad de auditoría interna debe realizarse al menos una vez cada:",
     "opciones": {
       "A": "1 año.",
@@ -5475,7 +5475,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 366,
+    "id": "3f0fe5fbe220",
     "pregunta": "1️⃣9️⃣ Durante la fase de planificación de un trabajo de auditoría, la herramienta utilizada para documentar la comprensión del proceso paso a paso se denomina:",
     "opciones": {
       "A": "Prueba de recorrido (Walkthrough test).",
@@ -5490,7 +5490,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 367,
+    "id": "c0ed9d23449f",
     "pregunta": "2️⃣0️⃣ Un informe de auditoría interna debe ser remitido principalmente a:",
     "opciones": {
       "A": "Los responsables de implementar las acciones correctivas y los miembros clave del Comité/Consejo.",
@@ -5505,7 +5505,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 368,
+    "id": "bfea3b48280e",
     "pregunta": "2️⃣1️⃣ En la metodología COSO, ¿cuál es la relación jerárquica entre Objetivos, Componentes y Principios?",
     "opciones": {
       "A": "Los 5 Componentes respaldan los Objetivos, y los 17 Principios representan los conceptos fundamentales asociados a cada Componente.",
@@ -5520,7 +5520,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 369,
+    "id": "9dd2efdbfab7",
     "pregunta": "2️⃣2️⃣ ¿Cuál de las siguientes actividades representa una amenaza directa a la objetividad de un auditor interno?",
     "opciones": {
       "A": "Evaluar un proceso operativo en el que el auditor trabajó como responsable directo hace solo 6 meses.",
@@ -5535,7 +5535,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 370,
+    "id": "254414ca62dc",
     "pregunta": "2️⃣3️⃣ ¿Qué se entiende por 'Riesgo Inherente' en la evaluación de procesos?",
     "opciones": {
       "A": "El riesgo que persiste después de haber implementado y probado los controles clave.",
@@ -5550,7 +5550,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 371,
+    "id": "d3bd92179b41",
     "pregunta": "2️⃣4️⃣ Un auditor interno utiliza datos masivos para identificar discrepancias entre las fechas de facturación y las fechas de envío de inventario. ¿Qué técnica está empleando?",
     "opciones": {
       "A": "Análisis de datos continuos (Data Analytics / CAATs).",
@@ -5565,7 +5565,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 372,
+    "id": "a312fd3e9404",
     "pregunta": "2️⃣5️⃣ ¿Cuál es el objetivo primordial del Código de Ética del Marco Internacional para la Práctica Profesional (IPPF)?",
     "opciones": {
       "A": "Promover una cultura ética dentro de la profesión de auditoría interna basada en la confianza y el rigor.",
@@ -5580,7 +5580,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 373,
+    "id": "d58191d53fd0",
     "pregunta": "2️⃣6️⃣ Durante la fase de planificación de un trabajo de auditoría, ¿cuál es el propósito de establecer el 'Alcance' del trabajo?",
     "opciones": {
       "A": "Definir los límites, periodos de tiempo, ubicaciones y procesos específicos que serán evaluados.",
@@ -5595,7 +5595,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 374,
+    "id": "8ca48c5216c3",
     "pregunta": "2️⃣7️⃣ Un control que requiere que las facturas de proveedores sean revisadas contra la orden de compra y el informe de recepción ANTES de emitir un pago es un ejemplo de:",
     "opciones": {
       "A": "Control detective.",
@@ -5610,7 +5610,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 375,
+    "id": "bfb30b6f0dad",
     "pregunta": "2️⃣8️⃣ ¿Qué autoridad debe supervisar y aprobar el plan anual de auditoría interna basado en riesgos?",
     "opciones": {
       "A": "El Gerente Financiero.",
@@ -5625,7 +5625,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 376,
+    "id": "0f05d4f769ff",
     "pregunta": "2️⃣9️⃣ Si un auditor interno detecta una deficiencia significativa durante una auditoría pero la gerencia operativa se compromete verbalmente a arreglarla de inmediato, el auditor debe:",
     "opciones": {
       "A": "Omitir la observación en el informe final por cortesía.",
@@ -5640,7 +5640,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 377,
+    "id": "4aa2ca8fb7de",
     "pregunta": "3️⃣0️⃣ De acuerdo con el marco del IIA, la independencia de la actividad de auditoría interna se logra principalmente a través de:",
     "opciones": {
       "A": "El nivel de reporte organizacional y funcional del Director Ejecutivo de Auditoría (DEA) ante el Consejo.",
@@ -5655,7 +5655,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 378,
+    "id": "f6664e01f9a6",
     "pregunta": "3️⃣1️⃣ En un encargo de aseguramiento, si la gerencia se niega a proveer una carta de representación o acceso a registros clave, el auditor interno debe:",
     "opciones": {
       "A": "Emitir el informe sin mencionar la restricción.",
@@ -5670,7 +5670,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 379,
+    "id": "962d9377527f",
     "pregunta": "3️⃣2️⃣ ¿Cuál es la principal ventaja de utilizar un muestreo estadístico en lugar de un muestreo no estadístico (por juicio)?",
     "opciones": {
       "A": "Garantiza que no habrá ningún margen de error en la conclusión.",
@@ -5685,7 +5685,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 380,
+    "id": "a62d73f9c9b5",
     "pregunta": "3️⃣3️⃣ ¿Qué componente del marco COSO abarca los controles generales de tecnología de la información (ITGC)?",
     "opciones": {
       "A": "Entorno de Control.",
@@ -5700,7 +5700,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 381,
+    "id": "7c1bddb8b583",
     "pregunta": "3️⃣4️⃣ Según las Normas Internacionales para el Ejercicio Profesional de la Auditoría Interna, ¿quién es el responsable final de la supervisión continua del desempeño del trabajo de auditoría?",
     "opciones": {
       "A": "El auditor externo.",
@@ -5715,7 +5715,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 382,
+    "id": "f5df2a6b44d6",
     "pregunta": "3️⃣5️⃣ La 'Segregación de Funciones' busca prevenir errores o fraudes separando principalmente qué cuatro responsabilidades?",
     "opciones": {
       "A": "Autorización, Custodia, Registro y Conciliación/Revisión.",
@@ -5730,7 +5730,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 383,
+    "id": "d27161103100",
     "pregunta": "3️⃣6️⃣ Un auditor interno que ofrece servicios de consultoría para diseñar la estructura de control interno de un nuevo sistema ERP debe tener cuidado de:",
     "opciones": {
       "A": "No asumir responsabilidades de gestión o toma de decisiones operativas en el diseño.",
@@ -5745,7 +5745,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 384,
+    "id": "601dd1310daa",
     "pregunta": "3️⃣7️⃣ ¿Qué término describe la probabilidad combinada de que ocurra un evento y la magnitud del impacto adverso que causaría?",
     "opciones": {
       "A": "Apetito de riesgo.",
@@ -5760,7 +5760,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 385,
+    "id": "e501d216d56f",
     "pregunta": "3️⃣8️⃣ ¿Cuál es el objetivo principal de las actividades de Monitoreo (Monitoring) dentro del marco COSO?",
     "opciones": {
       "A": "Evaluar si los cinco componentes del control interno están presentes y funcionando adecuadamente a lo largo del tiempo.",
@@ -5775,7 +5775,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 386,
+    "id": "4f6ad48537ac",
     "pregunta": "3️⃣9️⃣ Si durante una auditoría se detecta un hallazgo de menor relevancia que no afecta significativamente el control interno, el auditor debe:",
     "opciones": {
       "A": "Ignorarlo por completo sin registrarlo.",
@@ -5790,7 +5790,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 387,
+    "id": "e14e7000beee",
     "pregunta": "4️⃣0️⃣ Un programa de aseguramiento y mejora de la calidad (QAIP) de auditoría interna debe incluir:",
     "opciones": {
       "A": "Evaluaciones internas continuas y periódicas, además de evaluaciones externas quinquenales.",
@@ -5805,7 +5805,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 388,
+    "id": "bde7f46e6058",
     "pregunta": "4️⃣1️⃣ ¿Cuál es la diferencia principal entre las actividades de 'Aseguramiento' y 'Consultoría' prestadas por Auditoría Interna?",
     "opciones": {
       "A": "El aseguramiento involucra una evaluación objetiva de evidencias de tres partes; la consultoría son servicios de asesoría a solicitud del cliente.",
@@ -5820,7 +5820,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 389,
+    "id": "58e6a064bbc9",
     "pregunta": "4️⃣2️⃣ En el marco COSO, ¿qué principio pertenece al componente de 'Información y Comunicación'?",
     "opciones": {
       "A": "Demostrar compromiso con la integridad y los valores éticos.",
@@ -5835,7 +5835,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 390,
+    "id": "71f20c061c90",
     "pregunta": "4️⃣3️⃣ Un auditor interno nota que no hay segregación de funciones entre quien registra los asientos de inventario y quien realiza el conteo físico. ¿Qué tipo de riesgo aumenta significativamente?",
     "opciones": {
       "A": "Riesgo de tasa de interés.",
@@ -5850,7 +5850,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 391,
+    "id": "469deac7c2c2",
     "pregunta": "4️⃣4️⃣ Según el Código de Ética del IIA, la regla de 'Confidencialidad' exige que los auditores internos:",
     "opciones": {
       "A": "No revelen información obtenida sin la debida autorización, a menos que exista una obligación legal o profesional para hacerlo.",
@@ -5865,7 +5865,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 392,
+    "id": "245017d135f7",
     "pregunta": "4️⃣5️⃣ ¿Cuál es el propósito primordial de realizar una prueba de 'Cumplimiento' o 'Prueba de Controles' durante una auditoría?",
     "opciones": {
       "A": "Verificar la exactitud matemática del balance general.",
@@ -5880,7 +5880,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 393,
+    "id": "6bc9f15170c2",
     "pregunta": "4️⃣6️⃣ En el contexto de la gestión de riesgos, ¿cuál de las siguientes es una estrategia de 'Transferencia de Riesgo'?",
     "opciones": {
       "A": "Adquirir una póliza de seguro contra incendios o robos.",
@@ -5895,7 +5895,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 394,
+    "id": "89f58ed3c073",
     "pregunta": "4️⃣7️⃣ ¿Qué se entiende por 'Riesgo Residual'?",
     "opciones": {
       "A": "El riesgo remanente que persiste después de que la gerencia ha implementado las respuestas o controles de mitigación.",
@@ -5910,7 +5910,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 395,
+    "id": "826afaa31592",
     "pregunta": "4️⃣8️⃣ Si el Comité de Auditoría solicita realizar una revisión no planificada a un área crítica, ¿qué debe hacer el Director Ejecutivo de Auditoría (DEA)?",
     "opciones": {
       "A": "Rechazar la solicitud indicando que el plan anual es inamovible.",
@@ -5925,7 +5925,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 396,
+    "id": "d8d145d39aee",
     "pregunta": "4️⃣9️⃣ En una auditoría de adquisiciones, se observa que no se solicitan tres cotizaciones para compras mayores a $10,000 según la política interna. ¿Qué elemento del hallazgo representa la política incumplida?",
     "opciones": {
       "A": "Condición.",
@@ -5940,7 +5940,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 397,
+    "id": "9b7cc1c255e1",
     "pregunta": "5️⃣0️⃣ ¿Cuál de las siguientes situaciones representa un ejemplo de 'Fraude Interno' en los estados financieros?",
     "opciones": {
       "A": "Un incendio accidental en el almacén de mercancías.",
@@ -5955,7 +5955,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 398,
+    "id": "5a2329a57653",
     "pregunta": "5️⃣1️⃣ Según el Marco de Referencia Internacional para la Práctica Profesional (IPPF), ¿cuál de los siguientes es un principio fundamental que rige el ejercicio de la auditoría interna?",
     "opciones": {
       "A": "Demuestra integridad y compromiso con la ética profesional.",
@@ -5970,7 +5970,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 399,
+    "id": "d527a91a433d",
     "pregunta": "5️⃣2️⃣ ¿En qué consiste el principio de 'Debido Cuidado Profesional' que debe aplicar un auditor interno?",
     "opciones": {
       "A": "Aplicar el cuidado y las habilidades esperadas de un auditor prudente y competente en circunstancias similares.",
@@ -5985,7 +5985,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 400,
+    "id": "0308c28dfda9",
     "pregunta": "5️⃣3️⃣ Un auditor interno que está realizando una revisión en el departamento de tesorería observa un billete falso en la caja chica. ¿Qué tipo de prueba le permitió detectar esta anomalía?",
     "opciones": {
       "A": "Prueba sustantiva de inspección física.",
@@ -6000,7 +6000,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 401,
+    "id": "127fc4849451",
     "pregunta": "5️⃣4️⃣ ¿Cuál es la principal ventaja de utilizar un enfoque de auditoría basado en riesgos frente a un enfoque tradicional basado en ciclos?",
     "opciones": {
       "A": "Prioriza y asigna recursos de auditoría a las áreas de mayor exposición e impacto potencial para la organización.",
@@ -6015,7 +6015,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 402,
+    "id": "9cafed208729",
     "pregunta": "5️⃣5️⃣ Dentro del marco COSO, ¿qué componente aborda la identificación de eventos internos y externos que pueden afectar la consecución de objetivos?",
     "opciones": {
       "A": "Evaluación de Riesgos.",
@@ -6030,7 +6030,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 403,
+    "id": "a8b111178659",
     "pregunta": "5️⃣6️⃣ Un auditor interno nota que se autorizan sobregiros presupuestarios de forma recurrente mediante llamadas telefónicas no documentadas. ¿Qué recomendación es la más adecuada?",
     "opciones": {
       "A": "Establecer un procedimiento formal por escrito con firmas de autorización registradas o aprobación digital trazable.",
@@ -6045,7 +6045,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 404,
+    "id": "5cd39d0816d7",
     "pregunta": "5️⃣7️⃣ En el proceso de auditoría, ¿qué representa la 'Causa' dentro de un hallazgo?",
     "opciones": {
       "A": "La razón o motivo subyacente por el cual ocurrió la desviación o falla de control.",
@@ -6060,7 +6060,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 405,
+    "id": "d4bbaef91266",
     "pregunta": "5️⃣8️⃣ Si el Director Ejecutivo de Auditoría (DEA) concluye que la gerencia ha aceptado un nivel de riesgo residual que es inaceptable para la organización, el primer paso debe ser:",
     "opciones": {
       "A": "Discutir el asunto directamente con la alta gerencia.",
@@ -6075,7 +6075,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 406,
+    "id": "7a3a304ba51f",
     "pregunta": "5️⃣9️⃣ ¿Cuál de las siguientes es una técnica analítica de auditoría que compara saldos contables del periodo actual contra periodos anteriores?",
     "opciones": {
       "A": "Análisis de tendencias y variaciones.",
@@ -6090,7 +6090,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 407,
+    "id": "ca178f1439a0",
     "pregunta": "6️⃣0️⃣ ¿Qué se requiere para que un trabajo de auditoría interna cumpla con la norma de comunicación de resultados?",
     "opciones": {
       "A": "Las comunicaciones deben ser precisas, objetivas, claras, concisas, constructivas, completas y oportunas.",
@@ -6105,7 +6105,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 408,
+    "id": "6b11183bc25f",
     "pregunta": "6️⃣1️⃣ ¿Cuál es el rol principal de la función de Auditoría Interna frente a la gestión de fraudes en la organización?",
     "opciones": {
       "A": "Evaluar la efectividad de los controles diseñados para prevenir y detectar fraudes, e investigar cuando se le solicite.",
@@ -6120,7 +6120,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 409,
+    "id": "9d9908a0b8e0",
     "pregunta": "6️⃣2️⃣ Un auditor interno identifica que una conciliación bancaria mensual contiene una partida en tránsito sin justificación desde hace 8 meses. Esto constituye:",
     "opciones": {
       "A": "Una condición (hallazgo) de control interno que requiere investigación por posible error o irregularidad.",
@@ -6135,7 +6135,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 410,
+    "id": "eee76be0a159",
     "pregunta": "6️⃣3️⃣ De acuerdo con COSO, ¿qué componente enfatiza la importancia de establecer líneas de responsabilidad y delegación de autoridad?",
     "opciones": {
       "A": "Entorno de Control.",
@@ -6150,7 +6150,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 411,
+    "id": "d037c24f4c50",
     "pregunta": "6️⃣4️⃣ ¿Qué significa que una técnica de muestreo sea 'Representativa' de la población?",
     "opciones": {
       "A": "Que las características de la muestra seleccionada reflejan con precisión las características de toda la población.",
@@ -6165,7 +6165,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 412,
+    "id": "612e01dd30f5",
     "pregunta": "6️⃣5️⃣ Si durante un encargo de aseguramiento se detecta una discrepancia no material, ¿cuál es el enfoque más adecuado para comunicarla?",
     "opciones": {
       "A": "Discutirla informalmente con el nivel operativo responsable antes de cerrar el trabajo.",
@@ -6180,7 +6180,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 413,
+    "id": "ffacb165380d",
     "pregunta": "6️⃣6️⃣ ¿Cuál de las siguientes acciones fortalece de mejor manera la objetividad individual de un auditor interno?",
     "opciones": {
       "A": "Evitar participar en revisiones de áreas donde tenga conflictos de interés personales o financieros.",
@@ -6195,7 +6195,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 414,
+    "id": "aa4fee023e31",
     "pregunta": "6️⃣7️⃣ En el marco COSO, ¿cuál es el propósito de las 'Actividades de Control'?",
     "opciones": {
       "A": "Establecer las políticas y procedimientos que ayudan a asegurar que se lleven a cabo las directrices de la gerencia para mitigar riesgos.",
@@ -6210,7 +6210,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 415,
+    "id": "9873dd604a4f",
     "pregunta": "6️⃣8️⃣ ¿Qué debe contener el 'Estatuto de Auditoría Interna' para garantizar la independencia funcional del departamento?",
     "opciones": {
       "A": "El acceso irrestricto a los registros, personal y propiedades relevantes para la ejecución de los trabajos.",
@@ -6225,7 +6225,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 416,
+    "id": "251c468f852d",
     "pregunta": "6️⃣9️⃣ Un auditor interno realiza un análisis de datos sobre las notas de crédito emitidas y descubre patrones inusuales asociados a un usuario específico. ¿Cuál es el paso siguiente más adecuado?",
     "opciones": {
       "A": "Profundizar la investigación revisando la documentación de soporte de esas notas de crédito antes de llegar a una conclusión.",
@@ -6240,7 +6240,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 417,
+    "id": "d80964b08276",
     "pregunta": "7️⃣0️⃣ ¿Cuál es el beneficio primordial del 'Seguimiento de Hallazgos' (Follow-up) realizado por Auditoría Interna?",
     "opciones": {
       "A": "Asegurar que la gerencia haya implementado las acciones correctivas o haya aceptado formalmente el riesgo.",
@@ -6255,7 +6255,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 418,
+    "id": "04fdc0cf7fea",
     "pregunta": "7️⃣1️⃣ ¿Cuál es la responsabilidad principal del Consejo de Administración (o Comité de Auditoría) en relación con la función de Auditoría Interna?",
     "opciones": {
       "A": "Aprobar el Estatuto de Auditoría Interna y el plan anual de auditoría basado en riesgos.",
@@ -6270,7 +6270,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 419,
+    "id": "95b223136e44",
     "pregunta": "7️⃣2️⃣ Un auditor interno nota que el departamento de compras adjudica contratos a un proveedor recurrente sin solicitar cotizaciones competitivas. ¿Qué elemento del hallazgo representa la falta de política escrita?",
     "opciones": {
       "A": "Criterio.",
@@ -6285,7 +6285,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 420,
+    "id": "1ec62b70487e",
     "pregunta": "7️⃣3️⃣ ¿Qué se entiende por 'Riesgo Inherente'?",
     "opciones": {
       "A": "El riesgo existente en ausencia de cualquier acción o control de la gerencia para alterar su probabilidad o impacto.",
@@ -6300,7 +6300,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 421,
+    "id": "9999a641139a",
     "pregunta": "7️⃣4️⃣ ¿Cuál de las siguientes acciones representa una violación del Código de Ética referente a la 'Confidencialidad'?",
     "opciones": {
       "A": "Utilizar datos financieros de la empresa obtenidos durante una auditoría para realizar inversiones personales en la bolsa.",
@@ -6315,7 +6315,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 422,
+    "id": "ee6143a08b4a",
     "pregunta": "7️⃣5️⃣ En el diseño de un programa de trabajo de auditoría, ¿cuál debe ser el punto de partida principal?",
     "opciones": {
       "A": "Los objetivos de la actividad que se va a auditar y los riesgos asociados a dichos objetivos.",
@@ -6330,7 +6330,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 423,
+    "id": "fe3e40d42b52",
     "pregunta": "7️⃣6️⃣ Un control que requiere una segunda firma de autorización antes de procesar una transferencia bancaria de alto monto es un ejemplo de:",
     "opciones": {
       "A": "Control Preventivo.",
@@ -6345,7 +6345,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 424,
+    "id": "692daab01c1d",
     "pregunta": "7️⃣7️⃣ ¿Qué se requiere para garantizar que los 'Papeles de Trabajo' sean técnicamente adecuados?",
     "opciones": {
       "A": "Que sean claros, completos, concisos y permitan a un auditor experimentado rearmar el trabajo sin explicaciones verbales.",
@@ -6360,7 +6360,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 425,
+    "id": "bc1369efe0bb",
     "pregunta": "7️⃣8️⃣ De acuerdo con las normas, ¿quién es el responsable final de la calidad general y supervisión de los trabajos de auditoría interna?",
     "opciones": {
       "A": "El Director Ejecutivo de Auditoría (DEA).",
@@ -6375,7 +6375,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 426,
+    "id": "3f6b45b6278b",
     "pregunta": "7️⃣9️⃣ Si un auditor interno identifica un riesgo crítico durante un examen pero no está dentro del alcance original del encargo, ¿qué debe hacer?",
     "opciones": {
       "A": "Comunicar inmediatamente el riesgo a la gerencia del área y al DEA para evaluar ajustar el alcance.",
@@ -6390,7 +6390,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 427,
+    "id": "639a2e77233f",
     "pregunta": "8️⃣0️⃣ ¿Cuál es la principal ventaja de utilizar cuestionarios de control interno (CCIs) durante la fase de planificación?",
     "opciones": {
       "A": "Facilitan una recopilación rápida y estructurada de información sobre la existencia de controles clave.",
@@ -6405,7 +6405,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 428,
+    "id": "c351960e4a8a",
     "pregunta": "8️⃣1️⃣ En una auditoría de inventarios, ¿cuál de los siguientes procedimientos proporciona la evidencia más directa sobre la 'existencia' de los activos?",
     "opciones": {
       "A": "La observación directa del conteo físico de las mercancías.",
@@ -6420,7 +6420,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 429,
+    "id": "d59bf4314f7c",
     "pregunta": "8️⃣2️⃣ ¿Cuál es el propósito fundamental de una 'Prueba de Recorrido' (Walkthrough) en la fase de planificación de una auditoría?",
     "opciones": {
       "A": "Confirmar el entendimiento del flujo del proceso y el diseño de los controles clave trazando una transacción desde el inicio hasta el final.",
@@ -6435,7 +6435,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 430,
+    "id": "38415bb23d91",
     "pregunta": "8️⃣3️⃣ Según las Normas del IIA, si el auditor interno carece de los conocimientos técnicos necesarios para realizar una parte específica del encargo (ej. auditoría ciberseguridad avanzada), debe:",
     "opciones": {
       "A": "Obtener asesoramiento o competencia competente de especialistas externos o dentro de la organización.",
@@ -6450,7 +6450,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 431,
+    "id": "93e4140795c9",
     "pregunta": "8️⃣4️⃣ ¿Qué principio de COSO exige que la organización identifique y evalúe los cambios que podrían impactar significativamente el sistema de control interno?",
     "opciones": {
       "A": "Evaluación de Riesgos (Principio 9).",
@@ -6465,7 +6465,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 432,
+    "id": "56878a8be309",
     "pregunta": "8️⃣5️⃣ Un control compensatorio es aquel que:",
     "opciones": {
       "A": "Mitiga un riesgo cuando un control clave principal no está presente o no es suficiente.",
@@ -6480,7 +6480,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 433,
+    "id": "a6beb19d6847",
     "pregunta": "8️⃣6️⃣ Si en una auditoría de cuentas por cobrar se envían solicitudes de confirmación de saldo pero el cliente no responde, el auditor debe:",
     "opciones": {
       "A": "Aplicar procedimientos alternativos como revisar cobros posteriores o facturas de venta de soporte.",
@@ -6495,7 +6495,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 434,
+    "id": "6751dcba5873",
     "pregunta": "8️⃣7️⃣ ¿Cuál de los siguientes es el mejor ejemplo de un 'Control Detectivo'?",
     "opciones": {
       "A": "Revisión y conciliación mensual de cuentas bancarias.",
@@ -6510,7 +6510,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 435,
+    "id": "e8177e34c600",
     "pregunta": "8️⃣8️⃣ ¿Qué diferencia al 'Fraude' de una 'Irregularidad o Error' no intencional?",
     "opciones": {
       "A": "La intención deliberada de engañar o causar perjuicio.",
@@ -6525,7 +6525,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 436,
+    "id": "b5c40a7a5aef",
     "pregunta": "8️⃣9️⃣ ¿Por qué es fundamental que la función de Auditoría Interna rinda informes directamente al Comité de Auditoría o Junta Directiva?",
     "opciones": {
       "A": "Para asegurar la independencia organizacional necesaria para evaluar imparcialmente a la gerencia ejecutiva.",
@@ -6540,7 +6540,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 437,
+    "id": "3e96b715e68e",
     "pregunta": "9️⃣0️⃣ ¿Qué se persigue al realizar una 'Evaluación Externa de Calidad' (QAIP) en la actividad de auditoría interna?",
     "opciones": {
       "A": "Validar el cumplimiento de las Normas Internacionales y el Código de Ética por parte de un evaluador calificado e independiente.",
@@ -6555,7 +6555,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 438,
+    "id": "2e58115ea259",
     "pregunta": "9️⃣1️⃣ ¿Cuál es la diferencia principal entre las actividades de 'Aseguramiento' y las de 'Consultoría' prestadas por Auditoría Interna?",
     "opciones": {
       "A": "En aseguramiento el auditor emite una evaluación objetiva e independiente; en consultoría asesora y sugiere mejoras a solicitud del cliente sin asumir responsabilidades de gestión.",
@@ -6570,7 +6570,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 439,
+    "id": "f2c374551d49",
     "pregunta": "9️⃣2️⃣ Un auditor interno detecta que el sistema informático permite realizar cambios directos en la base de datos sin dejar registro en la bitácora (Log). ¿A qué tipo de riesgo corresponde esta debilidad?",
     "opciones": {
       "A": "Riesgo de Integridad de Datos e Información.",
@@ -6585,7 +6585,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 440,
+    "id": "dad9a67c3db4",
     "pregunta": "9️⃣3️⃣ Al evaluar la efectividad de un control interno, ¿qué significa que la 'Muestra' seleccionada sea estadísticamente representativa?",
     "opciones": {
       "A": "Que cada elemento de la población tiene una probabilidad conocida e igual de ser seleccionado para la prueba.",
@@ -6600,7 +6600,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 441,
+    "id": "0dfc48593be2",
     "pregunta": "9️⃣4️⃣ Según el marco Marco Internacional para la Práctica Profesional (MIPP/IPPF), ¿cuándo debe un auditor interno declarar una falta de independencia u objetividad?",
     "opciones": {
       "A": "Antes de aceptar o iniciar el encargo de auditoría, detallando los hechos específicos a la jefatura o Comité.",
@@ -6615,7 +6615,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 442,
+    "id": "025509e147de",
     "pregunta": "9️⃣5️⃣ ¿Cuál de las siguientes situaciones representa la mejor aplicación de la 'Segregación de Funciones'?",
     "opciones": {
       "A": "La persona que aprueba la orden de compra es distinta a la que recibe la mercancía y a la que procesa el pago.",
@@ -6630,7 +6630,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 443,
+    "id": "06222cce6def",
     "pregunta": "9️⃣6️⃣ ¿Qué es un 'Riesgo Residual'?",
     "opciones": {
       "A": "El riesgo que permanece después de que la gerencia ha implementado las respuestas o controles correspondientes.",
@@ -6645,7 +6645,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 444,
+    "id": "2b7bab1ff3d1",
     "pregunta": "9️⃣7️⃣ Durante la reunión de cierre de auditoría, la gerencia auditada no está de acuerdo con un hallazgo planteado. ¿Qué acción debe tomar el auditor?",
     "opciones": {
       "A": "Revisar nuevamente la evidencia con el auditado y, si se mantiene la discrepancia, incluir la posición de la gerencia en el informe.",
@@ -6660,7 +6660,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 445,
+    "id": "5912b185c5cd",
     "pregunta": "9️⃣8️⃣ En la evaluación del gobierno corporativo, ¿cuál es el rol principal de la función de Auditoría Interna?",
     "opciones": {
       "A": "Evaluar y proporcionar una seguridad razonable sobre la efectividad de los procesos de gobierno, riesgo y control.",
@@ -6675,7 +6675,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 446,
+    "id": "2abe37669953",
     "pregunta": "9️⃣9️⃣ ¿Cuál de las siguientes técnicas de auditoría asistidas por computadora (TAACs/CAATs) permite analizar el 100% de las transacciones de una población amplia?",
     "opciones": {
       "A": "Uso de software de análisis de datos e interrogación de bases de datos (ej. Python, SQL, ACL).",
@@ -6690,7 +6690,7 @@
     "fuente": "Banco de preguntas generado por IA"
   },
   {
-    "id": 447,
+    "id": "1f76b0ad4dbc",
     "pregunta": "0️⃣0️⃣ ¿Qué debe contener como mínimo un plan de acción correctivo acordado tras la emisión del informe final de auditoría?",
     "opciones": {
       "A": "La descripción de la medida correctiva, el responsable de su ejecución y la fecha límite de implementación.",
