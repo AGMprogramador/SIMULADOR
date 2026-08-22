@@ -1,5 +1,6 @@
 import os
 import json
+import base64
 import random
 import logging
 from flask import Flask, request
@@ -12,7 +13,10 @@ logger = logging.getLogger(__name__)
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = os.environ.get("GITHUB_REPO")  # Formato: "usuario/repositorio"
+GITHUB_BRANCH = os.environ.get("GITHUB_BRANCH", "main")
 GITHUB_FILE_PATH = "preguntas.json"
+ERRORES_FILE_PATH = "errores.json"
+RACHA_PARA_GRADUAR = 3  # aciertos consecutivos necesarios para "graduar" una pregunta del repaso
 
 if not TOKEN:
     raise RuntimeError("Falta la variable de entorno TELEGRAM_TOKEN. El bot no puede iniciar sin ella.")
@@ -31,7 +35,8 @@ def get_keyboard():
     """Genera el teclado interactivo con botones fijos."""
     keyboard = [
         [KeyboardButton("🎯 Práctica Aleatoria (10)"), KeyboardButton("📚 Por Dominios")],
-        [KeyboardButton("📊 Mi Resumen / Reporte"), KeyboardButton("❓ Ayuda")]
+        [KeyboardButton("🔁 Repasar mis Errores"), KeyboardButton("📊 Mi Resumen / Reporte")],
+        [KeyboardButton("❓ Ayuda")]
     ]
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
@@ -91,6 +96,100 @@ def filtrar_por_origen(preguntas, origen):
     return [p for p in preguntas if p.get("origen") == origen]
 
 
+def _github_contents_url():
+    return f"https://api.github.com/repos/{GITHUB_REPO}/contents/{ERRORES_FILE_PATH}"
+
+
+def cargar_errores_raw():
+    """Descarga errores.json completo (todos los usuarios) vía GitHub Contents API.
+    Devuelve (dict_errores, sha). Si el archivo no existe todavía, devuelve ({}, None)."""
+    if not GITHUB_TOKEN or not GITHUB_REPO:
+        logger.warning("Falta GITHUB_TOKEN o GITHUB_REPO: no se puede usar el repaso persistente de errores.")
+        return {}, None
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
+    try:
+        r = requests.get(_github_contents_url(), headers=headers, timeout=10)
+        if r.status_code == 404:
+            return {}, None
+        r.raise_for_status()
+        data = r.json()
+        content = base64.b64decode(data["content"]).decode("utf-8")
+        return json.loads(content), data["sha"]
+    except requests.RequestException as e:
+        logger.error(f"Error al descargar errores.json: {e}")
+        return {}, None
+    except (json.JSONDecodeError, KeyError) as e:
+        logger.error(f"errores.json no es válido: {e}")
+        return {}, None
+
+
+def guardar_errores_raw(errores_dict, sha):
+    """Sube errores.json completo a GitHub. Reintenta una vez si el sha quedó desactualizado."""
+    if not GITHUB_TOKEN or not GITHUB_REPO:
+        return False
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
+    content_str = json.dumps(errores_dict, ensure_ascii=False, indent=2)
+    content_b64 = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
+    payload = {
+        "message": "Actualizar registro de repaso de errores",
+        "content": content_b64,
+        "branch": GITHUB_BRANCH,
+    }
+    if sha:
+        payload["sha"] = sha
+    try:
+        r = requests.put(_github_contents_url(), headers=headers, json=payload, timeout=10)
+        if r.status_code == 409:
+            # sha desactualizado (otro usuario escribió al mismo tiempo): reintenta una vez
+            _, fresh_sha = cargar_errores_raw()
+            payload["sha"] = fresh_sha
+            r = requests.put(_github_contents_url(), headers=headers, json=payload, timeout=10)
+        r.raise_for_status()
+        return True
+    except requests.RequestException as e:
+        logger.error(f"Error al guardar errores.json: {e}")
+        return False
+
+
+def registrar_respuesta_error(chat_id, pregunta, fue_correcta):
+    """Actualiza el repaso de errores del usuario tras responder una pregunta.
+    - Si falla: la agrega (o reinicia su racha a 0).
+    - Si acierta y la pregunta estaba en su lista: suma 1 a la racha; si llega a
+      RACHA_PARA_GRADUAR, la elimina (pregunta 'graduada').
+    Devuelve True si la pregunta fue graduada en esta respuesta (para avisar al usuario)."""
+    errores, sha = cargar_errores_raw()
+    chat_key = str(chat_id)
+    qid = str(pregunta["id"])
+    usuario_errores = errores.setdefault(chat_key, {})
+
+    graduada = False
+    if fue_correcta:
+        if qid in usuario_errores:
+            usuario_errores[qid]["racha"] = usuario_errores[qid].get("racha", 0) + 1
+            if usuario_errores[qid]["racha"] >= RACHA_PARA_GRADUAR:
+                del usuario_errores[qid]
+                graduada = True
+    else:
+        usuario_errores[qid] = {"racha": 0}
+
+    if not usuario_errores:
+        errores.pop(chat_key, None)
+
+    guardar_errores_raw(errores, sha)
+    return graduada
+
+
+def obtener_preguntas_para_repaso(chat_id, preguntas):
+    """Devuelve la lista de objetos de pregunta (del banco completo) que el usuario
+    tiene pendientes de repasar, según errores.json."""
+    errores, _ = cargar_errores_raw()
+    usuario_errores = errores.get(str(chat_id), {})
+    if not usuario_errores:
+        return []
+    ids_pendientes = set(usuario_errores.keys())
+    return [p for p in preguntas if str(p.get("id")) in ids_pendientes]
+
+
 def enviar_mensaje(chat_id, texto, reply_markup=None):
     """Envía un mensaje a Telegram con soporte para formato HTML."""
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -145,6 +244,31 @@ def webhook():
             state["modo"] = "esperando_dominio"
             msg = "📚 <b>Selecciona el Dominio que deseas practicar:</b>"
             enviar_mensaje(chat_id, msg, get_domain_keyboard())
+
+        elif text in ["🔁 Repasar mis Errores", "/repaso"]:
+            preguntas = cargar_preguntas()
+            if not preguntas:
+                enviar_mensaje(chat_id, "⚠️ No se pudieron cargar las preguntas desde GitHub.", get_keyboard())
+                return "ok", 200
+
+            pendientes = obtener_preguntas_para_repaso(chat_id, preguntas)
+            if not pendientes:
+                enviar_mensaje(
+                    chat_id,
+                    "🎉 <b>¡No tienes preguntas pendientes de repaso!</b>\nCuando falles una pregunta, aparecerá aquí hasta que la aciertes 3 veces seguidas.",
+                    get_keyboard()
+                )
+            else:
+                random.shuffle(pendientes)
+                state["preguntas_lista"] = pendientes
+                state["indice_lista"] = 0
+                state["modo"] = "practicando"
+                enviar_mensaje(
+                    chat_id,
+                    f"🔁 <b>Repaso de errores</b> ({len(pendientes)} pregunta{'s' if len(pendientes) != 1 else ''} pendiente{'s' if len(pendientes) != 1 else ''}).\nNecesitas acertar cada una <b>{RACHA_PARA_GRADUAR} veces seguidas</b> para que se dé por dominada.",
+                    get_keyboard()
+                )
+                lanzar_siguiente_pregunta(chat_id)
 
         elif state.get("modo") == "esperando_dominio":
             mapa_dominios = {
@@ -238,8 +362,10 @@ def webhook():
                 "1. Usa el botón <b>🎯 Práctica Aleatoria (10)</b> para simulacros rápidos.\n"
                 "2. Usa el botón <b>📚 Por Dominios</b> para estudiar tus puntos débiles.\n"
                 "3. En ambos casos podrás elegir la fuente: <b>🤖 IA</b>, <b>🎓 Clase</b> (transcritas de tus exámenes reales) o <b>🔀 Mezcladas</b>.\n"
-                "4. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
-                "5. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada."
+                "4. Cada pregunta muestra su <b>Dominio</b> y su <b>Fuente</b> (nombre del examen y fecha, o banco IA).\n"
+                f"5. Si fallas una pregunta, se guarda en tu <b>🔁 Repasar mis Errores</b>. Necesitas acertarla {RACHA_PARA_GRADUAR} veces seguidas para que se dé por dominada; este registro es personal y persiste aunque el bot se reinicie.\n"
+                "6. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
+                "7. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada en la sesión actual."
             )
             enviar_mensaje(chat_id, ayuda, get_keyboard())
 
@@ -248,16 +374,21 @@ def webhook():
             pregunta = state["pregunta_actual"]
             respuesta_usr = text.upper()
             correcta = pregunta["correcta"].upper()
+            fue_correcta = (respuesta_usr == correcta)
 
             state["total_respondidas"] += 1
+            graduada = registrar_respuesta_error(chat_id, pregunta, fue_correcta)
 
-            if respuesta_usr == correcta:
+            if fue_correcta:
                 state["score_correctas"] += 1
                 msg = f"✅ <b>¡CORRECTO!</b>\n\n<b>Explicación:</b>\n{pregunta.get('explicacion') or '¡Bien razonado!'}"
+                if graduada:
+                    msg += f"\n\n🎓 <b>¡Graduaste esta pregunta!</b> La acertaste {RACHA_PARA_GRADUAR} veces seguidas y salió de tu lista de repaso."
             else:
                 msg = (
                     f"❌ <b>INCORRECTO.</b> Tu respuesta: {respuesta_usr} | Respuesta correcta: <b>{correcta}</b>\n\n"
                     f"💡 <b>Explicación:</b>\n{pregunta.get('explicacion') or 'Repasa el concepto clave de esta pregunta.'}"
+                    f"\n\n🔁 Esta pregunta quedó guardada en tu repaso de errores (necesitas {RACHA_PARA_GRADUAR} aciertos seguidos para graduarla)."
                 )
 
             state["pregunta_actual"] = None
@@ -281,13 +412,15 @@ def lanzar_siguiente_pregunta(chat_id):
         pregunta = lista[idx]
         state["pregunta_actual"] = pregunta
 
-        origen_tag = SOURCE_LABELS.get(pregunta.get("origen"), "")
         texto_preg = f"<b>{pregunta['pregunta']}</b>\n\n"
         for opc, txt in pregunta["opciones"].items():
             texto_preg += f"<b>{opc})</b> {txt}\n"
 
-        texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')} | Fuente: {origen_tag}</i>\n"
-        texto_preg += "👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
+        fuente = pregunta.get("fuente", "")
+        texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')}</i>"
+        if fuente:
+            texto_preg += f"\n<i>📅 Fuente: {fuente}</i>"
+        texto_preg += "\n👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
 
         enviar_mensaje(chat_id, texto_preg, get_keyboard())
     else:
