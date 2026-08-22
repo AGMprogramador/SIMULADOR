@@ -36,6 +36,17 @@ def get_keyboard():
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
 
+def get_source_keyboard():
+    """Genera los botones para elegir la fuente de las preguntas."""
+    keyboard = [
+        [KeyboardButton("🤖 Preguntas IA")],
+        [KeyboardButton("🎓 Preguntas de Clase (Exámenes)")],
+        [KeyboardButton("🔀 Mezcladas (IA + Clase)")],
+        [KeyboardButton("🔙 Volver al Menú Principal")]
+    ]
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
 def get_domain_keyboard():
     """Genera los botones para elegir un Dominio específico."""
     keyboard = [
@@ -48,6 +59,12 @@ def get_domain_keyboard():
         [KeyboardButton("🔙 Volver al Menú Principal")]
     ]
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
+SOURCE_LABELS = {
+    "ia": "🤖 IA",
+    "clase": "🎓 Clase",
+}
 
 
 def cargar_preguntas():
@@ -64,6 +81,14 @@ def cargar_preguntas():
     except json.JSONDecodeError as e:
         logger.error(f"preguntas.json no es un JSON válido: {e}")
         return []
+
+
+def filtrar_por_origen(preguntas, origen):
+    """Filtra la lista de preguntas por su campo 'origen' ('ia' o 'clase').
+    origen=None devuelve todas (mezcladas)."""
+    if origen is None:
+        return preguntas
+    return [p for p in preguntas if p.get("origen") == origen]
 
 
 def enviar_mensaje(chat_id, texto, reply_markup=None):
@@ -97,7 +122,9 @@ def webhook():
                 "total_respondidas": 0,
                 "preguntas_lista": [],
                 "indice_lista": 0,
-                "modo": None
+                "modo": None,
+                "origen_pendiente": None,   # "ia" | "clase" | None (mezclada) mientras se elige
+                "dominio_pendiente": None,  # nombre del dominio elegido, mientras se elige origen
             }
 
         state = user_states[chat_id]
@@ -109,18 +136,10 @@ def webhook():
             enviar_mensaje(chat_id, msg, get_keyboard())
 
         elif text in ["🎯 Práctica Aleatoria (10)", "/practica"]:
-            preguntas = cargar_preguntas()
-            if not preguntas:
-                enviar_mensaje(chat_id, "⚠️ No se pudieron cargar las preguntas desde GitHub. Revisa el archivo preguntas.json.", get_keyboard())
-                return "ok", 200
-
-            random.shuffle(preguntas)
-            state["preguntas_lista"] = preguntas[:10]
-            state["indice_lista"] = 0
-            state["modo"] = "aleatorio"
-
-            enviar_mensaje(chat_id, "🚀 <b>Iniciando ronda de 10 preguntas aleatorias.</b> ¡Mucho éxito!", get_keyboard())
-            lanzar_siguiente_pregunta(chat_id)
+            state["modo"] = "esperando_origen_aleatoria"
+            state["dominio_pendiente"] = None
+            msg = "🎯 <b>¿Qué banco de preguntas quieres practicar?</b>"
+            enviar_mensaje(chat_id, msg, get_source_keyboard())
 
         elif text in ["📚 Por Dominios", "/dominios"]:
             state["modo"] = "esperando_dominio"
@@ -139,19 +158,58 @@ def webhook():
 
             dominio_codigo = mapa_dominios.get(text)
             if dominio_codigo:
-                preguntas = cargar_preguntas()
+                state["dominio_pendiente"] = (dominio_codigo, text)
+                state["modo"] = "esperando_origen_dominio"
+                msg = f"📚 <b>{text}</b>\n¿Qué banco de preguntas quieres usar?"
+                enviar_mensaje(chat_id, msg, get_source_keyboard())
+            else:
+                enviar_mensaje(chat_id, "Por favor selecciona un dominio válido del menú.", get_domain_keyboard())
+
+        elif state.get("modo") in ["esperando_origen_aleatoria", "esperando_origen_dominio"]:
+            mapa_origen = {
+                "🤖 Preguntas IA": "ia",
+                "🎓 Preguntas de Clase (Exámenes)": "clase",
+                "🔀 Mezcladas (IA + Clase)": None,
+            }
+            if text not in mapa_origen:
+                enviar_mensaje(chat_id, "Por favor selecciona una opción válida del menú.", get_source_keyboard())
+                return "ok", 200
+
+            origen = mapa_origen[text]
+            preguntas = cargar_preguntas()
+            if not preguntas:
+                enviar_mensaje(chat_id, "⚠️ No se pudieron cargar las preguntas desde GitHub. Revisa el archivo preguntas.json.", get_keyboard())
+                state["modo"] = None
+                return "ok", 200
+
+            preguntas = filtrar_por_origen(preguntas, origen)
+
+            if state["modo"] == "esperando_origen_aleatoria":
+                if not preguntas:
+                    enviar_mensaje(chat_id, "⚠️ No hay preguntas disponibles para esa fuente.", get_keyboard())
+                    state["modo"] = None
+                    return "ok", 200
+                random.shuffle(preguntas)
+                state["preguntas_lista"] = preguntas[:10]
+                state["indice_lista"] = 0
+                state["modo"] = "practicando"
+                fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
+                enviar_mensaje(chat_id, f"🚀 <b>Iniciando ronda de 10 preguntas aleatorias ({fuente_txt}).</b> ¡Mucho éxito!", get_keyboard())
+                lanzar_siguiente_pregunta(chat_id)
+            else:  # esperando_origen_dominio
+                dominio_codigo, dominio_texto = state["dominio_pendiente"]
                 filtradas = [p for p in preguntas if p.get("dominio", "").startswith(dominio_codigo)]
                 if not filtradas:
-                    enviar_mensaje(chat_id, f"⚠️ No se encontraron preguntas registradas para el <b>{text}</b>.", get_domain_keyboard())
+                    enviar_mensaje(chat_id, f"⚠️ No se encontraron preguntas registradas para el <b>{dominio_texto}</b> en esa fuente.", get_domain_keyboard())
+                    state["modo"] = "esperando_dominio"
                 else:
                     random.shuffle(filtradas)
                     state["preguntas_lista"] = filtradas
                     state["indice_lista"] = 0
-                    state["modo"] = "dominio"
-                    enviar_mensaje(chat_id, f"🎯 <b>Practicando: {text}</b> ({len(filtradas)} preguntas encontradas).", get_keyboard())
+                    state["modo"] = "practicando"
+                    fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
+                    enviar_mensaje(chat_id, f"🎯 <b>Practicando: {dominio_texto}</b> ({fuente_txt}, {len(filtradas)} preguntas encontradas).", get_keyboard())
                     lanzar_siguiente_pregunta(chat_id)
-            else:
-                enviar_mensaje(chat_id, "Por favor selecciona un dominio válido del menú.", get_domain_keyboard())
 
         elif text in ["📊 Mi Resumen / Reporte", "/resumen"]:
             total = state["total_respondidas"]
@@ -168,7 +226,7 @@ def webhook():
             if porcentaje >= 85:
                 reporte += "🏆 ¡Nivel Senior de Auditoría! Estás listo para el examen."
             elif porcentaje >= 70:
-                reporte += "📈 Buen avance. Refuerza las 'conchas de mango' en los dominios más débiles."
+                reporte += "📈 Buen avance. Refuerza los dominios más débiles."
             else:
                 reporte += "💡 Revisa los conceptos COSO y el Estatuto de Auditoría. Vamos a seguir practicando."
 
@@ -179,8 +237,9 @@ def webhook():
                 "ℹ️ <b>¿Cómo usar tu Bot Entrenador?</b>\n\n"
                 "1. Usa el botón <b>🎯 Práctica Aleatoria (10)</b> para simulacros rápidos.\n"
                 "2. Usa el botón <b>📚 Por Dominios</b> para estudiar tus puntos débiles.\n"
-                "3. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
-                "4. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada."
+                "3. En ambos casos podrás elegir la fuente: <b>🤖 IA</b>, <b>🎓 Clase</b> (transcritas de tus exámenes reales) o <b>🔀 Mezcladas</b>.\n"
+                "4. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
+                "5. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada."
             )
             enviar_mensaje(chat_id, ayuda, get_keyboard())
 
@@ -194,11 +253,11 @@ def webhook():
 
             if respuesta_usr == correcta:
                 state["score_correctas"] += 1
-                msg = f"✅ <b>¡CORRECTO!</b>\n\n<b>Explicación / Concha de mango:</b>\n{pregunta.get('concha_mango', '¡Bien razonado!')}"
+                msg = f"✅ <b>¡CORRECTO!</b>\n\n<b>Explicación:</b>\n{pregunta.get('explicacion') or '¡Bien razonado!'}"
             else:
                 msg = (
                     f"❌ <b>INCORRECTO.</b> Tu respuesta: {respuesta_usr} | Respuesta correcta: <b>{correcta}</b>\n\n"
-                    f"💡 <b>Análisis Auditor:</b>\n{pregunta.get('concha_mango', 'Repasa el concepto clave de esta pregunta.')}"
+                    f"💡 <b>Explicación:</b>\n{pregunta.get('explicacion') or 'Repasa el concepto clave de esta pregunta.'}"
                 )
 
             state["pregunta_actual"] = None
@@ -222,11 +281,12 @@ def lanzar_siguiente_pregunta(chat_id):
         pregunta = lista[idx]
         state["pregunta_actual"] = pregunta
 
+        origen_tag = SOURCE_LABELS.get(pregunta.get("origen"), "")
         texto_preg = f"<b>{pregunta['pregunta']}</b>\n\n"
         for opc, txt in pregunta["opciones"].items():
             texto_preg += f"<b>{opc})</b> {txt}\n"
 
-        texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')}</i>\n"
+        texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')} | Fuente: {origen_tag}</i>\n"
         texto_preg += "👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
 
         enviar_mensaje(chat_id, texto_preg, get_keyboard())
