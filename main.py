@@ -16,6 +16,7 @@ GITHUB_REPO = os.environ.get("GITHUB_REPO")  # Formato: "usuario/repositorio"
 GITHUB_BRANCH = os.environ.get("GITHUB_BRANCH", "main")
 GITHUB_FILE_PATH = "preguntas.json"
 ERRORES_FILE_PATH = "errores.json"
+SESIONES_FILE_PATH = "sesiones.json"
 RACHA_PARA_GRADUAR = 3  # aciertos consecutivos necesarios para "graduar" una pregunta del repaso
 
 if not TOKEN:
@@ -96,19 +97,19 @@ def filtrar_por_origen(preguntas, origen):
     return [p for p in preguntas if p.get("origen") == origen]
 
 
-def _github_contents_url():
-    return f"https://api.github.com/repos/{GITHUB_REPO}/contents/{ERRORES_FILE_PATH}"
+def _github_contents_url(path):
+    return f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
 
 
-def cargar_errores_raw():
-    """Descarga errores.json completo (todos los usuarios) vía GitHub Contents API.
-    Devuelve (dict_errores, sha). Si el archivo no existe todavía, devuelve ({}, None)."""
+def cargar_json_github(path):
+    """Descarga un JSON completo desde GitHub vía Contents API.
+    Devuelve (dict, sha). Si el archivo no existe todavía, devuelve ({}, None)."""
     if not GITHUB_TOKEN or not GITHUB_REPO:
-        logger.warning("Falta GITHUB_TOKEN o GITHUB_REPO: no se puede usar el repaso persistente de errores.")
+        logger.warning(f"Falta GITHUB_TOKEN o GITHUB_REPO: no se puede leer {path} desde GitHub.")
         return {}, None
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
     try:
-        r = requests.get(_github_contents_url(), headers=headers, timeout=10)
+        r = requests.get(_github_contents_url(path), headers=headers, timeout=10)
         if r.status_code == 404:
             return {}, None
         r.raise_for_status()
@@ -116,39 +117,43 @@ def cargar_errores_raw():
         content = base64.b64decode(data["content"]).decode("utf-8")
         return json.loads(content), data["sha"]
     except requests.RequestException as e:
-        logger.error(f"Error al descargar errores.json: {e}")
+        logger.error(f"Error al descargar {path}: {e}")
         return {}, None
     except (json.JSONDecodeError, KeyError) as e:
-        logger.error(f"errores.json no es válido: {e}")
+        logger.error(f"{path} no es válido: {e}")
         return {}, None
 
 
-def guardar_errores_raw(errores_dict, sha):
-    """Sube errores.json completo a GitHub. Reintenta una vez si el sha quedó desactualizado."""
+def guardar_json_github(path, data_dict, sha, mensaje="Actualizar estado del bot"):
+    """Sube un JSON completo a GitHub. Reintenta una vez si el sha quedó desactualizado."""
     if not GITHUB_TOKEN or not GITHUB_REPO:
         return False
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
-    content_str = json.dumps(errores_dict, ensure_ascii=False, indent=2)
+    content_str = json.dumps(data_dict, ensure_ascii=False, indent=2)
     content_b64 = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
-    payload = {
-        "message": "Actualizar registro de repaso de errores",
-        "content": content_b64,
-        "branch": GITHUB_BRANCH,
-    }
+    payload = {"message": mensaje, "content": content_b64, "branch": GITHUB_BRANCH}
     if sha:
         payload["sha"] = sha
     try:
-        r = requests.put(_github_contents_url(), headers=headers, json=payload, timeout=10)
+        r = requests.put(_github_contents_url(path), headers=headers, json=payload, timeout=10)
         if r.status_code == 409:
-            # sha desactualizado (otro usuario escribió al mismo tiempo): reintenta una vez
-            _, fresh_sha = cargar_errores_raw()
+            # sha desactualizado (otra escritura concurrente): reintenta una vez
+            _, fresh_sha = cargar_json_github(path)
             payload["sha"] = fresh_sha
-            r = requests.put(_github_contents_url(), headers=headers, json=payload, timeout=10)
+            r = requests.put(_github_contents_url(path), headers=headers, json=payload, timeout=10)
         r.raise_for_status()
         return True
     except requests.RequestException as e:
-        logger.error(f"Error al guardar errores.json: {e}")
+        logger.error(f"Error al guardar {path}: {e}")
         return False
+
+
+def cargar_errores_raw():
+    return cargar_json_github(ERRORES_FILE_PATH)
+
+
+def guardar_errores_raw(errores_dict, sha):
+    return guardar_json_github(ERRORES_FILE_PATH, errores_dict, sha, "Actualizar registro de repaso de errores")
 
 
 def registrar_respuesta_error(chat_id, pregunta, fue_correcta):
@@ -190,6 +195,54 @@ def obtener_preguntas_para_repaso(chat_id, preguntas):
     return [p for p in preguntas if str(p.get("id")) in ids_pendientes]
 
 
+def guardar_sesion_activa(chat_id, state):
+    """Persiste en GitHub la ronda de práctica en curso (lista de ids, índice y
+    marcador), para poder reanudarla si el proceso del bot se reinicia entre
+    pregunta y respuesta (p. ej. por inactividad o un redeploy en Railway)."""
+    sesiones, sha = cargar_json_github(SESIONES_FILE_PATH)
+    sesiones[str(chat_id)] = {
+        "lista_ids": [p["id"] for p in state.get("preguntas_lista", [])],
+        "indice_lista": state.get("indice_lista", 0),
+        "score_correctas": state.get("score_correctas", 0),
+        "total_respondidas": state.get("total_respondidas", 0),
+    }
+    guardar_json_github(SESIONES_FILE_PATH, sesiones, sha, "Actualizar sesión activa")
+
+
+def borrar_sesion_activa(chat_id):
+    """Elimina la sesión persistida (ronda terminada o reiniciada desde el menú)."""
+    sesiones, sha = cargar_json_github(SESIONES_FILE_PATH)
+    if str(chat_id) in sesiones:
+        del sesiones[str(chat_id)]
+        guardar_json_github(SESIONES_FILE_PATH, sesiones, sha, "Limpiar sesión activa")
+
+
+def restaurar_sesion_activa(chat_id, preguntas, sesiones):
+    """Intenta reconstruir el estado de una ronda de práctica en curso a partir de
+    lo guardado en GitHub. Devuelve un dict de estado listo para usar, o None si
+    no había ninguna sesión pendiente para este usuario."""
+    sesion = sesiones.get(str(chat_id))
+    if not sesion:
+        return None
+
+    preguntas_por_id = {str(p["id"]): p for p in preguntas}
+    lista = [preguntas_por_id[i] for i in sesion.get("lista_ids", []) if i in preguntas_por_id]
+    indice = sesion.get("indice_lista", 0)
+    if not lista or indice >= len(lista):
+        return None
+
+    return {
+        "pregunta_actual": lista[indice],
+        "score_correctas": sesion.get("score_correctas", 0),
+        "total_respondidas": sesion.get("total_respondidas", 0),
+        "preguntas_lista": lista,
+        "indice_lista": indice,
+        "modo": "practicando",
+        "origen_pendiente": None,
+        "dominio_pendiente": None,
+    }
+
+
 def enviar_mensaje(chat_id, texto, reply_markup=None):
     """Envía un mensaje a Telegram con soporte para formato HTML."""
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -215,7 +268,16 @@ def webhook():
         text = update["message"].get("text", "").strip()
 
         if chat_id not in user_states:
-            user_states[chat_id] = {
+            # El bot pudo haberse reiniciado (inactividad, redeploy en Railway, etc.)
+            # perdiendo el estado en memoria. Antes de asumir "sin pregunta activa",
+            # intenta recuperar una ronda de práctica que haya quedado a medias.
+            restaurado = None
+            sesiones_check, _ = cargar_json_github(SESIONES_FILE_PATH)
+            if str(chat_id) in sesiones_check:
+                preguntas_bank = cargar_preguntas()
+                restaurado = restaurar_sesion_activa(chat_id, preguntas_bank, sesiones_check)
+
+            user_states[chat_id] = restaurado or {
                 "pregunta_actual": None,
                 "score_correctas": 0,
                 "total_respondidas": 0,
@@ -231,6 +293,9 @@ def webhook():
         # --- MENU PRINCIPAL ---
         if text in ["/start", "/menu", "🔙 Volver al Menú Principal"]:
             state["modo"] = None
+            if state.get("pregunta_actual"):
+                borrar_sesion_activa(chat_id)
+            state["pregunta_actual"] = None
             msg = "👋 <b>¡Hola, Aldemar! Bienvenido a tu Bot Entrenador CIA Parte 1.</b>\n\nElige una opción en el menú inferior para empezar:"
             enviar_mensaje(chat_id, msg, get_keyboard())
 
@@ -411,6 +476,7 @@ def lanzar_siguiente_pregunta(chat_id):
     if idx < len(lista):
         pregunta = lista[idx]
         state["pregunta_actual"] = pregunta
+        guardar_sesion_activa(chat_id, state)
 
         texto_preg = f"<b>{pregunta['pregunta']}</b>\n\n"
         for opc, txt in pregunta["opciones"].items():
@@ -426,6 +492,7 @@ def lanzar_siguiente_pregunta(chat_id):
     else:
         enviar_mensaje(chat_id, "🏁 <b>¡Has completado la tanda de preguntas!</b> Revisa tu resultado en el botón <b>📊 Mi Resumen</b>.", get_keyboard())
         state["modo"] = None
+        borrar_sesion_activa(chat_id)
 
 
 def registrar_webhook():
