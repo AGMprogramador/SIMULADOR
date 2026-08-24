@@ -17,6 +17,7 @@ GITHUB_BRANCH = os.environ.get("GITHUB_BRANCH", "main")
 GITHUB_FILE_PATH = "preguntas.json"
 ERRORES_FILE_PATH = "errores.json"
 SESIONES_FILE_PATH = "sesiones.json"
+VISTAS_FILE_PATH = "vistas.json"
 RACHA_PARA_GRADUAR = 3  # aciertos consecutivos necesarios para "graduar" una pregunta del repaso
 
 if not TOKEN:
@@ -195,6 +196,72 @@ def obtener_preguntas_para_repaso(chat_id, preguntas):
     return [p for p in preguntas if str(p.get("id")) in ids_pendientes]
 
 
+def contar_totales_por_origen(preguntas):
+    """Cuenta cuántas preguntas hay en el banco actual por cada origen."""
+    return {
+        "ia": sum(1 for p in preguntas if p.get("origen") == "ia"),
+        "clase": sum(1 for p in preguntas if p.get("origen") == "clase"),
+    }
+
+
+def obtener_vistos_usuario(chat_id, vistas=None):
+    """Devuelve {'ia': [...ids...], 'clase': [...ids...]} para este usuario.
+    Si no se pasa 'vistas' ya cargado, lo descarga de GitHub."""
+    if vistas is None:
+        vistas, _ = cargar_json_github(VISTAS_FILE_PATH)
+    return vistas.get(str(chat_id), {})
+
+
+def filtrar_no_vistas(preguntas, chat_id):
+    """De una lista de preguntas, devuelve solo las que este usuario todavía
+    no ha visto (según vistas.json), agrupando por el origen propio de cada
+    pregunta. Si el resultado queda vacío (ya vio el 100% de ese subconjunto),
+    devuelve la lista completa sin filtrar."""
+    vistos = obtener_vistos_usuario(chat_id)
+
+    def ya_vista(p):
+        origen_p = p.get("origen")
+        return str(p.get("id")) in vistos.get(origen_p, [])
+
+    no_vistas = [p for p in preguntas if not ya_vista(p)]
+    return no_vistas if no_vistas else preguntas
+
+
+def registrar_pregunta_vista(chat_id, pregunta, totales_por_origen=None):
+    """Marca una pregunta como vista por el usuario en vistas.json.
+    Devuelve True si con esta pregunta el usuario ACABA de completar el 100%
+    de esa fuente (para poder felicitarlo), o False en cualquier otro caso."""
+    origen = pregunta.get("origen")
+    if origen not in ("ia", "clase"):
+        return False
+
+    vistas, sha = cargar_json_github(VISTAS_FILE_PATH)
+    chat_key = str(chat_id)
+    qid = str(pregunta.get("id"))
+    usuario_vistas = vistas.setdefault(chat_key, {})
+    lista_vistas = usuario_vistas.setdefault(origen, [])
+
+    ya_estaba = qid in lista_vistas
+    if not ya_estaba:
+        lista_vistas.append(qid)
+        guardar_json_github(VISTAS_FILE_PATH, vistas, sha, "Actualizar progreso de cobertura")
+
+    if ya_estaba or not totales_por_origen:
+        return False
+
+    total = totales_por_origen.get(origen)
+    return bool(total) and len(lista_vistas) == total
+
+
+def reiniciar_progreso_cobertura(chat_id):
+    """Borra el progreso de cobertura del usuario (todas las fuentes)."""
+    vistas, sha = cargar_json_github(VISTAS_FILE_PATH)
+    chat_key = str(chat_id)
+    if chat_key in vistas:
+        del vistas[chat_key]
+        guardar_json_github(VISTAS_FILE_PATH, vistas, sha, "Reiniciar progreso de cobertura")
+
+
 def guardar_sesion_activa(chat_id, state):
     """Persiste en GitHub la ronda de práctica en curso (lista de ids, índice y
     marcador), para poder reanudarla si el proceso del bot se reinicia entre
@@ -316,6 +383,7 @@ def webhook():
                 enviar_mensaje(chat_id, "⚠️ No se pudieron cargar las preguntas desde GitHub.", get_keyboard())
                 return "ok", 200
 
+            state["totales_origen"] = contar_totales_por_origen(preguntas)
             pendientes = obtener_preguntas_para_repaso(chat_id, preguntas)
             if not pendientes:
                 enviar_mensaje(
@@ -371,6 +439,7 @@ def webhook():
                 state["modo"] = None
                 return "ok", 200
 
+            state["totales_origen"] = contar_totales_por_origen(preguntas)
             preguntas = filtrar_por_origen(preguntas, origen)
 
             if state["modo"] == "esperando_origen_aleatoria":
@@ -378,8 +447,9 @@ def webhook():
                     enviar_mensaje(chat_id, "⚠️ No hay preguntas disponibles para esa fuente.", get_keyboard())
                     state["modo"] = None
                     return "ok", 200
-                random.shuffle(preguntas)
-                state["preguntas_lista"] = preguntas[:10]
+                pool = filtrar_no_vistas(preguntas, chat_id)
+                random.shuffle(pool)
+                state["preguntas_lista"] = pool[:10]
                 state["indice_lista"] = 0
                 state["modo"] = "practicando"
                 fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
@@ -392,6 +462,7 @@ def webhook():
                     enviar_mensaje(chat_id, f"⚠️ No se encontraron preguntas registradas para el <b>{dominio_texto}</b> en esa fuente.", get_domain_keyboard())
                     state["modo"] = "esperando_dominio"
                 else:
+                    filtradas = filtrar_no_vistas(filtradas, chat_id)
                     random.shuffle(filtradas)
                     state["preguntas_lista"] = filtradas
                     state["indice_lista"] = 0
@@ -419,7 +490,26 @@ def webhook():
             else:
                 reporte += "💡 Revisa los conceptos COSO y el Estatuto de Auditoría. Vamos a seguir practicando."
 
+            preguntas_bank = cargar_preguntas()
+            if preguntas_bank:
+                totales = contar_totales_por_origen(preguntas_bank)
+                vistos_usuario = obtener_vistos_usuario(chat_id)
+                reporte += "\n\n📚 <b>Progreso de cobertura del banco</b> (preguntas distintas que ya te tocaron, al menos una vez):"
+                for origen_key, label in [("clase", "🎓 Clase"), ("ia", "🤖 IA")]:
+                    vistos_n = len(vistos_usuario.get(origen_key, []))
+                    total_n = totales.get(origen_key, 0)
+                    pct = (vistos_n / total_n * 100) if total_n else 0
+                    reporte += f"\n{label}: {vistos_n}/{total_n} ({pct:.0f}%)"
+
             enviar_mensaje(chat_id, reporte, get_keyboard())
+
+        elif text in ["/reiniciar_progreso"]:
+            reiniciar_progreso_cobertura(chat_id)
+            enviar_mensaje(
+                chat_id,
+                "🔄 <b>Progreso de cobertura reiniciado.</b> A partir de ahora, el bot vuelve a priorizar todas las preguntas como si no hubieras visto ninguna.",
+                get_keyboard()
+            )
 
         elif text in ["❓ Ayuda", "/ayuda"]:
             ayuda = (
@@ -430,7 +520,8 @@ def webhook():
                 "4. Cada pregunta muestra su <b>Dominio</b> y su <b>Fuente</b> (nombre del examen y fecha, o banco IA).\n"
                 f"5. Si fallas una pregunta, se guarda en tu <b>🔁 Repasar mis Errores</b>. Necesitas acertarla {RACHA_PARA_GRADUAR} veces seguidas para que se dé por dominada; este registro es personal y persiste aunque el bot se reinicie.\n"
                 "6. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
-                "7. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada en la sesión actual."
+                "7. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada en la sesión actual y tu progreso de cobertura del banco (cuántas preguntas distintas ya te tocaron, del total disponible en Clase e IA).\n"
+                "8. El bot prioriza automáticamente preguntas que todavía no te han tocado; cuando completes el 100% de una fuente te avisa. Si querés reiniciar ese conteo y volver a recorrer todo desde cero, escribe <b>/reiniciar_progreso</b>."
             )
             enviar_mensaje(chat_id, ayuda, get_keyboard())
 
@@ -489,6 +580,17 @@ def lanzar_siguiente_pregunta(chat_id):
         texto_preg += "\n👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
 
         enviar_mensaje(chat_id, texto_preg, get_keyboard())
+
+        completo = registrar_pregunta_vista(chat_id, pregunta, state.get("totales_origen"))
+        if completo:
+            origen_txt = "🎓 Clase" if pregunta.get("origen") == "clase" else "🤖 IA"
+            enviar_mensaje(
+                chat_id,
+                f"🎉 <b>¡Completaste el 100% de las preguntas del banco {origen_txt}!</b>\n"
+                f"Ya pasaste al menos una vez por todas las preguntas disponibles de esa fuente.\n\n"
+                f"Si querés reiniciar el conteo y volver a recorrerlas todas desde cero, escribí "
+                f"<b>/reiniciar_progreso</b>. Si preferís seguir practicando en modo libre, no hace falta que hagas nada más."
+            )
     else:
         enviar_mensaje(chat_id, "🏁 <b>¡Has completado la tanda de preguntas!</b> Revisa tu resultado en el botón <b>📊 Mi Resumen</b>.", get_keyboard())
         state["modo"] = None
