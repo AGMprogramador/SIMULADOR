@@ -285,9 +285,10 @@ def borrar_sesion_activa(chat_id):
 
 
 def restaurar_sesion_activa(chat_id, preguntas, sesiones):
-    """Intenta reconstruir el estado de una ronda de práctica en curso a partir de
-    lo guardado en GitHub. Devuelve un dict de estado listo para usar, o None si
-    no había ninguna sesión pendiente para este usuario."""
+    """Intenta reconstruir el estado de una ronda de práctica a partir de lo
+    guardado en GitHub (esté en curso o recién completada). Devuelve un dict
+    de estado listo para usar, o None si no hay ninguna sesión guardada para
+    este usuario."""
     sesion = sesiones.get(str(chat_id))
     if not sesion:
         return None
@@ -295,16 +296,20 @@ def restaurar_sesion_activa(chat_id, preguntas, sesiones):
     preguntas_por_id = {str(p["id"]): p for p in preguntas}
     lista = [preguntas_por_id[i] for i in sesion.get("lista_ids", []) if i in preguntas_por_id]
     indice = sesion.get("indice_lista", 0)
-    if not lista or indice >= len(lista):
-        return None
+
+    pregunta_actual = None
+    modo = None
+    if lista and indice < len(lista):
+        pregunta_actual = lista[indice]
+        modo = "practicando"
 
     return {
-        "pregunta_actual": lista[indice],
+        "pregunta_actual": pregunta_actual,
         "score_correctas": sesion.get("score_correctas", 0),
         "total_respondidas": sesion.get("total_respondidas", 0),
         "preguntas_lista": lista,
         "indice_lista": indice,
-        "modo": "practicando",
+        "modo": modo,
         "origen_pendiente": None,
         "dominio_pendiente": None,
     }
@@ -395,6 +400,8 @@ def webhook():
                 random.shuffle(pendientes)
                 state["preguntas_lista"] = pendientes
                 state["indice_lista"] = 0
+                state["score_correctas"] = 0
+                state["total_respondidas"] = 0
                 state["modo"] = "practicando"
                 enviar_mensaje(
                     chat_id,
@@ -451,6 +458,8 @@ def webhook():
                 random.shuffle(pool)
                 state["preguntas_lista"] = pool[:10]
                 state["indice_lista"] = 0
+                state["score_correctas"] = 0
+                state["total_respondidas"] = 0
                 state["modo"] = "practicando"
                 fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
                 enviar_mensaje(chat_id, f"🚀 <b>Iniciando ronda de 10 preguntas aleatorias ({fuente_txt}).</b> ¡Mucho éxito!", get_keyboard())
@@ -466,6 +475,8 @@ def webhook():
                     random.shuffle(filtradas)
                     state["preguntas_lista"] = filtradas
                     state["indice_lista"] = 0
+                    state["score_correctas"] = 0
+                    state["total_respondidas"] = 0
                     state["modo"] = "practicando"
                     fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
                     enviar_mensaje(chat_id, f"🎯 <b>Practicando: {dominio_texto}</b> ({fuente_txt}, {len(filtradas)} preguntas encontradas).", get_keyboard())
@@ -574,9 +585,13 @@ def lanzar_siguiente_pregunta(chat_id):
             texto_preg += f"<b>{opc})</b> {txt}\n"
 
         fuente = pregunta.get("fuente", "")
+        numero = pregunta.get("numero")
         texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')}</i>"
         if fuente:
-            texto_preg += f"\n<i>📅 Fuente: {fuente}</i>"
+            fuente_linea = f"\n<i>📅 Fuente: {fuente}</i>"
+            if numero is not None:
+                fuente_linea += f" — <i>Pregunta #{numero}</i>"
+            texto_preg += fuente_linea
         texto_preg += "\n👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
 
         enviar_mensaje(chat_id, texto_preg, get_keyboard())
@@ -594,7 +609,12 @@ def lanzar_siguiente_pregunta(chat_id):
     else:
         enviar_mensaje(chat_id, "🏁 <b>¡Has completado la tanda de preguntas!</b> Revisa tu resultado en el botón <b>📊 Mi Resumen</b>.", get_keyboard())
         state["modo"] = None
-        borrar_sesion_activa(chat_id)
+        state["pregunta_actual"] = None
+        # OJO: a propósito NO se borra la sesión acá. Se deja guardada (con el
+        # puntaje final) para que "Mi Resumen" pueda recuperarla aunque el
+        # proceso se reinicie justo entre que terminás la ronda y pedís el
+        # resumen. Se limpia recién cuando arrancás una ronda nueva.
+        guardar_sesion_activa(chat_id, state)
 
 
 def registrar_webhook():
