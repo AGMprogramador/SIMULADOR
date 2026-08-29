@@ -7518,5 +7518,1637 @@
     "dominio": "Dominio VI: Comunicación y Seguimiento",
     "origen": "ia",
     "fuente": "Banco de preguntas generado por IA"
+  },
+  {
+    "id": "0617e7beb003",
+    "numero": 1,
+    "pregunta": "Un ejecutivo infla los ingresos registrando ventas a empresas pantalla controladas por cómplices. Las ventas se revierten tras los periodos de presentación de informes, pero nuevas ventas ficticias mantienen las apariencias. Los auditores han pasado esto por alto porque analizan muestras de transacciones individuales que parecen legítimas. ¿Qué enfoque de auditoría permitiría detectar mejor esta maniobra?",
+    "opciones": {
+      "A": "Analizar los patrones de los clientes, los historiales de pago y las redes de relaciones en lugar de limitarse a muestras de transacciones.",
+      "B": "Aumentar el tamaño de las muestras para la verificación de transacciones.",
+      "C": "Centrarse en las ventas registradas durante la última semana de los trimestres.",
+      "D": "Exigir una certificación ejecutiva para todas las ventas de gran cuantía."
+    },
+    "correcta": "A",
+    "explicacion": "Analizar patrones de clientes, historiales de pago y redes de relaciones detecta esquemas de facturación circular con empresas fantasma, algo que el muestreo de transacciones individuales pasa por alto porque cada transacción, vista aislada, parece legítima.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Practica 11 (2026-08-25)"
+  },
+  {
+    "id": "96213a1b0eea",
+    "numero": 2,
+    "pregunta": "Un empleado justifica la violación del código de conducta de la organización alegando el mal uso de la propiedad corporativa por parte de la alta gerencia. ¿Qué elemento del triángulo del fraude ejemplifica este comportamiento?",
+    "opciones": {
+      "A": "Tergiversación.",
+      "B": "Ocultación.",
+      "C": "Motivo.",
+      "D": "Racionalización."
+    },
+    "correcta": "D",
+    "explicacion": "Justificar una mala conducta propia señalando que otros (la alta gerencia) también actúan mal es un ejemplo clásico de racionalización: el individuo se convence a sí mismo de que su comportamiento es aceptable.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 11 (2026-08-25)"
+  },
+  {
+    "id": "09ff8350cd30",
+    "numero": 3,
+    "pregunta": "De los tres elementos del triángulo del fraude (motivación, oportunidad, racionalización), ¿cuál es el que una organización puede controlar más directamente?",
+    "opciones": {
+      "A": "Incentivo.",
+      "B": "Racionalización.",
+      "C": "Presión.",
+      "D": "Oportunidad."
+    },
+    "correcta": "D",
+    "explicacion": "De los tres elementos del triángulo del fraude, la oportunidad es la que la organización puede controlar más directamente mediante controles internos, segregación de funciones y supervisión — a diferencia de la motivación/presión y la racionalización, que son internas a la persona.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 11 (2026-08-25)"
+  },
+  {
+    "id": "e44614acc838",
+    "numero": 4,
+    "pregunta": "Un auditor interno necesita comprender la definición fundamental de fraude al evaluar los riesgos organizacionales. ¿Qué distingue al fraude de otros tipos de errores o irregularidades?",
+    "opciones": {
+      "A": "El fraude incluye todos los errores y equivocaciones que resultan en pérdidas financieras para la organización.",
+      "B": "El fraude abarca cualquier violación de las políticas de la empresa, independientemente de la intención o motivación.",
+      "C": "El fraude se refiere exclusivamente al robo de bienes físicos por parte de empleados o terceros.",
+      "D": "El fraude es un acto intencional que implica engaño, ocultación o abuso de confianza para obtener una ventaja injusta o ilegal."
+    },
+    "correcta": "D",
+    "explicacion": "Lo que distingue al fraude de un error es la intencionalidad: implica engaño, ocultación o abuso de confianza deliberado para obtener una ventaja injusta o ilegal, no una simple equivocación.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 11 (2026-08-25)"
+  },
+  {
+    "id": "94bf3fdf2246",
+    "numero": 1,
+    "pregunta": "¿Cuál de los siguientes escenarios ejemplifica mejor la presentación de informes financieros fraudulentos?",
+    "opciones": {
+      "A": "Un empleado utiliza la tarjeta de crédito de la empresa para gastos personales no autorizados.",
+      "B": "Un gerente acepta un soborno de un proveedor a cambio de adjudicarle un contrato.",
+      "C": "Un empleado de almacén roba artículos del inventario y los vende para obtener ganancias personales.",
+      "D": "Los estados financieros de una organización sobreestiman intencionadamente los ingresos y subestiman los pasivos para presentar una situación financiera más favorable."
+    },
+    "correcta": "D",
+    "explicacion": "Sobreestimar intencionadamente los ingresos y subestimar los pasivos para mostrar una situación financiera más favorable es la definición central de información financiera fraudulenta.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 12 (2026-08-25)"
+  },
+  {
+    "id": "d243a6f38c1d",
+    "numero": 2,
+    "pregunta": "Un auditor interno observa lo siguiente: rentabilidad inusual en comparación con sus pares del sector, transacciones complejas al final del período, ventas significativas a entidades desconocidas y un aumento en los días de cobro. ¿Qué tipo de fraude indican estas observaciones?",
+    "opciones": {
+      "A": "Robo de inventario",
+      "B": "Valoración incorrecta de los activos.",
+      "C": "Colusión entre empleados y empresas clientes.",
+      "D": "Ingresos ficticios"
+    },
+    "correcta": "D",
+    "explicacion": "Rentabilidad inusual frente a pares del sector, transacciones complejas de cierre de periodo, ventas a entidades desconocidas y aumento en días de cobro son señales clásicas de ingresos ficticios.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 12 (2026-08-25)"
+  },
+  {
+    "id": "67d95f0d05b1",
+    "numero": 1,
+    "pregunta": "La oficina de gestión de proyectos de un contratista gubernamental supervisa múltiples contratos clasificados con estrictos acuerdos de facturación de tipo \"coste más beneficio\" (cost-plus). Los gerentes de proyecto pueden aprobar facturas de subcontratistas y órdenes de modificación dentro del límite presupuestario de sus contratos. Un gerente de proyecto factura sistemáticamente entre el 95 % y el 98 % del valor del contrato, a menudo mediante órdenes de modificación de última hora justificadas como \"modificaciones críticas para la misión\". Estas órdenes de modificación se asignan frecuentemente a un subcontratista constituido hace 18 meses y con una presencia mínima en la web. Las facturas del subcontratista carecen de descripciones detalladas del trabajo, alegando restricciones de clasificación. El gerente de proyecto cuenta con una autorización de seguridad de nivel \"ultrasecreto\" y afirma que cuestionar el trabajo podía comprometer la seguridad nacional. Los auditores gubernamentales han elogiado la puntualidad constante en la entrega del proyecto. ¿Cómo debería abordar la auditoría interna esta situación de alto riesgo?",
+    "opciones": {
+      "A": "Confiar en las auditorías gubernamentales positivas como prueba de que los controles funcionan adecuadamente.",
+      "B": "Aceptar las explicaciones del gerente de proyecto sobre seguridad nacional y centrar los esfuerzos de auditoría en contratos no clasificados.",
+      "C": "Coordinarse con los equipos de seguridad y legales para verificar la legitimidad del subcontratista y el sustento de las órdenes de modificación dentro de las restricciones de clasificación, analizando al mismo tiempo los patrones financieros.",
+      "D": "Solicitar la desclasificación total de la documentación del proyecto antes de proceder con cualquier procedimiento de auditoría."
+    },
+    "correcta": "C",
+    "explicacion": "Ante un área de alto riesgo protegida por alegatos de seguridad nacional, la respuesta correcta es coordinar con los equipos de seguridad y legales para verificar la legitimidad del subcontratista y el sustento de las órdenes de modificación, sin dejar de analizar los patrones financieros — ni aceptar ciegamente las explicaciones ni renunciar a auditar.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 13 (2026-08-25)"
+  },
+  {
+    "id": "fbd20eea2f0f",
+    "numero": 2,
+    "pregunta": "El equipo de auditoría interna de una empresa manufacturera multinacional está elaborando su plan de auditoría anual. La empresa ha ampliado recientemente sus operaciones para incluir tres centros de distribución remotos, ha implementado un nuevo sistema automatizado de gestión de inventarios y ha introducido bonificaciones por desempeño vinculadas a las tasas de rotación de inventario. Los centros de distribución operan con una supervisión corporativa mínima, y los gerentes locales tienen autoridad para aprobar ajustes de inventario de hasta 50.000 dólares. Durante la evaluación preliminar de riesgos, los auditores observan que las bajas de inventario han aumentado un 40 % interanual, pero la dirección atribuye esto a la curva de aprendizaje del nuevo sistema. ¿Qué combinación de factores hace que esta área sea particularmente vulnerable al fraude?",
+    "opciones": {
+      "A": "La complejidad técnica del nuevo sistema automatizado, la dispersión geográfica de las instalaciones y el aumento normal de las bajas durante la implementación del sistema.",
+      "B": "La estructura de remuneración basada en el desempeño, la naturaleza multinacional de las operaciones y la dependencia de la dirección local para las decisiones cotidianas.",
+      "C": "Operaciones descentralizadas con supervisión limitada, acceso a activos líquidos que pueden convertirse en efectivo y presión por el desempeño que podía incentivar la manipulación de los datos de inventario.",
+      "D": "El límite de 50.000 dólares para la aprobación de ajustes, el aumento del 40 % en las bajas y la reciente expansión de las operaciones."
+    },
+    "correcta": "C",
+    "explicacion": "La combinación de operaciones descentralizadas con supervisión limitada, acceso a activos líquidos convertibles en efectivo, y presión por desempeño que puede incentivar la manipulación de datos, es lo que hace al área particularmente vulnerable al fraude — no un solo factor aislado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 13 (2026-08-25)"
+  },
+  {
+    "id": "bacc8d120b9d",
+    "numero": 1,
+    "pregunta": "¿Cuándo deben los auditores internos identificar y evaluar los riesgos de fraude para un encargo?",
+    "opciones": {
+      "A": "Durante la etapa de planificación, cuando se definen el alcance y el diseño del encargo.",
+      "B": "Exclusivamente cuando se descubre fraude durante el encargo.",
+      "C": "Después de emitir el informe de auditoría final a la dirección.",
+      "D": "Solo después de completar todo el trabajo de campo y los procedimientos de prueba."
+    },
+    "correcta": "A",
+    "explicacion": "Los riesgos de fraude deben identificarse y evaluarse durante la etapa de planificación del encargo, cuando se define el alcance y el diseño, no después de ejecutar el trabajo de campo.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 14 (2026-08-25)"
+  },
+  {
+    "id": "762f4257a100",
+    "numero": 2,
+    "pregunta": "¿Cuál de los siguientes es un principio clave de la segregación de funciones en la prevención del fraude?",
+    "opciones": {
+      "A": "Una sola persona debe supervisar todos los aspectos de un proceso para garantizar la rendición de cuentas.",
+      "B": "La separación de funciones es eficaz incluso en casos de colusión.",
+      "C": "La separación de funciones elimina la necesidad de revisiones por parte de los supervisores.",
+      "D": "Las responsabilidades de custodia, autorización y registro deben asignarse a diferentes personas."
+    },
+    "correcta": "D",
+    "explicacion": "El principio clave de la segregación de funciones es que las responsabilidades de custodia, autorización y registro se asignen a personas distintas, para que ninguna persona controle todo el ciclo de una transacción.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 14 (2026-08-25)"
+  },
+  {
+    "id": "e5d4459c2d3c",
+    "numero": 3,
+    "pregunta": "¿Cómo pueden los niveles de autoridad ayudar a prevenir el fraude en una organización?",
+    "opciones": {
+      "A": "Al eliminar la necesidad de segregación de funciones dentro de un proceso empresarial.",
+      "B": "Al garantizar que todos los empleados tengan acceso a información confidencial.",
+      "C": "Al permitir que los empleados anulen los controles en el desempeño de sus responsabilidades.",
+      "D": "Al disminuir el abuso de autoridad, como la contratación de empleados sin una revisión adicional."
+    },
+    "correcta": "D",
+    "explicacion": "Los niveles de autoridad previenen el fraude al establecer límites de aprobación y revisiones adicionales para transacciones de mayor riesgo o valor, disminuyendo el abuso de autoridad.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 14 (2026-08-25)"
+  },
+  {
+    "id": "8be94f4ad8b9",
+    "numero": 1,
+    "pregunta": "¿Qué indicadores demuestran la debilidad de los sistemas de gestión de riesgos de fraude?",
+    "opciones": {
+      "A": "Pruebas periódicas de los controles.",
+      "B": "Implementación reciente de nuevos procedimientos.",
+      "C": "Políticas obsoletas, capacitación poco frecuente y mecanismos de denuncia no utilizados o que generan desconfianza.",
+      "D": "Alta concienciación de los empleados sobre los riesgos de fraude."
+    },
+    "correcta": "C",
+    "explicacion": "Políticas obsoletas, capacitación poco frecuente y mecanismos de denuncia no utilizados o que generan desconfianza son indicadores claros de que el sistema de gestión de riesgos de fraude es débil.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 15 (2026-08-25)"
+  },
+  {
+    "id": "309c4cc8409e",
+    "numero": 2,
+    "pregunta": "¿Qué factor indica mejor la eficacia del proceso de gestión de riesgos de fraude de una organización?",
+    "opciones": {
+      "A": "Dependencia de revisiones anuales y tendencias históricas para detectar incidentes de fraude.",
+      "B": "Énfasis en el cumplimiento normativo.",
+      "C": "Detección oportuna de riesgos de fraude emergentes mediante el monitoreo continuo y acciones correctivas proactivas.",
+      "D": "Confianza en las autoevaluaciones de la gerencia."
+    },
+    "correcta": "C",
+    "explicacion": "La detección oportuna de riesgos de fraude emergentes mediante monitoreo continuo y acciones correctivas proactivas indica un proceso de gestión de riesgos de fraude eficaz, a diferencia de depender solo de revisiones anuales o tendencias históricas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 15 (2026-08-25)"
+  },
+  {
+    "id": "645052ab3e62",
+    "numero": 3,
+    "pregunta": "¿Cuál de los siguientes es el método más eficaz para que un auditor interno evalúe los procesos de gestión de riesgos de fraude de una organización?",
+    "opciones": {
+      "A": "Evaluar el tono de la alta dirección y la eficacia de la línea directa para denuncias.",
+      "B": "Comparar las estadísticas de fraude de la organización con los estándares del sector.",
+      "C": "Revisar los estados financieros de la organización para detectar tendencias inusuales.",
+      "D": "Verificar la exactitud de las transacciones individuales en zonas de alto riesgo."
+    },
+    "correcta": "A",
+    "explicacion": "El método más eficaz para evaluar el proceso de gestión de riesgos de fraude de una organización es evaluar el tono de la alta dirección y la eficacia de la línea directa para denuncias — mide la cultura y los mecanismos preventivos, no solo transacciones puntuales.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 15 (2026-08-25)"
+  },
+  {
+    "id": "6419592ace08",
+    "numero": 4,
+    "pregunta": "Durante una auditoría, un auditor interno revisa el proceso de gestión de riesgos de fraude de la organización. ¿Cuál de los siguientes hallazgos indicaría la deficiencia más significativa en el proceso?",
+    "opciones": {
+      "A": "La evaluación del riesgo de fraude se realiza anualmente, en lugar de forma continua.",
+      "B": "La política de gestión de riesgos de fraude está documentada en un memorando interno, en lugar de en un documento de política formal.",
+      "C": "La capacitación sobre prevención del fraude que ofrece la organización se realiza en línea, en lugar de presencialmente.",
+      "D": "La organización carece de un mecanismo formal para que los empleados denuncien de forma anónima los presuntos fraudes, y no existe un proceso documentado para investigar los incidentes denunciados."
+    },
+    "correcta": "D",
+    "explicacion": "La deficiencia más significativa es que la organización carezca de un mecanismo formal de denuncia anónima y de un proceso documentado para investigar incidentes — sin eso, todo el sistema de gestión de riesgos de fraude queda cojo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 15 (2026-08-25)"
+  },
+  {
+    "id": "21c686cbbaa1",
+    "numero": 5,
+    "pregunta": "Un supervisor de almacén retira artículos electrónicos de alto valor del inventario para venderlos por su cuenta en línea. Encubre el robo marcando los artículos como \"dañados durante el envío\" y deshaciéndose de las cajas vacías que servirían como prueba. Los recuentos anuales de inventario muestran una pérdida de mercancía (mema) creciente. ¿Qué mejora en los controles permitiría detectar mejor este esquema?",
+    "opciones": {
+      "A": "Realizar recuentos de inventario mensualmente en lugar de anualmente.",
+      "B": "Instalar más cámaras de seguridad en todo el almacén.",
+      "C": "Exigir una verificación independiente y fotografías de los artículos dañados antes de desecharlos, comparándolos con los registros de envío.",
+      "D": "Prohibir a los supervisores manipular mercancía dañada."
+    },
+    "correcta": "C",
+    "explicacion": "Exigir verificación independiente y fotografías de los artículos dañados antes de desecharlos, comparándolos con los registros de envío, cierra la brecha que el supervisor explotaba para encubrir el robo marcando mercancía como \"dañada\".",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Practica 15 (2026-08-25)"
+  },
+  {
+    "id": "c66aecd9a43b",
+    "numero": 6,
+    "pregunta": "¿Qué indica la existencia de sistemas débiles de gestión de riesgos de fraude?",
+    "opciones": {
+      "A": "Pruebas periódicas de los controles.",
+      "B": "Implementación reciente de nuevos procedimientos.",
+      "C": "Políticas desactualizadas, capacitación poco frecuente y mecanismos de notificación que no se utilizan o en los que no se confía.",
+      "D": "Alto nivel de concienciación de los empleados sobre los riesgos de fraude."
+    },
+    "correcta": "C",
+    "explicacion": "Políticas desactualizadas, capacitación poco frecuente y mecanismos de notificación no utilizados o poco confiables son la señal característica de sistemas débiles de gestión de riesgos de fraude.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 15 (2026-08-25)"
+  },
+  {
+    "id": "57a80733adfb",
+    "numero": 1,
+    "pregunta": "Una organización implementó un sistema de línea directa para denuncias. Sin embargo, los empleados se muestran reacios a utilizarlo por temor a represalias. ¿Qué debería hacer la organización para mejorar la eficacia de la línea directa?",
+    "opciones": {
+      "A": "Limitar el uso de la línea directa a la alta dirección.",
+      "B": "Resaltar el reciente informe de la línea directa sobre problemas de calidad del producto.",
+      "C": "Exigir a los empleados que denuncien los fraudes directamente a sus supervisores.",
+      "D": "Garantizar el anonimato y la confidencialidad de los denunciantes."
+    },
+    "correcta": "D",
+    "explicacion": "Para que una línea directa de denuncias sea realmente eficaz, la organización debe garantizar el anonimato y la confidencialidad de los denunciantes — es la única forma de vencer el temor a represalias.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 16 (2026-08-27)"
+  },
+  {
+    "id": "a0d36ada074a",
+    "numero": 2,
+    "pregunta": "El trabajo de campo de un auditor interno descubre una serie de transacciones que indican una posible malversación. ¿Cuál de las siguientes acciones debe tomar el Director de Auditoría Interna?",
+    "opciones": {
+      "A": "Discutir el caso con el Consejo.",
+      "B": "Revisar el hallazgo con los compañeros de trabajo del sospechoso para ver si los trabajadores pueden proporcionar evidencia adicional",
+      "C": "Decidir si recomendar una investigación.",
+      "D": "Confrontar al presunto malversador para determinar que los hechos son correctos."
+    },
+    "correcta": "C",
+    "explicacion": "Ante indicios de posible malversación, el Director de Auditoría Interna debe decidir si recomendar una investigación — no confrontar directamente al sospechoso ni involucrar prematuramente a compañeros de trabajo, lo que podría alertar al implicado o comprometer la evidencia.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Practica 16 (2026-08-27)"
+  },
+  {
+    "id": "68e5588b66e2",
+    "numero": 3,
+    "pregunta": "Cuando un auditor interno identifica múltiples factores que han sido vinculados con condiciones posiblemente fraudulentas y sospecha que se ha producido un fraude, el auditor debe:",
+    "opciones": {
+      "A": "Recomendar una investigación.",
+      "B": "Informar inmediatamente a la Alta Dirección y al Consejo.",
+      "C": "Ampliar las pruebas para determinar el alcance del fraude.",
+      "D": "Informar inmediatamente al Consejo."
+    },
+    "correcta": "A",
+    "explicacion": "Cuando el auditor sospecha fraude tras identificar múltiples factores vinculados a condiciones fraudulentas, debe recomendar una investigación — no ampliar pruebas por su cuenta ni informar directamente sin ese paso previo, que corresponde a especialistas.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 16 (2026-08-27)"
+  },
+  {
+    "id": "eb00a30f4f90",
+    "numero": 4,
+    "pregunta": "Un director de auditoría interna CAE descubre pruebas sustanciales de actividad fraudulenta que implican al vicepresidente ejecutivo, a quien reporta directamente. ¿Cuál es la medida inicial más apropiada que debe tomar el CAE?",
+    "opciones": {
+      "A": "Confrontar directamente al vicepresidente ejecutivo para conocer su punto de vista sobre las acusaciones.",
+      "B": "Llevar a cabo una investigación detallada para cuantificar el alcance total del fraude antes de denunciarlo.",
+      "C": "Póngase en contacto con los organismos reguladores y policiales externos antes de informar a las partes interesadas internas.",
+      "D": "Informe inmediatamente de los resultados al director general y al comité de auditoría del consejo de administración."
+    },
+    "correcta": "D",
+    "explicacion": "Cuando el implicado es precisamente el superior directo del CAE, la medida inicial correcta es informar inmediatamente los resultados al director general y al comité de auditoría del consejo, evitando la línea de reporte comprometida.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Practica 16 (2026-08-27)"
+  },
+  {
+    "id": "753f927958cb",
+    "numero": 5,
+    "pregunta": "Tras observar algunas banderas rojas, un auditor interno tiene una mayor conciencia de que podía existir fraude. ¿Cuál de las siguientes opciones describe mejor la responsabilidad del auditor interno?",
+    "opciones": {
+      "A": "Ampliar las actividades para determinar si se justifica una investigación.",
+      "B": "Consultar con asesores legales externos para determinar el curso de acción que se debe tomar, incluyendo la aprobación del programa de trabajo propuesto para asegurarse de que es aceptable en relación con los fundamentos legales.",
+      "C": "Informar la posibilidad de fraude a la alta dirección y al Consejo y preguntarles cómo quieren proceder.",
+      "D": "Informar el asunto al comité de auditoría y solicitar financiación para que los proveedores de servicios externos ayuden a investigar el posible fraude."
+    },
+    "correcta": "A",
+    "explicacion": "Ante banderas rojas de posible fraude, la responsabilidad del auditor interno es ampliar las actividades para determinar si se justifica una investigación formal — no lanzarse a investigar como especialista.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 16 (2026-08-27)"
+  },
+  {
+    "id": "1afaa9d5ca17",
+    "numero": 1,
+    "pregunta": "Una empresa atraviesa dificultades financieras y un gerente sabe que recibirá un bono si alcanza una meta de ventas. Para cumplirla, considera registrar ventas futuras como si ya se hubieran realizado. ¿Qué elemento del triángulo del fraude está representado principalmente?",
+    "opciones": {
+      "A": "Una oportunidad generada por la falta de segregación de funciones.",
+      "B": "La motivación o presión derivada de alcanzar la meta y obtener el bono.",
+      "C": "La racionalización de que adelantar las ventas ayudará a la empresa.",
+      "D": "Una señal de aleta generada por las conciliaciones bancarias."
+    },
+    "correcta": "B",
+    "explicacion": "Que el gerente considere adelantar ventas futuras para alcanzar la meta y cobrar el bono representa la motivación o presión — el elemento del triángulo del fraude que lo empuja a considerar el acto.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "5ca8fb020b70",
+    "numero": 2,
+    "pregunta": "Durante una auditoría se descubre que un empleado puede crear proveedores, aprobar sus órdenes de compra y registrar los pagos. ¿Qué elemento del triángulo del fraude representa principalmente esta situación?",
+    "opciones": {
+      "A": "Motivación.",
+      "B": "Oportunidad.",
+      "C": "Racionalización.",
+      "D": "Investigación."
+    },
+    "correcta": "B",
+    "explicacion": "Que un mismo empleado pueda crear proveedores, aprobar órdenes de compra y registrar pagos es una falla de segregación de funciones que genera oportunidad para el fraude.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "cb787c828f24",
+    "numero": 3,
+    "pregunta": "Un empleado sustrae pequeños importes de caja y piensa: \"La empresa me paga menos de lo que merezco, así que tomar un poco no está mal\". ¿Qué elemento del triángulo del fraude se evidencia?",
+    "opciones": {
+      "A": "Oportunidad.",
+      "B": "Motivación.",
+      "C": "Racionalización.",
+      "D": "Segregación de funciones."
+    },
+    "correcta": "C",
+    "explicacion": "Pensar que \"la empresa me paga menos de lo que merezco, así que tomar un poco no está mal\" es una racionalización clásica: el individuo justifica moralmente el acto ante sí mismo.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "545f4226b290",
+    "numero": 4,
+    "pregunta": "¿Cuál de las siguientes situaciones representa mejor un riesgo de fraude en la información financiera?",
+    "opciones": {
+      "A": "Un empleado utiliza ocasionalmente una sala de reuniones para una actividad personal autorizada.",
+      "B": "Un gerente registra ingresos antes de que se cumplan las condiciones para presentar mejores resultados trimestrales.",
+      "C": "Un proveedor entrega una factura con un formato diferente al habitual, pero correctamente sustentada.",
+      "D": "El área de tesorería realiza una conciliación bancaria mensual."
+    },
+    "correcta": "B",
+    "explicacion": "Registrar ingresos antes de que se cumplan las condiciones para presentar mejores resultados trimestrales es un riesgo clásico de manipulación de información financiera.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "0e5cb5bcea5a",
+    "numero": 5,
+    "pregunta": "Una organización detecta que varios proveedores nuevos comparten la misma dirección, teléfono y cuenta bancaria. ¿Qué debería hacer el auditor interno inicialmente?",
+    "opciones": {
+      "A": "Concluir inmediatamente que existe fraude y recomendar el despido de los responsables.",
+      "B": "Considerar la información como una señal de aleta y realizar procedimientos adicionales para determinar su naturaleza.",
+      "C": "Ignorarla si los proveedores tienen contratos aprobados.",
+      "D": "Registrar automáticamente todas las compras como pérdidas."
+    },
+    "correcta": "B",
+    "explicacion": "Que varios proveedores nuevos compartan dirección, teléfono y cuenta bancaria es una señal de alerta que el auditor debe investigar con procedimientos adicionales para determinar su naturaleza, no descartar ni concluir fraude de inmediato.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "4ee1a79a5ad8",
+    "numero": 6,
+    "pregunta": "Al planificar una auditoría del proceso de compras, el auditor identifica que las compras urgentes representan una parte importante del gasto y suelen omitir controles normales. ¿Qué debería hacer?",
+    "opciones": {
+      "A": "Excluir las compras urgentes del alcance porque son excepcionales.",
+      "B": "Considerarlas como un área con posible exposición significativa al fraude y ajustar la evaluación de riesgos y procedimientos.",
+      "C": "Concluir que no existe riesgo porque las compras son aprobadas por la gerencia.",
+      "D": "Limitar la revisión a comprobar que las facturas estén archivadas."
+    },
+    "correcta": "B",
+    "explicacion": "Las compras urgentes que omiten controles normales deben considerarse un área de posible exposición significativa al fraude y ajustar en consecuencia la evaluación de riesgos y los procedimientos — no excluirse del alcance por ser excepcionales.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "c9df5d930464",
+    "numero": 7,
+    "pregunta": "Durante la evaluación de riesgos de fraude, ¿qué proceso debería recibir mayor atención por su exposición potencial?",
+    "opciones": {
+      "A": "Un proceso totalmente automatizado con controles independientes y excepciones monitoreadas.",
+      "B": "Un proceso con pagos elevados, acceso limitado y revisión independiente inexistente.",
+      "C": "Un proceso administrativo sin activos, dinero ni información sensible.",
+      "D": "Un proceso documentado que cuenta con conciliaciones y revisiones periódicas."
+    },
+    "correcta": "B",
+    "explicacion": "Un proceso con pagos elevados, acceso limitado a pocas personas y revisión independiente inexistente es el que debería recibir mayor atención en la evaluación de riesgos de fraude, por su alta exposición potencial.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "d03c912fd07b",
+    "numero": 8,
+    "pregunta": "Una empresa evalúa sus riesgos de fraude una vez al año, pero no actualiza la evaluación cuando cambia el modelo de negocio, incorpora nuevos sistemas o aparecen denuncias. ¿Cuál es la principal debilidad?",
+    "opciones": {
+      "A": "La evaluación de riesgos debería ser estática para garantizar consistencia.",
+      "B": "La gestión del riesgo de fraude no se está actualizando frente a cambios y nueva información relevante.",
+      "C": "Las denuncias no deben considerarse en la evaluación de riesgos.",
+      "D": "Los nuevos sistemas eliminan automáticamente los riesgos existentes."
+    },
+    "correcta": "B",
+    "explicacion": "La principal debilidad es que la gestión del riesgo de fraude no se actualiza frente a cambios relevantes (nuevo modelo de negocio, nuevos sistemas, denuncias) — la evaluación de riesgos debe ser dinámica, no estática.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "f2dff6d825b7",
+    "numero": 9,
+    "pregunta": "Un director exige resultados comerciales extraordinarios, reprende públicamente a quienes reportan problemas y afirma que \"los objetivos deben cumplirse a cualquier costo\". ¿Qué señal de aleta organizacional es más evidente?",
+    "opciones": {
+      "A": "Un tono desde la alta dirección que puede incentivar conductas indebidas.",
+      "B": "Una segregación de funciones excesiva.",
+      "C": "Una conciliación bancaria insuficiente.",
+      "D": "Una auditoría sorpresa demasiado frecuente."
+    },
+    "correcta": "A",
+    "explicacion": "Exigir resultados extraordinarios a cualquier costo y reprender a quien reporta problemas es la señal más clara de un tono desde la alta dirección que puede incentivar conductas indebidas.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "f02b0ce52ece",
+    "numero": 10,
+    "pregunta": "Un auditor interno observa que un empleado modifica repetidamente datos maestros de proveedores justo antes de ejecutar pagos. ¿Cuál es la respuesta más adecuada?",
+    "opciones": {
+      "A": "Modificar los datos por cuenta propia para evitar que vuelva a ocurrir.",
+      "B": "Documentar la señal de aleta, evaluar el riesgo, obtener evidencia adicional y comunicarla conforme a los protocolos aplicables.",
+      "C": "Informar públicamente el nombre del empleado para disuadir a otros.",
+      "D": "Eliminar los registros modificados para evitar nuevos pagos."
+    },
+    "correcta": "B",
+    "explicacion": "Ante la modificación repetida de datos maestros de proveedores justo antes de pagos, la respuesta adecuada es documentar la señal de alerta, evaluar el riesgo, obtener evidencia adicional y comunicarla conforme a los protocolos — nunca actuar unilateralmente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "3a6954635837",
+    "numero": 11,
+    "pregunta": "¿Cuál de las siguientes opciones representa mejor un proceso formal de gestión del riesgo de fraude?",
+    "opciones": {
+      "A": "Esperar a que ocurra un fraude para decidir qué controles implementar.",
+      "B": "Identificar y evaluar riesgos, establecer respuestas y controles, monitorear su eficacia y actualizar la evaluación.",
+      "C": "Delegar toda responsabilidad de fraude exclusivamente a Auditoría Interna.",
+      "D": "Confiar únicamente en la experiencia de los gerentes sin documentar los riesgos."
+    },
+    "correcta": "B",
+    "explicacion": "Un proceso formal de gestión del riesgo de fraude identifica y evalúa riesgos, establece respuestas y controles, monitorea su eficacia y actualiza la evaluación de forma continua.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "87ad5620826d",
+    "numero": 12,
+    "pregunta": "Una línea de denuncias recibe varias comunicaciones sobre posibles pagos indebidos a funcionarios de un cliente. ¿Cómo debería utilizar esta información el auditor interno al planificar un encargo relacionado?",
+    "opciones": {
+      "A": "Descartarla porque las denuncias no constituyen evidencia definitiva.",
+      "B": "Considerarla como información relevante para la evaluación de riesgos y diseñar procedimientos para corroborar o descartar los hechos.",
+      "C": "Publicarla en el informe final sin realizar procedimientos adicionales.",
+      "D": "Solicitar al denunciante que realice la investigación completa."
+    },
+    "correcta": "B",
+    "explicacion": "Las denuncias sobre posibles pagos indebidos deben considerarse información relevante para la evaluación de riesgos, diseñando procedimientos para corroborar o descartar los hechos — no descartarlas ni publicarlas sin verificar.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "ef67df51afaf",
+    "numero": 13,
+    "pregunta": "¿Cuál de las siguientes situaciones constituye una señal de aleta relacionada con el comportamiento de un empleado?",
+    "opciones": {
+      "A": "El empleado utiliza vacaciones de acuerdo con la política.",
+      "B": "El empleado se niega sistemáticamente a delegar tareas, evita vacaciones y mantiene un control excesivo sobre un proceso sensible.",
+      "C": "El empleado participa en capacitaciones obligatorias.",
+      "D": "El empleado solicita acceso únicamente al sistema necesario para su función."
+    },
+    "correcta": "B",
+    "explicacion": "Negarse sistemáticamente a delegar tareas, evitar vacaciones y mantener control excesivo sobre un proceso sensible es una señal de alerta clásica de comportamiento asociado a fraude oculto.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "27e94e795908",
+    "numero": 14,
+    "pregunta": "¿Cuál es el efecto más probable de un tono desde la alta dirección que enfatiza la integridad, reporta errores con transparencia y sanciona consistentemente las conductas indebidas?",
+    "opciones": {
+      "A": "Reduce la importancia de los controles porque la confianza reemplaza a los procedimientos.",
+      "B": "Puede reducir la probabilidad de fraude al reforzar una cultura ética y la expectativa de cumplimiento.",
+      "C": "Aumenta la oportunidad de fraude porque los empleados sienten mayor confianza.",
+      "D": "Elimina la necesidad de canales de denuncia."
+    },
+    "correcta": "B",
+    "explicacion": "Un tono desde la alta dirección que enfatiza la integridad, reporta errores con transparencia y sanciona consistentemente las conductas indebidas puede reducir la probabilidad de fraude al reforzar una cultura ética.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "5068d975eede",
+    "numero": 15,
+    "pregunta": "Una empresa permite que el mismo empleado cree proveedores, modifique sus cuentas bancarias y apruebe pagos. ¿Cuál es la mejora de control más adecuada?",
+    "opciones": {
+      "A": "Dar al empleado un límite mayor de aprobación.",
+      "B": "Implementar una segregación adecuada de funciones y revisión independiente de cambios sensibles.",
+      "C": "Eliminar la documentación de los cambios para reducir trabajo administrativo.",
+      "D": "permitir que el empleado revise sus propias modificaciones."
+    },
+    "correcta": "B",
+    "explicacion": "Cuando un mismo empleado crea proveedores, modifica cuentas bancarias y aprueba pagos, la mejora de control adecuada es implementar segregación de funciones y revisión independiente de los cambios sensibles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "4eb8b0fe55ea",
+    "numero": 16,
+    "pregunta": "¿Cómo pueden los niveles de autoridad ayudar a prevenir el fraude en una organización?",
+    "opciones": {
+      "A": "Al eliminar la segregación de funciones para acelerar los procesos.",
+      "B": "Al permitir que todos los empleados tengan acceso a información confidencial.",
+      "C": "Al permitir que los empleados anulen controles cuando consideren que es necesario.",
+      "D": "Al establecer límites de aprobación y revisiones adicionales para transacciones de mayor riesgo o valor."
+    },
+    "correcta": "D",
+    "explicacion": "Los niveles de autoridad ayudan a prevenir el fraude al establecer límites de aprobación y revisiones adicionales para transacciones de mayor riesgo o valor.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "1ef4208c9f80",
+    "numero": 17,
+    "pregunta": "¿Cuál de los siguientes es un control principalmente de detección de fraude?",
+    "opciones": {
+      "A": "Segregar la creación de proveedores de la aprobación de pagos.",
+      "B": "Exigir autorización previa para registrar un nuevo proveedor.",
+      "C": "Realizar conciliaciones periódicas entre los registros contables y los movimientos bancarios.",
+      "D": "Limitar el acceso al sistema según el puesto."
+    },
+    "correcta": "C",
+    "explicacion": "Realizar conciliaciones periódicas entre los registros contables y los movimientos bancarios es principalmente un control de detección de fraude, porque identifica irregularidades después de ocurridas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "2f8000d85935",
+    "numero": 18,
+    "pregunta": "Una organización implementa una línea de denuncias anónima, accesible y con protección contra represalias. ¿Cuál es su principal propósito respecto del fraude?",
+    "opciones": {
+      "A": "Reemplazar todos los controles preventivos.",
+      "B": "Facilitar la detección y comunicación de posibles irregularidades.",
+      "C": "permitir que los denunciantes determinen las sanciones.",
+      "D": "Evitar que Auditoría Interna evalúe los riesgos."
+    },
+    "correcta": "B",
+    "explicacion": "El propósito principal de una línea de denuncias anónima y protegida contra represalias es facilitar la detección y comunicación de posibles irregularidades.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "c08a3ec3cab8",
+    "numero": 19,
+    "pregunta": "Durante una auditoría, el auditor descubre que los recuentos físicos de inventario siempre se realizan por el responsable del almacén, sin supervisión independiente. ¿Qué riesgo debería considerar?",
+    "opciones": {
+      "A": "Riesgo de que las diferencias de inventario puedan ser ocultadas o manipuladas.",
+      "B": "Riesgo de que el inventario se valore siempre correctamente.",
+      "C": "Riesgo de que la segregación de funciones sea excesiva.",
+      "D": "Riesgo de que las conciliaciones sean innecesarias."
+    },
+    "correcta": "A",
+    "explicacion": "Que los recuentos físicos de inventario los haga siempre el propio responsable del almacén, sin supervisión independiente, genera el riesgo de que las diferencias de inventario puedan ser ocultadas o manipuladas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "d654512412b3",
+    "numero": 20,
+    "pregunta": "Una auditoría identifica múltiples pagos fraccionados justo por debajo del límite que exige una aprobación adicional. ¿Qué debería considerar el auditor?",
+    "opciones": {
+      "A": "Que los pagos son legítimos porque ninguno supera individualmente el límite.",
+      "B": "Que el patrón puede ser una señal de aleta de elusión de controles y requiere procedimientos adicionales.",
+      "C": "Que el límite de aprobación no tiene relación con el riesgo de fraude.",
+      "D": "Que debe eliminarse el límite para evitar fraccionamientos."
+    },
+    "correcta": "B",
+    "explicacion": "Pagos fraccionados justo por debajo del límite de aprobación adicional son un patrón clásico de elusión de controles que requiere procedimientos adicionales, no una conclusión automática de legitimidad.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "67d9f790b41d",
+    "numero": 21,
+    "pregunta": "¿Cuál es una responsabilidad apropiada de Auditoría Interna cuando identifica una señal de aleta de fraude durante un encargo?",
+    "opciones": {
+      "A": "Investigar y sancionar directamente a los empleados involucrados.",
+      "B": "Comunicar la señal de aleta conforme a los protocolos, evaluar su impacto en el encargo y obtener evidencia suficiente.",
+      "C": "Ocultar la señal para no afectar la relación con la gerencia.",
+      "D": "Publicar la acusación antes de terminar el encargo."
+    },
+    "correcta": "B",
+    "explicacion": "Ante una señal de alerta de fraude durante un encargo, la responsabilidad apropiada de Auditoría Interna es comunicarla conforme a los protocolos, evaluar su impacto en el encargo y obtener evidencia suficiente — no investigar y sancionar directamente.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "07e1ab581dfb",
+    "numero": 22,
+    "pregunta": "En una investigación de fraude, ¿cuál es una técnica de entrevista apropiada para obtener información confiable?",
+    "opciones": {
+      "A": "Acusar al entrevistado desde el inicio para forzar una confesión.",
+      "B": "Formular preguntas abiertas, escuchar activamente y utilizar preguntas de seguimiento para aclarar inconsistencias.",
+      "C": "Compartir toda la evidencia con el entrevistado antes de iniciar la entrevista.",
+      "D": "Prometer inmunidad sin autorización."
+    },
+    "correcta": "B",
+    "explicacion": "En una investigación de fraude, formular preguntas abiertas, escuchar activamente y usar preguntas de seguimiento para aclarar inconsistencias es la técnica de entrevista apropiada para obtener información confiable.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "6a281d9f5092",
+    "numero": 23,
+    "pregunta": "Al investigar una posible manipulación de pagos, ¿qué procedimiento proporciona evidencia especialmente útil para identificar relaciones ocultas entre proveedores y empleados?",
+    "opciones": {
+      "A": "Revisar únicamente el formato visual de las facturas.",
+      "B": "Comparar datos maestros de proveedores, cuentas bancarias, direcciones y relaciones con empleados mediante análisis de datos.",
+      "C": "Preguntar a un solo empleado si conoce a los proveedores.",
+      "D": "Eliminar proveedores inactivos antes de analizarlos."
+    },
+    "correcta": "B",
+    "explicacion": "Comparar datos maestros de proveedores, cuentas bancarias, direcciones y relaciones con empleados mediante análisis de datos es el procedimiento más útil para identificar relaciones ocultas entre proveedores y empleados.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "22683c880639",
+    "numero": 24,
+    "pregunta": "¿Qué método de prueba es más apropiado para evaluar si una muestra de pagos corresponde a transacciones reales y autorizadas?",
+    "opciones": {
+      "A": "Confirmar documentación de soporte, verificar autorización y, cuando corresponda, corroborar con fuentes independientes.",
+      "B": "Revisar únicamente que el pago tenga un número correlativo.",
+      "C": "Preguntar al responsable si todos los pagos son legítimos y aceptar su respuesta.",
+      "D": "Comprobar únicamente el nombre del beneficiario."
+    },
+    "correcta": "A",
+    "explicacion": "Confirmar la documentación de soporte, verificar la autorización y, cuando corresponda, corroborar con fuentes independientes es el método de prueba apropiado para validar que los pagos son reales y autorizados.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "f4fd5769d7ef",
+    "numero": 25,
+    "pregunta": "Una investigación interna confirma que un empleado creó un proveedor ficticio y recibió pagos. ¿Qué debería hacer Auditoría Interna respecto de las investigaciones previas y tendencias?",
+    "opciones": {
+      "A": "Ignorarlas porque cada caso es completamente independiente.",
+      "B": "Revisar investigaciones previas, tendencias y denuncias para identificar patrones que puedan indicar riesgos sistémicos.",
+      "C": "Eliminar los casos anteriores para proteger la confidencialidad.",
+      "D": "Limitarse a recuperar el dinero del caso actual."
+    },
+    "correcta": "B",
+    "explicacion": "Ante un caso confirmado de proveedor ficticio, Auditoría Interna debe revisar investigaciones previas, tendencias y denuncias para identificar patrones que puedan indicar riesgos sistémicos, no tratar el caso como aislado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "37d5e3d6d20e",
+    "numero": 26,
+    "pregunta": "¿Cuál de las siguientes acciones ayuda más a que Auditoría Interna se coordine adecuadamente con investigadores de fraude?",
+    "opciones": {
+      "A": "Realizar una investigación paralela sin informar a los investigadores.",
+      "B": "Compartir información relevante dentro de los límites de confidencialidad, coordinar el alcance y evitar duplicar procedimientos.",
+      "C": "Entregar toda la evidencia a cualquier empleado que la solicite.",
+      "D": "Suspender todos los encargos de auditoría hasta que termine cualquier investigación."
+    },
+    "correcta": "B",
+    "explicacion": "Compartir información relevante dentro de los límites de confidencialidad, coordinar el alcance y evitar duplicar procedimientos es lo que mejor ayuda a que Auditoría Interna se coordine con investigadores de fraude.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "88fca19cdffe",
+    "numero": 27,
+    "pregunta": "Una empresa realiza auditorías sorpresa sobre caja y efectivo. ¿Por qué este control puede ser eficaz para detectar fraude?",
+    "opciones": {
+      "A": "Porque permite que los responsables preparen los registros antes de la revisión.",
+      "B": "Porque reduce la posibilidad de que una persona oculte temporalmente una irregularidad antes de la revisión.",
+      "C": "Porque elimina la necesidad de conciliaciones.",
+      "D": "Porque convierte automáticamente cualquier diferencia en fraude."
+    },
+    "correcta": "B",
+    "explicacion": "Las auditorías sorpresa sobre caja y efectivo son eficaces porque reducen la posibilidad de que una persona oculte temporalmente una irregularidad antes de la revisión, al eliminar el margen para prepararse.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "c2cd7f678592",
+    "numero": 28,
+    "pregunta": "¿Qué característica es más importante en una revisión de supervisión diseñada para detectar fraude?",
+    "opciones": {
+      "A": "Ser puramente formal y limitarse a comprobar firmas.",
+      "B": "Analizar información, investigar excepciones, comparar tendencias y cuestionar partidas inusuales.",
+      "C": "Realizarse únicamente cuando existe una denuncia.",
+      "D": "Ser realizada por la misma persona que preparó la información sin revisión independiente."
+    },
+    "correcta": "B",
+    "explicacion": "Una revisión de supervisión diseñada para detectar fraude debe analizar información, investigar excepciones, comparar tendencias y cuestionar partidas inusuales — no limitarse a comprobar firmas de forma puramente formal.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "5bc59ef53cba",
+    "numero": 29,
+    "pregunta": "Durante una auditoría de nómina, el auditor identifica empleados con cuentas bancarias idénticas y direcciones coincidentes. ¿Qué procedimiento sería más apropiado?",
+    "opciones": {
+      "A": "Concluir inmediatamente que todos son empleados ficticios.",
+      "B": "Realizar pruebas adicionales sobre existencia del empleado, documentación laboral, asistencia y titularidad de las cuentas.",
+      "C": "Eliminar los empleados duplicados del sistema.",
+      "D": "Solicitar al encargado de nómina que confirme verbalmente que son reales."
+    },
+    "correcta": "B",
+    "explicacion": "Ante empleados de nómina con cuentas bancarias idénticas y direcciones coincidentes, el procedimiento apropiado es realizar pruebas adicionales sobre existencia del empleado, documentación laboral, asistencia y titularidad de las cuentas — no concluir de inmediato que son ficticios.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "2d85f5bf02ee",
+    "numero": 30,
+    "pregunta": "¿Cuál de las siguientes opciones describe mejor el papel de Auditoría Interna frente a una investigación formal de fraude dirigida por especialistas?",
+    "opciones": {
+      "A": "Auditoría Interna debe sustituir a los investigadores especializados.",
+      "B": "Auditoría Interna puede aportar conocimiento del proceso, evaluar controles y coordinarse con los investigadores dentro de sus responsabilidades.",
+      "C": "Auditoría Interna debe evitar toda comunicación con los investigadores.",
+      "D": "Auditoría Interna debe determinar las sanciones disciplinarias."
+    },
+    "correcta": "B",
+    "explicacion": "Frente a una investigación formal de fraude dirigida por especialistas, Auditoría Interna puede aportar conocimiento del proceso, evaluar controles y coordinarse con los investigadores dentro de sus responsabilidades — sin sustituirlos ni determinar sanciones.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Practica 17 (2026-08-27)"
+  },
+  {
+    "id": "28a51ae424fe",
+    "numero": 1,
+    "pregunta": "Un empleado utiliza el vehículo de la empresa que se le ha asignado para viajes personales de fin de semana. Según las clasificaciones de fraude, ¿qué tipo de comportamiento representa este comportamiento?",
+    "opciones": {
+      "A": "Fraude en la información financiera mediante la ocultación de gastos de uso personal.",
+      "B": "Fraude externo perpetrado contra los intereses de la organización.",
+      "C": "Corrupción mediante el abuso de privilegios y autoridad conferidos.",
+      "D": "Apropiación indebida de activos mediante el uso personal no autorizado de recursos de la empresa."
+    },
+    "correcta": "D",
+    "explicacion": "Usar un vehículo asignado por la empresa para fines personales no autorizados es apropiación indebida de activos: uso no autorizado de recursos de la empresa en beneficio propio.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "34bc42ff4183",
+    "numero": 2,
+    "pregunta": "Un administrador de TI tiene acceso privilegiado a todos los sistemas de la empresa. Ha estado vendiendo datos de clientes a la competencia, justificándose en que la empresa no valora al personal de TI y subcontrata trabajos en el extranjero. Cree que así protege sus ingresos futuros. ¿Qué control sería el menos eficaz para prevenir este tipo de fraude?",
+    "opciones": {
+      "A": "Crear mejores trayectorias profesionales y seguridad laboral para el personal de TI.",
+      "B": "Exigir al personal de TI que presente declaraciones financieras anuales",
+      "C": "Establecer una clasificación clara de los datos y un registro de acceso.",
+      "D": "Implementación de software de prevención de pérdida de datos que supervise patrones de acceso inusuales"
+    },
+    "correcta": "B",
+    "explicacion": "Exigir declaraciones financieras anuales al personal de TI sería el control menos eficaz aquí, porque el fraude es de exfiltración de datos por abuso de privilegios de acceso, no de enriquecimiento detectable en su patrimonio declarado — lo eficaz es limitar y monitorear el acceso mismo.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "827887c47e65",
+    "numero": 3,
+    "pregunta": "El modelo del triángulo del fraude identifica tres elementos que deben estar presentes para que se produzca un fraude. ¿Cuáles son estos tres elementos?",
+    "opciones": {
+      "A": "Detección, investigación y enjuiciamiento como respuesta al fraude.",
+      "B": "La motivación, la oportunidad y la racionalización trabajan juntas para posibilitar el comportamiento fraudulento.",
+      "C": "Planificación, ejecución y ocultación como etapas de la actividad fraudulenta.",
+      "D": "Prevención, disuasión y castigo como estrategias organizacionales contra el fraude."
+    },
+    "correcta": "B",
+    "explicacion": "Los tres elementos del triángulo del fraude son motivación (presión), oportunidad y racionalización, que actúan juntos para posibilitar la conducta fraudulenta.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "d2f0dcbdf020",
+    "numero": 4,
+    "pregunta": "¿Qué tipo de fraude implica \"empleados fantasma\" en la nómina?",
+    "opciones": {
+      "A": "El fraude en la nómina es una forma de apropiación indebida de activos mediante la percepción de salarios por parte de empleados ficticios.",
+      "B": "Fraude externo perpetrado por agencias de empleo",
+      "C": "Corrupción relacionada con el personal de recursos humanos",
+      "D": "Fraude en la información financiera para inflar los costos laborales"
+    },
+    "correcta": "A",
+    "explicacion": "El fraude de \"empleados fantasma\" en la nómina es una forma de apropiación indebida de activos, mediante el cobro de salarios por parte de personas ficticias que no trabajan realmente.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "8e004d12c451",
+    "numero": 5,
+    "pregunta": "El gerente de almacén de una empresa manufacturera tiene control total sobre la recepción, el almacenamiento y los envíos del inventario. También realiza los recuentos mensuales del inventario e investiga cualquier discrepancia. Después de dos años, los auditores descubren que ha estado robando productos y manipulando los recuentos para ocultar el robo. ¿Qué elemento del triángulo del fraude permitió más claramente la estructura de control?",
+    "opciones": {
+      "A": "Presión derivada de tener que gestionar todas las funciones de inventario en solitario.",
+      "B": "Motivación al darle al gerente acceso a un valioso inventario que podía vender.",
+      "C": "Racionalización mediante la confianza depositada en el gerente con responsabilidades importantes.",
+      "D": "Oportunidad derivada de la falta de separación de funciones que permite tanto el robo como la ocultación sin ser detectado."
+    },
+    "correcta": "D",
+    "explicacion": "Que el mismo gerente controle recepción, almacenamiento, envíos y los recuentos de inventario (sin separación de funciones) es lo que le dio la oportunidad de robar y ocultar el robo sin ser detectado.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "d8dfaa3146f5",
+    "numero": 6,
+    "pregunta": "Un empleado de cuentas por cobrar se convence de que tomar pequeñas cantidades de efectivo es aceptable porque \"la empresa gana millones y no lo echará de menos\". ¿Qué elemento del triángulo del fraude representa este razonamiento?",
+    "opciones": {
+      "A": "Oportunidad, ya que el tamaño de la empresa hace que la detección sea improbable.",
+      "B": "La motivación, ya que el empleado se guía por la percepción de la riqueza de la empresa.",
+      "C": "Presión, porque el empleado se siente con derecho a más dinero.",
+      "D": "Racionalización, donde los individuos justifican mentalmente sus acciones fraudulentas para mantener la autoimagen."
+    },
+    "correcta": "D",
+    "explicacion": "Pensar que \"la empresa gana millones y no lo echará de menos\" es una racionalización: el individuo justifica mentalmente su conducta fraudulenta para preservar su autoimagen.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "7ee8a1318845",
+    "numero": 7,
+    "pregunta": "Una organización que experimenta una rápida expansión internacional no ha actualizado sus controles de incorporación de proveedores. Los nuevos proveedores se aprueban por coreo electrónico sin verificación, comprobación de antecedentes ni visitas a las instalaciones. Los pagos han aumentado un 300 % en seis meses. ¿Qué esquema de fraude es más probable que se vea facilitado por estas condiciones?",
+    "opciones": {
+      "A": "Precios más altos en los mercados internacionales",
+      "B": "Pérdidas por tipo de cambio en transacciones internacionales",
+      "C": "Esquemas de proveedores ficticios en los que los empleados crean empresas falsas para recibir pagos fraudulentos.",
+      "D": "Aumento legítimo de los costes debido a la expansión internacional."
+    },
+    "correcta": "C",
+    "explicacion": "Proveedores nuevos aprobados sin verificación, con pagos que aumentan 300% en meses, son el escenario clásico de esquemas de proveedores ficticios creados por empleados para recibir pagos fraudulentos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "2f8d92a3e2c3",
+    "numero": 8,
+    "pregunta": "Un gerente de ventas reporta resultados trimestrales consistentes que cumplen exactamente con los objetivos durante tres años, independientemente de las condiciones económicas. Los pagos de comisiones son significativos. Cuando se le pregunta sobre los métodos de pronóstico, el gerente se pone a la defensiva y alega \"secretos comerciales\". ¿Qué riesgo de fraude existe?",
+    "opciones": {
+      "A": "Técnicas de venta patentadas que requieren protección",
+      "B": "Informes conservadores para gestionar las expectativas",
+      "C": "Excelente gestión de ventas y conocimiento del mercado.",
+      "D": "Manipulación de ingresos para maximizar las comisiones y evitar el escrutinio por exceder los objetivos."
+    },
+    "correcta": "D",
+    "explicacion": "Resultados de ventas perfectos de forma sostenida, comisiones significativas y actitud defensiva ante preguntas sobre el método de pronóstico son señales de manipulación de ingresos para maximizar comisiones y evitar escrutinio.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "fd2fe48fed26",
+    "numero": 9,
+    "pregunta": "Los riesgos de fraude existen en toda organización, independientemente de su tamaño o sector. ¿Qué condición fundamentalmente permite que se produzca un fraude dentro de una organización?",
+    "opciones": {
+      "A": "Operar en países con diferentes prácticas comerciales culturales",
+      "B": "Tener empleados que hayan trabajado anteriormente para la competencia.",
+      "C": "La presencia de grandes cantidades de efectivo o inventario valioso en las instalaciones.",
+      "D": "Circunstancias que permiten a los individuos cometer y ocultar conductas deshonestas sin ser detectados."
+    },
+    "correcta": "D",
+    "explicacion": "La condición fundamental que permite el fraude en cualquier organización son las circunstancias que permiten a los individuos cometer y ocultar conductas deshonestas sin ser detectados — es decir, la oportunidad.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "b50b89ce7723",
+    "numero": 10,
+    "pregunta": "Un gerente de compras tiene autoridad para aprobar compras de hasta $100,000 y seleccionar proveedores sin licitación competitiva. El cónyuge de este gerente es dueño de una imprenta que ha recibido $95,000 en negocios cada trimestre. Esta relación nunca se reveló. ¿Qué tipo de riesgo de fraude existe?",
+    "opciones": {
+      "A": "Prácticas comerciales normales en comunidades pequeñas",
+      "B": "Selección eficiente de proveedores utilizando proveedores conocidos y confiables.",
+      "C": "Conflicto de intereses a través de transacciones entre partes relacionadas que benefician a la familia del gerente.",
+      "D": "Ahorro de costes mediante relaciones establecidas con proveedores."
+    },
+    "correcta": "C",
+    "explicacion": "Que el cónyuge del gerente de compras sea dueño de un proveedor que recibe contratos sin licitación, y esa relación nunca se haya revelado, es un conflicto de intereses por transacciones entre partes relacionadas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "1ddbf44f530f",
+    "numero": 11,
+    "pregunta": "El gerente de un almacén reporta una mema de inventario del 2% cada trimestre, justificándola como \"estándar del sector\". Los recuentos físicos los realiza el gerente solo los fines de semana. Las cámaras de seguridad del almacén han estado averiadas durante seis meses. ¿Qué riesgo de fraude existe?",
+    "opciones": {
+      "A": "retrasos normales en el mantenimiento de los equipos",
+      "B": "El robo de inventario se oculta mediante recuentos manipulados y medidas de seguridad desactivadas.",
+      "C": "Procedimientos de recuento de fin de semana rentables",
+      "D": "Gestión eficiente del inventario que mantiene una mema constante."
+    },
+    "correcta": "B",
+    "explicacion": "Merma justificada como \"estándar\", recuentos hechos solo por el propio gerente en fines de semana, y cámaras averiadas por meses, apuntan a que el robo de inventario se oculta mediante recuentos manipulados y seguridad desactivada.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "d9a3cde925a0",
+    "numero": 12,
+    "pregunta": "El auditor que planifica una auditoría de administración inmobiliaria descubre que los administradores de propiedades pueden negociar contratos de arrendamiento, aprobar mejoras para los inquilinos y seleccionar proveedores de mantenimiento. Varias propiedades muestran una disminución en la ocupación, pero un aumento en los costos de mantenimiento. Los subsidios para mejoras de los inquilinos siempre se maximizan. ¿Qué riesgo de fraude requiere una consideración especial?",
+    "opciones": {
+      "A": "Esquemas de sobornos mediante costos de mantenimiento y mejoras inflados que potencialmente se comparten con los inquilinos.",
+      "B": "Cambios en la ocupación impulsados por el mercado",
+      "C": "Relaciones generosas con los inquilinos",
+      "D": "Mantenimiento proactivo de la propiedad"
+    },
+    "correcta": "A",
+    "explicacion": "Costos de mantenimiento inflados junto con subsidios de mejoras siempre maximizados sugieren esquemas de sobornos mediante costos y mejoras inflados que podrían compartirse con los inquilinos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "4d341914529d",
+    "numero": 13,
+    "pregunta": "Durante una auditoría del procesamiento de pedidos de venta de una empresa, el auditor interno observa que se emiten numerosas notas de crédito a clientes después del final de cada trimestre. Una investigación posterior revela que el personal de ventas recibe bonificaciones basadas en las cifras de ventas trimestrales. ¿Cuál de las siguientes opciones representa la señal de aleta más importante en este caso?",
+    "opciones": {
+      "A": "El momento de la emisión de la nota de crédito después del cierre del trimestre.",
+      "B": "Los procedimientos de procesamiento de pedidos de venta de la empresa.",
+      "C": "La estructura de bonificaciones del personal de ventas se basa en las cifras de ventas trimestrales.",
+      "D": "La emisión de notas de crédito a clientes."
+    },
+    "correcta": "A",
+    "explicacion": "La señal de alerta más importante es que la estructura de bonificaciones del personal de ventas se basa en las cifras de ventas trimestrales — el incentivo que motiva las notas de crédito emitidas justo después del cierre.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "202e8cc83e8d",
+    "numero": 14,
+    "pregunta": "Durante una auditoría de nómina, un auditor interno de una gran organización gubernamental detectó una segregación inadecuada de las funciones asignadas al subdirector de personal. Cuando el auditor le explicó el riesgo de fraude, el subdirector se enfadó, dio por terminada la entrevista y amenazó con demandar a la organización por difamación si no se cancelaba la auditoría. El auditor interno habló de la situación con el director de auditoría interna CAE. ¿Cuál de las siguientes opciones es la más apropiada para que tome el CAE?",
+    "opciones": {
+      "A": "Reduzca la duración del encargo de auditoría para evitar posibles acciones legales.",
+      "B": "Realizar pruebas adicionales para determinar si existen otros indicadores de fraude.",
+      "C": "Presentar un informe a la alta dirección recomendando una investigación por fraude.",
+      "D": "Continúe con el programa de participación original según lo previsto, pero incluya un comentario sobre la reacción del subdirector en la comunicación final sobre la participación."
+    },
+    "correcta": "B",
+    "explicacion": "Ante la reacción hostil del subdirector, lo apropiado es realizar pruebas adicionales para determinar si existen otros indicadores de fraude, antes de escalar o concluir nada.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "d4be17bdcfce",
+    "numero": 15,
+    "pregunta": "Durante la recopilación de información para una evaluación de riesgos de fraude, un auditor interno del equipo de trabajo detecta un posible fraude a través de una conversación con un empleado del área de operaciones. ¿Cuál es la acción más apropiada que debe tomar el auditor?",
+    "opciones": {
+      "A": "Al entrevistar a los compañeros de trabajo del empleado sospechoso, exprese con tacto las sospechas del auditor para obtener la mayor cantidad de detalles posible",
+      "B": "Asegúrese de que esta área esté incluida en el alcance de la auditoría y diseñe procedimientos para investigar el posible fraude.",
+      "C": "Programe una reunión entre la empleada del área de operaciones y su gerente para discutir el posible fraude.",
+      "D": "Comuníquese discretamente con el supervisor del proyecto para expresar su preocupación."
+    },
+    "correcta": "D",
+    "explicacion": "Al detectar un posible fraude durante la recopilación de información, lo apropiado es asegurar que el área quede incluida en el alcance de la auditoría y diseñar procedimientos para investigarlo, no confrontar ni programar reuniones informales.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "5b0b4ee47a27",
+    "numero": 16,
+    "pregunta": "El consejo de administración de una organización ha recibido quejas que alegan prácticas comerciales sospechosas en varios departamentos y ha solicitado a la función de auditoría interna que lleve a cabo una investigación. ¿Cuál de las siguientes opciones describe mejor los conocimientos, habilidades y aptitudes principales que requiere la función de auditoría interna para llevar a cabo esta investigación de manera eficaz?",
+    "opciones": {
+      "A": "Experiencia en marcos y metodologías de gestión de riesgos.",
+      "B": "Conocimiento profundo de las estructuras de gobierno corporativo y del cumplimiento normativo.",
+      "C": "Conocimiento integral del diseño y la evaluación del control interno.",
+      "D": "Dominio de las técnicas y procedimientos de auditoría forense."
+    },
+    "correcta": "D",
+    "explicacion": "Para investigar quejas de prácticas sospechosas, la función de auditoría interna requiere principalmente conocimiento integral del diseño y evaluación del control interno.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "c0f9f73b319d",
+    "numero": 17,
+    "pregunta": "En el contexto de las investigaciones por fraude, ¿cómo se espera que interactúe la función de auditoría interna con la dirección?",
+    "opciones": {
+      "A": "Al delegar la investigación por completo en la gerencia, ofreciendo únicamente apoyo administrativo.",
+      "B": "Al proporcionar una revisión independiente de las denuncias de fraude y ofrecer recomendaciones imparciales a la gerencia y al consejo de administración.",
+      "C": "Trabajando exclusivamente con la gerencia para preparar informes internos que respalden los resultados predeterminados.",
+      "D": "Recomendando e implementando acciones correctivas de forma independiente."
+    },
+    "correcta": "B",
+    "explicacion": "En investigaciones de fraude, auditoría interna debe proporcionar una revisión independiente de las denuncias y ofrecer recomendaciones imparciales a la gerencia y al consejo — no delegar completamente ni ejecutar acciones por su cuenta.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "c5152a41d3d2",
+    "numero": 18,
+    "pregunta": "¿Cuál de las siguientes condiciones organizativas presenta la señal de aleta conductual más convincente para un posible fraude?",
+    "opciones": {
+      "A": "Realización periódica, aunque inconsistente, de conciliaciones independientes entre los libros mayores auxiliares y el libro mayor general.",
+      "B": "Aumento significativo e inexplicable de los residuos de fabricación.",
+      "C": "Casos recurrentes en los que un gerente departamental excede los límites presupuestarios.",
+      "D": "Un tesorero adjunto se niega sistemáticamente a tomarse las vacaciones programadas, alegando su incapacidad para delegar responsabilidades."
+    },
+    "correcta": "D",
+    "explicacion": "Que un tesorero adjunto se niegue sistemáticamente a tomar vacaciones alegando que no puede delegar es la señal de alerta conductual más convincente de fraude oculto.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "9746b3f928cb",
+    "numero": 19,
+    "pregunta": "Tras la confirmación de actividad fraudulenta mediante pruebas de auditoría adicionales, ¿cuál es la medida inmediata más cítrica que debe tomar el director de auditoría interna CAE?",
+    "opciones": {
+      "A": "Iniciar procedimientos de auditoría adicionales para identificar a las personas involucradas en el fraude.",
+      "B": "Notificar directamente a los organismos policiales externos.",
+      "C": "Informe del fraude confirmado a la alta dirección y al comité de auditoría del consejo de administración.",
+      "D": "Ampliar el alcance de las pruebas de auditoría para determinar el impacto financiero preciso del fraude."
+    },
+    "correcta": "C",
+    "explicacion": "Confirmado el fraude, la medida más crítica es informar del fraude confirmado a la alta dirección y al comité de auditoría del consejo de administración.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "82d9ac2d8f9c",
+    "numero": 20,
+    "pregunta": "¿Cuál de las siguientes opciones es un ejemplo de control de detección para identificar el fraude?",
+    "opciones": {
+      "A": "Capacitación en concientización sobre el fraude",
+      "B": "Separación de funciones",
+      "C": "Niveles de autoridad vinculados a las responsabilidades",
+      "D": "Conciliaciones realizadas por la gerencia"
+    },
+    "correcta": "D",
+    "explicacion": "Las conciliaciones realizadas por la gerencia son un ejemplo de control de detección para identificar fraude, ya que revelan discrepancias después de ocurridas.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "5d23a5edea61",
+    "numero": 21,
+    "pregunta": "¿Cuál de las siguientes opciones es el mejor ejemplo de un control preventivo diseñado para disuadir el fraude?",
+    "opciones": {
+      "A": "Se requiere la aprobación mediante dos firmas para los desembolsos que superen una cantidad determinada.",
+      "B": "Recuentos de inventario periódicos sin previo aviso.",
+      "C": "Análisis periódico de los registros de transacciones para detectar patrones inusuales.",
+      "D": "Encuestas anónimas de opinión de los empleados."
+    },
+    "correcta": "A",
+    "explicacion": "Requerir aprobación mediante dos firmas para desembolsos que superen cierto monto es el mejor ejemplo de control preventivo, porque bloquea la transacción antes de que se complete.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "065c98c75760",
+    "numero": 22,
+    "pregunta": "Durante una auditoría del proceso de adquisiciones de una organización, el auditor interno descubre que el gerente de compras tiene importantes dificultades financieras personales. El auditor también observa que un nuevo proveedor, propiedad de un familiar cercano del gerente de compras, ha obtenido recientemente varios contratos importantes sin licitación pública. Estos contratos parecen haber eludido el proceso de aprobación habitual. ¿Qué tipo de fraude es más probable que se esté produciendo en esta situación?",
+    "opciones": {
+      "A": "Malversación de activos.",
+      "B": "Informes financieros fraudulentos.",
+      "C": "Corrupción.",
+      "D": "Propinas ilegales."
+    },
+    "correcta": "A",
+    "explicacion": "Dificultades financieras personales del gerente de compras, más un proveedor de un familiar cercano que elude la licitación pública, apuntan a malversación de activos mediante el direccionamiento de contratos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "9e734bfb548f",
+    "numero": 23,
+    "pregunta": "Al auditar la adjudicación de un contrato importante, ¿cuál de las siguientes opciones debería sospechar un auditor interno como una señal de aleta de un posible fraude en las licitaciones?",
+    "opciones": {
+      "A": "Los requisitos contractuales de los materiales difieren entre el contrato propiamente dicho y la solicitud de ofertas.",
+      "B": "Los postores perdedores no reciben comentarios.",
+      "C": "Las modificaciones posteriores aumentan los requisitos para los artículos con la oferta más baja.",
+      "D": "Un alto porcentaje de empleados son facturados a cuentas indirectas."
+    },
+    "correcta": "A",
+    "explicacion": "Que los requisitos contractuales de los materiales difieran entre el contrato y la solicitud de ofertas original es una señal de alerta clásica de fraude en licitaciones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "153e9980d85c",
+    "numero": 24,
+    "pregunta": "¿Cuál de los siguientes tipos de encargos se considera el más apropiado para emplear habilidades de auditoría forense?",
+    "opciones": {
+      "A": "Un encargo de auditoría de gestión.",
+      "B": "Un compromiso de aseguramiento basado en riesgos.",
+      "C": "Un trabajo de investigación.",
+      "D": "Un servicio de asesoramiento."
+    },
+    "correcta": "C",
+    "explicacion": "Un trabajo de investigación es el tipo de encargo más apropiado para emplear habilidades de auditoría forense, a diferencia de un aseguramiento basado en riesgos o un servicio de asesoramiento.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "1f5f870f5339",
+    "numero": 25,
+    "pregunta": "¿Cuál de los siguientes actos fraudulentos tiene más probabilidades de estar destinado principalmente a beneficiar al individuo?",
+    "opciones": {
+      "A": "Venta o cesión de activos ficticios.",
+      "B": "Valoración incorrecta de las transacciones.",
+      "C": "Aceptación de sobornos o comisiones ilegales.",
+      "D": "Pagos indebidos como sobornos o comisiones ilegales."
+    },
+    "correcta": "C",
+    "explicacion": "La aceptación de sobornos o comisiones ilegales por parte de un individuo es el acto fraudulento con mayor probabilidad de estar destinado principalmente a beneficiar a esa persona.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "ad1d9660e152",
+    "numero": 26,
+    "pregunta": "¿Cuál de los siguientes es probablemente el control más eficaz para detectar malas conductas?",
+    "opciones": {
+      "A": "Oficial de ética.",
+      "B": "Formación en ética.",
+      "C": "Línea directa de ética.",
+      "D": "Código de ética."
+    },
+    "correcta": "C",
+    "explicacion": "Una línea directa de ética es probablemente el control más eficaz para detectar malas conductas, al facilitar que terceros reporten lo que de otra forma quedaría oculto.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "e04f2230853a",
+    "numero": 27,
+    "pregunta": "Durante una revisión de procesos de negocio, un auditor interno identifica el riesgo de fraude y desea realizar un análisis forense de los datos recopilados según condiciones preestablecidas. ¿Cuál de las siguientes herramientas facilitaría mejor esta tarea?",
+    "opciones": {
+      "A": "Pruebas descriptivas basadas en reglas e informes.",
+      "B": "Análisis estadístico y aprendizaje automático.",
+      "C": "Análisis de patrones y vínculos.",
+      "D": "Informes del panel de control."
+    },
+    "correcta": "A",
+    "explicacion": "Para un análisis forense de datos según condiciones preestablecidas, las pruebas descriptivas basadas en reglas e informes son la herramienta que mejor facilita esa tarea específica.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "cac15601341a",
+    "numero": 28,
+    "pregunta": "Un auditor interno observa un doble pago en una factura de proveedor durante una auditoría de cuentas por pagar. ¿Cuál de los siguientes pasos sería el más eficaz para ayudar al auditor a determinar si existe fraude?",
+    "opciones": {
+      "A": "Transforme el contrato de auditoría existente en un contrato de investigación de fraude.",
+      "B": "Revise el volumen de transacciones y los montos pagados del año anterior en comparación con el presupuesto del año anterior.",
+      "C": "Realizar análisis de datos sobre la información del proveedor, los importes facturados y los pagos realizados.",
+      "D": "Amplíe el alcance de la auditoría y realice pruebas adicionales de los controles en otras áreas relacionadas."
+    },
+    "correcta": "C",
+    "explicacion": "Ante un doble pago detectado, lo más eficaz es realizar análisis de datos sobre la información del proveedor, los importes facturados y los pagos realizados, para determinar si hay fraude.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "144fc73d24af",
+    "numero": 29,
+    "pregunta": "Durante una auditoría del proceso de cuentas por pagar, el auditor interno utilizó una aplicación de software para comparar los números de cuenta bancaria de los empleados con la información de las cuentas bancarias de los proveedores almacenada en el sistema de planificación de recursos empresariales de la organización. La herramienta generó una lista de proveedores que comparten las mismas cuentas bancarias que algunos empleados. ¿Cuál de las siguientes afirmaciones es cierta con respecto a este escenario?",
+    "opciones": {
+      "A": "La lista no es relevante para la auditoría de cuentas por pagar, que debería basarse en la verificación tiple del formulario de pedido, la factura y el aviso de recepción.",
+      "B": "El uso de cuentas bancarias comunes entre proveedores y empleados es una señal de aleta de posible fraude y debería ser investigado más a fondo por el auditor interno.",
+      "C": "El auditor interno no debería haber accedido a los números de cuenta bancaria personales de los empleados, ya que esta información estaría fuera del alcance de una auditoría del proceso de cuentas por pagar.",
+      "D": "Esta lista puede contravenir la privacidad de los datos de los empleados y, por lo tanto, no debe utilizarse."
+    },
+    "correcta": "B",
+    "explicacion": "El uso de cuentas bancarias comunes entre proveedores y empleados es en sí mismo una señal de alerta de posible fraude que debe investigarse más a fondo, no un hallazgo a ignorar por temas de privacidad o alcance.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "60f425f8811a",
+    "numero": 30,
+    "pregunta": "¿Cuál de los siguientes controles tendía más probabilidades de detectar el robo y el uso no autorizado de los cheques de la empresa?",
+    "opciones": {
+      "A": "Buzones de seguridad distribuidos geográficamente.",
+      "B": "Videovigilancia en la sala de coreo de la organización.",
+      "C": "Conciliaciones bancarias mensuales.",
+      "D": "El uso de cheques numerados."
+    },
+    "correcta": "C",
+    "explicacion": "Las conciliaciones bancarias mensuales tienen mayor probabilidad de detectar el robo y uso no autorizado de cheques de la empresa, al comparar lo emitido contra lo realmente cobrado.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "18c1dbd6de23",
+    "numero": 31,
+    "pregunta": "¿Cuál de las siguientes es la técnica más apropiada que los auditores internos deben usar para garantizar que todos los débitos registrados en las cuentas de gastos de software en el sistema de la organización sean gastos válidos?",
+    "opciones": {
+      "A": "Compare el importe total de los gastos de software del año en curso con los importes totales de años anteriores.",
+      "B": "Analizar una muestra de transacciones de gastos de la cuenta de software y cotejarlas con los documentos de origen, confirmando que dichos documentos son correctos.",
+      "C": "Tome una muestra de las transacciones de gastos de la cuenta de software y compárelas con las órdenes de compra.",
+      "D": "Identifique los asientos contables en los que el débito a gastos de software no se compensa con un asiento de crédito válido."
+    },
+    "correcta": "C",
+    "explicacion": "Tomar una muestra de transacciones de gastos de software y compararla con las órdenes de compra es la técnica más apropiada para verificar que los débitos sean gastos válidos.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "33048c762e88",
+    "numero": 32,
+    "pregunta": "Un auditor interno está revisando la cuenta de inventario de una organización y observa una cantidad inusual de asientos contables ajustados. ¿Esto indica la posible existencia de cuál de los siguientes tipos de fraude?",
+    "opciones": {
+      "A": "Desnatado.",
+      "B": "Malversación de activos.",
+      "C": "Corrupción.",
+      "D": "Fraude en el reembolso de gastos."
+    },
+    "correcta": "B",
+    "explicacion": "Una cantidad inusual de asientos contables ajustados en inventario indica posible malversación de activos, generalmente para ocultar faltantes o robos.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "af71a305d069",
+    "numero": 33,
+    "pregunta": "¿Cuál de las siguientes acciones por parte de la gerencia reduciría con mayor probabilidad la oportunidad de un empleado de cometer fraude?",
+    "opciones": {
+      "A": "Identificar las consecuencias, como el despido, de las actividades fraudulentas.",
+      "B": "Definir las expectativas de comportamiento ético en el manual de la empresa.",
+      "C": "Establecer controles físicos sobre los activos de la empresa.",
+      "D": "Eliminar las bonificaciones vinculadas a las ventas u otros objetivos de rendimiento."
+    },
+    "correcta": "C",
+    "explicacion": "Establecer controles físicos sobre los activos de la empresa reduce directamente la oportunidad de un empleado para cometer fraude, al limitar el acceso físico a lo que podría sustraerse.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "f682adf11a31",
+    "numero": 34,
+    "pregunta": "En la fase de planificación de una auditoría de nómina, un auditor interno recopila información para una evaluación del riesgo de fraude. ¿Cuál de los siguientes hallazgos debería preocupar más al supervisor de la auditoría?",
+    "opciones": {
+      "A": "El auditor interno observó una pequeña discrepancia en la documentación de las aprobaciones de horas extras para un pequeño subconjunto de empleados.",
+      "B": "El auditor interno descubrió que la tasa de rotación de personal del departamento de nóminas es ligeramente superior a la media de la organización.",
+      "C": "El auditor interno descubrió que el sistema de nómina carece de una separación automatizada de funciones, lo que permite que un solo empleado agregue nuevos empleados, modifique las taifas salariales y procese la nómina.",
+      "D": "El auditor interno observó que el departamento de nóminas utiliza una combinación de registros electrónicos y en papel para el procesamiento de las mismas."
+    },
+    "correcta": "C",
+    "explicacion": "Que el sistema de nómina carezca de separación automatizada de funciones, permitiendo que un solo empleado agregue empleados, modifique tarifas y procese la nómina, es el hallazgo que más debería preocupar al supervisor de auditoría.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "c787d6c09a8c",
+    "numero": 35,
+    "pregunta": "En lo que respecta a la detección de fraudes, ¿en cuál de los siguientes niveles, según se definen en el Marco Internacional de Prácticas Profesionales del IIA, debería ser competente cada auditor interno?",
+    "opciones": {
+      "A": "Cada auditor interno debe tener conocimientos suficientes sobre fraude para reconocer las situaciones que indiquen la necesidad de tomar medidas adicionales o de iniciar una investigación por fraude.",
+      "B": "Cada auditor interno debe estar suficientemente capacitado en detección de fraudes para poder diseñar controles que permitan identificar y prevenir los principales tipos de fraude que puedan ocurrir en una actividad organizacional determinada.",
+      "C": "Cada auditor interno debe ser competente en la detección de fraudes para poder llevar a cabo una investigación con una alta probabilidad estadística de descubrir al menos un caso de fraude, si se está cometiendo algún tipo de fraude.",
+      "D": "Cada auditor interno es responsable únicamente de conocer la definición de fraude del IIA y de poder identificar a los expertos en detección de fraude en los que confía la función de auditoría interna."
+    },
+    "correcta": "A",
+    "explicacion": "Según el Marco Internacional de Prácticas Profesionales del IIA, cada auditor interno debe tener conocimientos suficientes sobre fraude para reconocer situaciones que requieran medidas adicionales o el inicio de una investigación — no necesita ser un especialista forense.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "ff495f8aaf51",
+    "numero": 36,
+    "pregunta": "¿Cómo deben evaluar los auditores internos los controles de detección?",
+    "opciones": {
+      "A": "Aceptar las afirmaciones de la gerencia sobre la efectividad del control sin realizar pruebas.",
+      "B": "Confirme únicamente que existen controles en papel mediante la revisión de la documentación.",
+      "C": "Centrarse exclusivamente en controles preventivos en lugar de medidas de detección.",
+      "D": "Evaluar la presencia, probar la efectividad, revisar las excepciones y recomendar mejoras."
+    },
+    "correcta": "D",
+    "explicacion": "Los auditores internos deben evaluar los controles de detección evaluando su presencia, probando su efectividad, revisando las excepciones y recomendando mejoras — no solo confirmar que existen en papel.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "8c0b1da04407",
+    "numero": 37,
+    "pregunta": "¿Cómo deben responder las organizaciones a los hallazgos de los controles de investigación?",
+    "opciones": {
+      "A": "Aceptar cierto nivel de pérdida como costo normal de hacer negocios.",
+      "B": "Realizar un seguimiento y resolver todas las excepciones, abordando las causas raíz identificadas.",
+      "C": "Sancionar a los empleados inmediatamente al descubrir cualquier discrepancia.",
+      "D": "Investigar únicamente las grandes discrepancias que superen los umbrales de materialidad"
+    },
+    "correcta": "B",
+    "explicacion": "Ante hallazgos de los controles de investigación, las organizaciones deben hacer seguimiento y resolver todas las excepciones, abordando las causas raíz identificadas.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "f8ff4c830385",
+    "numero": 38,
+    "pregunta": "¿Qué tipos de revisiones de supervisión son más eficaces para la detección de fraudes?",
+    "opciones": {
+      "A": "Revisión únicamente de los asientos y ajustes de fin de año para la presentación de informes financieros.",
+      "B": "Evaluaciones delegadas por personal subalterno para desarrollar su experiencia profesional.",
+      "C": "Revisiones que abarcan hojas de horas, gastos, compras, asientos contables y ajustes.",
+      "D": "Revisar únicamente las transacciones que superen importes predeterminados en dólares."
+    },
+    "correcta": "C",
+    "explicacion": "Las revisiones de supervisión más eficaces para detectar fraude son las que abarcan integralmente hojas de horas, gastos, compras, asientos contables y ajustes, no solo un tipo de transacción o periodo.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "e3f46c2e1ab7",
+    "numero": 39,
+    "pregunta": "Los recuentos cíclicos en el almacén muestran faltantes constantes de productos electrónicos de alto valor. El gerente del almacén siempre tiene explicaciones: \"recuentos erróneos\", \"errores del sistema\" o \"artículos en tránsito\". Las grabaciones de seguridad se revisan solo cuando se solicitan, y las solicitudes deben pasar por el gerente del almacén. ¿Qué mejora de control es fundamental?",
+    "opciones": {
+      "A": "Reducir el inventario de alto valor para minimizar las pérdidas potenciales.",
+      "B": "Realizar recuentos con mayor frecuencia para identificar cuándo se producen escaseces.",
+      "C": "Aceptar las explicaciones del gerente basándose en su experiencia",
+      "D": "Supervisión e investigación independientes de la seguridad en caso de faltantes de inventario."
+    },
+    "correcta": "D",
+    "explicacion": "Ante explicaciones recurrentes del gerente y cámaras de seguridad revisadas solo bajo su propio control, la mejora fundamental es una supervisión e investigación independientes de la seguridad ante los faltantes de inventario.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "893950f49653",
+    "numero": 40,
+    "pregunta": "¿Por qué las auditorías sorpresa son particularmente efectivas para la detección de fraudes?",
+    "opciones": {
+      "A": "Reducen los costos de auditoría mediante una mayor eficiencia y utilización de los recursos.",
+      "B": "Mejoran la moral de los empleados al demostrar la confianza de la dirección.",
+      "C": "No se pueden prever, lo que impide que los estafadores oculten los planes en curso.",
+      "D": "Simplifican los procedimientos de auditoría al eliminar los extensos requisitos de planificación."
+    },
+    "correcta": "C",
+    "explicacion": "Las auditorías sorpresa son efectivas para detectar fraude porque no se pueden prever, lo que impide que los estafadores oculten o preparen sus planes con anticipación.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "da679dd75419",
+    "numero": 41,
+    "pregunta": "Según estudios globales sobre fraude, ¿cuál es la forma más común de detectar el fraude?",
+    "opciones": {
+      "A": "Las auditorías externas descubren la mayoría de los fraudes a través de procedimientos detallados de prueba y verificación.",
+      "B": "Denuncias de empleados a través de mecanismos de reporte que representan más del 40% de las detecciones.",
+      "C": "Las revisiones de gestión detectan todos los fraudes significativos mediante la supervisión operativa regular.",
+      "D": "Los sistemas automatizados previenen el fraude antes de que sea necesario detectarlo mediante algoritmos de control."
+    },
+    "correcta": "B",
+    "explicacion": "Según estudios globales sobre fraude, las denuncias de empleados a través de mecanismos de reporte representan más del 40% de las detecciones — la forma más común de detectar fraude.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "c6c5e3bbf637",
+    "numero": 42,
+    "pregunta": "¿Qué papel juegan las entrevistas de salida en la detección de fraudes?",
+    "opciones": {
+      "A": "Reemplazan otros controles de detectives en la organización.",
+      "B": "Los empleados que se marchan pueden revelar conductas poco éticas no denunciadas de las que fueron testigos.",
+      "C": "Evitan que empleados valiosos abandonen la organización.",
+      "D": "Se centran únicamente en temas de satisfacción laboral y desarrollo profesional."
+    },
+    "correcta": "B",
+    "explicacion": "Las entrevistas de salida son valiosas para la detección de fraudes porque los empleados que se marchan pueden revelar conductas poco éticas de las que fueron testigos y no denunciaron mientras trabajaban.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "b2de375a65cd",
+    "numero": 43,
+    "pregunta": "¿Cómo ayudan la rotación de puestos y las vacaciones obligatorias a detectar el fraude?",
+    "opciones": {
+      "A": "Provocan interrupciones en el control que pueden exponer anomalías que requieren manipulación continua.",
+      "B": "Reducen los costos de nómina mediante una mejor planificación y flexibilidad en la dotación de personal.",
+      "C": "Simplifican los requisitos de capacitación al estandarizar los procedimientos en todos los puestos.",
+      "D": "Mejoran la satisfacción de los empleados al proporcionar variedad y equilibrio entre la vida laboral y personal."
+    },
+    "correcta": "A",
+    "explicacion": "La rotación de puestos y las vacaciones obligatorias ayudan a detectar fraude porque provocan interrupciones en el control que pueden exponer anomalías que requerían manipulación continua para mantenerse ocultas.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "8c59c4d7af59",
+    "numero": 44,
+    "pregunta": "¿Qué características clave definen un programa eficaz para denunciantes?",
+    "opciones": {
+      "A": "Un único método de presentación de informes para garantizar la coherencia en todos los departamentos de la organización.",
+      "B": "Identificación de la persona obligada a denunciar para fines de rendición de cuentas y comunicación de seguimiento.",
+      "C": "Revisión anual de los informes acumulados para identificar patrones y problemas sistémicos.",
+      "D": "Anonimato, múltiples canales, políticas contra las represalias y procedimientos de investigación rápidos."
+    },
+    "correcta": "D",
+    "explicacion": "Un programa eficaz para denunciantes se caracteriza por anonimato, múltiples canales, políticas contra represalias y procedimientos de investigación rápidos.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "fbc70b460ee3",
+    "numero": 45,
+    "pregunta": "¿Qué hace que los recuentos cíclicos de inventario sean controles de detección eficaces?",
+    "opciones": {
+      "A": "Previenen todas las pérdidas de inventario mediante efectos disuasorios.",
+      "B": "Solo funcionan eficazmente en operaciones de entono minorista.",
+      "C": "El recuento regular puede detectar robos o manipulaciones antes de los recuentos anuales.",
+      "D": "Eliminan la necesidad de realizar recuentos de inventario anuales exhaustivos."
+    },
+    "correcta": "C",
+    "explicacion": "Los recuentos cíclicos de inventario son controles de detección eficaces porque el recuento regular puede detectar robos o manipulaciones antes de esperar a los recuentos anuales.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "fe36be683c38",
+    "numero": 46,
+    "pregunta": "Para ayudar a una organización a establecer una sólida cultura de control, ¿cuál de las siguientes opciones debería recomendar la función de auditoría interna como punto de partida más eficaz?",
+    "opciones": {
+      "A": "Procesamiento centralizado y controles de servicios compartidos.",
+      "B": "Controles generales de TI.",
+      "C": "Políticas y procedimientos que rigen toda la organización.",
+      "D": "Políticas para abordar los riesgos empresariales significativos y las necesidades de control."
+    },
+    "correcta": "C",
+    "explicacion": "El punto de partida más eficaz para recomendar una sólida cultura de control es establecer políticas y procedimientos que rijan toda la organización.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "48b8518d8a9f",
+    "numero": 47,
+    "pregunta": "¿Cuál de las siguientes actividades de control de detectives sería la más eficaz para identificar a empleados ficticios?",
+    "opciones": {
+      "A": "Se ejecuta un script de análisis en cada archivo de nómina, buscando nóminas sin deducciones de impuestos sobre la renta y/o seguro médico.",
+      "B": "Comparar el archivo maestro de nóminas con el archivo maestro de proveedores y buscar direcciones duplicadas.",
+      "C": "Exigir a quienes reciben cheques de pago físicos que firmen un comprobante de recepción al recogerlos en la oficina de nóminas.",
+      "D": "Asegurarse de que el supervisor de nómina distribuya los cheques de nómina manualmente a los empleados."
+    },
+    "correcta": "A",
+    "explicacion": "Ejecutar un script de análisis en cada archivo de nómina buscando registros sin deducciones de impuestos o seguro médico es la actividad de control de detectives más eficaz para identificar empleados ficticios.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "20af1c2d321f",
+    "numero": 48,
+    "pregunta": "¿Cuál de los siguientes controles internos es el más apropiado para mitigar el riesgo de transferencias bancarias no autorizadas en la unidad de transferencias monetarias de una sucursal de una corporación multinacional?",
+    "opciones": {
+      "A": "La dirección de la empresa debe aprobar la contratación de todos los empleados de la unidad de transferencia monetaria.",
+      "B": "Los tipos de cambio de divisas deben ser calculados de forma independiente por dos empleados diferentes.",
+      "C": "La persona que inicia las transferencias bancarias no debe conciliar el extracto bancario.",
+      "D": "El gerente de la sucursal debe recibir y autorizar todas las transferencias bancarias."
+    },
+    "correcta": "C",
+    "explicacion": "Que la persona que inicia las transferencias bancarias no concilie el extracto bancario es el control interno más apropiado para mitigar el riesgo de transferencias no autorizadas, al separar la ejecución de la verificación.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "8cee3146a595",
+    "numero": 49,
+    "pregunta": "Para una organización sin fines de lucro que realiza recaudación de fondos por teléfono, ¿cuál de los siguientes procedimientos de control sirve mejor como control de detección para garantizar que todas las promesas de donación se registren con precisión?",
+    "opciones": {
+      "A": "Supervisión de todas las llamadas telefónicas por parte del personal directivo.",
+      "B": "Informes de gestión que comparan los fondos recaudados este año con los recaudados el año pasado, por cada solicitud de financiación.",
+      "C": "Grabación automática por ordenador de todas las llamadas telefónicas con fines de archivo.",
+      "D": "Programa de confirmación que selecciona aleatoriamente las donaciones recibidas y confirma las cantidades con los donantes."
+    },
+    "correcta": "D",
+    "explicacion": "Un programa de confirmación que selecciona aleatoriamente donaciones recibidas y confirma las cantidades directamente con los donantes es el mejor control de detección para asegurar que las promesas de donación se registren con precisión.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "becd01fe3e34",
+    "numero": 50,
+    "pregunta": "La auditoría interna constata que se realizan ajustes de inventario después de cada recuento físico para que los registros contables coincidan con las cantidades reales. ¿A qué tipo de control corresponden estos ajustes?",
+    "opciones": {
+      "A": "Control preventivo que garantiza la exactitud de los registros de inventario mediante la exigencia de ajustes periódicos.",
+      "B": "Control de detección que identifica la necesidad de un mejor seguimiento del inventario a través de patrones de ajuste",
+      "C": "Procesamiento rutinario que no constituye un control ya que los ajustes son operaciones comerciales normales.",
+      "D": "Se tomaron medidas correctivas para subsanar las discrepancias identificadas mediante controles de detección y mantener registros precisos"
+    },
+    "correcta": "D",
+    "explicacion": "Los ajustes de inventario realizados después de cada recuento físico, para que los registros coincidan con las cantidades reales, son en sí mismos evidencia de que se tomaron medidas correctivas mediante controles de detección.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro 29 de agosto (2026-08-29)"
   }
 ]
