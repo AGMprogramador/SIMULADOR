@@ -75,5 +75,22 @@
     "indice_lista": 0,
     "score_correctas": 0,
     "total_respondidas": 0
+  },
+  "5738917942": {
+    "lista_ids": [
+      "8c420cb1e82c",
+      "61befeadbf09",
+      "cd9abe01961b",
+      "898d9fb9e68d",
+      "be3f0d8d9ed1",
+      "484ed9051cf6",
+      "cd0107915dfa",
+      "5bc59ef53cba",
+      "ca3a9a036b47",
+      "8e12bdd8e507"
+    ],
+    "indice_lista": 0,
+    "score_correctas": 0,
+    "total_respondidas": 0
   }
 }
