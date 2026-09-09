@@ -9150,5 +9150,1685 @@
     "dominio": "Dominio IV: Gestión del Riesgo y Control",
     "origen": "clase",
     "fuente": "Simulacro 29 de agosto (2026-08-29)"
+  },
+  {
+    "id": "b08218d3b5b8",
+    "numero": 1,
+    "pregunta": "¿Cuál de los siguientes es el mejor ejemplo de evitación de riesgos?",
+    "opciones": {
+      "A": "Retirada de un producto.",
+      "B": "Subcontratación de la producción.",
+      "C": "Obtención de un seguro para el producto.",
+      "D": "Salir de un mercado."
+    },
+    "correcta": "D",
+    "explicacion": "Salir de un mercado es el mejor ejemplo de evitación de riesgos: la organización deja de participar en la actividad que genera el riesgo, en vez de mitigarlo, transferirlo o aceptarlo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "1f8eec5e559b",
+    "numero": 2,
+    "pregunta": "¿Cuál es la base principal para determinar cómo deben gestionarse los riesgos?",
+    "opciones": {
+      "A": "Tolerancia al riesgo.",
+      "B": "Evaluación de riesgos.",
+      "C": "Cultura del riesgo.",
+      "D": "Capacidad de riesgo."
+    },
+    "correcta": "B",
+    "explicacion": "La evaluación de riesgos es la base principal para determinar cómo deben gestionarse los riesgos, ya que de ahí surge la comprensión de probabilidad e impacto que orienta la respuesta apropiada.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "14d457028fd9",
+    "numero": 3,
+    "pregunta": "¿Cuál de los siguientes es el mejor ejemplo de un control de aplicación?",
+    "opciones": {
+      "A": "Perímetro de seguridad del centro de datos.",
+      "B": "Verificación de validación de datos.",
+      "C": "Monitorización del rendimiento del servidor.",
+      "D": "Protocolo de autenticación de usuarios."
+    },
+    "correcta": "B",
+    "explicacion": "La verificación de validación de datos es un control de aplicación, ya que opera dentro de un sistema o proceso específico para asegurar la exactitud de los datos que se procesan.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "db4dc44495ce",
+    "numero": 4,
+    "pregunta": "Durante una revisión del proceso de adquisiciones de la organización, un auditor interno observa un patrón constante de adjudicación de contratos de valor inusualmente alto a un proveedor recientemente establecido. ¿Cuál de las siguientes señales de alerta debería priorizar el auditor para una investigación más exhaustiva?",
+    "opciones": {
+      "A": "La proximidad temporal entre la fundación del proveedor y la adjudicación de contratos importantes, junto con el elevado valor de dichos contratos.",
+      "B": "Los contratos se redactan en el lenguaje estándar del sector.",
+      "C": "El sitio web del vendedor tiene un diseño sencillo y básico.",
+      "D": "La oficina del proveedor está ubicada en un estado diferente al de la sede de la organización."
+    },
+    "correcta": "A",
+    "explicacion": "La proximidad temporal entre la fundación reciente del proveedor y la adjudicación de contratos de alto valor es la señal de alerta que más amerita una investigación exhaustiva, por el patrón de riesgo que representa.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "f4ec68182d94",
+    "numero": 6,
+    "pregunta": "¿Cuál de los siguientes controles tendría más probabilidades de detectar el robo y el uso no autorizado de cheques de la empresa?",
+    "opciones": {
+      "A": "Conciliaciones bancarias mensuales.",
+      "B": "Videovigilancia en la sala de correo de la organización.",
+      "C": "Buzones de seguridad distribuidos geográficamente.",
+      "D": "El uso de cheques numerados."
+    },
+    "correcta": "A",
+    "explicacion": "Las conciliaciones bancarias mensuales son el control con mayor probabilidad de detectar el robo o uso no autorizado de cheques, al comparar los registros contra los movimientos reales de la cuenta.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "0508cecb450a",
+    "numero": 7,
+    "pregunta": "El plan de responsabilidad social de una organización abarca muchas facetas. Por ejemplo, la salud, la seguridad y la protección son solo una de ellas. Si la función de auditoría interna revisara la salud, la seguridad y la protección, ¿cuál sería la pregunta más pertinente?",
+    "opciones": {
+      "A": "¿Tiene la organización un plan para reducir su huella de carbono?",
+      "B": "¿Existen procesos de contratación pública ecológicos o socialmente responsables?",
+      "C": "¿La organización acepta la libertad de asociación y el derecho a la negociación colectiva?",
+      "D": "¿Se notifican, comunican, gestionan y resuelven los incidentes de forma adecuada?"
+    },
+    "correcta": "D",
+    "explicacion": "Al revisar salud, seguridad y protección dentro de responsabilidad social, la pregunta más pertinente es si los incidentes se notifican, comunican, gestionan y resuelven adecuadamente.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "8f6f329ebe2b",
+    "numero": 8,
+    "pregunta": "¿Cuál de los siguientes riesgos que afectan a las operaciones informáticas de una organización tiene más probabilidades de ser calificado como muy alto en términos de probabilidad?",
+    "opciones": {
+      "A": "Empleados que utilizan el correo electrónico de la empresa para enviar mensajes personales.",
+      "B": "Piratas informáticos penetrando el cortafuegos del sistema actualizado.",
+      "C": "Incendio en las instalaciones que requiere la implementación del plan de continuidad del negocio.",
+      "D": "Apagado prolongado del sistema debido al terrorismo."
+    },
+    "correcta": "A",
+    "explicacion": "El uso del correo electrónico de la empresa para mensajes personales es el riesgo con mayor probabilidad de ocurrencia (alta probabilidad), a diferencia de eventos de baja frecuencia como ciberataques, incendios o terrorismo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "91e875654336",
+    "numero": 9,
+    "pregunta": "La función de auditoría interna ha revisado el proceso de gestión de riesgos para evaluar si la información clave sobre riesgos se comunica adecuadamente a todos los niveles directivos clave. ¿Cuál de las siguientes opciones proporcionaría a la función de auditoría interna la evidencia más convincente para determinarlo?",
+    "opciones": {
+      "A": "Medidas de gestión oportunas en respuesta a las deficiencias de riesgo detectadas.",
+      "B": "Registros de asistencia a los talleres internos de gestión de riesgos.",
+      "C": "Indicadores de riesgo acordados y planes de mitigación de riesgos.",
+      "D": "Acta de la reunión del comité de gestión de riesgos."
+    },
+    "correcta": "D",
+    "explicacion": "El acta de la reunión del comité de gestión de riesgos es la evidencia más convincente de que la información sobre riesgos se comunicó efectivamente a los niveles directivos clave.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "28ef9e756d80",
+    "numero": 10,
+    "pregunta": "¿Cuál es el control más eficaz y eficiente para evitar el desvío de material de oficina al domicilio de un empleado mediante la introducción de una ubicación de entrega alternativa en un sistema electrónico de intercambio de datos?",
+    "opciones": {
+      "A": "Permitir únicamente el uso de campos válidos para la ubicación de la sala de correo y exigir que los cambios en la tabla de ubicaciones válidas se aprueben en línea.",
+      "B": "Generar un informe periódico que enumere todos los pedidos con destinos de entrega distintos a las salas de correo de la empresa y que los verifique hasta los documentos de envío.",
+      "C": "Indique al proveedor que realice las entregas únicamente en la sala de correo de la ubicación más grande, y que el personal de la empresa envíe los suministros a otras ubicaciones según sea necesario.",
+      "D": "Compare el número total de artículos pedidos con el número total de artículos recibidos en todas las salas de correo e investigue las faltas de existencias."
+    },
+    "correcta": "A",
+    "explicacion": "Permitir únicamente campos válidos para la ubicación de entrega y exigir aprobación en línea de cualquier cambio es el control más eficaz y eficiente, porque previene el desvío en el origen, no solo lo detecta después.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "e761d3aaebbb",
+    "numero": 11,
+    "pregunta": "Un auditor interno está planificando una auditoría del sistema de intercambio electrónico de datos (EDI) de compras y facturación recientemente implementado por la empresa. ¿Cuál de los siguientes controles sobre la exactitud de las compras de materia prima sería el menos importante en este entorno?",
+    "opciones": {
+      "A": "Registros de auditoría adecuados.",
+      "B": "Revisión por parte de la gerencia de las transacciones individuales.",
+      "C": "Controles del sistema informático.",
+      "D": "Controles incluidos en el software del proveedor de EDI."
+    },
+    "correcta": "B",
+    "explicacion": "La revisión de la gerencia de transacciones individuales sería el control menos importante en un entorno EDI recientemente implementado, ya que los controles de sistema y los registros de auditoría son más relevantes para validar la exactitud automatizada.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "e65b00803a0e",
+    "numero": 13,
+    "pregunta": "En la fase de planificación de una auditoría de nómina, un auditor interno recopila información para una evaluación del riesgo de fraude. ¿Cuál de los siguientes hallazgos debería preocupar más al supervisor de la auditoría?",
+    "opciones": {
+      "A": "El auditor interno descubrió que el sistema de nómina carece de una separación automatizada de funciones, lo que permite que un solo empleado agregue nuevos empleados, modifique las tarifas salariales y procese la nómina.",
+      "B": "El auditor interno descubrió que la tasa de rotación de personal del departamento de nóminas es ligeramente superior a la media de la organización.",
+      "C": "El auditor interno observó una pequeña discrepancia en la documentación de las aprobaciones de horas extras para un pequeño subconjunto de empleados.",
+      "D": "El auditor interno observó que el departamento de nóminas utiliza una combinación de registros electrónicos y en papel para el procesamiento de las mismas."
+    },
+    "correcta": "A",
+    "explicacion": "Que un solo empleado pueda agregar empleados, modificar tarifas salariales y procesar la nómina —sin separación automatizada de funciones— es el hallazgo que más debería preocupar, por el riesgo de fraude que representa.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "eef17b2f846e",
+    "numero": 14,
+    "pregunta": "¿Cuál de las siguientes opciones es la mejor manera de determinar la cantidad a asegurar para los activos con el fin de minimizar las posibles pérdidas financieras?",
+    "opciones": {
+      "A": "El importe debería ajustarse automáticamente en función de un indicador económico como el índice de precios al consumidor.",
+      "B": "La cantidad deberá ser determinada por el consejo de administración.",
+      "C": "El importe deberá estar respaldado por tasaciones periódicas.",
+      "D": "El importe deberá ser igual al valor contable de cada activo."
+    },
+    "correcta": "C",
+    "explicacion": "El importe respaldado por tasaciones periódicas es la mejor manera de determinar la cantidad a asegurar, ya que refleja el valor real y actualizado del activo, a diferencia de índices económicos o el valor contable.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "72394c88a604",
+    "numero": 16,
+    "pregunta": "¿Qué tipo de control debería implementar una organización para reducir el riesgo a un nivel aceptable cuando el control preferido no resulta rentable?",
+    "opciones": {
+      "A": "Un control de detective.",
+      "B": "Un control preventivo.",
+      "C": "Un control compensatorio.",
+      "D": "Un control manual."
+    },
+    "correcta": "C",
+    "explicacion": "Un control compensatorio es el que debe implementarse cuando el control preferido no resulta rentable, ya que ofrece una mitigación razonable del riesgo por una vía alternativa.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "b7e6d623c19f",
+    "numero": 17,
+    "pregunta": "Durante una auditoría interna, un supervisor encontró fuertes indicios de que empleados de la actividad bajo revisión cometieron fraude al procesar ciertas transacciones. El director de auditoría interna asigna al supervisor de la auditoría interna la tarea de trabajar con un investigador de fraude. ¿Cuál de los siguientes enfoques es el más apropiado para que el supervisor de la auditoría interna trabaje con el investigador de fraude?",
+    "opciones": {
+      "A": "Colabore facilitando el acceso a la documentación y los papeles de trabajo de la auditoría.",
+      "B": "Colabore facilitando el acceso a la documentación y los papeles de trabajo de la auditoría.",
+      "C": "Compartir la responsabilidad de completar las actividades de investigación de fraude.",
+      "D": "Solicitar más recursos para completar las actividades de participación e investigación."
+    },
+    "correcta": "A",
+    "explicacion": "Colaborar facilitando el acceso a la documentación y los papeles de trabajo de la auditoría es el enfoque más apropiado del supervisor al trabajar con un investigador de fraude, sin asumir tareas que corresponden al especialista.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "4ee4bcf6d501",
+    "numero": 18,
+    "pregunta": "¿Cuál de los siguientes escenarios indica con mayor probabilidad que la organización no está gestionando los riesgos de forma eficaz?",
+    "opciones": {
+      "A": "Una comunidad local presentó una demanda contra un promotor de parques eólicos a pesar de que este cumplió con todos los requisitos legales.",
+      "B": "La alta dirección rescindió contratos con ciertos fabricantes de paneles solares debido a posibles acusaciones de uso de mano de obra infantil.",
+      "C": "Las autoridades de supervisión del mercado de valores multaron a la organización por no revelar transacciones significativas con una parte relacionada.",
+      "D": "Un proyecto de construcción sufre un importante retraso debido a una pandemia mundial inesperada."
+    },
+    "correcta": "C",
+    "explicacion": "Que las autoridades de valores multen a la organización por no revelar transacciones con una parte relacionada es la señal más clara de que los riesgos no se están gestionando eficazmente, al materializarse en una sanción regulatoria real.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "7dbe774d5e89",
+    "numero": 19,
+    "pregunta": "¿Cuál de los siguientes es un control que se utiliza principalmente para comprobar la integridad de los datos introducidos en una aplicación empresarial, ya sea que los datos sean introducidos directamente por el personal, de forma remota por un socio comercial o a través de una aplicación habilitada para la web?",
+    "opciones": {
+      "A": "Control general de TI.",
+      "B": "Control de procesamiento.",
+      "C": "Control de integridad.",
+      "D": "Control de entrada."
+    },
+    "correcta": "D",
+    "explicacion": "El control de entrada se utiliza principalmente para comprobar la integridad de los datos introducidos en una aplicación, sin importar el canal por el cual se ingresen.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "a9c2e218949c",
+    "numero": 20,
+    "pregunta": "¿Cuál de las siguientes opciones ilustra el uso de un control compensatorio para detectar una mala conducta?",
+    "opciones": {
+      "A": "La autenticación de dos factores se utiliza para confirmar la identidad del usuario.",
+      "B": "Los depósitos bancarios deben ir acompañados de un comprobante de depósito validado.",
+      "C": "El personal de cuentas por pagar no puede dar de alta a nuevos proveedores.",
+      "D": "Un administrador de bases de datos revisa los registros de acceso de la base de datos."
+    },
+    "correcta": "D",
+    "explicacion": "Que un administrador de bases de datos revise los registros de acceso es un control compensatorio para detectar mala conducta, ya que sustituye o complementa otro control cuando este no es suficiente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "ce8bc9073634",
+    "numero": 21,
+    "pregunta": "El contador de una organización, responsable de las transacciones de cuentas por pagar, cometió fraude al realizar pagos a su propia cuenta haciéndolos pasar por la cuenta de un proveedor. Dicho proveedor ya no presta servicios a la organización. ¿Cuál de las siguientes opciones describe mejor un control clave que probablemente fue deficiente en este caso?",
+    "opciones": {
+      "A": "Los controles del proceso de autorización de pagos a proveedores eran inadecuados, ya que era posible realizar pagos por importes diferentes.",
+      "B": "Los controles de conciliación fueron deficientes, ya que no se compararon las cuentas por pagar, el libro mayor ni los extractos bancarios.",
+      "C": "Los controles de gestión de archivos maestros de proveedores eran inadecuados, ya que los datos podían modificarse sin la documentación de respaldo ni la aprobación correspondiente.",
+      "D": "Los controles del proceso de selección de personal y verificación de antecedentes fueron deficientes, ya que se contrató a un contable con tendencia a defraudar."
+    },
+    "correcta": "C",
+    "explicacion": "Los controles de gestión de archivos maestros de proveedores fueron el control clave deficiente, ya que permitieron modificar datos sin documentación de respaldo ni aprobación, lo que facilitó el fraude descrito.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "ebf4576ee14d",
+    "numero": 22,
+    "pregunta": "¿Cuál de las siguientes opciones es un ejemplo de estrategia de reparto de riesgos?",
+    "opciones": {
+      "A": "Exigir una adecuada separación de funciones.",
+      "B": "Instalación de cámaras en la sala de correo.",
+      "C": "Imponer vacaciones obligatorias.",
+      "D": "Externalizar la función de nómina."
+    },
+    "correcta": "D",
+    "explicacion": "Externalizar la función de nómina es un ejemplo de estrategia de reparto (transferencia) de riesgos, al trasladar parte de la exposición a un tercero.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "5c63214ea53d",
+    "numero": 23,
+    "pregunta": "Una empresa ha detectado un aumento en los viajes personales no autorizados utilizando vehículos de la compañía y ha solicitado a la auditoría interna recomendaciones sobre controles para abordar este riesgo. ¿Cuál de los siguientes controles recomendaría menos la auditoría interna?",
+    "opciones": {
+      "A": "Contadores de gasolina.",
+      "B": "Diarios de viaje.",
+      "C": "Cámaras de vigilancia para conductores.",
+      "D": "sistemas GPS."
+    },
+    "correcta": "B",
+    "explicacion": "Los diarios de viaje serían el control que Auditoría Interna recomendaría MENOS, ya que dependen del propio reporte del conductor y son más fáciles de manipular que controles objetivos como GPS o cámaras.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "69415f77a64b",
+    "numero": 24,
+    "pregunta": "¿Cuál de los siguientes hallazgos de la encuesta de participación indica con mayor claridad que los procesos de gestión de riesgos de una organización son ineficaces?",
+    "opciones": {
+      "A": "La alta dirección instruyó a la dirección operativa para que utilizara únicamente una metodología de lista de verificación para identificar las áreas de alto riesgo.",
+      "B": "La auditoría interna proporciona servicios de asesoramiento a la dirección sobre técnicas de evaluación de riesgos.",
+      "C": "La organización integra la gestión de riesgos en sus procesos de planificación estratégica y toma de decisiones.",
+      "D": "El registro de riesgos de la organización incluye tanto riesgos estratégicos como operativos."
+    },
+    "correcta": "A",
+    "explicacion": "Que la alta dirección instruya usar únicamente una lista de verificación (sin considerar juicio ni particularidades) para identificar áreas de alto riesgo indica con mayor claridad que los procesos de gestión de riesgos son ineficaces.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "15279c6ee535",
+    "numero": 25,
+    "pregunta": "¿Cuál de las siguientes opciones es la señal de alerta más fuerte de soborno que generalmente se asocia con el elemento de racionalización del triángulo del fraude?",
+    "opciones": {
+      "A": "Demasiada confianza en los empleados clave.",
+      "B": "Empleados que viven por encima de sus posibilidades.",
+      "C": "Remuneración insuficiente para los empleados.",
+      "D": "Acceso sin restricciones de los empleados a la información de ventas."
+    },
+    "correcta": "C",
+    "explicacion": "La remuneración insuficiente para los empleados es la señal de alerta de soborno más asociada al elemento de racionalización, ya que el empleado puede justificar el acto pensando que \"se lo merece\".",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "a6a606efe74d",
+    "numero": 26,
+    "pregunta": "Para que un programa de gestión de riesgos a nivel empresarial sea lo más eficaz posible, ¿quién debería liderarlo?",
+    "opciones": {
+      "A": "Un comité de gestión.",
+      "B": "Un coordinador centralizado.",
+      "C": "El director ejecutivo de auditoría.",
+      "D": "Miembros del comité de auditoría."
+    },
+    "correcta": "B",
+    "explicacion": "Un coordinador centralizado es quien debería liderar un programa de gestión de riesgos a nivel empresarial para que sea lo más eficaz posible, al integrar la visión de toda la organización.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "9fcd019df97e",
+    "numero": 27,
+    "pregunta": "Una empresa identifica un riesgo significativo asociado a sus prácticas actuales de almacenamiento de datos, que podría derivar en importantes filtraciones de datos y multas regulatorias. La dirección determina que el coste de implementar controles suficientes para mitigar este riesgo supera la tolerancia al riesgo de la organización. ¿Cuál de las siguientes respuestas al riesgo sería la más apropiada en este caso?",
+    "opciones": {
+      "A": "Asumir el riesgo ampliando la capacidad de almacenamiento de datos para atraer a más clientes, a pesar del riesgo identificado.",
+      "B": "Reduzca el riesgo implementando controles de seguridad parciales, aunque el coste supere el nivel de riesgo aceptable.",
+      "C": "Acepte el riesgo y asigne un presupuesto para posibles multas regulatorias.",
+      "D": "Comparta el riesgo externalizando el almacenamiento de datos a un proveedor externo con sólidas medidas de seguridad."
+    },
+    "correcta": "D",
+    "explicacion": "Compartir el riesgo externalizando el almacenamiento de datos a un proveedor externo con sólidas medidas de seguridad es la respuesta más apropiada cuando el costo de mitigar el riesgo internamente supera la tolerancia de la organización.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "019f5dafc9fd",
+    "numero": 28,
+    "pregunta": "¿Qué tipo de controles de TI representan mejor los controles para sistemas operativos, software de red y sistemas de gestión de bases de datos?",
+    "opciones": {
+      "A": "Software de sistemas.",
+      "B": "Solicitud.",
+      "C": "Desarrollo del sistema.",
+      "D": "Organizativo."
+    },
+    "correcta": "A",
+    "explicacion": "El software de sistemas (sistemas operativos, software de red, gestión de bases de datos) es el tipo de control de TI que mejor representa este grupo de controles generales.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "10a19273873f",
+    "numero": 29,
+    "pregunta": "¿Cuál de las siguientes opciones describe mejor cómo el director de auditoría interna (CAE) utiliza la evaluación de riesgos en la planificación de la auditoría?",
+    "opciones": {
+      "A": "La CAE lleva a cabo una evaluación de riesgos documentada a nivel de toda la organización al menos una vez al año, la cual sirve de base para el plan de auditoría, considerando las estrategias, los objetivos y los riesgos de la organización, con la participación del consejo de administración y la alta gerencia.",
+      "B": "La CAE se centra en programar las auditorías en función de los requisitos reglamentarios y los resultados de auditorías anteriores, teniendo mínima en cuenta las evaluaciones de riesgos actuales para mantener la coherencia.",
+      "C": "La CAE se basa principalmente en las evaluaciones de riesgos de la alta dirección para desarrollar el plan de auditoría, garantizando así la alineación con sus prioridades y minimizando la duplicación de esfuerzos.",
+      "D": "La CAE prioriza las solicitudes puntuales de diversos departamentos y partes interesadas, ajustando el plan de auditoría de forma dinámica sin una evaluación de riesgos formal y periódica."
+    },
+    "correcta": "A",
+    "explicacion": "El CAE utiliza la evaluación de riesgos realizando una evaluación documentada a nivel de toda la organización, al menos anualmente, con participación del consejo y la alta gerencia, como base del plan de auditoría.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "7efd1d17b073",
+    "numero": 32,
+    "pregunta": "Durante una consultoría sobre el programa de desarrollo sostenible de la organización, la función de auditoría interna descubrió que los objetivos de la organización incluían la reducción de residuos, la minimización del consumo de energía, el cumplimiento de las metas de reducción de emisiones de carbono y el uso responsable del agua. ¿Qué objetivos adicionales recomendaría con mayor probabilidad la auditoría interna que la organización considere?",
+    "opciones": {
+      "A": "Reducir los incidentes de seguridad y cumplir con las leyes ambientales.",
+      "B": "Utilizar el aire y la tierra de forma responsable y eliminar adecuadamente los residuos peligrosos.",
+      "C": "Reinvertir en las comunidades locales, proteger los derechos humanos.",
+      "D": "Cumplir con las leyes ambientales y convertirse en un empleador de referencia."
+    },
+    "correcta": "C",
+    "explicacion": "Reinvertir en las comunidades locales y proteger los derechos humanos son objetivos adicionales de sostenibilidad que la auditoría interna recomendaría considerar, complementando los ya existentes sobre residuos, energía, carbono y agua.",
+    "dominio": "Dominio V: Gobierno Corporativo y Ética",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "e4dea14093d5",
+    "numero": 34,
+    "pregunta": "¿Cuál de los siguientes controles internos tiene más probabilidades de prevenir la contaminación derivada de la eliminación de residuos antes de que ocurra, en lugar de detectarla después de que ocurra?",
+    "opciones": {
+      "A": "Se toman muestras de agua y residuos sólidos diariamente y los resultados se registran en un cuaderno de bitácora.",
+      "B": "Acceso restringido a los archivos del departamento de medio ambiente.",
+      "C": "Programa formal de formación en el puesto de trabajo impartido por el personal medioambiental.",
+      "D": "Identificación de grandes variaciones presupuestarias en los costes de eliminación de productos químicos peligrosos."
+    },
+    "correcta": "C",
+    "explicacion": "Un programa formal de formación en el puesto de trabajo impartido por personal medioambiental es un control preventivo, ya que busca evitar la contaminación antes de que ocurra, capacitando al personal.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "b7e87f06a72f",
+    "numero": 35,
+    "pregunta": "¿Cuál de los siguientes factores podría indicar mejor la posibilidad de actividad fraudulenta en el proceso de producción?",
+    "opciones": {
+      "A": "Las entrevistas con los empleados indican que existe una insatisfacción general con la dirección y que creen que la productividad podría mejorarse enormemente si la dirección escuchara a los empleados.",
+      "B": "El inventario ha disminuido al mismo tiempo que ha aumentado el costo de los bienes vendidos.",
+      "C": "Las horas extras de los empleados han aumentado un 50% durante el último año.",
+      "D": "Aunque se generan residuos, no se registran ingresos por su venta."
+    },
+    "correcta": "D",
+    "explicacion": "Que se generen residuos sin registrar ingresos por su venta es la señal que mejor indica posible actividad fraudulenta en producción, al sugerir desvío de materiales o ventas no registradas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Practica 18 (2026-09-01)"
+  },
+  {
+    "id": "32b8e9500b4c",
+    "numero": 1,
+    "pregunta": "Durante una auditoría, un auditor interno identifica que una organización ha decidido ingresar a un nuevo mercado internacional basándose en proyecciones de crecimiento optimistas. Sin embargo, la evaluación realizada no consideró adecuadamente la competencia, los cambios en las preferencias de los consumidores ni las condiciones económicas del mercado objetivo. ¿Qué categoría de riesgo corresponde mejor a esta situación?",
+    "opciones": {
+      "A": "Riesgo financiero derivado de las posibles pérdidas económicas asociadas con la inversión realizada para ingresar al nuevo mercado.",
+      "B": "Riesgo operativo derivado de las dificultades que podrían presentarse durante la implementación de las nuevas operaciones internacionales.",
+      "C": "Riesgo estratégico derivado de una decisión empresarial que podría impedir el logro de los objetivos debido a una evaluación inadecuada del mercado y su entorno competitivo.",
+      "D": "Riesgo reputacional derivado de la posibilidad de que los clientes y otros grupos de interés cuestionen la decisión de expansión internacional."
+    },
+    "correcta": "C",
+    "explicacion": "Ingresar a un nuevo mercado basándose en proyecciones optimistas sin evaluar bien la competencia y el entorno es un riesgo estratégico: una decisión empresarial mal evaluada que puede impedir el logro de los objetivos.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "c7e92d55d565",
+    "numero": 2,
+    "pregunta": "Durante una auditoría, un auditor interno identifica que una organización depende de un sistema informático para procesar sus principales operaciones. Debido a fallas recurrentes del sistema, se producen interrupciones del servicio, errores en las transacciones y retrasos en la atención de los clientes. ¿Qué categoría de riesgo corresponde mejor a esta situación?",
+    "opciones": {
+      "A": "Riesgo estratégico derivado de la dependencia de la tecnología para alcanzar los objetivos de crecimiento y transformación digital.",
+      "B": "Riesgo operativo derivado de fallas en los sistemas y procesos que afectan la continuidad, eficiencia y ejecución de las operaciones.",
+      "C": "Riesgo reputacional derivado exclusivamente de la posibilidad de que los clientes pierdan confianza en la organización debido a las interrupciones.",
+      "D": "Riesgo financiero derivado de los costos que la organización podría asumir para reparar y actualizar sus sistemas informáticos."
+    },
+    "correcta": "B",
+    "explicacion": "La dependencia de un sistema con fallas recurrentes que afectan la continuidad, eficiencia y ejecución de operaciones es un riesgo operativo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "5515b67a68a1",
+    "numero": 3,
+    "pregunta": "Durante una auditoría de una institución financiera, el auditor identifica que la organización planea implementar una nueva plataforma digital para mejorar la experiencia de sus clientes. La plataforma requiere importantes inversiones tecnológicas, debe cumplir con nuevas exigencias regulatorias y presenta posibles vulnerabilidades de seguridad que podrían afectar la confianza de los usuarios. ¿Qué complejo desafío de riesgo plantea mejor esta situación?",
+    "opciones": {
+      "A": "Riesgo estratégico derivado de las decisiones de inversión en tecnología que podrían afectar la posición competitiva de la organización en el mercado.",
+      "B": "Riesgo operativo derivado exclusivamente de las vulnerabilidades de seguridad que podrían afectar la disponibilidad y funcionalidad de la plataforma.",
+      "C": "Riesgo de cumplimiento derivado exclusivamente de la necesidad de garantizar que la nueva plataforma cumpla con las exigencias regulatorias aplicables.",
+      "D": "Convergencia de riesgos estratégicos, operativos y de cumplimiento, donde las decisiones de inversión e innovación deben equilibrarse con las exigencias regulatorias, la seguridad tecnológica y las expectativas de los usuarios."
+    },
+    "correcta": "D",
+    "explicacion": "La combinación de inversión tecnológica, exigencias regulatorias y vulnerabilidades de seguridad representa una convergencia de riesgos estratégicos, operativos y de cumplimiento que deben equilibrarse en conjunto.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "8cf45ed7572f",
+    "numero": 4,
+    "pregunta": "Una organización multinacional ha implementado procesos de gestión de riesgos en sus diferentes unidades de negocio. Sin embargo, cada área identifica y evalúa los riesgos utilizando criterios diferentes, lo que dificulta determinar cuáles representan las mayores amenazas para el logro de los objetivos corporativos. ¿Qué desafío complejo de gestión de riesgos plantea esta situación?",
+    "opciones": {
+      "A": "Integrar las evaluaciones de riesgo de las diferentes unidades utilizando criterios comunes, manteniendo al mismo tiempo la capacidad de considerar las particularidades de cada área.",
+      "B": "Permitir que cada unidad de negocio mantenga sus propios criterios de evaluación para reflejar de mejor manera sus riesgos específicos.",
+      "C": "Implementar una metodología completamente estandarizada que elimine cualquier diferencia en la identificación y evaluación de riesgos entre las unidades.",
+      "D": "Centralizar en la función corporativa de riesgos toda la identificación y evaluación de riesgos para garantizar una visión uniforme de la exposición de la organización."
+    },
+    "correcta": "A",
+    "explicacion": "Integrar las evaluaciones de riesgo de las distintas unidades con criterios comunes, sin perder la capacidad de considerar particularidades locales, es el desafío que mejor describe esta situación.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "aaa566449844",
+    "numero": 5,
+    "pregunta": "Durante una auditoría, se identifica que la alta dirección ha establecido un nivel de riesgo que está dispuesta a aceptar para alcanzar sus objetivos estratégicos. Sin embargo, las unidades operativas han establecido límites diferentes y, en algunos casos, continúan ejecutando actividades que superan los niveles de exposición considerados aceptables por la organización. ¿Qué desafío de gestión de riesgos plantea mejor esta situación?",
+    "opciones": {
+      "A": "Permitir que cada unidad determine independientemente sus propios niveles de riesgo para asegurar que puedan responder con flexibilidad a sus necesidades operativas.",
+      "B": "Reducir el apetito de riesgo corporativo para evitar que las unidades operativas puedan asumir exposiciones superiores a los límites establecidos.",
+      "C": "Alinear el apetito y la tolerancia al riesgo establecidos a nivel corporativo con los límites y decisiones de riesgo de las unidades operativas para asegurar una gestión consistente de la exposición.",
+      "D": "Transferir a Auditoría Interna la responsabilidad de determinar los niveles aceptables de riesgo cuando las unidades operativas superen los límites establecidos."
+    },
+    "correcta": "C",
+    "explicacion": "Alinear el apetito y la tolerancia al riesgo corporativos con los límites y decisiones de las unidades operativas es la forma de asegurar una gestión consistente de la exposición.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "a5aebfc90694",
+    "numero": 6,
+    "pregunta": "Una organización ha desarrollado un proceso formal para identificar y evaluar sus principales riesgos. Sin embargo, el proceso se concentra principalmente en riesgos históricos y conocidos, mientras que factores emergentes como nuevas tecnologías, cambios en el comportamiento de los consumidores y amenazas geopolíticas no son evaluados sistemáticamente. ¿Qué desafío complejo de gestión de riesgos plantea esta situación?",
+    "opciones": {
+      "A": "Concentrar los recursos de gestión de riesgos en los riesgos históricos, debido a que estos cuentan con mayor información para estimar su probabilidad e impacto.",
+      "B": "Incorporar la identificación y evaluación de riesgos emergentes en el proceso de gestión de riesgos para anticipar amenazas y oportunidades que podrían afectar el logro futuro de los objetivos.",
+      "C": "Evitar incorporar riesgos emergentes hasta que exista evidencia suficiente de que se han convertido en riesgos materiales para la organización.",
+      "D": "Delegar exclusivamente a la alta dirección la identificación de riesgos emergentes debido a que estos podrían tener implicancias estratégicas."
+    },
+    "correcta": "B",
+    "explicacion": "Incorporar la identificación y evaluación de riesgos emergentes (nuevas tecnologías, geopolítica, comportamiento del consumidor) es necesario para anticipar amenazas y oportunidades futuras.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "87e794619e3f",
+    "numero": 7,
+    "pregunta": "Durante una auditoría, el auditor observa que los responsables de una organización consideran que la gestión de riesgos consiste principalmente en evitar actividades que puedan generar pérdidas. Como consecuencia, algunas oportunidades de crecimiento e innovación son rechazadas debido a que implican cierto nivel de incertidumbre. ¿Qué desafío de gestión de riesgos plantea mejor esta situación?",
+    "opciones": {
+      "A": "Fortalecer los controles para eliminar completamente la incertidumbre asociada con las iniciativas de crecimiento e innovación.",
+      "B": "Reducir el apetito de riesgo de la organización para garantizar que todas las decisiones empresariales tengan un nivel mínimo de exposición.",
+      "C": "Integrar la gestión de riesgos con la toma de decisiones para equilibrar las amenazas y oportunidades, permitiendo asumir riesgos de manera informada cuando sean consistentes con los objetivos y el apetito de riesgo.",
+      "D": "Transferir a la función de gestión de riesgos la responsabilidad de aprobar todas las iniciativas que impliquen incertidumbre o exposición al riesgo."
+    },
+    "correcta": "C",
+    "explicacion": "Integrar la gestión de riesgos con la toma de decisiones, permitiendo asumir riesgos informados cuando sean consistentes con los objetivos y el apetito de riesgo, es el enfoque adecuado frente a una cultura excesivamente aversa al riesgo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "2a1cee61272c",
+    "numero": 8,
+    "pregunta": "Durante una auditoría de una empresa de servicios digitales, el auditor identifica que una interrupción de los sistemas podría generar incumplimientos contractuales, afectar la continuidad de las operaciones, generar pérdidas financieras y deteriorar la confianza de los clientes. La organización, sin embargo, gestiona cada uno de estos riesgos de manera independiente y no analiza cómo un mismo evento puede generar múltiples consecuencias. ¿Qué desafío complejo de gestión de riesgos plantea esta situación?",
+    "opciones": {
+      "A": "Gestionar cada riesgo de manera independiente para permitir que los responsables especializados desarrollen respuestas específicas para cada categoría.",
+      "B": "Priorizar únicamente el riesgo financiero debido a que las pérdidas económicas constituyen el principal impacto cuantificable de la interrupción.",
+      "C": "Centralizar la gestión de todos los riesgos en la función de riesgos para evitar que diferentes áreas desarrollen respuestas independientes.",
+      "D": "Adoptar una visión integrada de los riesgos interrelacionados, considerando cómo un mismo evento puede generar impactos operativos, financieros, contractuales y reputacionales que requieren respuestas coordinadas."
+    },
+    "correcta": "D",
+    "explicacion": "Adoptar una visión integrada de los riesgos interrelacionados es necesario cuando un mismo evento puede generar múltiples consecuencias (operativas, financieras, contractuales, reputacionales) que requieren respuestas coordinadas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "a2b79c6d759a",
+    "numero": 9,
+    "pregunta": "Una organización ha definido que está dispuesta a asumir determinados niveles de riesgo relacionados con la alcanzar sus objetivos estratégicos. Sin embargo, algunas iniciativas comerciales están siendo aprobadas con niveles de exposición significativamente superiores a los establecidos por la alta dirección. ¿Qué situación refleja mejor este escenario?",
+    "opciones": {
+      "A": "La organización está utilizando adecuadamente su apetito de riesgo, ya que asumir niveles superiores de riesgo puede favorecer el crecimiento y la innovación.",
+      "B": "Existe una falta de alineación entre las decisiones de riesgo y el apetito de riesgo establecido por la organización, lo que puede generar exposiciones superiores a las aceptables.",
+      "C": "El apetito de riesgo debe modificarse cada vez que una unidad de negocio decide asumir un nivel de riesgo superior al inicialmente establecido.",
+      "D": "La alta dirección debe evitar establecer un apetito de riesgo específico para permitir que cada unidad determine libremente el nivel de exposición que considera apropiado."
+    },
+    "correcta": "B",
+    "explicacion": "Que se aprueben iniciativas con niveles de exposición superiores a los establecidos por la alta dirección refleja una falta de alineación entre las decisiones de riesgo y el apetito de riesgo definido.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "9646c9dade67",
+    "numero": 10,
+    "pregunta": "Durante una auditoría, el auditor identifica que una organización ha establecido como objetivo mantener determinado indicador operativo dentro de un rango aceptable. Sin embargo, cuando el indicador supera temporalmente ese rango, los responsables no cuentan con criterios definidos para determinar cuándo deben tomar medidas correctivas. ¿Qué debilidad de gestión de riesgos se evidencia principalmente?",
+    "opciones": {
+      "A": "La organización carece de un apetito de riesgo, ya que ningún indicador operativo debería tener límites específicos.",
+      "B": "La organización no ha definido adecuadamente la tolerancia al riesgo, debido a que no existen límites claros que determinen cuándo una desviación requiere una respuesta o acción correctiva.",
+      "C": "La organización debería eliminar los límites establecidos para permitir que los responsables gestionen las desviaciones según su experiencia.",
+      "D": "La existencia de límites operativos demuestra que la organización está evitando asumir cualquier tipo de riesgo y, por lo tanto, no requiere una tolerancia al riesgo."
+    },
+    "correcta": "B",
+    "explicacion": "La ausencia de límites claros para determinar cuándo una desviación del indicador requiere una acción correctiva evidencia que la tolerancia al riesgo no fue definida adecuadamente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "c4d489fb8529",
+    "numero": 11,
+    "pregunta": "Una organización establece que está dispuesta a asumir riesgos relacionados con innovación tecnológica para lograr sus objetivos estratégicos. Al mismo tiempo, determina que las interrupciones de sus sistemas críticos no deben superar un número máximo de horas al año. ¿Qué relación representan mejor estas definiciones?",
+    "opciones": {
+      "A": "El apetito de riesgo establece la disposición general de la organización a asumir riesgos para alcanzar sus objetivos, mientras que la tolerancia al riesgo establece límites específicos aceptables para determinados riesgos o resultados.",
+      "B": "El apetito de riesgo y la tolerancia al riesgo son conceptos equivalentes y pueden utilizarse indistintamente para establecer los límites de exposición.",
+      "C": "La tolerancia al riesgo establece la cantidad total de riesgo que la organización desea asumir, mientras que el apetito se limita exclusivamente a los riesgos operativos.",
+      "D": "El apetito de riesgo debe establecerse únicamente después de que se hayan producido desviaciones respecto de los límites de tolerancia."
+    },
+    "correcta": "A",
+    "explicacion": "El apetito de riesgo establece la disposición general a asumir riesgos para lograr objetivos, mientras que la tolerancia al riesgo fija límites específicos aceptables para riesgos o resultados puntuales — son conceptos relacionados pero distintos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "173becfcee23",
+    "numero": 12,
+    "pregunta": "Durante una auditoría, el auditor identifica un riesgo significativo relacionado con la posibilidad de interrupción de un servicio crítico. La gerencia evalúa diferentes alternativas y decide implementar controles adicionales para reducir la probabilidad de ocurrencia y, al mismo tiempo, contratar un seguro para cubrir parte de las posibles pérdidas financieras. ¿Qué demuestra principalmente esta decisión?",
+    "opciones": {
+      "A": "La organización está aceptando el riesgo, debido a que ningún control puede eliminar completamente la posibilidad de interrupción.",
+      "B": "La organización está evitando el riesgo, debido a que ha implementado controles adicionales para reducir su probabilidad.",
+      "C": "La organización está utilizando una combinación de respuestas al riesgo, reduciendo su exposición mediante controles y compartiendo parte de las consecuencias financieras mediante la transferencia del riesgo.",
+      "D": "La organización está eliminando completamente el riesgo mediante la implementación de controles y la contratación de un seguro."
+    },
+    "correcta": "C",
+    "explicacion": "Implementar controles adicionales para reducir la probabilidad y, a la vez, contratar un seguro para cubrir parte de las pérdidas, es una combinación de respuestas al riesgo: reducción y transferencia.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "ba426e2a315f",
+    "numero": 13,
+    "pregunta": "Durante una auditoría, un auditor interno evalúa las respuestas propuestas por la gerencia para un riesgo significativo. Observa que la gerencia seleccionó una respuesta únicamente porque era la alternativa de menor costo, sin considerar su impacto sobre los objetivos, el apetito de riesgo, los beneficios esperados ni otras alternativas disponibles. ¿Qué debilidad identifica principalmente el auditor?",
+    "opciones": {
+      "A": "La organización debería seleccionar siempre la respuesta que elimine completamente el riesgo, independientemente de su costo.",
+      "B": "La selección de la respuesta al riesgo no considera adecuadamente factores como el costo-beneficio, el nivel de exposición, el apetito de riesgo y el impacto sobre los objetivos organizacionales.",
+      "C": "La alternativa de menor costo siempre constituye la respuesta más apropiada cuando el riesgo puede reducirse mediante controles.",
+      "D": "La evaluación de diferentes respuestas al riesgo corresponde exclusivamente a Auditoría Interna, debido a su responsabilidad de supervisar la gestión de riesgos."
+    },
+    "correcta": "B",
+    "explicacion": "Elegir la alternativa de menor costo sin considerar el costo-beneficio, el apetito de riesgo ni el impacto en los objetivos es una debilidad en la selección de la respuesta al riesgo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "7ee14d883d45",
+    "numero": 14,
+    "pregunta": "Una organización cuenta con diferentes procesos para identificar, evaluar, responder y monitorear riesgos. Sin embargo, cada área utiliza metodologías y criterios diferentes, lo que dificulta obtener una visión integral de los principales riesgos que podrían afectar el logro de los objetivos de la organización. ¿Cuál es uno de los principales propósitos de implementar un marco de gestión de riesgos?",
+    "opciones": {
+      "A": "Sustituir los procesos de gestión de riesgos existentes por una única función centralizada que sea responsable de todos los riesgos de la organización.",
+      "B": "Permitir que cada área gestione sus riesgos de manera independiente para asegurar que las respuestas se adapten completamente a sus necesidades específicas.",
+      "C": "Proporcionar una estructura común que permita integrar, coordinar y gestionar los riesgos de manera consistente, facilitando una visión integral de cómo estos pueden afectar el logro de los objetivos.",
+      "D": "Transferir a una función especializada la responsabilidad de tomar todas las decisiones relacionadas con los riesgos identificados por las diferentes áreas."
+    },
+    "correcta": "C",
+    "explicacion": "Un marco de gestión de riesgos proporciona una estructura común que integra, coordina y gestiona los riesgos de manera consistente, dando una visión integral de su efecto sobre los objetivos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "3b142ab391b1",
+    "numero": 15,
+    "pregunta": "Una organización cuenta con sólidos componentes individuales de gestión de riesgos, pero carece de coordinación entre ellos. Como consecuencia, diferentes áreas pueden evaluar el mismo riesgo de manera distinta y tomar decisiones que no consideran los impactos sobre otras partes de la organización. ¿Qué beneficio de un marco de gestión de riesgos aborda mejor esta situación?",
+    "opciones": {
+      "A": "Establecer roles, relaciones y puntos de integración claros entre los diferentes componentes de gestión de riesgos y las funciones organizativas, favoreciendo una gestión coordinada e integral.",
+      "B": "Mantener cada componente de gestión de riesgos operando de manera independiente, siempre que los resultados sean reportados periódicamente a la alta dirección.",
+      "C": "Desmantelar los componentes existentes y reconstruir completamente la gestión de riesgos bajo una única metodología corporativa.",
+      "D": "Fusionar todas las funciones relacionadas con riesgos en una sola unidad organizacional para eliminar cualquier posibilidad de duplicidad o fragmentación."
+    },
+    "correcta": "A",
+    "explicacion": "Establecer roles, relaciones y puntos de integración claros entre los componentes de gestión de riesgos y las funciones organizativas favorece una gestión coordinada, resolviendo la falta de coordinación descrita.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "e8f00c80fc01",
+    "numero": 16,
+    "pregunta": "Una empresa de distribución identificó un riesgo significativo de que los pedidos sean despachados a clientes sin autorización, generando pérdidas financieras y reclamos. La gerencia implementó un control que exige la aprobación electrónica del supervisor antes de que cualquier pedido pueda ser procesado por el almacén. ¿Cuál es el propósito principal de este control?",
+    "opciones": {
+      "A": "Detectar posteriormente los pedidos que fueron despachados sin autorización mediante una revisión mensual de las transacciones.",
+      "B": "Reducir la probabilidad de que se materialice el riesgo mediante una actividad de control ejecutada antes del despacho.",
+      "C": "Corregir las consecuencias financieras ocasionadas por los pedidos despachados incorrectamente.",
+      "D": "Transferir a los supervisores la responsabilidad total por las pérdidas ocasionadas por despachos no autorizados."
+    },
+    "correcta": "B",
+    "explicacion": "La aprobación electrónica previa del supervisor busca reducir la probabilidad de que el riesgo se materialice, ejecutándose antes del despacho — es un control preventivo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "920e56b6b83b",
+    "numero": 17,
+    "pregunta": "Durante una auditoría, se determina que una organización tiene como objetivo garantizar que sus estados financieros contengan información confiable y que sus operaciones cumplan con las políticas establecidas. ¿Cuál describe mejor el propósito de los controles internos?",
+    "opciones": {
+      "A": "Garantizar que ningún riesgo pueda materializarse dentro de la organización mediante la eliminación de todas las actividades que generen incertidumbre.",
+      "B": "Sustituir la responsabilidad de la gerencia en la toma de decisiones mediante procedimientos establecidos por Auditoría Interna.",
+      "C": "Proporcionar seguridad razonable respecto del logro de objetivos relacionados con las operaciones, la información y el cumplimiento.",
+      "D": "Detectar exclusivamente errores financieros después de que hayan ocurrido para permitir su corrección por parte de la gerencia."
+    },
+    "correcta": "C",
+    "explicacion": "Los controles internos existen para proporcionar seguridad razonable respecto al logro de objetivos relacionados con operaciones, información y cumplimiento.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "b681da0d1b21",
+    "numero": 18,
+    "pregunta": "Una organización ha identificado el riesgo de que empleados creen proveedores ficticios para realizar pagos no autorizados. Como medida de control, el sistema exige una validación independiente de la información del proveedor antes de permitir su activación en el sistema. ¿Qué tipo de control representa principalmente esta medida?",
+    "opciones": {
+      "A": "Control preventivo diseñado para impedir que un proveedor no validado sea incorporado al sistema antes de que puedan efectuarse transacciones.",
+      "B": "Control de detección diseñado para identificar proveedores ficticios después de que se hayan realizado pagos.",
+      "C": "Control correctivo diseñado para recuperar los fondos transferidos a proveedores no autorizados.",
+      "D": "Control compensatorio diseñado para reemplazar todos los controles relacionados con la creación de proveedores."
+    },
+    "correcta": "A",
+    "explicacion": "Exigir validación independiente de la información del proveedor antes de activarlo en el sistema es un control preventivo: impide que un proveedor no validado sea incorporado antes de que ocurran transacciones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "afcd8886c30b",
+    "numero": 19,
+    "pregunta": "Durante una auditoría, el auditor observa que una organización realiza mensualmente una conciliación entre los registros contables y los estados bancarios para identificar transacciones no registradas o diferencias. ¿Qué característica describe mejor este control?",
+    "opciones": {
+      "A": "Es preventivo porque impide que se registren transacciones incorrectas en los sistemas contables.",
+      "B": "Es de detección porque busca identificar errores o irregularidades después de que las transacciones han ocurrido.",
+      "C": "Es correctivo porque la conciliación modifica automáticamente todos los registros contables que presentan diferencias.",
+      "D": "Es directivo porque establece los objetivos que deben alcanzar los responsables del proceso financiero."
+    },
+    "correcta": "B",
+    "explicacion": "La conciliación mensual entre registros contables y estados bancarios es un control de detección, ya que identifica errores o irregularidades después de que las transacciones ya ocurrieron.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "582b06bb27ca",
+    "numero": 20,
+    "pregunta": "Una empresa detecta que algunos empleados han registrado gastos sin adjuntar la documentación requerida. La gerencia establece un procedimiento mediante el cual el responsable para las transacciones identificadas son devueltas al responsable para que adjunte la documentación y regularice el registro antes del cierre mensual. ¿Qué tipo de control representa principalmente esta medida?",
+    "opciones": {
+      "A": "Control preventivo, porque impide que cualquier gasto sea registrado inicialmente.",
+      "B": "Control de detección, porque identifica la ausencia de documentación durante la revisión.",
+      "C": "Control correctivo, porque establece acciones para corregir una deficiencia identificada y llevar la transacción a una condición adecuada.",
+      "D": "Control directivo, porque establece los objetivos generales que deben cumplir los responsables de registrar gastos."
+    },
+    "correcta": "C",
+    "explicacion": "Devolver al responsable las transacciones sin documentación para que las regularice antes del cierre es un control correctivo: lleva la transacción a una condición adecuada tras identificar la deficiencia.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "1e1e1d511915",
+    "numero": 21,
+    "pregunta": "Durante una auditoría, se identifica que existe un riesgo elevado de que los empleados puedan modificar las cuentas bancarias de los proveedores y posteriormente procesar pagos hacia cuentas fraudulentas. ¿Cuál de los siguientes controles sería más apropiado para mitigar este riesgo?",
+    "opciones": {
+      "A": "Realizar una revisión anual de una muestra de proveedores para determinar si sus cuentas bancarias son válidas.",
+      "B": "Implementar segregación de funciones y aprobación independiente para las modificaciones de cuentas bancarias de proveedores.",
+      "C": "Capacitar anualmente a los empleados sobre la importancia de proteger la información de los proveedores.",
+      "D": "Preparar un reporte mensual de todos los pagos realizados y distribuirlo a los responsables del área financiera."
+    },
+    "correcta": "B",
+    "explicacion": "Implementar segregación de funciones y aprobación independiente para modificar cuentas bancarias de proveedores es el control más apropiado para mitigar el riesgo de pagos hacia cuentas fraudulentas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "b633b0d6c33e",
+    "numero": 22,
+    "pregunta": "Una organización identifica como riesgo principal la posibilidad de que se realicen pagos duplicados a proveedores debido a errores en el procesamiento de facturas. ¿Qué sería más apropiado para mitigar directamente este riesgo?",
+    "opciones": {
+      "A": "Capacitar a los empleados sobre las consecuencias de registrar facturas duplicadas.",
+      "B": "Revisar trimestralmente los gastos totales de proveedores para identificar variaciones significativas.",
+      "C": "Configurar el sistema para identificar facturas con el mismo número, proveedor y monto antes de autorizar el pago.",
+      "D": "Solicitar a los proveedores que confirmen anualmente el saldo de sus cuentas por cobrar."
+    },
+    "correcta": "C",
+    "explicacion": "Configurar el sistema para identificar facturas con el mismo número, proveedor y monto antes de autorizar el pago mitiga directamente el riesgo de pagos duplicados.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "354315401611",
+    "numero": 23,
+    "pregunta": "Durante una auditoría, el auditor determina que una organización cuenta con un control destinado a detectar pagos no autorizados. El control establece que el gerente debe revisar un reporte mensual, pero no define qué información debe revisar, qué criterios debe aplicar ni qué evidencia debe conservar. ¿Qué debilidad existe principalmente?",
+    "opciones": {
+      "A": "El diseño del control es insuficiente porque no define claramente cómo debe ejecutarse, qué debe evaluarse ni qué evidencia debe conservarse para demostrar su operación.",
+      "B": "El control es necesariamente ineficaz porque todos los controles manuales presentan un alto riesgo de error.",
+      "C": "El control debe eliminarse porque los controles de detección no son apropiados para gestionar riesgos financieros.",
+      "D": "El control es adecuado siempre que el gerente tenga suficiente experiencia para determinar qué aspectos revisar."
+    },
+    "correcta": "A",
+    "explicacion": "Que el control no defina claramente cómo debe ejecutarse, qué debe evaluarse ni qué evidencia conservar es un problema de diseño insuficiente del control, independientemente de la experiencia del gerente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "f9fd4ade3d0d",
+    "numero": 24,
+    "pregunta": "Un auditor evalúa un control diseñado para detectar facturas sin orden de compra. El procedimiento está correctamente documentado y define claramente las responsabilidades. Sin embargo, las pruebas del auditor muestran que durante los últimos seis meses el responsable no realizó las revisiones establecidas. ¿Qué conclusión es más apropiada?",
+    "opciones": {
+      "A": "El control es eficaz porque está adecuadamente diseñado y documentado.",
+      "B": "El control es preventivo porque fue diseñado para evitar que las facturas sean procesadas sin una orden de compra.",
+      "C": "El control está adecuadamente diseñado, pero no es eficaz en su operación porque no se ejecutó de acuerdo con el procedimiento establecido.",
+      "D": "El control debe considerarse eficaz porque la ausencia de ejecución no necesariamente implica que el riesgo se haya materializado."
+    },
+    "correcta": "C",
+    "explicacion": "El control estaba adecuadamente diseñado pero no fue eficaz en su operación, porque no se ejecutó según lo establecido durante seis meses — la falta de ejecución, no el diseño, es la falla.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "6b5239d47ca9",
+    "numero": 25,
+    "pregunta": "Una organización implementó un control automático para bloquear pagos que superen determinados límites sin aprobación. Durante la auditoría, el auditor confirma que el control está correctamente configurado y funciona de manera consistente. Sin embargo, descubre que los límites establecidos son superiores al nivel de exposición que la organización está dispuesta a aceptar. ¿Qué conclusión es más apropiada?",
+    "opciones": {
+      "A": "El control es eficaz porque funciona automáticamente y no depende de la intervención humana.",
+      "B": "El control puede estar funcionando según su diseño, pero su diseño no es adecuado para mitigar el riesgo al nivel requerido por la organización.",
+      "C": "El control es eficaz porque cualquier límite de aprobación reduce necesariamente el riesgo a un nivel aceptable.",
+      "D": "El control debe considerarse ineficaz únicamente si el auditor identifica que algún pago superó el límite establecido."
+    },
+    "correcta": "B",
+    "explicacion": "El control puede funcionar según su diseño (automatizado y consistente), pero ese diseño no es adecuado si los límites configurados exceden el nivel de riesgo que la organización está dispuesta a aceptar.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "93d20b0c1660",
+    "numero": 26,
+    "pregunta": "Una auditoría interna de una empresa de logística reveló que los operadores compartían sus credenciales para acceder rápidamente al sistema de despacho durante los períodos de alta demanda. Aunque esta práctica incumplía las políticas de seguridad, los empleados argumentaban que los procedimientos individuales de autenticación generaban retrasos en los despachos. ¿Qué solución de control abordaría mejor tanto las necesidades de seguridad como las operativas?",
+    "opciones": {
+      "A": "Sancionar a todos los empleados que compartan sus credenciales para reforzar el cumplimiento estricto de las políticas de seguridad.",
+      "B": "Implementar controles de acceso basados en roles, autenticación individual y mecanismos de acceso temporal o de emergencia que permitan mantener la continuidad operativa sin compartir credenciales.",
+      "C": "Permitir el uso compartido de credenciales durante los períodos de alta demanda para evitar interrupciones en las operaciones.",
+      "D": "Restringir el acceso al sistema durante los períodos de alta demanda para reducir la posibilidad de accesos no autorizados."
+    },
+    "correcta": "B",
+    "explicacion": "Implementar controles de acceso basados en roles, autenticación individual y mecanismos de acceso temporal o de emergencia resuelve tanto la necesidad de seguridad como la de continuidad operativa, sin compartir credenciales.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "54b78afe6786",
+    "numero": 27,
+    "pregunta": "Una organización implementó un control que exige una aprobación independiente para todas las transferencias bancarias superiores a un determinado importe. El control está correctamente documentado y los responsables realizan las aprobaciones. Sin embargo, durante la auditoría se descubre que los empleados dividen deliberadamente las transferencias en varias operaciones menores para evitar superar el límite establecido. ¿Qué mejora aumentaría principalmente la eficacia del control?",
+    "opciones": {
+      "A": "Incrementar el número de personas responsables de aprobar las transferencias que superen el límite.",
+      "B": "Diseñar el control para identificar transacciones relacionadas o fraccionadas que, consideradas en conjunto, superen el umbral establecido para la aprobación.",
+      "C": "Aumentar el importe mínimo que requiere aprobación para reducir el número de transacciones que deben ser revisadas.",
+      "D": "Mantener el control actual, debido a que las transferencias individuales cumplen con el límite establecido."
+    },
+    "correcta": "B",
+    "explicacion": "Diseñar el control para identificar transacciones relacionadas o fraccionadas que, en conjunto, superen el umbral de aprobación, cierra la brecha que permite fraccionar transferencias para evadir el límite.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "c3e1d45ae700",
+    "numero": 28,
+    "pregunta": "Durante una auditoría, el auditor observa que una organización aplica el mismo nivel de controles a todas las transacciones, independientemente de su importe, naturaleza o nivel de riesgo. Las transacciones de bajo riesgo requieren múltiples aprobaciones, mientras que algunas operaciones de alto riesgo reciben controles similares. ¿Qué mejora sería más apropiada?",
+    "opciones": {
+      "A": "Incrementar los controles aplicados a todas las transacciones para garantizar un nivel uniforme de seguridad.",
+      "B": "Reducir los controles de todas las transacciones para mejorar la eficiencia de los procesos.",
+      "C": "Diseñar controles proporcionales a la naturaleza y nivel de riesgo de las transacciones, concentrando controles más rigurosos en las operaciones de mayor exposición.",
+      "D": "Permitir que cada empleado determine individualmente qué nivel de control resulta apropiado para las operaciones que procesa."
+    },
+    "correcta": "C",
+    "explicacion": "Diseñar controles proporcionales a la naturaleza y nivel de riesgo de cada transacción, concentrando el mayor rigor en las operaciones de mayor exposición, es la mejora apropiada frente a un nivel de control uniforme.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "cb3df421ac81",
+    "numero": 29,
+    "pregunta": "Una organización implementó controles muy estrictos para reducir el riesgo de errores y fraude en sus procesos de ventas. Sin embargo, los controles requieren numerosas aprobaciones y revisiones que ralentizan las operaciones rutinarias, provocando retrasos significativos en la atención de clientes y pérdida de oportunidades comerciales. ¿Qué debería considerar principalmente la gerencia al rediseñar estos controles?",
+    "opciones": {
+      "A": "Mantener todos los controles actuales porque una mayor cantidad de controles siempre proporciona mayor seguridad.",
+      "B": "Eliminar los controles relacionados con las ventas para permitir que los empleados respondan rápidamente a las necesidades de los clientes.",
+      "C": "Transferir la responsabilidad de los controles al área de Auditoría Interna para equilibrar objetivos de control y eficiencia.",
+      "D": "Equilibrar el nivel de control con los riesgos y objetivos del proceso, simplificando controles de bajo valor y manteniendo controles efectivos sobre los riesgos significativos."
+    },
+    "correcta": "D",
+    "explicacion": "Equilibrar el nivel de control con los riesgos y objetivos del proceso —simplificando controles de bajo valor y manteniendo los efectivos sobre riesgos significativos— es lo que la gerencia debería considerar al rediseñar controles excesivos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "4364378fc3ed",
+    "numero": 30,
+    "pregunta": "Una organización identifica un riesgo inherente elevado de fraude en el proceso de desembolsos. Implementa segregación de funciones, aprobaciones independientes y controles automatizados. Después de implementar los controles, la gerencia determina que todavía existe una posibilidad limitada de fraude. ¿Qué representa esta situación?",
+    "opciones": {
+      "A": "Los controles son ineficaces porque un control adecuado debe eliminar completamente el riesgo identificado.",
+      "B": "El riesgo inherente ha desaparecido porque la organización implementó controles para mitigarlo.",
+      "C": "Los controles han reducido el riesgo inherente, pero permanece un riesgo residual que la organización debe evaluar frente a su apetito y tolerancia al riesgo.",
+      "D": "La existencia de riesgo residual demuestra que la organización debe transferir inmediatamente todo el riesgo mediante seguros u otros mecanismos."
+    },
+    "correcta": "C",
+    "explicacion": "Los controles reducen el riesgo inherente, pero el riesgo residual que permanece debe evaluarse frente al apetito y la tolerancia al riesgo de la organización, no eliminarse por completo automáticamente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "acb5e828c6cc",
+    "numero": 31,
+    "pregunta": "Durante una auditoría del proceso comercial, el auditor observa que el gerente de ventas ha registrado operaciones de venta al cierre del trimestre que, si bien cuentan con documentación básica, presentan condiciones inusuales y fueron aceleradas justo antes de que determinen su bono y continuidad en el cargo. ¿Qué elemento del triángulo del fraude se evidencia principalmente en esta situación?",
+    "opciones": {
+      "A": "Una oportunidad, debido a que existen debilidades en los controles que permiten registrar operaciones de venta al cierre sin revisión independiente suficiente.",
+      "B": "Una presión o incentivo, debido a que el cumplimiento de las metas y la obtención del bono generan una motivación para manipular los resultados reportados.",
+      "C": "Una racionalización, debido a que el gerente considere que registrar las operaciones anticipadamente es aceptable mientras la empresa finalmente cobre las ventas.",
+      "D": "Una deficiencia de monitoreo, debido a que la gerencia no ha realizado revisiones periódicas de las operaciones registradas durante el trimestre."
+    },
+    "correcta": "B",
+    "explicacion": "Que el bono y la continuidad del gerente dependan de las metas de venta genera la presión o incentivo para manipular el momento de registro de las operaciones — es el elemento de motivación del triángulo del fraude.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "9b65e5715bdb",
+    "numero": 32,
+    "pregunta": "Durante una auditoría de cuentas por pagar, el auditor identifica que un mismo empleado puede crear proveedores, modificar sus cuentas bancarias, registrar facturas y aprobar pagos. Además, no existe una revisión independiente periódica de estas actividades. ¿Qué elemento del triángulo del fraude representa principalmente esta situación?",
+    "opciones": {
+      "A": "Presión o incentivo, porque el empleado podría estar motivado por obtener beneficios económicos adicionales.",
+      "B": "Racionalización, porque el empleado podría considerar que tiene derecho a utilizar los recursos de la organización.",
+      "C": "Oportunidad, porque la concentración de funciones y la ausencia de controles independientes facilitan que una conducta fraudulenta pueda ejecutarse y ocultarse.",
+      "D": "Respuesta al riesgo, porque la organización no ha contratado un seguro específico contra fraude."
+    },
+    "correcta": "C",
+    "explicacion": "Que un mismo empleado concentre la creación de proveedores, modificación de cuentas, registro de facturas y aprobación de pagos, sin revisión independiente, es la oportunidad que facilita el fraude.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "11608cb0f8b0",
+    "numero": 33,
+    "pregunta": "En una entrevista, un empleado que utilizó fondos de la organización para cubrir gastos personales manifiesta que lleva muchos años trabajando para la empresa, que considera que su salario no refleja su esfuerzo y que tenía la intención de devolver el dinero posteriormente. ¿Qué elemento del triángulo del fraude se refleja principalmente?",
+    "opciones": {
+      "A": "Oportunidad, porque el empleado tuvo acceso a los fondos de la organización.",
+      "B": "Presión o incentivo, porque el empleado percibía que necesitaba recursos adicionales.",
+      "C": "Racionalización, porque el empleado construye una justificación que le permite considerar aceptable una conducta que sabe que no corresponde.",
+      "D": "Monitoreo, porque la organización no detectó oportunamente el uso de los fondos."
+    },
+    "correcta": "C",
+    "explicacion": "Que el empleado construya una justificación (\"llevo años trabajando, mi salario no refleja mi esfuerzo\") que hace parecer aceptable una conducta que sabe indebida es racionalización.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "410d51f96d5d",
+    "numero": 34,
+    "pregunta": "Durante la planificación de una auditoría sobre ingresos, el auditor identifica que la organización paga bonos significativos en función de las ventas trimestrales y que, durante los últimos días de cada trimestre, se han producido incrementos inusuales en las ventas y devoluciones posteriores. ¿Cuál sería la respuesta más apropiada del auditor interno?",
+    "opciones": {
+      "A": "Concluir que existe un fraude en el reconocimiento de ingresos y comunicar inmediatamente el caso como un fraude confirmado.",
+      "B": "Excluir las operaciones de cierre del alcance porque son transacciones normales y cuentan con documentación comercial.",
+      "C": "Considerar estas circunstancias en la evaluación del riesgo de fraude y ajustar el alcance, la naturaleza y oportunidad de los procedimientos para responder a dicho riesgo.",
+      "D": "Solicitar a la gerencia que elimine los bonos comerciales antes de iniciar el trabajo para evitar cualquier posibilidad de fraude."
+    },
+    "correcta": "C",
+    "explicacion": "Ante incrementos inusuales en ventas de cierre de trimestre vinculados a bonos, lo apropiado es considerar estas circunstancias en la evaluación del riesgo de fraude y ajustar el alcance y los procedimientos, no concluir fraude de inmediato ni ignorarlo.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "0e87107cf267",
+    "numero": 35,
+    "pregunta": "Una organización está priorizando sus procesos para realizar una evaluación de riesgos de fraude. El área de Compras y Cuentas por Pagar procesa un volumen elevado de operaciones, tiene contacto directo con proveedores y permite modificar información bancaria y aprobar pagos de determinados importes. ¿Qué enfoque sería más apropiado para determinar si este proceso presenta una exposición significativa al riesgo de fraude?",
+    "opciones": {
+      "A": "Considerar únicamente el volumen monetario de las operaciones, ya que los procesos con mayor importe siempre presentan el mayor riesgo.",
+      "B": "Evaluar de manera conjunta los incentivos, oportunidades, complejidad, volumen de transacciones, acceso a activos, antecedentes y efectividad de los controles existentes.",
+      "C": "Clasificar el proceso como de bajo riesgo siempre que exista un procedimiento formal aprobado por la gerencia.",
+      "D": "Priorizar únicamente los procesos en los que auditoría interna haya detectado un fraude confirmado durante el último año."
+    },
+    "correcta": "B",
+    "explicacion": "El enfoque apropiado para evaluar la exposición al riesgo de fraude de un proceso es considerar de manera conjunta incentivos, oportunidades, complejidad, volumen, acceso a activos, antecedentes y efectividad de controles — no un solo factor aislado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "6a9367f626f1",
+    "numero": 36,
+    "pregunta": "Una empresa cuenta con políticas y controles para prevenir el fraude, pero no ha actualizado su última evaluación formal de riesgos de fraude hace tres años. Desde entonces, implementó un nuevo ERP, modificó el proceso de pagos y amplió significativamente sus operaciones con proveedores internacionales. ¿Qué conclusión es más apropiada respecto al proceso de gestión de riesgos de fraude?",
+    "opciones": {
+      "A": "La gestión de riesgos de fraude continúa siendo adecuada porque los controles existentes fueron aprobados previamente por la gerencia.",
+      "B": "La evaluación de fraude solo debe actualizarse cuando se confirme un fraude o una denuncia formal.",
+      "C": "La organización debería actualizar su evaluación de riesgos de fraude considerando los cambios en sistemas, procesos y entorno, ya que la gestión del fraude debe ser dinámica.",
+      "D": "La responsabilidad de actualizar la evaluación corresponde exclusivamente a auditoría interna, dado que es quien evalúa los controles."
+    },
+    "correcta": "C",
+    "explicacion": "La organización debería actualizar su evaluación de riesgos de fraude considerando los cambios en sistemas, procesos y entorno (nuevo ERP, nuevo proceso de pagos, expansión internacional), ya que la gestión del fraude debe ser dinámica.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "b2d3fac8aa0f",
+    "numero": 37,
+    "pregunta": "Durante una evaluación del ambiente de control, el auditor observa que la alta dirección comunica metas financieras muy agresivas y que los empleados manifiestan temor de reportar irregularidades porque podrían afectar su carrera. ¿Cómo debería interpretar el auditor estas circunstancias?",
+    "opciones": {
+      "A": "Como evidencia suficiente de que la alta dirección está involucrada en actividades fraudulentas.",
+      "B": "Como señales de alerta a nivel organizacional que pueden incrementar el riesgo de fraude y requieren ser consideradas en la evaluación del riesgo.",
+      "C": "Como deficiencias exclusivamente relacionadas con recursos humanos que no tienen relación con el riesgo de fraude.",
+      "D": "Como evidencia de que los controles operativos son ineficaces, aun cuando no se hayan evaluado directamente."
+    },
+    "correcta": "B",
+    "explicacion": "Metas financieras agresivas combinadas con temor a reportar irregularidades son señales de alerta a nivel organizacional que incrementan el riesgo de fraude y deben considerarse en la evaluación de riesgos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "ff73eef481b5",
+    "numero": 38,
+    "pregunta": "En una revisión del proceso de adquisiciones, el auditor identifica que un comprador insiste repetidamente en trabajar con determinados proveedores, cuyas compras se realizan justo por debajo del límite que exige una aprobación adicional y existen cambios frecuentes en las cuentas bancarias de algunos proveedores. ¿Cuál sería la interpretación más adecuada?",
+    "opciones": {
+      "A": "Cada situación debe considerarse normal de manera independiente, ya que ninguna demuestra por sí sola la existencia de fraude.",
+      "B": "Los cambios bancarios son suficientes para concluir que existe un esquema de fraude por parte del comprador.",
+      "C": "La combinación de señales de alerta a nivel del proceso justifica una evaluación más profunda del riesgo de fraude y la aplicación de procedimientos adicionales.",
+      "D": "La organización debería eliminar los límites de aprobación para evitar que las compras se fraccionen."
+    },
+    "correcta": "C",
+    "explicacion": "La combinación de señales de alerta a nivel de proceso (proveedor preferido, compras justo bajo el límite, cambios bancarios frecuentes) justifica una evaluación más profunda del riesgo de fraude, no conclusiones aisladas por cada señal.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "e609232aced2",
+    "numero": 39,
+    "pregunta": "Durante la planificación de una auditoría financiera interna, el equipo identifica que la gerencia recibe incentivos importantes por alcanzar determinados niveles de rentabilidad y que el cierre contable incluye estimaciones complejas y numerosos asientos manuales de último momento. ¿Qué debería hacer principalmente el auditor interno?",
+    "opciones": {
+      "A": "Considerar que las estimaciones son responsabilidad exclusiva de Contabilidad y, por ello, excluirlas de la evaluación del riesgo de fraude.",
+      "B": "Solicitar que se eliminen todos los asientos manuales antes de iniciar la auditoría, ya que cualquier asiento manual representa fraude potencial.",
+      "C": "Revisar únicamente los asientos que superen un importe material definido previamente, sin considerar el momento ni las características de la operación.",
+      "D": "Incorporar el riesgo de manipulación de resultados en la evaluación de fraude y diseñar procedimientos específicos sobre asientos inusuales, operaciones de cierre, estimaciones y transacciones con mayor susceptibilidad a manipulación."
+    },
+    "correcta": "D",
+    "explicacion": "Ante incentivos de rentabilidad y estimaciones/asientos manuales de cierre, el auditor debe incorporar el riesgo de manipulación de resultados en la evaluación de fraude, diseñando procedimientos específicos sobre esas áreas sensibles.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "7daf0fdddfab",
+    "numero": 40,
+    "pregunta": "Durante una auditoría, el auditor detecta que un gerente registra con frecuencia asientos contables durante los últimos días del cierre que incrementan el resultado y, al mismo tiempo, mejoran el indicador utilizado para calcular su bono. Algunos de estos asientos presentan documentación insuficiente. ¿Cuál es la respuesta más apropiada del auditor?",
+    "opciones": {
+      "A": "Concluir inmediatamente que existe fraude, debido a que los asientos benefician económicamente al gerente.",
+      "B": "Ignorar los asientos porque fueron registrados por un gerente con autoridad suficiente para realizarlos.",
+      "C": "Considerar los hechos como una señal de alerta, reevaluar el riesgo de fraude y ampliar los procedimientos para determinar si existe evidencia de manipulación intencional.",
+      "D": "Recomendar eliminar el esquema de bonos antes de continuar con la auditoría, ya que los incentivos son incompatibles con un ambiente de control adecuado."
+    },
+    "correcta": "C",
+    "explicacion": "Ante asientos de cierre que benefician el bono del gerente y presentan documentación insuficiente, la respuesta apropiada es considerarlo señal de alerta, reevaluar el riesgo de fraude y ampliar procedimientos, no concluir fraude de inmediato.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "367e09537b84",
+    "numero": 41,
+    "pregunta": "¿Cuál es el propósito principal de la auditoría interna?",
+    "opciones": {
+      "A": "Supervisa activamente las tareas diarias para confirmar el cumplimiento de las políticas y procedimientos operativos establecidos.",
+      "B": "Coordina sistemáticamente con partes interesadas externas para cumplir con los requisitos regulatorios y las directrices de reporte.",
+      "C": "Ofrece una garantía independiente que fortalece la gestión de riesgos, los controles internos y las prácticas generales de gobernanza.",
+      "D": "Evalúa rutinariamente los objetivos de los empleados para asegurar que las directrices de gestión se cumplan de forma consistente."
+    },
+    "correcta": "C",
+    "explicacion": "El propósito principal de auditoría interna es ofrecer una garantía independiente que fortalece la gestión de riesgos, los controles internos y las prácticas de gobernanza.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "f6ed76ea345a",
+    "numero": 42,
+    "pregunta": "Una empresa que busca optimizar sus procedimientos organizativos solicita una revisión interna de auditoría. ¿Cuál es un beneficio principal de la función de auditoría interna en este contexto?",
+    "opciones": {
+      "A": "Supervisa las actividades rutinarias de los empleados para mantener un cumplimiento constante de las directrices internas.",
+      "B": "Realiza una autoevaluación de los procesos de la función de auditoría interna para evaluar la adhesión a los Estándares Globales de Auditoría Interna.",
+      "C": "Evalúa las tareas operativas diarias y verifica que las políticas establecidas se apliquen de forma uniforme.",
+      "D": "Proporciona información independiente para mejorar la eficiencia operativa."
+    },
+    "correcta": "D",
+    "explicacion": "El beneficio principal de la función de auditoría interna en este contexto es proporcionar información independiente para mejorar la eficiencia operativa, no autoevaluarse a sí misma.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "6a2be5383008",
+    "numero": 43,
+    "pregunta": "Una empresa está actualizando su manual de procedimientos internos de auditoría para mejorar la calidad de la auditoría. ¿Qué condición es la más crítica para garantizar la calidad coherente del trabajo de auditoría interna?",
+    "opciones": {
+      "A": "Programas de formación que se centran en procedimientos estándar aplicados en trabajos de auditoría previos.",
+      "B": "Esfuerzos educativos que prioricen técnicas familiares sobre prácticas emergentes.",
+      "C": "Iniciativas de desarrollo profesional que se centren en prácticas de auditoría establecidas.",
+      "D": "Revisión por parte del supervisor de documentos de auditoría."
+    },
+    "correcta": "D",
+    "explicacion": "La revisión por parte del supervisor de los documentos de auditoría es la condición más crítica para garantizar la calidad coherente del trabajo, más que programas de formación centrados en prácticas ya establecidas.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "20d57d39f3ad",
+    "numero": 44,
+    "pregunta": "Una organización que busca mejorar su rendimiento en auditoría interna está examinando los factores clave de apoyo. ¿Qué condición es crucial para capacitar a los auditores internos a ofrecer resultados de calidad?",
+    "opciones": {
+      "A": "La provisión de recursos adecuados y oportunidades relevantes de desarrollo profesional.",
+      "B": "El establecimiento de políticas centradas en las prácticas tradicionales de auditoría.",
+      "C": "La asignación de recursos se centró en cumplir objetivos operativos rutinarios.",
+      "D": "El énfasis en la asignación de recursos que apoya objetivos tácticos inmediatos."
+    },
+    "correcta": "A",
+    "explicacion": "La provisión de recursos adecuados y oportunidades de desarrollo profesional es la condición crucial para que los auditores internos puedan ofrecer resultados de calidad.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "418f8f07ed36",
+    "numero": 45,
+    "pregunta": "Una corporación multinacional está revisando su estructura de auditoría interna. Teniendo en cuenta el mandato de auditoría interna, ¿cuál es la responsabilidad típica del consejo respecto a la función de auditoría interna?",
+    "opciones": {
+      "A": "Ordena al consejo que se involucre en la definición de políticas de auditoría interna, mientras que el director ejecutivo de auditoría gestiona las operaciones diarias de auditoría e informa sobre el progreso.",
+      "B": "Proporciona orientación estratégica y supervisión para garantizar que la función de auditoría interna siga siendo independiente y eficaz en sus evaluaciones.",
+      "C": "Encarga al consejo la tarea de establecer la agenda de auditoría interna y garantizar la adecuada alineación con las normas regulatorias y los objetivos organizativos.",
+      "D": "Asigna al consejo la tarea de participar en el diseño de metodologías de auditoría y en el establecimiento de un marco que apoye la mejora continua de la auditoría."
+    },
+    "correcta": "B",
+    "explicacion": "La responsabilidad típica del consejo es proporcionar orientación estratégica y supervisión para garantizar que la función de auditoría interna siga siendo independiente y eficaz, no gestionar operativamente la auditoría.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "26af9e08cb19",
+    "numero": 46,
+    "pregunta": "Una agencia gubernamental está evaluando su estatuto de auditoría interna. ¿Qué declaración describe mejor las responsabilidades compartidas por la junta y el director ejecutivo de auditoría bajo el mandato de auditoría interna?",
+    "opciones": {
+      "A": "El consejo establece políticas de auditoría y mantiene la supervisión, mientras que el director ejecutivo de auditoría implementa, supervisa y perfecciona sistemáticamente los procesos de auditoría.",
+      "B": "El director ejecutivo de auditoría establece el marco estratégico y supervisa el rendimiento general, y el consejo es informado de los resultados de la auditoría.",
+      "C": "El consejo ofrece supervisión interna de alto nivel, mientras que el director ejecutivo de auditoría ejecuta los planes de auditoría y revisa los resultados en toda la organización.",
+      "D": "La junta apoya el acceso sin restricciones de la función de auditoría interna a la información y al personal. El director ejecutivo de auditoría apoya al consejo manteniéndolo informado sobre el progreso de la función de auditoría interna."
+    },
+    "correcta": "D",
+    "explicacion": "Bajo el mandato de auditoría interna, la junta apoya el acceso sin restricciones de la función a la información y al personal, y el CAE mantiene informado al consejo sobre el progreso — esa es la responsabilidad compartida correcta.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "3d8f3c3c1200",
+    "numero": 48,
+    "pregunta": "¿Qué papel desempeña el director ejecutivo de auditoría (CAE) en la actualización del mandato de auditoría interna para abordar los cambios en el entorno empresarial?",
+    "opciones": {
+      "A": "La CAE preserva las prácticas tradicionales de auditoría para mantener la coherencia con los mandatos anteriores.",
+      "B": "La CAE limita las actualizaciones a los cambios en las normas de información financiera y a los requisitos de auditores externos.",
+      "C": "El CAE evalúa los cambios en el entorno empresarial y recomienda mantener el mandato de actualizaciones para abordar nuevos riesgos.",
+      "D": "El CAE supervisa las revisiones sin evaluar el impacto de los cambios medioambientales."
+    },
+    "correcta": "C",
+    "explicacion": "El CAE evalúa los cambios en el entorno empresarial y recomienda mantener el mandato actualizado para abordar nuevos riesgos, en lugar de preservar prácticas tradicionales sin cambios.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "a0fd014beb07",
+    "numero": 49,
+    "pregunta": "En una reunión reciente, el comité de auditoría revisa el estatuto de auditoría interna. ¿Qué requisito es esencial para la efectividad del estatuto?",
+    "opciones": {
+      "A": "Debe establecer el objetivo de proporcionar garantías independientes en los procesos de gobernanza, gestión de riesgos y control.",
+      "B": "Debe incluir un desglose detallado de los presupuestos de auditoría y la asignación de recursos.",
+      "C": "Se espera que especifique el proceso para seleccionar auditores externos para las comprobaciones de cumplimiento.",
+      "D": "Debe incluir cualquier tarea operativa asignada por el director financiero para que la función de auditoría interna la desempeñe."
+    },
+    "correcta": "A",
+    "explicacion": "El requisito esencial para la efectividad del estatuto es que establezca el objetivo de proporcionar garantías independientes en los procesos de gobernanza, gestión de riesgos y control.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "d55f78141cf8",
+    "numero": 50,
+    "pregunta": "¿Qué requisito estructural establecido por los Estándares Globales de Auditoría Interna ayuda a mantener la independencia de la función de auditoría interna?",
+    "opciones": {
+      "A": "Una estructura de informes que permite la comunicación directa con la junta o el comité de auditoría.",
+      "B": "Una estructura en la que la función de auditoría interna reporta directamente al CEO de la organización.",
+      "C": "Un marco que integra los hallazgos de auditoría con los auditores externos.",
+      "D": "Un sistema que rota las responsabilidades de auditoría entre varios departamentos de gestión."
+    },
+    "correcta": "A",
+    "explicacion": "Una estructura de informes que permite la comunicación directa con la junta o el comité de auditoría es el requisito estructural que ayuda a mantener la independencia de la función.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "693b2417fe5d",
+    "numero": 53,
+    "pregunta": "Una empresa de tamaño medio busca mejorar sus informes de auditoría interna. ¿Cómo pueden aplicarse habilidades efectivas de comunicación escrita para mejorar los informes de auditoría?",
+    "opciones": {
+      "A": "Proporcionando explicaciones narrativas extensas que cubren toda la información de fondo.",
+      "B": "Haciendo hincapié en la presentación de datos sin resumir los conocimientos clave para el público objetivo.",
+      "C": "Utilizando un lenguaje claro y conciso con secciones bien organizadas que destaquen los hallazgos y recomendaciones clave.",
+      "D": "Incorporando jerga técnica especializada y detalles extensos para demostrar una experiencia integral."
+    },
+    "correcta": "C",
+    "explicacion": "Utilizar un lenguaje claro y conciso con secciones bien organizadas que destaquen hallazgos y recomendaciones clave es la forma más efectiva de aplicar habilidades de comunicación escrita en los informes de auditoría.",
+    "dominio": "Dominio III: Competencia y Cuidado",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "7e0807a27ad7",
+    "numero": 56,
+    "pregunta": "¿De qué manera una cultura organizativa robusta afecta el entorno general de control y a los procesos de gestión de riesgos?",
+    "opciones": {
+      "A": "Una cultura robusta mejora principalmente las relaciones públicas y la satisfacción de los empleados sin influir significativamente en los controles internos.",
+      "B": "Una cultura robusta enfatiza la innovación y la velocidad operativa, con un impacto limitado en los sistemas formales de control.",
+      "C": "Una cultura robusta impulsa la estrategia competitiva, pero es menos influyente en la configuración del entorno de control interno.",
+      "D": "Una cultura sólida, caracterizada por sólidos valores éticos y rendición de cuentas, promueve la implementación y el seguimiento efectivos de los controles internos y las prácticas de gestión de riesgos."
+    },
+    "correcta": "D",
+    "explicacion": "Una cultura sólida, con valores éticos y rendición de cuentas, promueve la implementación y el seguimiento efectivo de los controles internos y las prácticas de gestión de riesgos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "0b17ae60b51a",
+    "numero": 58,
+    "pregunta": "¿Qué concepto ilustra mejor la diferencia entre riesgo inherente y riesgo residual en la gestión de riesgos?",
+    "opciones": {
+      "A": "El riesgo inherente es siempre el mayor posible y el riesgo residual es una fracción de ese riesgo estimado por tendencias históricas.",
+      "B": "El riesgo inherente refleja las exposiciones potenciales independientemente de los controles, y el riesgo residual se calcula restando la eficiencia de control del riesgo inherente.",
+      "C": "El riesgo inherente es el nivel natural de riesgo presente sin mitigación, mientras que el riesgo residual es el riesgo que permanece tras la aplicación de los controles.",
+      "D": "El riesgo inherente se determina independientemente de los controles internos, y el riesgo residual lo definen únicamente auditores externos."
+    },
+    "correcta": "C",
+    "explicacion": "El riesgo inherente es el nivel natural de riesgo sin mitigación; el riesgo residual es el que permanece después de aplicar los controles — esa es la diferencia correcta entre ambos conceptos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "2609606d5733",
+    "numero": 59,
+    "pregunta": "¿Cómo influye un apetito por el riesgo claramente definido en los procesos de toma de decisiones de una organización?",
+    "opciones": {
+      "A": "Un apetito claro por el riesgo sirve como una lista de verificación operativa sin influir en decisiones estratégicas de mayor nivel.",
+      "B": "Un apetito claro de riesgo se utiliza para fines de reporte y no afecta a la toma de decisiones internas.",
+      "C": "Un apetito claro por el riesgo guía las decisiones estratégicas estableciendo el nivel global de riesgo que puede aceptarse en la búsqueda de objetivos.",
+      "D": "Un claro apetito por el riesgo establece umbrales fijos para el riesgo sin permitir ajustes a las condiciones cambiantes del mercado."
+    },
+    "correcta": "C",
+    "explicacion": "Un apetito de riesgo claramente definido guía las decisiones estratégicas al establecer el nivel global de riesgo que puede aceptarse en la búsqueda de los objetivos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "3d32ce864aea",
+    "numero": 60,
+    "pregunta": "¿Qué escenario ilustra mejor una brecha en el proceso de gestión del riesgo de fraude de una organización?",
+    "opciones": {
+      "A": "Un papel activo de la función de auditoría interna en la supervisión de los controles de fraude.",
+      "B": "La falta de integración entre las evaluaciones de riesgo de fraude y la implementación de controles correctivos indica una brecha significativa.",
+      "C": "Implementación de un entorno interno de control sólido pero sin evaluación del riesgo de fraude.",
+      "D": "Un proceso integral que emplea medidas cuantitativas y cualitativas para monitorizar los riesgos de fraude."
+    },
+    "correcta": "B",
+    "explicacion": "La falta de integración entre las evaluaciones de riesgo de fraude y la implementación de controles correctivos indica una brecha significativa en el proceso de gestión del riesgo de fraude.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "581eb2f3df82",
+    "numero": 61,
+    "pregunta": "¿Cómo puede reducir mejor la segregación de funciones el riesgo de fraude en la gestión de inventarios?",
+    "opciones": {
+      "A": "Centralizar la gestión de inventario en un departamento y realizar análisis de tendencias de fluctuación de inventario por otro departamento para controlar el riesgo de fraude.",
+      "B": "Asignar roles separados para la ordenación de inventarios, recepción y registro para garantizar el desempeño independiente de las transacciones.",
+      "C": "Consolidar la ordenación y recepción de inventario bajo un solo equipo y realizar recuentos periódicos de inventario para controlar el riesgo de fraude.",
+      "D": "Utilizando un sistema de inventario automatizado junto con recuentos periódicos para controlar el riesgo de fraude."
+    },
+    "correcta": "B",
+    "explicacion": "Asignar roles separados para ordenar, recibir y registrar inventario garantiza el desempeño independiente de las transacciones, reduciendo el riesgo de fraude mediante segregación de funciones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "6a1ba64b59da",
+    "numero": 62,
+    "pregunta": "Durante las investigaciones de fraude, ¿qué enfoque de entrevista minimiza mejor el sesgo y obtiene información crítica?",
+    "opciones": {
+      "A": "Empleando un tono neutral y haciendo preguntas abiertas para permitir que los entrevistados compartan sus cuentas libremente.",
+      "B": "Utilizando preguntas orientadas diseñadas para confirmar las sospechas iniciales del auditor interno sobre el fraude.",
+      "C": "Siguiendo un guion estricto y preescrito que deja poco margen para perderse algo.",
+      "D": "Realizar entrevistas en un entorno informal para fomentar conversaciones relajadas y sin estructura."
+    },
+    "correcta": "A",
+    "explicacion": "Emplear un tono neutral y preguntas abiertas que permitan a los entrevistados compartir su versión libremente minimiza mejor el sesgo y obtiene información más crítica durante una investigación de fraude.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "fddc99c28a67",
+    "numero": 63,
+    "pregunta": "¿Cómo puede un auditor interno utilizar técnicas de entrevista para apoyar las investigaciones de fraude manteniendo la objetividad?",
+    "opciones": {
+      "A": "Permitiendo que la conversación fluya de forma informal sin un plan estructurado de entrevistas, confiando en la espontaneidad.",
+      "B": "Siguiendo un guion rígido que limita la posibilidad de que la conversación se salga del rumbo.",
+      "C": "Centrándose en confirmar las sospechas de la dirección para proporcionar una entrevista eficiente y eficaz.",
+      "D": "Adoptando un enfoque estructurado que combine preguntas abiertas, documentación exhaustiva y verificación independiente de las respuestas."
+    },
+    "correcta": "D",
+    "explicacion": "Un enfoque estructurado que combine preguntas abiertas, documentación exhaustiva y verificación independiente de las respuestas apoya la investigación de fraude manteniendo la objetividad del auditor.",
+    "dominio": "Dominio VI: Fraude y Comunicaciones",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "7080cdf5678b",
+    "numero": 64,
+    "pregunta": "Durante una evaluación de riesgos, ¿cómo se pueden interpretar los roles distintos de los servicios de aseguramiento y asesoramiento que ofrece la auditoría interna?",
+    "opciones": {
+      "A": "Los servicios de aseguramiento realizan evaluaciones formales centradas en la mejora de procesos, y los servicios de asesoramiento se centran en oportunidades para mejorar la eficacia del control.",
+      "B": "Los servicios de aseguramiento ofrecen evaluaciones independientes y formales de riesgos y controles, mientras que los servicios de asesoramiento ofrecen sugerencias consultivas para mejorar.",
+      "C": "Los servicios de aseguramiento ofrecen evaluaciones objetivas de los procesos sin opiniones formales, mientras que los servicios de asesoramiento asesoran sobre el diseño de controles.",
+      "D": "Los servicios de aseguramiento generan opiniones a partir de revisiones estructuradas, mientras que los servicios de asesoramiento ofrecen orientación consultiva y conclusiones formales."
+    },
+    "correcta": "B",
+    "explicacion": "Los servicios de aseguramiento ofrecen evaluaciones independientes y formales de riesgos y controles, mientras que los servicios de asesoramiento ofrecen sugerencias consultivas para mejorar — esa es la distinción correcta entre ambos.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "4649d22c7c87",
+    "numero": 65,
+    "pregunta": "En un taller de auditoría interna, un facilitador pide a los participantes que definan los servicios de asesoramiento. ¿Qué afirmación los describe mejor?",
+    "opciones": {
+      "A": "Los servicios de asesoramiento son evaluaciones estructuradas que producen opiniones formales sobre la gestión de riesgos.",
+      "B": "Los servicios de asesoramiento son actividades consultivas no relacionadas con auditoría que ayudan a las organizaciones a identificar e implementar mejoras en los procesos.",
+      "C": "Los servicios de asesoramiento son encargos de auditoría externa que evalúan la exactitud de la información financiera.",
+      "D": "Los servicios de asesoramiento son comprobaciones rutinarias que se centran únicamente en el cumplimiento normativo."
+    },
+    "correcta": "B",
+    "explicacion": "Los servicios de asesoramiento son actividades consultivas que ayudan a las organizaciones a identificar e implementar mejoras en los procesos, sin producir una opinión formal de aseguramiento.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "baf6ccf77cab",
+    "numero": 66,
+    "pregunta": "Una empresa tecnológica integra evaluaciones de riesgos y control en su proceso de planificación. ¿Qué afirmación describe mejor estas evaluaciones?",
+    "opciones": {
+      "A": "Son comprobaciones rutinarias que se centran en datos históricos de rendimiento en lugar de en la eficacia actual del riesgo y el control.",
+      "B": "Son revisiones simplificadas que enfatizan la identificación de riesgos prestando mínima atención a la evaluación de control.",
+      "C": "Son revisiones específicas que consideran solo los incidentes más recientes sin una evaluación completa de los controles internos.",
+      "D": "Son análisis exhaustivos que identifican riesgos potenciales y evalúan cómo gestionan estos riesgos los controles internos."
+    },
+    "correcta": "D",
+    "explicacion": "Evaluaciones que son análisis exhaustivos, identificando riesgos potenciales y evaluando cómo los controles internos gestionan esos riesgos, describen mejor una integración adecuada de riesgo y control en la planificación.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "7f56dfc90384",
+    "numero": 67,
+    "pregunta": "Una institución financiera revisa sus procesos internos para mejorar la eficiencia operativa. ¿Qué papel juegan las evaluaciones de riesgos y control en esta iniciativa de mejora?",
+    "opciones": {
+      "A": "Sirven como herramientas sistemáticas para identificar posibles brechas de control interno en la mitigación de riesgos operativos.",
+      "B": "Actúan como breves resúmenes que destacan los riesgos potenciales sin una evaluación detallada de las medidas de control.",
+      "C": "Funcionan como actividades rutinarias de monitorización que registran eventos de riesgo sin evaluar la existencia de controles.",
+      "D": "Proporcionan listas de verificación básicas que capturan los riesgos desde una perspectiva externa, omitiendo la evaluación interna del control."
+    },
+    "correcta": "A",
+    "explicacion": "Las evaluaciones de riesgos y control sirven como herramientas sistemáticas para identificar posibles brechas de control interno en la mitigación de riesgos operativos, apoyando la mejora de la eficiencia.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "8b779799ca30",
+    "numero": 68,
+    "pregunta": "En una agencia gubernamental, si a los auditores internos se les niega el acceso a ciertos documentos clasificados, ¿qué escenario refleja mejor una posible pérdida de independencia?",
+    "opciones": {
+      "A": "Los auditores trabajan con versiones redactadas de documentos, que aún proporcionan cierto detalle para respaldar revisiones independientes.",
+      "B": "La imposibilidad de acceder a documentos clasificados obliga a los auditores a confiar en información incompleta, lo que socava la objetividad de sus evaluaciones.",
+      "C": "Los auditores reciben datos clasificados resumidos que, combinados con otras fuentes, permiten un proceso de evaluación independiente.",
+      "D": "Las restricciones temporales se gestionan mediante sesiones informativas periódicas del personal de seguridad que ayudan a mantener la objetividad de la auditoría."
+    },
+    "correcta": "B",
+    "explicacion": "La imposibilidad de acceder a documentos clasificados obliga a los auditores a confiar en información incompleta, lo que socava la objetividad de sus evaluaciones — ese es el escenario de pérdida de independencia.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "a28bdefe0b16",
+    "numero": 69,
+    "pregunta": "Cuando un auditor interno se enfrenta a una oferta de donación que podría afectar la independencia, ¿qué medida mitiga mejor el posible sesgo?",
+    "opciones": {
+      "A": "Solicitar una revisión formal de las implicaciones del regalo por parte de un comité de ética antes de la aceptación apoya la objetividad.",
+      "B": "Solicitar orientación adicional a un proceso de revisión por pares para decidir sobre la donación puede ayudar a mitigar el sesgo.",
+      "C": "Aceptar el regalo tras confirmar su valor mínimo y luego registrarlo puede mitigar el sesgo.",
+      "D": "Adherirse a una política de rechazar el regalo y reportarlo de inmediato garantiza que se mantenga la objetividad."
+    },
+    "correcta": "D",
+    "explicacion": "Adherirse a una política de rechazar el regalo y reportarlo de inmediato es la medida que mejor garantiza que se mantenga la objetividad ante una oferta de donación.",
+    "dominio": "Dominio II: Independencia y Objetividad",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "f9ce3ef74264",
+    "numero": 72,
+    "pregunta": "¿Qué papel juega la cultura organizativa en la definición del entorno de control global?",
+    "opciones": {
+      "A": "La cultura organizativa se ve influenciada por el tono en la cúpula al establecer valores y estándares éticos que guían el comportamiento del personal.",
+      "B": "La cultura organizativa afecta principalmente a las comunicaciones externas, con relevancia limitada para los mecanismos de control interno.",
+      "C": "La cultura organizativa es importante para la gestión del talento, pero no tiene un papel directo en la configuración de los controles internos.",
+      "D": "La cultura organizativa influye más en las prácticas de gestión de costes que los marcos de control interno."
+    },
+    "correcta": "A",
+    "explicacion": "La cultura organizativa se ve influenciada por el tono en la cúpula, que establece los valores y estándares éticos que guían el comportamiento del personal — ese es su papel en el entorno de control global.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "19bd90db68cf",
+    "numero": 73,
+    "pregunta": "¿Qué factor ejemplifica mejor la relación entre la cultura organizativa y el entorno de control?",
+    "opciones": {
+      "A": "La alineación de valores impulsa principalmente la estrategia de mercado más que la robustez de los sistemas de control interno.",
+      "B": "La alineación de valores, estándares éticos y comportamiento de liderazgo mejora directamente la eficacia de los controles internos y las prácticas de gestión de riesgos.",
+      "C": "La alineación de valores es relevante para las evaluaciones de desempeño y tiene un impacto directo mínimo en la efectividad del control.",
+      "D": "La alineación de valores influye en las relaciones con el cliente, con un impacto secundario en los controles internos."
+    },
+    "correcta": "B",
+    "explicacion": "La alineación de valores, estándares éticos y comportamiento de liderazgo mejora directamente la eficacia de los controles internos y las prácticas de gestión de riesgos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "994dffd6485c",
+    "numero": 75,
+    "pregunta": "¿Cómo transforma la aplicación de controles el riesgo inherente en riesgo residual?",
+    "opciones": {
+      "A": "Los controles se utilizan para medir el riesgo inherente y luego se eliminan, lo que resulta en que el riesgo residual se establezca por variables externas.",
+      "B": "Los controles se aplican en paralelo a la evaluación de riesgos inherentes, pero el riesgo residual se calcula de forma independiente al efecto de esos controles.",
+      "C": "Los controles solo sirven para documentar el riesgo inherente, dejando el riesgo residual sin cambios independientemente de la efectividad de los controles.",
+      "D": "Se aplican controles para mitigar el riesgo inherente, y la exposición restante se identifica como el nivel de riesgo residual."
+    },
+    "correcta": "D",
+    "explicacion": "Se aplican controles para mitigar el riesgo inherente, y la exposición que queda tras esa mitigación se identifica como el riesgo residual.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "2c49383835eb",
+    "numero": 76,
+    "pregunta": "¿Cómo determina normalmente una organización su apetito por el riesgo dentro de un marco de gestión de riesgos?",
+    "opciones": {
+      "A": "Cumpliendo con los requisitos regulatorios en lugar de con consideraciones estratégicas.",
+      "B": "Adoptando referencias del sector sin ajustar al entorno de riesgo único de la organización.",
+      "C": "Evaluando objetivos estratégicos, condiciones del mercado y expectativas de los grupos de interés para establecer un nivel amplio de riesgo aceptable.",
+      "D": "Confiando en datos históricos de pérdidas para establecer rangos fijos de tolerancia al riesgo."
+    },
+    "correcta": "C",
+    "explicacion": "Una organización determina su apetito por el riesgo evaluando objetivos estratégicos, condiciones del mercado y expectativas de los grupos de interés, para establecer un nivel amplio de riesgo aceptable.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "044ac603bff7",
+    "numero": 77,
+    "pregunta": "¿Cómo beneficia un marco de gestión de riesgos a los procesos y funciones de una organización?",
+    "opciones": {
+      "A": "Sirve principalmente como método para identificar riesgos y objetivos estratégicos sin determinar la respuesta al riesgo.",
+      "B": "Se utiliza principalmente para documentar eventos de riesgo e integrar los objetivos estratégicos actuales en los procesos operativos.",
+      "C": "Actúa como una herramienta reactiva que aborda los problemas una vez que ocurren, ofreciendo sugerencias para mejorar.",
+      "D": "Proporciona un enfoque sistemático para identificar, evaluar y mitigar riesgos, alineando procesos con objetivos estratégicos y mejorando la toma de decisiones."
+    },
+    "correcta": "D",
+    "explicacion": "Un marco de gestión de riesgos proporciona un enfoque sistemático para identificar, evaluar y mitigar riesgos, alineando los procesos con los objetivos estratégicos y mejorando la toma de decisiones.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "b6ab0c237884",
+    "numero": 78,
+    "pregunta": "¿Cómo mejoran los controles internos la eficiencia operativa dentro de una organización?",
+    "opciones": {
+      "A": "Agilizan los procesos mediante procedimientos definidos, reducen errores y minimizan el desperdicio, mejorando así la eficiencia global.",
+      "B": "Proporcionan directrices sobre el comportamiento de los empleados que afectan indirectamente a la velocidad operativa.",
+      "C": "Se utilizan principalmente para supervisar el cumplimiento de normas externas.",
+      "D": "Se centran en establecer objetivos estratégicos a largo plazo."
+    },
+    "correcta": "A",
+    "explicacion": "Los controles internos mejoran la eficiencia operativa al agilizar procesos mediante procedimientos definidos, reducir errores y minimizar el desperdicio.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "ff07e1ab7a0d",
+    "numero": 79,
+    "pregunta": "En la información financiera, ¿qué control utiliza mejor la segregación de funciones para mejorar la fiabilidad de la información?",
+    "opciones": {
+      "A": "Confiando en un sistema automatizado para realizar todas las funciones de transacción combinado con la conciliación por parte del departamento de contabilidad.",
+      "B": "Separar los procesos de autorización, registro y conciliación de transacciones para proporcionar comprobaciones independientes en cada etapa.",
+      "C": "Implementar auditorías internas rutinarias de transacciones manteniendo una función de procesamiento centralizada.",
+      "D": "Combinando funciones de autorización y registro, utilizando revisiones periódicas de supervisión para la validación."
+    },
+    "correcta": "B",
+    "explicacion": "Separar los procesos de autorización, registro y conciliación de transacciones, proporcionando comprobaciones independientes en cada etapa, es el control que mejor utiliza la segregación de funciones para mejorar la fiabilidad de la información financiera.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "6da4c03f96d3",
+    "numero": 80,
+    "pregunta": "¿Cómo mejora mejor la gestión del riesgo la integración de los hallazgos de investigaciones de fraude en las evaluaciones de riesgos?",
+    "opciones": {
+      "A": "Manteniendo procesos de revisión separados para evaluaciones de riesgos e investigaciones de fraude.",
+      "B": "Realizando evaluaciones de riesgos anualmente e incluyendo la participación de la dirección.",
+      "C": "Comparando sistemáticamente las evaluaciones de riesgos actuales con los hallazgos de investigaciones de fraude para actualizar los controles y estrategias de mitigación.",
+      "D": "Confiando en datos financieros internos y resultados de auditorías previas para completar evaluaciones de riesgos."
+    },
+    "correcta": "C",
+    "explicacion": "Comparar sistemáticamente las evaluaciones de riesgos actuales con los hallazgos de investigaciones de fraude, para actualizar controles y estrategias de mitigación, es la mejor forma de integrar ambos procesos.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "37642ff21a79",
+    "numero": 121,
+    "pregunta": "Una organización implementó un nuevo sistema de información para automatizar el proceso de aprobación de compras. Seis meses después, la Dirección solicita a Auditoría Interna evaluar si el proyecto alcanzó los resultados esperados. El proyecto tenía objetivos definidos al inicio, incluyendo reducción del tiempo de procesamiento, disminución de errores y reducción del costo por transacción. ¿Cuál de los siguientes enfoques sería MÁS apropiado para que Auditoría Interna evalúe la eficacia del programa?",
+    "opciones": {
+      "A": "Comparar los costos presupuestados del proyecto con los costos reales y determinar si existe una variación significativa.",
+      "B": "Evaluar el logro de los objetivos y estándares definidos al inicio del programa y analizar los costos, resultados, beneficios y efectos obtenidos.",
+      "C": "Determinar si los controles internos del sistema cumplen con las políticas de tecnología de la información de la organización.",
+      "D": "Verificar que todos los empleados hayan recibido capacitación sobre el nuevo sistema antes de su implementación."
+    },
+    "correcta": "B",
+    "explicacion": "Evaluar el logro de los objetivos y estándares definidos al inicio del programa, y analizar costos, resultados, beneficios y efectos obtenidos, es el enfoque más apropiado para medir la eficacia de un programa ya implementado.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "43a66943a10c",
+    "numero": 122,
+    "pregunta": "Durante una auditoría de cumplimiento, el auditor interno descubre que una política corporativa exige que determinados proveedores sean evaluados anualmente. Sin embargo, una regulación externa aplicable a la organización exige una evaluación semestral. La Dirección sostiene que la política corporativa es suficiente porque fue aprobada por el Consejo. ¿Cuál debería ser la MEJOR conclusión del auditor interno?",
+    "opciones": {
+      "A": "La organización cumple porque las políticas aprobadas por el Consejo tienen prioridad sobre los procedimientos externos.",
+      "B": "La organización cumple mientras la Dirección haya establecido controles alternativos que compensen la diferencia.",
+      "C": "Existe una deficiencia de cumplimiento porque la organización debe adherirse a las leyes y regulaciones aplicables, independientemente de que su política interna establezca un requisito menos estricto.",
+      "D": "Auditoría Interna no debe evaluar este asunto porque el cumplimiento de las regulaciones es responsabilidad exclusiva del área Legal."
+    },
+    "correcta": "C",
+    "explicacion": "La organización debe adherirse a las leyes y regulaciones aplicables, independientemente de que su política interna establezca un requisito menos estricto — por eso existe una deficiencia de cumplimiento real en este caso.",
+    "dominio": "Dominio I: Fundamentos",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "5d9fc91469cf",
+    "numero": 123,
+    "pregunta": "Durante una auditoría interna del ciclo de ventas y cuentas por cobrar, el auditor identifica un incremento significativo en las ventas del último mes del año. Una parte importante de estas ventas corresponde a transacciones registradas manualmente por la Dirección. Algunas mercancías fueron enviadas después del cierre del período. ¿Cuál de las siguientes afirmaciones representa MEJOR la principal preocupación del auditor?",
+    "opciones": {
+      "A": "Las entradas manuales presentan un riesgo mayor porque son más susceptibles a errores humanos y pueden utilizarse para cometer fraude financiero.",
+      "B": "El principal riesgo es que los empleados hayan cometido apropiación indebida de activos mediante el robo de mercancías.",
+      "C": "El auditor debería asumir que las ventas son válidas porque fueron autorizadas por la Dirección.",
+      "D": "El auditor debería limitarse a determinar si las ventas están correctamente registradas en las cuentas por cobrar."
+    },
+    "correcta": "A",
+    "explicacion": "Las entradas manuales presentan un riesgo mayor porque son más susceptibles a errores humanos y pueden usarse para cometer fraude financiero, especialmente combinadas con envíos posteriores al cierre del período.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "3fb54d3144fa",
+    "numero": 124,
+    "pregunta": "Una empresa declara públicamente que uno de sus valores fundamentales es la innovación. Sin embargo, los gerentes que implementan proyectos innovadores que fracasan reciben evaluaciones de desempeño significativamente inferiores a las de aquellos que mantienen los procesos tradicionales. Los empleados, por lo tanto, han dejado de proponer nuevas ideas. ¿Qué debería identificar principalmente el auditor interno?",
+    "opciones": {
+      "A": "Una deficiencia en la segregación de funciones que afecta el entorno de control.",
+      "B": "Una inconsistencia entre los valores declarados de la organización y los comportamientos que realmente incentiva.",
+      "C": "Un problema exclusivamente relacionado con la capacitación de los empleados.",
+      "D": "Una deficiencia en la comunicación externa de los valores corporativos."
+    },
+    "correcta": "B",
+    "explicacion": "Una inconsistencia entre los valores declarados (innovación) y los comportamientos que la organización realmente incentiva (penalizar el fracaso de proyectos innovadores) es lo que el auditor debería identificar principalmente.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
+  },
+  {
+    "id": "3e2b0f3620e0",
+    "numero": 125,
+    "pregunta": "El Director de Auditoría Interna está planificando un trabajo de aseguramiento sobre la cultura organizacional. Durante la evaluación preliminar identifica los siguientes hechos: Los empleados rara vez cuestionan las decisiones de la Alta Dirección. Existen incentivos económicos vinculados exclusivamente al cumplimiento de objetivos de ventas. Los empleados desconocen cómo los controles contribuyen al logro de los objetivos. La Dirección suele rechazar información que contradice sus opiniones. ¿Cuál de los siguientes debería considerarse MÁS directamente como factor de riesgo cultural?",
+    "opciones": {
+      "A": "La existencia de objetivos estratégicos claramente definidos.",
+      "B": "La coordinación entre proveedores internos y externos de aseguramiento.",
+      "C": "El rechazo de la Dirección a aceptar información que contradice sus opiniones.",
+      "D": "La existencia de procesos formales para evaluar riesgos significativos."
+    },
+    "correcta": "C",
+    "explicacion": "Que la Dirección rechace sistemáticamente información que contradice sus opiniones es el factor que debería considerarse más directamente como riesgo cultural, por su efecto directo sobre la honestidad del flujo de información.",
+    "dominio": "Dominio IV: Gestión del Riesgo y Control",
+    "origen": "clase",
+    "fuente": "Simulacro Final 05 de Setiembre (2026-09-04)"
   }
 ]
