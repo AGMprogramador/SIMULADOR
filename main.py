@@ -18,7 +18,9 @@ GITHUB_FILE_PATH = "preguntas.json"
 ERRORES_FILE_PATH = "errores.json"
 SESIONES_FILE_PATH = "sesiones.json"
 VISTAS_FILE_PATH = "vistas.json"
+TEORIA_FILE_PATH = "teoria.json"
 RACHA_PARA_GRADUAR = 3  # aciertos consecutivos necesarios para "graduar" una pregunta del repaso
+TELEGRAM_MAX_CHARS = 3500  # margen de seguridad bajo el límite real de Telegram (4096)
 
 if not TOKEN:
     raise RuntimeError("Falta la variable de entorno TELEGRAM_TOKEN. El bot no puede iniciar sin ella.")
@@ -36,9 +38,34 @@ user_states = {}
 def get_keyboard():
     """Genera el teclado interactivo con botones fijos."""
     keyboard = [
-        [KeyboardButton("🎯 Práctica Aleatoria (10)"), KeyboardButton("📚 Por Dominios")],
+        [KeyboardButton("📖 Estudiar Teoría"), KeyboardButton("🎯 Practicar Preguntas")],
         [KeyboardButton("🔁 Repasar mis Errores"), KeyboardButton("📊 Mi Resumen / Reporte")],
         [KeyboardButton("❓ Ayuda")]
+    ]
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
+def get_practicar_keyboard():
+    """Sub-menú de 'Practicar Preguntas' (lo que antes eran los dos botones sueltos del menú principal)."""
+    keyboard = [
+        [KeyboardButton("🎯 Práctica Aleatoria (10)"), KeyboardButton("📚 Por Dominios")],
+        [KeyboardButton("🔙 Volver al Menú Principal")]
+    ]
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
+def get_teoria_keyboard(temas):
+    """Genera los botones con la lista de temas de teoría disponibles."""
+    keyboard = [[KeyboardButton(f"📘 {t['titulo']}")] for t in temas]
+    keyboard.append([KeyboardButton("🔙 Volver al Menú Principal")])
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
+def get_post_teoria_keyboard():
+    """Botones que se muestran después de leer un tema de teoría."""
+    keyboard = [
+        [KeyboardButton("🎯 Practicar preguntas de este tema")],
+        [KeyboardButton("📖 Elegir otro tema"), KeyboardButton("🔙 Volver al Menú Principal")]
     ]
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
@@ -88,6 +115,88 @@ def cargar_preguntas():
     except json.JSONDecodeError as e:
         logger.error(f"preguntas.json no es un JSON válido: {e}")
         return []
+
+
+def cargar_teoria():
+    """Descarga teoria.json (contenido de estudio + preguntas por tema) desde GitHub."""
+    url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{TEORIA_FILE_PATH}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        logger.error(f"Error al descargar teoria.json: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        logger.error(f"teoria.json no es un JSON válido: {e}")
+        return []
+
+
+def markdown_a_telegram_html(texto_md):
+    """Convierte el Markdown de los documentos de teoría a HTML compatible con
+    Telegram (que solo soporta <b>, <i>, <code>, etc. — nada de tablas ni
+    encabezados). Es una conversión best-effort: prioriza legibilidad sobre
+    fidelidad exacta al Markdown original."""
+    import re
+
+    # Escapar caracteres que Telegram interpretaría como HTML antes de aplicar nuestras propias etiquetas
+    texto = texto_md.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    lineas_salida = []
+    for linea in texto.split("\n"):
+        cruda = linea.strip()
+
+        # Separadores horizontales y líneas de separación de tablas markdown (|---|---|)
+        if re.fullmatch(r"-{3,}", cruda) or re.fullmatch(r"\|?[\s:|-]+\|?", cruda):
+            continue
+
+        # Encabezados (#, ##, ###) -> negrita en su propia línea
+        m_header = re.match(r"^#{1,6}\s*(.+)", cruda)
+        if m_header:
+            contenido = re.sub(r"\*\*(.+?)\*\*", r"\1", m_header.group(1))  # sin doble negrita
+            lineas_salida.append(f"\n<b>{contenido.upper()}</b>")
+            continue
+
+        # Filas de tabla markdown (| a | b | c |) -> lista legible "a — b — c"
+        if cruda.startswith("|") and cruda.endswith("|"):
+            celdas = [c.strip() for c in cruda.strip("|").split("|")]
+            celdas = [re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", c) for c in celdas]
+            lineas_salida.append("▪️ " + " — ".join(c for c in celdas if c))
+            continue
+
+        # Negrita **texto** -> <b>texto</b>
+        cruda = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", cruda)
+        # Viñetas "- texto" -> "• texto"
+        cruda = re.sub(r"^-\s+", "• ", cruda)
+
+        lineas_salida.append(cruda)
+
+    resultado = "\n".join(lineas_salida)
+    # Colapsar más de 2 líneas en blanco seguidas
+    resultado = re.sub(r"\n{3,}", "\n\n", resultado)
+    return resultado.strip()
+
+
+def trocear_mensaje(texto, max_chars=TELEGRAM_MAX_CHARS):
+    """Divide un texto largo en fragmentos <= max_chars, cortando en saltos de
+    párrafo cuando es posible para no partir una idea a la mitad."""
+    if len(texto) <= max_chars:
+        return [texto]
+
+    fragmentos = []
+    restante = texto
+    while len(restante) > max_chars:
+        corte = restante.rfind("\n\n", 0, max_chars)
+        if corte == -1:
+            corte = restante.rfind("\n", 0, max_chars)
+        if corte == -1:
+            corte = max_chars
+        fragmentos.append(restante[:corte].strip())
+        restante = restante[corte:].strip()
+    if restante:
+        fragmentos.append(restante)
+    return fragmentos
 
 
 def filtrar_por_origen(preguntas, origen):
@@ -285,10 +394,9 @@ def borrar_sesion_activa(chat_id):
 
 
 def restaurar_sesion_activa(chat_id, preguntas, sesiones):
-    """Intenta reconstruir el estado de una ronda de práctica a partir de lo
-    guardado en GitHub (esté en curso o recién completada). Devuelve un dict
-    de estado listo para usar, o None si no hay ninguna sesión guardada para
-    este usuario."""
+    """Intenta reconstruir el estado de una ronda de práctica en curso a partir de
+    lo guardado en GitHub. Devuelve un dict de estado listo para usar, o None si
+    no había ninguna sesión pendiente para este usuario."""
     sesion = sesiones.get(str(chat_id))
     if not sesion:
         return None
@@ -296,20 +404,16 @@ def restaurar_sesion_activa(chat_id, preguntas, sesiones):
     preguntas_por_id = {str(p["id"]): p for p in preguntas}
     lista = [preguntas_por_id[i] for i in sesion.get("lista_ids", []) if i in preguntas_por_id]
     indice = sesion.get("indice_lista", 0)
-
-    pregunta_actual = None
-    modo = None
-    if lista and indice < len(lista):
-        pregunta_actual = lista[indice]
-        modo = "practicando"
+    if not lista or indice >= len(lista):
+        return None
 
     return {
-        "pregunta_actual": pregunta_actual,
+        "pregunta_actual": lista[indice],
         "score_correctas": sesion.get("score_correctas", 0),
         "total_respondidas": sesion.get("total_respondidas", 0),
         "preguntas_lista": lista,
         "indice_lista": indice,
-        "modo": modo,
+        "modo": "practicando",
         "origen_pendiente": None,
         "dominio_pendiente": None,
     }
@@ -371,6 +475,11 @@ def webhook():
             msg = "👋 <b>¡Hola, Aldemar! Bienvenido a tu Bot Entrenador CIA Parte 1.</b>\n\nElige una opción en el menú inferior para empezar:"
             enviar_mensaje(chat_id, msg, get_keyboard())
 
+        elif text in ["🎯 Practicar Preguntas"]:
+            state["modo"] = None
+            msg = "🎯 <b>¿Cómo quieres practicar?</b>"
+            enviar_mensaje(chat_id, msg, get_practicar_keyboard())
+
         elif text in ["🎯 Práctica Aleatoria (10)", "/practica"]:
             state["modo"] = "esperando_origen_aleatoria"
             state["dominio_pendiente"] = None
@@ -381,6 +490,64 @@ def webhook():
             state["modo"] = "esperando_dominio"
             msg = "📚 <b>Selecciona el Dominio que deseas practicar:</b>"
             enviar_mensaje(chat_id, msg, get_domain_keyboard())
+
+        # --- MODO TEORÍA ---
+        elif text in ["📖 Estudiar Teoría", "/teoria"]:
+            temas = cargar_teoria()
+            if not temas:
+                enviar_mensaje(chat_id, "⚠️ No se pudo cargar el material de teoría desde GitHub. Revisa el archivo teoria.json.", get_keyboard())
+                return "ok", 200
+            state["temas_teoria"] = temas
+            state["modo"] = "eligiendo_tema_teoria"
+            msg = "📖 <b>¿Qué tema quieres repasar?</b>\n\nElegí uno de la lista. Vas a poder leer el resumen completo y, al final, practicar preguntas puntuales de ese tema (sin cronómetro)."
+            enviar_mensaje(chat_id, msg, get_teoria_keyboard(temas))
+
+        elif text in ["📖 Elegir otro tema"]:
+            temas = state.get("temas_teoria") or cargar_teoria()
+            state["temas_teoria"] = temas
+            state["modo"] = "eligiendo_tema_teoria"
+            enviar_mensaje(chat_id, "📖 <b>¿Qué tema quieres repasar?</b>", get_teoria_keyboard(temas))
+
+        elif state.get("modo") == "eligiendo_tema_teoria":
+            temas = state.get("temas_teoria") or []
+            tema_elegido = next((t for t in temas if f"📘 {t['titulo']}" == text), None)
+            if not tema_elegido:
+                enviar_mensaje(chat_id, "Por favor selecciona un tema válido del menú.", get_teoria_keyboard(temas))
+                return "ok", 200
+
+            state["tema_teoria_actual"] = tema_elegido
+            state["modo"] = None
+            enviar_mensaje(chat_id, f"📖 <b>{tema_elegido['titulo']}</b> ({tema_elegido.get('dominio', '')})")
+
+            html = markdown_a_telegram_html(tema_elegido.get("contenido_md", ""))
+            fragmentos = trocear_mensaje(html)
+            for frag in fragmentos:
+                enviar_mensaje(chat_id, frag)
+
+            n_preguntas = len(tema_elegido.get("preguntas", []))
+            enviar_mensaje(
+                chat_id,
+                f"✅ <b>Fin del resumen.</b> Este tema tiene {n_preguntas} preguntas de práctica. ¿Querés practicarlas ahora?",
+                get_post_teoria_keyboard()
+            )
+
+        elif text in ["🎯 Practicar preguntas de este tema"]:
+            tema = state.get("tema_teoria_actual")
+            if not tema or not tema.get("preguntas"):
+                enviar_mensaje(chat_id, "⚠️ Primero elegí un tema en <b>📖 Estudiar Teoría</b>.", get_keyboard())
+                return "ok", 200
+
+            pool = list(tema["preguntas"])
+            random.shuffle(pool)
+            state["preguntas_lista"] = pool
+            state["indice_lista"] = 0
+            state["modo"] = "practicando"
+            enviar_mensaje(
+                chat_id,
+                f"🎯 <b>Practicando: {tema['titulo']}</b> ({len(pool)} preguntas, sin cronómetro — repetilas las veces que quieras).",
+                get_keyboard()
+            )
+            lanzar_siguiente_pregunta(chat_id)
 
         elif text in ["🔁 Repasar mis Errores", "/repaso"]:
             preguntas = cargar_preguntas()
@@ -400,8 +567,6 @@ def webhook():
                 random.shuffle(pendientes)
                 state["preguntas_lista"] = pendientes
                 state["indice_lista"] = 0
-                state["score_correctas"] = 0
-                state["total_respondidas"] = 0
                 state["modo"] = "practicando"
                 enviar_mensaje(
                     chat_id,
@@ -458,8 +623,6 @@ def webhook():
                 random.shuffle(pool)
                 state["preguntas_lista"] = pool[:10]
                 state["indice_lista"] = 0
-                state["score_correctas"] = 0
-                state["total_respondidas"] = 0
                 state["modo"] = "practicando"
                 fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
                 enviar_mensaje(chat_id, f"🚀 <b>Iniciando ronda de 10 preguntas aleatorias ({fuente_txt}).</b> ¡Mucho éxito!", get_keyboard())
@@ -475,8 +638,6 @@ def webhook():
                     random.shuffle(filtradas)
                     state["preguntas_lista"] = filtradas
                     state["indice_lista"] = 0
-                    state["score_correctas"] = 0
-                    state["total_respondidas"] = 0
                     state["modo"] = "practicando"
                     fuente_txt = SOURCE_LABELS.get(origen, "🔀 Mezcladas")
                     enviar_mensaje(chat_id, f"🎯 <b>Practicando: {dominio_texto}</b> ({fuente_txt}, {len(filtradas)} preguntas encontradas).", get_keyboard())
@@ -525,14 +686,13 @@ def webhook():
         elif text in ["❓ Ayuda", "/ayuda"]:
             ayuda = (
                 "ℹ️ <b>¿Cómo usar tu Bot Entrenador?</b>\n\n"
-                "1. Usa el botón <b>🎯 Práctica Aleatoria (10)</b> para simulacros rápidos.\n"
-                "2. Usa el botón <b>📚 Por Dominios</b> para estudiar tus puntos débiles.\n"
-                "3. En ambos casos podrás elegir la fuente: <b>🤖 IA</b>, <b>🎓 Clase</b> (transcritas de tus exámenes reales) o <b>🔀 Mezcladas</b>.\n"
-                "4. Cada pregunta muestra su <b>Dominio</b> y su <b>Fuente</b> (nombre del examen y fecha, o banco IA).\n"
-                f"5. Si fallas una pregunta, se guarda en tu <b>🔁 Repasar mis Errores</b>. Necesitas acertarla {RACHA_PARA_GRADUAR} veces seguidas para que se dé por dominada; este registro es personal y persiste aunque el bot se reinicie.\n"
-                "6. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
-                "7. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada en la sesión actual y tu progreso de cobertura del banco (cuántas preguntas distintas ya te tocaron, del total disponible en Clase e IA).\n"
-                "8. El bot prioriza automáticamente preguntas que todavía no te han tocado; cuando completes el 100% de una fuente te avisa. Si querés reiniciar ese conteo y volver a recorrer todo desde cero, escribe <b>/reiniciar_progreso</b>."
+                "1. Usa <b>📖 Estudiar Teoría</b> para leer el resumen de cada tema (sin cronómetro) y practicar preguntas puntuales de ese tema las veces que quieras.\n"
+                "2. Usa <b>🎯 Practicar Preguntas</b> para simulacros de examen: <b>Práctica Aleatoria (10)</b> o <b>Por Dominios</b>, eligiendo la fuente (<b>🤖 IA</b>, <b>🎓 Clase</b> o <b>🔀 Mezcladas</b>).\n"
+                "3. Cada pregunta muestra su <b>Dominio</b> y su <b>Fuente</b> (nombre del examen y fecha, banco IA, o el tema de teoría correspondiente).\n"
+                f"4. Si fallas una pregunta (de examen o de teoría), se guarda en tu <b>🔁 Repasar mis Errores</b>. Necesitas acertarla {RACHA_PARA_GRADUAR} veces seguidas para que se dé por dominada; este registro es personal y persiste aunque el bot se reinicie.\n"
+                "5. Para responder a una pregunta, simplemente escribe la letra de la opción (<b>A, B, C o D</b>).\n"
+                "6. Usa <b>📊 Mi Resumen</b> para ver tu efectividad acumulada en la sesión actual y tu progreso de cobertura del banco de examen (cuántas preguntas distintas ya te tocaron, del total disponible en Clase e IA).\n"
+                "7. El bot prioriza automáticamente preguntas de examen que todavía no te han tocado; cuando completes el 100% de una fuente te avisa. Si querés reiniciar ese conteo, escribe <b>/reiniciar_progreso</b>."
             )
             enviar_mensaje(chat_id, ayuda, get_keyboard())
 
@@ -585,13 +745,9 @@ def lanzar_siguiente_pregunta(chat_id):
             texto_preg += f"<b>{opc})</b> {txt}\n"
 
         fuente = pregunta.get("fuente", "")
-        numero = pregunta.get("numero")
         texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')}</i>"
         if fuente:
-            fuente_linea = f"\n<i>📅 Fuente: {fuente}</i>"
-            if numero is not None:
-                fuente_linea += f" — <i>Pregunta #{numero}</i>"
-            texto_preg += fuente_linea
+            texto_preg += f"\n<i>📅 Fuente: {fuente}</i>"
         texto_preg += "\n👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
 
         enviar_mensaje(chat_id, texto_preg, get_keyboard())
@@ -609,12 +765,7 @@ def lanzar_siguiente_pregunta(chat_id):
     else:
         enviar_mensaje(chat_id, "🏁 <b>¡Has completado la tanda de preguntas!</b> Revisa tu resultado en el botón <b>📊 Mi Resumen</b>.", get_keyboard())
         state["modo"] = None
-        state["pregunta_actual"] = None
-        # OJO: a propósito NO se borra la sesión acá. Se deja guardada (con el
-        # puntaje final) para que "Mi Resumen" pueda recuperarla aunque el
-        # proceso se reinicie justo entre que terminás la ronda y pedís el
-        # resumen. Se limpia recién cuando arrancás una ronda nueva.
-        guardar_sesion_activa(chat_id, state)
+        borrar_sesion_activa(chat_id)
 
 
 def registrar_webhook():
