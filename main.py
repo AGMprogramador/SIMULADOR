@@ -61,6 +61,17 @@ def get_teoria_keyboard(temas):
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
 
+def get_answer_keyboard():
+    """Teclado con las 4 letras para responder una pregunta con un toque,
+    en vez de tener que escribir la letra a mano."""
+    keyboard = [
+        [KeyboardButton("A"), KeyboardButton("B")],
+        [KeyboardButton("C"), KeyboardButton("D")],
+        [KeyboardButton("🔙 Salir de la práctica")]
+    ]
+    return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
 def get_post_teoria_keyboard():
     """Botones que se muestran después de leer un tema de teoría."""
     keyboard = [
@@ -68,6 +79,16 @@ def get_post_teoria_keyboard():
         [KeyboardButton("📖 Elegir otro tema"), KeyboardButton("🔙 Volver al Menú Principal")]
     ]
     return ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+
+
+def extraer_letra_respuesta(text):
+    """Intenta reconocer una respuesta A/B/C/D aunque venga con puntuación,
+    paréntesis o espacios de más (ej. 'a)', 'A.', ' b ') — no solo el texto
+    exacto 'A'. Devuelve la letra en mayúscula, o None si no matchea."""
+    import re
+    limpio = text.strip().upper()
+    m = re.match(r"^([ABCD])\b", limpio)
+    return m.group(1) if m else None
 
 
 def get_source_keyboard():
@@ -531,7 +552,7 @@ def webhook():
                 get_post_teoria_keyboard()
             )
 
-        elif text in ["🎯 Practicar preguntas de este tema"]:
+        elif text in ["🎯 Practicar preguntas de este tema"] or (text.strip().lower() in ["si", "sí", "sí!", "dale", "ok", "vamos"] and state.get("tema_teoria_actual")):
             tema = state.get("tema_teoria_actual")
             if not tema or not tema.get("preguntas"):
                 enviar_mensaje(chat_id, "⚠️ Primero elegí un tema en <b>📖 Estudiar Teoría</b>.", get_keyboard())
@@ -696,10 +717,16 @@ def webhook():
             )
             enviar_mensaje(chat_id, ayuda, get_keyboard())
 
+        elif text in ["🔙 Salir de la práctica"]:
+            state["modo"] = None
+            state["pregunta_actual"] = None
+            borrar_sesion_activa(chat_id)
+            enviar_mensaje(chat_id, "⏹️ Práctica interrumpida. Podés retomarla cuando quieras desde el menú.", get_keyboard())
+
         # --- RESPUESTAS (A, B, C, D) ---
-        elif state.get("pregunta_actual") and text.upper() in ["A", "B", "C", "D"]:
+        elif state.get("pregunta_actual") and extraer_letra_respuesta(text):
             pregunta = state["pregunta_actual"]
-            respuesta_usr = text.upper()
+            respuesta_usr = extraer_letra_respuesta(text)
             correcta = pregunta["correcta"].upper()
             fue_correcta = (respuesta_usr == correcta)
 
@@ -723,6 +750,13 @@ def webhook():
 
             state["indice_lista"] += 1
             lanzar_siguiente_pregunta(chat_id)
+
+        elif extraer_letra_respuesta(text) and not state.get("pregunta_actual"):
+            enviar_mensaje(
+                chat_id,
+                "🤔 No tenés ninguna pregunta activa en este momento. Elegí <b>🎯 Practicar Preguntas</b> o <b>📖 Estudiar Teoría</b> para empezar.",
+                get_keyboard()
+            )
 
         else:
             enviar_mensaje(chat_id, "💡 Utiliza el menú de botones interactivos para navegar o responde con <b>A, B, C o D</b>.", get_keyboard())
@@ -748,9 +782,9 @@ def lanzar_siguiente_pregunta(chat_id):
         texto_preg += f"\n<i>📌 Dominio: {pregunta.get('dominio', 'General')}</i>"
         if fuente:
             texto_preg += f"\n<i>📅 Fuente: {fuente}</i>"
-        texto_preg += "\n👉 <i>Responde enviando únicamente la letra (A, B, C o D).</i>"
+        texto_preg += "\n👉 <i>Toca una opción abajo, o escribí la letra (A, B, C o D).</i>"
 
-        enviar_mensaje(chat_id, texto_preg, get_keyboard())
+        enviar_mensaje(chat_id, texto_preg, get_answer_keyboard())
 
         completo = registrar_pregunta_vista(chat_id, pregunta, state.get("totales_origen"))
         if completo:
