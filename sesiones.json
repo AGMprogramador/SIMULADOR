@@ -15,5 +15,20 @@
     "indice_lista": 10,
     "score_correctas": 8,
     "total_respondidas": 10
+  },
+  "2056649927": {
+    "lista_ids": [
+      "teo_45662a4d98",
+      "teo_5665916e31",
+      "teo_209dffc276",
+      "teo_f5a09d2308",
+      "teo_b656804e0a",
+      "teo_14ecab305e",
+      "teo_33fa990ef2",
+      "teo_69999edfbe"
+    ],
+    "indice_lista": 0,
+    "score_correctas": 0,
+    "total_respondidas": 0
   }
 }
