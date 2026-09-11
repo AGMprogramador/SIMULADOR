@@ -5,7 +5,12 @@ import random
 import logging
 from flask import Flask, request
 import requests
-from telegram import KeyboardButton,  os.environ.get("TELEGRAM_TOKEN")
+from telegram import KeyboardButton, ReplyKeyboardMarkup
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = os.environ.get("GITHUB_REPO")  # Formato: "usuario/repositorio"
 GITHUB_BRANCH = os.environ.get("GITHUB_BRANCH", "main")
@@ -455,8 +460,33 @@ def enviar_mensaje(chat_id, texto, reply_markup=None):
 @app.route(WEBHOOK_PATH, methods=['POST'])
 def webhook():
     update = request.get_json(silent=True) or {}
-    if "message" in update:
-        chat_id = update["message"]["chat"]["id"]
+    if "message" not in update:
+        return "ok", 200
+
+    chat_id = update["message"]["chat"]["id"]
+    try:
+        _procesar_mensaje(chat_id, update)
+    except Exception:
+        # Red de seguridad: si algo falla en cualquier parte del procesamiento
+        # (ej. un problema temporal al leer/escribir en GitHub), el usuario
+        # nunca debe quedarse sin ninguna respuesta. Se registra el error
+        # completo en los logs de Railway para poder diagnosticarlo, y se
+        # limpia el estado de la pregunta actual para no dejar al usuario
+        # "trabado" repitiendo el mismo error.
+        logger.exception(f"Error procesando mensaje de chat_id={chat_id}")
+        state = user_states.get(chat_id)
+        if state:
+            state["pregunta_actual"] = None
+        enviar_mensaje(
+            chat_id,
+            "⚠️ Tuve un problema técnico procesando tu mensaje (puede ser una falla temporal de conexión con GitHub). "
+            "Tu progreso no se perdió. Probá de nuevo, o escribí <b>/start</b> para volver al menú principal.",
+            get_keyboard()
+        )
+    return "ok", 200
+
+
+def _procesar_mensaje(chat_id, update):
         text = update["message"].get("text", "").strip()
 
         if chat_id not in user_states:
@@ -756,7 +786,7 @@ def webhook():
         else:
             enviar_mensaje(chat_id, "💡 Utiliza el menú de botones interactivos para navegar o responde con <b>A, B, C o D</b>.", get_keyboard())
 
-    return "ok", 200
+        return "ok", 200
 
 
 def lanzar_siguiente_pregunta(chat_id):
