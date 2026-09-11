@@ -5,12 +5,7 @@ import random
 import logging
 from flask import Flask, request
 import requests
-from telegram import KeyboardButton, ReplyKeyboardMarkup
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
+from telegram import KeyboardButton,  os.environ.get("TELEGRAM_TOKEN")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = os.environ.get("GITHUB_REPO")  # Formato: "usuario/repositorio"
 GITHUB_BRANCH = os.environ.get("GITHUB_BRANCH", "main")
