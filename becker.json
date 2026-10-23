@@ -1,0 +1,642 @@
+[
+ {
+  "id": "bec_C1_001",
+  "numero": 1,
+  "pregunta": "¿Qué ayudaría a asegurar que la gobernanza de una organización sea eficaz?",
+  "opciones": {
+   "A": "Permitir que las líneas de responsabilidad y rendición de cuentas cambien con el tiempo sin consecuencias indebidas.",
+   "B": "Organizar la estructura de la organización de forma que apoye el logro de su estrategia.",
+   "C": "Establecer límites al financiamiento del Consejo para evitar abusos de poder, como las indagaciones independientes.",
+   "D": "Asegurar que los miembros del Consejo sean independientes de la organización hasta el punto de que su experiencia esté en industrias distintas a las operaciones de la organización."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. Asegurar que la estructura organizacional esté alineada con la estrategia de la organización ayuda a lograr sus metas y objetivos. Una organización bien estructurada fortalece el marco de gobernanza y garantiza que los roles y responsabilidades estén claramente definidos para respaldar el éxito estratégico.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_002",
+  "numero": 2,
+  "pregunta": "¿Cuál de las siguientes opciones define mejor la gobernanza organizacional en términos de marcos, principios y modelos?",
+  "opciones": {
+   "A": "Es una estructura sistemática que delimita roles, responsabilidades y procesos de toma de decisiones, guiada por marcos y principios establecidos.",
+   "B": "Es un conjunto de prácticas poco organizadas que se centran principalmente en la eficiencia operativa, sin una estructura definida.",
+   "C": "Es un proceso informal en el que el liderazgo se apoya en decisiones ad hoc en lugar de modelos y principios consistentes.",
+   "D": "Es un arreglo temporal que enfatiza objetivos de corto plazo, sin un conjunto claro de lineamientos de gobernanza."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. Una estructura sistemática basada en marcos y principios establecidos define con claridad la gobernanza organizacional.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_003",
+  "numero": 3,
+  "pregunta": "Dentro de una estructura de gobierno corporativo, ¿cómo contribuye la alta dirección a una supervisión eficaz?",
+  "opciones": {
+   "A": "La alta dirección se centra únicamente en tareas operativas de corto plazo y en el cumplimiento rutinario, y deja las decisiones estratégicas al Consejo.",
+   "B": "La alta dirección diseña planes operativos, monitorea el desempeño del mercado y ejecuta medidas de control detalladas de forma independiente.",
+   "C": "La alta dirección implementa políticas, gestiona las operaciones diarias y supervisa las prácticas de gestión de riesgos en toda la organización.",
+   "D": "La alta dirección define la visión de largo plazo, controla directamente todas las actividades operativas y dirige la función de auditoría interna."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. La alta dirección es responsable de ejecutar las directrices del Consejo, gestionar las operaciones y asegurar una gestión de riesgos eficaz.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_004",
+  "numero": 4,
+  "pregunta": "Según la guía del IIA, ¿cuál de las siguientes es una responsabilidad de la función de auditoría interna respecto de la gobernanza organizacional?",
+  "opciones": {
+   "A": "Promover la conciencia sobre la ética y los valores organizacionales apropiados.",
+   "B": "Tomar decisiones estratégicas y operativas.",
+   "C": "Evaluar la eficacia de la gestión del desempeño y de la rendición de cuentas de la organización.",
+   "D": "Establecer una estructura de gestión de riesgos y controles."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. El rol de la función de auditoría interna incluye evaluar qué tan bien se desempeña la organización en la gestión de riesgos y en asegurar la rendición de cuentas.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_005",
+  "numero": 5,
+  "pregunta": "¿Qué se espera de la función de auditoría interna con respecto a los procesos de gobernanza de la organización?",
+  "opciones": {
+   "A": "Auditar formalmente todas las actividades de gobernanza.",
+   "B": "Brindar orientación estratégica a la alta dirección sobre los procesos de la organización.",
+   "C": "Auditar frente a las estructuras y prácticas de gobernanza ampliamente utilizadas en la industria.",
+   "D": "Acordar con el Consejo el alcance de las actividades, la profundidad de la revisión y el período que se incluirá en la evaluación."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Se espera que el auditor seleccione los criterios de evaluación que mejor se ajusten a la organización que se revisará, en consulta con el Consejo y la alta dirección.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_006",
+  "numero": 6,
+  "pregunta": "¿Qué marco de gobernanza enfatiza una división clara de roles entre la dirección, la supervisión de riesgos y las funciones de aseguramiento?",
+  "opciones": {
+   "A": "El Modelo de las Tres Líneas, que concentra la autoridad de decisión en la cúspide de la organización.",
+   "B": "El Modelo de las Tres Líneas, que separa las responsabilidades de la dirección, el riesgo y el aseguramiento independiente.",
+   "C": "El Modelo de las Tres Líneas, que mezcla los roles funcionales sin una separación jerárquica clara de responsabilidades.",
+   "D": "El Modelo de las Tres Líneas, que asigna las funciones de supervisión de auditoría a la alta dirección."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. El Modelo de las Tres Líneas delimita explícitamente los roles de la dirección, la supervisión de riesgos y el aseguramiento.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_007",
+  "numero": 7,
+  "pregunta": "¿Cuál es un aspecto de una gobernanza eficaz?",
+  "opciones": {
+   "A": "Es implementada por la dirección de línea.",
+   "B": "Comienza desde arriba, con la dirección ejecutiva.",
+   "C": "Los accionistas comunes ayudan a tomar las decisiones de gobernanza de la organización.",
+   "D": "Equilibra los objetivos económicos y sociales."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Una gobernanza eficaz asegura que la organización equilibre sus objetivos económicos con sus responsabilidades sociales, creando un marco sostenible que considera tanto el éxito financiero como el impacto en la sociedad.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_008",
+  "numero": 8,
+  "pregunta": "Dentro de un modelo de gobernanza sólido, ¿qué escenario ilustra mejor cómo contribuye cada componente a la supervisión de riesgos?",
+  "opciones": {
+   "A": "El Consejo gestiona los controles de riesgo, la alta dirección realiza las evaluaciones de riesgos y auditoría interna apoya la toma de decisiones operativas.",
+   "B": "El Consejo se encarga de los informes de riesgo, la alta dirección lidera las evaluaciones de riesgos y auditoría interna ayuda a implementar los controles de riesgo.",
+   "C": "El Consejo supervisa directamente las actividades operativas, la alta dirección establece las políticas internas y auditoría interna es responsable del monitoreo diario de riesgos.",
+   "D": "El Consejo ejerce la supervisión estratégica, la alta dirección ejecuta la mitigación de riesgos y auditoría interna revisa y valida de forma independiente la eficacia de los controles."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. En un modelo de gobernanza sólido, una diferenciación clara de roles asegura que el Consejo supervise la estrategia, la alta dirección gestione el riesgo y auditoría interna valide la eficacia de los controles.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_009",
+  "numero": 9,
+  "pregunta": "Las responsabilidades del Consejo en materia de gobernanza comienzan con cuál de las siguientes?",
+  "opciones": {
+   "A": "Identificar y comprender las necesidades de las partes interesadas de la organización.",
+   "B": "Brindar dirección estratégica para establecer los objetivos del negocio.",
+   "C": "Establecer un comité de gobernanza.",
+   "D": "Fijar el apetito y la tolerancia al riesgo."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. La gobernanza comienza por comprender a las partes interesadas: una gobernanza eficaz se basa en saber quiénes son, qué necesitan y cómo la estrategia y las operaciones de la organización las impactan. Esta comprensión fundamental orienta todas las demás actividades de gobernanza, incluidas la estrategia, la gestión de riesgos y la conformación de comités.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_010",
+  "numero": 10,
+  "pregunta": "La combinación de iniciativas implementadas por el Consejo para informar, dirigir, gestionar y monitorear las actividades de la organización hacia el logro de sus objetivos describe mejor cuál de los siguientes conceptos?",
+  "opciones": {
+   "A": "Gobernanza.",
+   "B": "Procesos de control.",
+   "C": "Ambiente de control.",
+   "D": "Gestión de riesgos."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. La gobernanza se refiere a la combinación de procesos e iniciativas establecidos para guiar, dirigir y monitorear las actividades y los objetivos de una organización, asegurando que estén alineados con sus metas estratégicas.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_011",
+  "numero": 11,
+  "pregunta": "Un proveedor de servicios de internet recién formado desea desarrollar un código integral de prácticas de gobierno corporativo para guiar a todos sus empleados y ha solicitado el aporte del director ejecutivo de auditoría (CAE). Según la guía del IIA, ¿qué es lo más importante que el CAE debe verificar inicialmente?",
+  "opciones": {
+   "A": "Que la dirección tenga una familiaridad adecuada con las políticas y prácticas clave de gobernanza de TI.",
+   "B": "Que la dirección haya considerado todos los requisitos legales y regulatorios relevantes.",
+   "C": "Que la dirección comprenda a las partes interesadas de la organización y sus interrelaciones.",
+   "D": "Que la dirección haya investigado los códigos internacionales de gobierno corporativo y las mejores prácticas."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. Esta es la consideración más importante, ya que la dirección debe comprender a las partes interesadas y sus interrelaciones para incorporar sus expectativas en el código de prácticas de gobierno corporativo.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C1_012",
+  "numero": 12,
+  "pregunta": "En el marco de gobernanza de una organización, ¿qué enunciado describe mejor el rol del Consejo?",
+  "opciones": {
+   "A": "El Consejo se centra exclusivamente en las tendencias del mercado y el cumplimiento regulatorio, y delega toda la supervisión en la dirección.",
+   "B": "El Consejo fija la dirección estratégica, establece la dirección de políticas a nivel de toda la empresa y asegura la rendición de cuentas general por el desempeño de la organización.",
+   "C": "El Consejo desarrolla procedimientos operativos detallados, ejecuta los planes de negocio y monitorea el desempeño de corto plazo.",
+   "D": "El Consejo gestiona las operaciones diarias, implementa los controles internos y supervisa las actividades rutinarias."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. El rol del Consejo se centra en la supervisión estratégica, la dirección de políticas y la rendición de cuentas, y no en la gestión diaria.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 1: Gobierno Organizacional"
+ },
+ {
+  "id": "bec_C2_001",
+  "numero": 1,
+  "pregunta": "¿Qué enunciado define mejor los riesgos del encargo en el contexto de la cultura organizacional?",
+  "opciones": {
+   "A": "Los riesgos del encargo son resultados adversos potenciales derivados del comportamiento de los empleados, influido por los valores organizacionales, que afectan la eficacia de los controles.",
+   "B": "Los riesgos del encargo se refieren únicamente a errores operativos y pasan por alto las influencias éticas en el desempeño de los empleados.",
+   "C": "Los riesgos del encargo se definen exclusivamente por variables financieras, independientemente de la dinámica cultural.",
+   "D": "Los riesgos del encargo son incertidumbres externas que no guardan relación con la cultura interna y no afectan los sistemas de control."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. Los riesgos del encargo incluyen resultados adversos originados en el comportamiento de los empleados y en influencias culturales que afectan los controles internos.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_002",
+  "numero": 2,
+  "pregunta": "Un número significativo de empleados expresó preocupaciones sobre un ambiente de trabajo hostil en una gran planta de manufactura, lo cual contrasta con la cultura declarada de la organización de tolerancia y comunicación abierta. ¿Cuál de los siguientes enfoques sería más eficaz para que un auditor interno evalúe si la organización respalda una cultura de tolerancia y comunicación abierta?",
+  "opciones": {
+   "A": "Realizar una reunión con todos los empleados de la planta y la dirección para conversar sobre la tolerancia y la comunicación abierta.",
+   "B": "Evaluar las políticas y procedimientos de la organización en busca de referencias relacionadas con el fomento de la tolerancia y la comunicación abierta.",
+   "C": "Comparar la remuneración y los beneficios de los empleados de la planta con los de organizaciones de tamaño similar que declaran una cultura de tolerancia y comunicación abierta.",
+   "D": "Evaluar la actividad en redes sociales de los empleados de la planta en busca de mensajes específicos relacionados con la tolerancia y la comunicación abierta."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. Evaluar las políticas y procedimientos de la organización es la forma más eficaz de que un auditor interno determine si la organización realmente respalda una cultura de tolerancia y comunicación abierta. Las políticas deben reflejar los valores de la organización, y su revisión puede aportar evidencia concreta del compromiso con estos principios.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_003",
+  "numero": 3,
+  "pregunta": "¿Qué factor identificado durante un encargo de auditoría interna es un indicio, para la función de auditoría interna, de que existe un problema cultural en la organización?",
+  "opciones": {
+   "A": "Los bonos e incentivos están alineados con los valores centrales de la organización.",
+   "B": "Hay un número de línea de denuncias publicado en el tablón de anuncios de la organización para que los empleados reporten de forma anónima actividades sospechosas.",
+   "C": "Se hace caso omiso de las regulaciones que no son propicias para el logro de los objetivos de la organización.",
+   "D": "El Consejo de Administración plantea desafíos razonables a las opiniones de la dirección."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. Desatender regulaciones destinadas a lograr los objetivos organizacionales señala un problema cultural, pues refleja una falta de alineación entre las metas declaradas de la organización y la conducta de sus empleados o de su liderazgo.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_004",
+  "numero": 4,
+  "pregunta": "¿Cómo probaría un auditor interno el tono desde la alta dirección durante un encargo sobre cultura organizacional?",
+  "opciones": {
+   "A": "Determinar si las denuncias de ética se archivan correctamente.",
+   "B": "Identificar la tendencia en la finalización de los cursos de capacitación relacionados con la ética.",
+   "C": "Evaluar si las funciones están bien segregadas en toda la organización.",
+   "D": "Evaluar los comentarios de las entrevistas de salida de ejecutivos que dejaron la organización."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Revisar los comentarios de las entrevistas de salida aporta información sobre cómo percibían los ejecutivos salientes el liderazgo y la cultura de la organización, y ofrece una forma de evaluar el tono desde la alta dirección.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_005",
+  "numero": 5,
+  "pregunta": "¿Cuál de las siguientes describe una característica clave de una comunicación organizacional eficaz?",
+  "opciones": {
+   "A": "Una cultura de integridad y transparencia.",
+   "B": "Entornos operativos únicos con diversos niveles de complejidad.",
+   "C": "Un sistema de controles internos bien diseñado.",
+   "D": "Procedimientos integrales de supervisión y verificación."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. Es más probable que una organización con una cultura de integridad y transparencia tenga una comunicación organizacional eficaz.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_006",
+  "numero": 6,
+  "pregunta": "¿Qué enfoque describe mejor cómo integrar la cultura organizacional en la evaluación de los controles de cada encargo?",
+  "opciones": {
+   "A": "Revisar los controles basándose solo en resultados históricos no logra captar el impacto de la dinámica cultural cambiante.",
+   "B": "Evaluar los controles incorporando los valores culturales y los estándares éticos ayuda a revelar cómo el comportamiento de los empleados influye en la gestión de riesgos.",
+   "C": "Apoyarse en referencias externas sin evaluar los factores culturales internos no refleja plenamente la eficacia de los controles.",
+   "D": "Evaluar los controles únicamente con métricas cuantitativas ignora la influencia de la cultura y del comportamiento ético en el riesgo."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. Integrar los valores culturales en las evaluaciones de control proporciona una visión más completa de cómo el comportamiento de los empleados afecta la gestión de riesgos.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_007",
+  "numero": 7,
+  "pregunta": "¿Cuál de los siguientes es un impulsor cultural organizacional positivo principal?",
+  "opciones": {
+   "A": "Programas de incentivos ambiciosos establecidos por los altos ejecutivos.",
+   "B": "Estrategias de búsqueda de riesgo establecidas por los altos ejecutivos.",
+   "C": "Un tono ético sólido demostrado por la alta dirección.",
+   "D": "Protocolos de investigación actualizados e integrales."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. Un tono sólido desde la alta dirección es uno de los principales elementos necesarios para implementar la cultura organizacional.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_008",
+  "numero": 8,
+  "pregunta": "¿Qué impacto tiene una cultura organizacional transparente en los controles de riesgo durante un encargo?",
+  "opciones": {
+   "A": "Una cultura transparente eleva la moral de los empleados, pero no cambia de forma significativa la estructura de los controles de riesgo.",
+   "B": "Una cultura transparente se concentra en logros de corto plazo en lugar de en construir sistemas de control interno eficaces.",
+   "C": "Una cultura transparente fomenta la comunicación abierta y la rendición de cuentas, lo que da lugar a controles internos más sólidos que reducen los riesgos del encargo.",
+   "D": "Una cultura transparente enfatiza el reporte externo y tiene un efecto limitado en la solidez de los controles internos."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. La transparencia promueve la comunicación abierta y la rendición de cuentas, fortaleciendo así los controles internos y reduciendo los riesgos del encargo.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_009",
+  "numero": 9,
+  "pregunta": "¿Qué describe mejor la cultura?",
+  "opciones": {
+   "A": "Las creencias sobre lo correcto y lo incorrecto que guían las decisiones y acciones de las personas y las organizaciones.",
+   "B": "Los sistemas de creencias, valores, normas y preferencias invisibles de las personas que conforman una organización.",
+   "C": "La expectativa de decir la verdad y hacer lo correcto incluso cuando resulta incómodo o difícil.",
+   "D": "La manifestación tangible, a través de las acciones, conductas y decisiones de esas personas."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. La cultura de una organización es el sistema subyacente de creencias, valores, normas y preferencias de sus integrantes, que influye en cómo se toman las decisiones y en cómo opera la organización en su conjunto.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_010",
+  "numero": 10,
+  "pregunta": "El ambiente de control de una empresa manufacturera está muy influido por su cultura. ¿Qué enunciado describe mejor este impacto?",
+  "opciones": {
+   "A": "La cultura organizacional moldea las actitudes hacia el riesgo, el comportamiento ético y el cumplimiento, influyendo así directamente en la eficacia de los controles internos.",
+   "B": "La cultura organizacional impulsa principalmente la competitividad en el mercado, con un impacto mínimo en la gestión de riesgos y los controles.",
+   "C": "La cultura organizacional afecta las operaciones diarias, pero no altera de forma significativa el diseño de los controles internos.",
+   "D": "La cultura organizacional se refleja sobre todo en las iniciativas de compromiso de los empleados más que en las estructuras formales de control."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. La cultura organizacional influye en las actitudes frente al riesgo y en los estándares éticos, que a su vez moldean el diseño y la eficacia de los controles internos.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_011",
+  "numero": 11,
+  "pregunta": "¿De qué manera los procesos de toma de decisiones transparentes afectan la eficacia del ambiente de control de una organización?",
+  "opciones": {
+   "A": "Los procesos transparentes a veces pueden hacer más lenta la toma de decisiones y retrasar las actualizaciones oportunas de los sistemas de control interno.",
+   "B": "La toma de decisiones transparente que promueve la rendición de cuentas y la mejora continua conduce a controles más sólidos y a una gestión de riesgos eficaz.",
+   "C": "Los procesos totalmente abiertos pueden abrumar a las partes interesadas y restar enfoque al desarrollo de controles internos robustos.",
+   "D": "La toma de decisiones abierta puede exponer estrategias que complican la implementación segura de las medidas de gestión de riesgos."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. La transparencia respalda la rendición de cuentas y la mejora continua, lo que a su vez fortalece los controles internos y la gestión de riesgos.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_012",
+  "numero": 12,
+  "pregunta": "En una organización que prioriza las ganancias de corto plazo por encima del comportamiento ético, ¿cuál es el impacto probable en el ambiente de control?",
+  "opciones": {
+   "A": "Priorizar las ganancias de corto plazo mejora la competitividad sin alterar el ambiente de control existente.",
+   "B": "Priorizar las ganancias de corto plazo mejora la velocidad operativa, con poco efecto en los controles internos.",
+   "C": "Priorizar las ganancias de corto plazo por encima de la ética puede socavar los controles internos al fomentar la asunción de riesgos y reducir el apego a los procedimientos establecidos.",
+   "D": "Priorizar las ganancias de corto plazo puede impulsar los resultados inmediatos, pero por lo general deja sin cambios el diseño de los controles internos."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. Enfatizar el desempeño de corto plazo a costa de la ética puede debilitar los controles internos al fomentar conductas riesgosas.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_013",
+  "numero": 13,
+  "pregunta": "¿Cómo influyen los procesos de toma de decisiones equilibrados en los marcos de gestión de riesgos y de control de una organización?",
+  "opciones": {
+   "A": "La toma de decisiones exclusiva de un grupo reducido puede dar lugar a evaluaciones de riesgo sesgadas y a sistemas de control debilitados.",
+   "B": "La toma de decisiones reactiva, que enfatiza soluciones rápidas, puede no desarrollar controles de riesgo eficaces a largo plazo.",
+   "C": "La toma de decisiones centrada en la eficiencia puede agilizar las operaciones, pero a menudo sacrifica un análisis de riesgos integral y controles robustos.",
+   "D": "La toma de decisiones equilibrada, que integra diversos puntos de vista y criterios objetivos, mejora la gestión de riesgos y fortalece los controles internos."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Integrar diversos puntos de vista y criterios objetivos en la toma de decisiones mejora tanto la gestión de riesgos como la eficacia de los controles.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_014",
+  "numero": 14,
+  "pregunta": "¿Cómo pueden contribuir las mejoras en la cultura organizacional a un ambiente de control más sólido?",
+  "opciones": {
+   "A": "Mejorar la cultura se centra más en la imagen externa y la satisfacción del cliente que en fortalecer los marcos de control interno.",
+   "B": "Mejorar la cultura eleva principalmente la moral de los empleados y tiene un efecto secundario en la solidez de los controles internos.",
+   "C": "Mejorar la cultura perfecciona los incentivos de desempeño, pero no impacta directamente la eficacia de los controles internos.",
+   "D": "Mejorar la cultura mediante un liderazgo ético y una comunicación transparente refuerza los controles internos y reduce los riesgos individuales del encargo."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Las mejoras en la cultura que enfatizan la ética y la transparencia contribuyen directamente a la eficacia y la solidez del ambiente de control interno.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C2_015",
+  "numero": 15,
+  "pregunta": "En una organización de servicios, ¿cómo afecta una cultura ética sólida a los riesgos y controles individuales del encargo?",
+  "opciones": {
+   "A": "Una cultura ética sólida mejora la imagen de marca, mientras que su influencia en los controles es indirecta.",
+   "B": "Una cultura ética sólida promueve la transparencia, la rendición de cuentas y el apego a las políticas, reduciendo así los riesgos del encargo y fortaleciendo los controles.",
+   "C": "Una cultura ética sólida mejora el servicio al cliente, pero tiene un efecto limitado en los procesos internos de gestión de riesgos.",
+   "D": "Una cultura ética sólida trata principalmente de la satisfacción de los empleados y no mitiga directamente los riesgos individuales del encargo."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. Una cultura ética que promueve la transparencia y la rendición de cuentas contribuye directamente a reducir los riesgos del encargo y a mejorar los controles.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 2: Cultura Organizacional y Ambiente de Control"
+ },
+ {
+  "id": "bec_C3_001",
+  "numero": 1,
+  "pregunta": "¿Qué enunciado define mejor el rol del auditor interno en el apoyo al marco ético de una organización?",
+  "opciones": {
+   "A": "El auditor interno se centra en la eficiencia operativa y deja la supervisión ética en manos de la alta dirección, sin una revisión independiente.",
+   "B": "El auditor interno desarrolla las políticas éticas y las hace cumplir directamente en todos los departamentos para asegurar una conducta uniforme.",
+   "C": "El auditor interno evalúa de forma independiente las políticas éticas de la organización, evalúa el apego a los estándares éticos e informa las desviaciones para fortalecer la integridad.",
+   "D": "El auditor interno monitorea únicamente el cumplimiento financiero y remite las evaluaciones éticas a asesores externos."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. La evaluación independiente y el reporte sobre el apego a la ética respaldan el marco ético general de la organización.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_002",
+  "numero": 2,
+  "pregunta": "¿Qué escenario demuestra mejor un problema ético que los auditores internos pueden identificar durante un encargo?",
+  "opciones": {
+   "A": "Circunstancias en las que se brinda capacitación ética con regularidad y los empleados cumplen los protocolos de cumplimiento sin incidentes.",
+   "B": "Casos en los que los empleados siguen estrictamente los códigos éticos y cumplen de forma constante todos los estándares de la organización en las operaciones diarias.",
+   "C": "Situaciones en las que los lineamientos éticos se comunican con claridad y se aplican de manera uniforme, dejando poco margen para el incumplimiento.",
+   "D": "Casos en los que los empleados eluden los lineamientos éticos establecidos para obtener ganancias de corto plazo, aumentando así los riesgos operativos."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Las circunstancias en las que se eluden los lineamientos éticos por ganancias de corto plazo representan posibles problemas éticos que requieren la atención del auditor.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_003",
+  "numero": 3,
+  "pregunta": "¿El riesgo ético es un ejemplo de qué tipo de riesgo?",
+  "opciones": {
+   "A": "Un riesgo estratégico externo.",
+   "B": "Un riesgo de cumplimiento externo.",
+   "C": "Un riesgo de cumplimiento interno.",
+   "D": "Un riesgo estratégico interno."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. El riesgo ético suele asociarse con el cumplimiento interno, ya que implica asegurar que los empleados y las operaciones de la organización cumplan los estándares éticos y los requisitos legales dentro de la organización.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_004",
+  "numero": 4,
+  "pregunta": "¿Qué factor ilustra mejor la importancia de actualizar regularmente los requisitos de cumplimiento de una organización?",
+  "opciones": {
+   "A": "Las revisiones periódicas de los cambios regulatorios, los estándares del sector y los lineamientos éticos aseguran que las políticas se mantengan vigentes y eficaces.",
+   "B": "Apoyarse exclusivamente en el criterio de la dirección sin un monitoreo sistemático puede dar lugar a políticas desactualizadas.",
+   "C": "Las revisiones anuales basadas únicamente en resultados de auditorías históricas pueden pasar por alto cambios recientes en el panorama regulatorio.",
+   "D": "Las actualizaciones ad hoc desencadenadas solo por auditorías externas pueden generar brechas de cumplimiento con el tiempo."
+  },
+  "correcta": "A",
+  "explicacion": "La opción \"A\" es correcta. Las revisiones periódicas de los factores externos e internos son fundamentales para asegurar que las políticas de cumplimiento se mantengan pertinentes y eficaces.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_005",
+  "numero": 5,
+  "pregunta": "¿Qué enunciado describe mejor el impacto, para una organización, de no identificar los requisitos éticos, legales y de cumplimiento?",
+  "opciones": {
+   "A": "Ignorar estos requisitos generalmente produce interrupciones operativas temporales sin efectos de largo plazo.",
+   "B": "No identificar estos requisitos puede conducir a sanciones regulatorias, daño reputacional y una gestión de riesgos ineficaz.",
+   "C": "Descuidar estos requisitos suele traducirse en problemas internos menores que se corrigen fácilmente sin consecuencias importantes.",
+   "D": "Una identificación inadecuada de estos requisitos solo afecta el reporte externo y tiene un impacto interno limitado."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. Pasar por alto los requisitos éticos, legales y de cumplimiento puede tener consecuencias graves, incluidas sanciones y daño a la reputación.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_006",
+  "numero": 6,
+  "pregunta": "¿Cuál de los siguientes es el rol más apropiado que un director ejecutivo de auditoría (CAE) puede desempeñar respecto de los temas de ética y cumplimiento de la organización?",
+  "opciones": {
+   "A": "Actuar como miembro con voto de un consejo interno de ética.",
+   "B": "Promover el comportamiento ético en la organización.",
+   "C": "Alojar el programa de línea de denuncias de la organización.",
+   "D": "Ejercer la supervisión para asegurar que la dirección cuente con programas sólidos relacionados con la ética."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. Esta es una responsabilidad principal de la alta dirección.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_007",
+  "numero": 7,
+  "pregunta": "El Consejo ha solicitado a un director ejecutivo de auditoría (CAE) que evalúe la eficacia de los programas éticos creados por la dirección. ¿Cuál de las siguientes sería la acción más apropiada para el CAE?",
+  "opciones": {
+   "A": "Comparar el diseño de los programas éticos de la organización con las mejores prácticas.",
+   "B": "Verificar que existan un código de conducta y políticas relacionadas, y que se comuniquen.",
+   "C": "Usar encuestas a los empleados para evaluar si los programas éticos están logrando los resultados deseados.",
+   "D": "Comparar el costo de los programas éticos con los resultados alcanzados."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. Usar encuestas a los empleados permite al CAE obtener retroalimentación directa sobre la eficacia de los programas éticos de parte de las personas a quienes impactan. Es un método valioso y directo para evaluar el éxito de estas iniciativas.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_008",
+  "numero": 8,
+  "pregunta": "¿Cuál de las siguientes acciones de la función de auditoría interna respalda mejor el cumplimiento de la organización con sus requisitos éticos?",
+  "opciones": {
+   "A": "Los auditores internos consideran los posibles riesgos de fraude durante sus encargos.",
+   "B": "Los auditores internos certifican anualmente su cumplimiento del código de ética de la organización.",
+   "C": "El CAE dirige una serie de talleres en toda la organización para promover los valores y la ética.",
+   "D": "La función de auditoría interna examina la implementación del programa de ética de la organización."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Examinar la implementación del programa de ética es una forma directa en que auditoría interna respalda el cumplimiento de los requisitos éticos. Este paso implica asegurar que las políticas de ética se ejecuten y se sigan correctamente, lo que impacta directamente en el cumplimiento.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_009",
+  "numero": 9,
+  "pregunta": "¿Cuál de las siguientes partes interesadas es la principal responsable de los programas de ética y cumplimiento de una organización?",
+  "opciones": {
+   "A": "El Consejo.",
+   "B": "El organismo regulador.",
+   "C": "La alta dirección.",
+   "D": "La función de auditoría interna."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. La alta dirección es responsable de establecer el tono desde la alta dirección, crear y hacer cumplir los programas de ética y cumplimiento, y asegurar que las prácticas éticas se integren en las operaciones de la organización. Si bien el Consejo tiene responsabilidades de supervisión, la alta dirección desempeña un rol principal en la implementación de estos programas.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_010",
+  "numero": 10,
+  "pregunta": "¿Cuál de las siguientes observaciones realizadas por un auditor interno constituye un problema ético?",
+  "opciones": {
+   "A": "El auditor observó que el sistema de gestión de accesos adoptado por la organización no realiza copias de respaldo en tiempo real.",
+   "B": "El auditor observó que la dirección no aplica las sanciones prescritas a determinados empleados que han violado el código de conducta.",
+   "C": "El auditor observó que la organización no mantiene un sistema de archivo adecuado para la correspondencia con los proveedores.",
+   "D": "El auditor observó que una política sobre conciliaciones mensuales no fue fechada de manera uniforme por los revisores."
+  },
+  "correcta": "B",
+  "explicacion": "La opción \"B\" es correcta. No hacer cumplir el código de conducta de la organización es un problema ético, ya que socava la rendición de cuentas y la integridad organizacional, y puede conducir a conductas no éticas y a la pérdida de confianza en la dirección.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_011",
+  "numero": 11,
+  "pregunta": "¿Qué opción identifica mejor un requisito legal aplicable a una organización?",
+  "opciones": {
+   "A": "Los requisitos legales son lineamientos sugeridos que las organizaciones pueden considerar, pero no están obligadas a implementar.",
+   "B": "Los requisitos legales son códigos voluntarios que complementan los estándares éticos sin autoridad vinculante.",
+   "C": "Los requisitos legales se centran en las políticas internas más que en las obligaciones establecidas por ley.",
+   "D": "Los requisitos legales son mandatos derivados de las leyes y regulaciones pertinentes, que la organización debe cumplir estrictamente."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Los requisitos legales son mandatos vinculantes basados en leyes y regulaciones que las organizaciones deben cumplir.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_012",
+  "numero": 12,
+  "pregunta": "¿Cuál es la forma apropiada de abordar una violación ética que involucra un robo en el lugar de trabajo en los EE. UU., respetando las normas de auditoría interna y la política de la organización?",
+  "opciones": {
+   "A": "Iniciar un proceso disciplinario progresivo, con orientación o período de prueba como primer paso.",
+   "B": "Despedir al empleado, pero no presentar cargos para evitar que el asunto se haga público.",
+   "C": "Despedir al empleado, pero presentar cargos solo si el empleado no devuelve todos los fondos.",
+   "D": "Reportar el asunto directamente a las autoridades legales."
+  },
+  "correcta": "D",
+  "explicacion": "La opción \"D\" es correcta. Reportar el robo en el lugar de trabajo directamente a las autoridades legales asegura que el asunto se maneje de manera lícita y transparente, en línea con los estándares éticos y reforzando la integridad de la organización.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ },
+ {
+  "id": "bec_C3_013",
+  "numero": 13,
+  "pregunta": "¿Qué sería lo más relevante al auditar la ética y el cumplimiento?",
+  "opciones": {
+   "A": "Evaluar si los valores éticos son coherentes entre las declaraciones de política.",
+   "B": "Evaluar las causas raíz de las áreas con deficiencias culturales.",
+   "C": "Evaluar si los procesos de escalamiento y resolución son eficaces.",
+   "D": "Evaluar los programas para comunicar los valores, las estrategias y los objetivos."
+  },
+  "correcta": "C",
+  "explicacion": "La opción \"C\" es correcta. Evaluar si los procesos de escalamiento y resolución son eficaces es una forma en que la función de auditoría interna puede involucrarse en temas de ética y cumplimiento. Evaluar si los valores éticos son coherentes entre las declaraciones de política es lo más relevante para las evaluaciones del clima ético. Evaluar las causas raíz de las áreas con deficiencias culturales y evaluar los programas para comunicar los valores, las estrategias y los objetivos es lo más relevante para las evaluaciones de la cultura.",
+  "dominio": "Dominio V: Gobierno Corporativo y Ética",
+  "origen": "becker",
+  "fuente": "Becker — Sección C, Módulo 3: Temas Éticos y de Cumplimiento"
+ }
+]
