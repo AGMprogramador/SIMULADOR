@@ -343,7 +343,11 @@
   ],
   "seccion": "A",
   "cia": 1,
-  "n_clips_audio": 3
+  "n_clips_audio": 3,
+  "secciones": [
+   "A",
+   "B"
+  ]
  },
  {
   "id_tema": "tres_lineas",
